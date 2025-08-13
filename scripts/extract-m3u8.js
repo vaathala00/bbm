@@ -15,17 +15,19 @@ const path = require("path");
       headless: true,
       args: ['--no-sandbox', '--disable-setuid-sandbox']
     });
+
     const page = await browser.newPage();
 
     let m3u8Url = null;
 
-    // Listen for .m3u8 links in console output
+    // Filter for .m3u8 in console logs
     page.on('console', async (msg) => {
       const text = msg.text();
       if (text.includes('.m3u8') && !m3u8Url) {
-        m3u8Url = text.match(/https?:\/\/.*?\.m3u8(\?.*?)?/i)?.[0];
-        if (m3u8Url) {
-          console.log("🎯 Found .m3u8 in console log:", m3u8Url);
+        const match = text.match(/https?:\/\/[^\s'"\\<>]+\.m3u8(\?[^\s'"\\<>]*)?/);
+        if (match) {
+          m3u8Url = match[0];
+          console.log("🎯 Found .m3u8 URL:", m3u8Url);
         }
       }
     });
@@ -36,11 +38,13 @@ const path = require("path");
       timeout: 60000,
     });
 
-    // Wait up to 20 seconds for console log to appear
-    console.log("⏳ Waiting for console logs to contain .m3u8...");
-    const waitUntil = Date.now() + 20000;
-    while (!m3u8Url && Date.now() < waitUntil) {
-      await page.waitForTimeout(500);
+    console.log("⏳ Waiting for .m3u8 console log...");
+    const timeout = 20000;
+    const pollInterval = 500;
+    const endTime = Date.now() + timeout;
+
+    while (!m3u8Url && Date.now() < endTime) {
+      await page.waitForTimeout(pollInterval);
     }
 
     if (m3u8Url) {
@@ -49,14 +53,14 @@ const path = require("path");
       }
 
       fs.writeFileSync(OUTPUT_FILE, JSON.stringify({ url: m3u8Url }, null, 2));
-      console.log(`✅ Stream URL saved to ${OUTPUT_FILE}`);
+      console.log(`✅ Saved stream URL to: ${OUTPUT_FILE}`);
     } else {
       console.error("❌ No .m3u8 URL found in console.");
       process.exit(1);
     }
 
   } catch (error) {
-    console.error("❌ An error occurred:", error.message);
+    console.error("❌ Script error:", error.message);
     process.exit(1);
   } finally {
     if (browser) {
