@@ -1,71 +1,37 @@
 const puppeteer = require("puppeteer");
 const fs = require("fs");
-const path = require("path");
 
 (async () => {
-  const OUTPUT_DIR = path.resolve(__dirname, "extracted");
-  const OUTPUT_FILE = path.join(OUTPUT_DIR, "stream.json");
-  const TARGET_URL = "https://bigbosslive.com/live/";
+  const browser = await puppeteer.launch({ headless: true });
+  const page = await browser.newPage();
 
-  let browser;
+  await page.goto("https://bigbosslive.com/live/", {
+    waitUntil: "networkidle2",
+    timeout: 60000,
+  });
 
-  try {
-    console.log("🚀 Launching browser...");
-    browser = await puppeteer.launch({
-      headless: true,
-      args: ['--no-sandbox', '--disable-setuid-sandbox']
-    });
+  // Wait for .m3u8 to appear in the network (simplified)
+  const client = await page.target().createCDPSession();
+  await client.send('Network.enable');
+  let m3u8Url = null;
 
-    const page = await browser.newPage();
-
-    let m3u8Url = null;
-
-    // Filter for .m3u8 in console logs
-    page.on('console', async (msg) => {
-      const text = msg.text();
-      if (text.includes('.m3u8') && !m3u8Url) {
-        const match = text.match(/https?:\/\/[^\s'"\\<>]+\.m3u8(\?[^\s'"\\<>]*)?/);
-        if (match) {
-          m3u8Url = match[0];
-          console.log("🎯 Found .m3u8 URL:", m3u8Url);
-        }
-      }
-    });
-
-    console.log(`🌐 Navigating to ${TARGET_URL}...`);
-    await page.goto(TARGET_URL, {
-      waitUntil: "networkidle2",
-      timeout: 60000,
-    });
-
-    console.log("⏳ Waiting for .m3u8 console log...");
-    const timeout = 20000;
-    const pollInterval = 500;
-    const endTime = Date.now() + timeout;
-
-    while (!m3u8Url && Date.now() < endTime) {
-      await page.waitForTimeout(pollInterval);
+  client.on('Network.responseReceived', async (params) => {
+    const { url } = params.response;
+    if (url.includes(".m3u8") && !m3u8Url) {
+      m3u8Url = url;
+      console.log("Found stream:", url);
     }
+  });
 
-    if (m3u8Url) {
-      if (!fs.existsSync(OUTPUT_DIR)) {
-        fs.mkdirSync(OUTPUT_DIR, { recursive: true });
-      }
+  await page.waitForTimeout(10000); // Wait for streams to load
 
-      fs.writeFileSync(OUTPUT_FILE, JSON.stringify({ url: m3u8Url }, null, 2));
-      console.log(`✅ Saved stream URL to: ${OUTPUT_FILE}`);
-    } else {
-      console.error("❌ No .m3u8 URL found in console.");
-      process.exit(1);
-    }
+  await browser.close();
 
-  } catch (error) {
-    console.error("❌ Script error:", error.message);
+  if (m3u8Url) {
+    fs.writeFileSync("extracted/stream.json", JSON.stringify({ url: m3u8Url }, null, 2));
+    console.log("Saved stream URL to extracted/stream.json");
+  } else {
+    console.error("No .m3u8 link found.");
     process.exit(1);
-  } finally {
-    if (browser) {
-      await browser.close();
-      console.log("🧹 Browser closed.");
-    }
   }
 })();
