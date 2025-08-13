@@ -10,37 +10,38 @@ const path = require("path");
   let browser;
 
   try {
-    console.log("Launching browser...");
-    browser = await puppeteer.launch({ headless: true });
+    console.log("🚀 Launching browser...");
+    browser = await puppeteer.launch({
+      headless: true,
+      args: ['--no-sandbox', '--disable-setuid-sandbox']
+    });
     const page = await browser.newPage();
-
-    const client = await page.target().createCDPSession();
-    await client.send("Network.enable");
 
     let m3u8Url = null;
 
-    const waitForM3U8 = new Promise((resolve) => {
-      client.on("Network.responseReceived", async (params) => {
-        const url = params.response.url;
-        if (url.includes(".m3u8") && !m3u8Url) {
-          m3u8Url = url;
-          console.log("✅ Found stream:", m3u8Url);
-          resolve();
+    // Listen for .m3u8 links in console output
+    page.on('console', async (msg) => {
+      const text = msg.text();
+      if (text.includes('.m3u8') && !m3u8Url) {
+        m3u8Url = text.match(/https?:\/\/.*?\.m3u8(\?.*?)?/i)?.[0];
+        if (m3u8Url) {
+          console.log("🎯 Found .m3u8 in console log:", m3u8Url);
         }
-      });
+      }
     });
 
-    console.log(`Navigating to ${TARGET_URL}...`);
+    console.log(`🌐 Navigating to ${TARGET_URL}...`);
     await page.goto(TARGET_URL, {
       waitUntil: "networkidle2",
       timeout: 60000,
     });
 
-    console.log("⏳ Waiting for .m3u8 stream or 15s timeout...");
-    await Promise.race([
-      waitForM3U8,
-      page.waitForTimeout(15000),
-    ]);
+    // Wait up to 20 seconds for console log to appear
+    console.log("⏳ Waiting for console logs to contain .m3u8...");
+    const waitUntil = Date.now() + 20000;
+    while (!m3u8Url && Date.now() < waitUntil) {
+      await page.waitForTimeout(500);
+    }
 
     if (m3u8Url) {
       if (!fs.existsSync(OUTPUT_DIR)) {
@@ -50,14 +51,13 @@ const path = require("path");
       fs.writeFileSync(OUTPUT_FILE, JSON.stringify({ url: m3u8Url }, null, 2));
       console.log(`✅ Stream URL saved to ${OUTPUT_FILE}`);
     } else {
-      console.error("❌ No .m3u8 stream URL found.");
+      console.error("❌ No .m3u8 URL found in console.");
       process.exit(1);
     }
 
   } catch (error) {
     console.error("❌ An error occurred:", error.message);
     process.exit(1);
-
   } finally {
     if (browser) {
       await browser.close();
