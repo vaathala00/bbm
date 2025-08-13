@@ -28,8 +28,8 @@ const fs = require("fs");
   await browser.close();
 
   if (m3u8Url) {
-    fs.writeFileSync("/stream.json", JSON.stringify({ url: m3u8Url }, null, 2));
-    console.log("Saved stream URL to /stream.json");
+    fs.writeFileSync("extracted/stream.json", JSON.stringify({ url: m3u8Url }, null, 2));
+    console.log("Saved stream URL to extracted/stream.json");
   } else {
     console.error("No .m3u8 link found.");
     process.exit(1);
