@@ -19,7 +19,7 @@ const puppeteer = require("puppeteer");
     }
   });
 
-  await page.goto("https://t.me/biggbosss07new?livestream", {
+  await page.goto("https://bigbosslive.com/live/", {
     waitUntil: "networkidle2",
     timeout: 0
   });
