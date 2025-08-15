@@ -2,7 +2,7 @@ name: Scrape Stream URL
 
 on:
   schedule:
-    - cron: '*/10 * * * *' # every 10 minutes
+    - cron: '*/10 * * * *' # every 30 minutes
   workflow_dispatch:
 
 jobs:
@@ -13,9 +13,7 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0      # fetch full git history
-          ref: main           # checkout main branch explicitly
+          token: ${{ secrets.GITHUB_TOKEN }} # gives push permission
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -39,18 +37,15 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
 
-          # Set authenticated remote URL for pull and push
-          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
-
-          # Pull latest changes and rebase to avoid conflicts
+          # Pull latest changes first (important!)
           git pull --rebase origin main
 
           # Copy updated stream.json from scraper/
           cp scraper/stream.json stream.json
 
-          # Stage and commit changes if any
+          # Stage and commit
           git add stream.json
           git commit -m "Update stream URL [auto]" || echo "No changes to commit"
 
-          # Push changes to main branch explicitly
-          git push origin main
+          # Push
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
