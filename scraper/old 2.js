@@ -4,20 +4,7 @@ const puppeteer = require("puppeteer");
 const urls = [
   "https://www.twitch.tv/kukeeku",
   "https://bigbosslive.com/live/"
-].filter(Boolean); // Remove falsy URLs
-
-function getFormattedTime() {
-  const now = new Date();
-  const pad = (n) => n.toString().padStart(2, '0');
-  const hours24 = now.getHours();
-  const hours = hours24 % 12 || 12;
-  const ampm = hours24 >= 12 ? "PM" : "AM";
-  const minutes = pad(now.getMinutes());
-  const day = pad(now.getDate());
-  const month = pad(now.getMonth() + 1);
-  const year = now.getFullYear();
-  return `${pad(hours)}:${minutes} ${ampm} ${day}-${month}-${year}`;
-}
+].filter(Boolean); // Remove any empty or falsy URLs
 
 (async () => {
   const browser = await puppeteer.launch({
@@ -34,6 +21,7 @@ function getFormattedTime() {
     try {
       console.log(`Visiting: ${url}`);
 
+      // Intercept requests to catch .m3u8 URLs
       await page.setRequestInterception(true);
       page.on("request", (request) => {
         const reqUrl = request.url();
@@ -49,10 +37,11 @@ function getFormattedTime() {
         timeout: 0
       });
 
-      // Try clicking play button (works for Twitch)
+      // Try clicking play button (optional, may fail silently)
       await page.click('button[data-a-target="player-overlay-play-button"]').catch(() => {});
 
-      await page.waitForTimeout(15000); // Wait for stream to load
+      // Wait for stream to load
+      await page.waitForTimeout(15000);
 
       results.push({
         source_url: url,
@@ -72,13 +61,7 @@ function getFormattedTime() {
 
   await browser.close();
 
-  // Final structured output
-  const output = {
-    telegram: "https://t.me/vaathala1",
-    "last update time": getFormattedTime(),
-    stream: results
-  };
-
-  fs.writeFileSync("stream.json", JSON.stringify(output, null, 2));
+  // Save results to JSON file
+  fs.writeFileSync("stream.json", JSON.stringify(results, null, 2));
   console.log("Saved all stream URLs to stream.json");
 })();
