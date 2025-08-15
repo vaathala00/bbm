@@ -56,14 +56,14 @@ function getFormattedTime() {
 
       results.push({
         source_url: url,
-        stream_url: m3u8Url || "Not found"
+      [`stream_url${results.length + 1}`]: m3u8Url || "Not found"
       });
 
     } catch (error) {
       console.error(`Error processing ${url}:`, error);
       results.push({
         source_url: url,
-        stream_url: "Error"
+      [`stream_url${results.length + 1}`]: "Error"
       });
     }
 
