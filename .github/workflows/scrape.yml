@@ -31,13 +31,22 @@ jobs:
           npm start
 
       - name: Commit and Push .json
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          cp scraper/stream.json stream.json
-          git add stream.json
-          git commit -m "Update stream URL [auto]" || echo "No changes"
-          git pull --rebase origin main
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
+  env:
+    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  run: |
+    git config --global user.name "github-actions"
+    git config --global user.email "github-actions@github.com"
+
+    # Pull latest changes first (important!)
+    git pull --rebase origin main
+
+    # Copy updated stream.json from scraper/
+    cp scraper/stream.json stream.json
+
+    # Stage and commit
+    git add stream.json
+    git commit -m "Update stream URL [auto]" || echo "No changes to commit"
+
+    # Push
+    git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
+
