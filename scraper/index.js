@@ -2,7 +2,7 @@ const fs = require("fs");
 const puppeteer = require("puppeteer");
 
 const urls = [
-  "https://www.twitch.tv/tamilbulbmal2",
+  "https://www.twitch.tv/kukeeku",
   "https://bigbosslive.com/live/"
 ].filter(Boolean); // Remove any empty or falsy URLs
 
