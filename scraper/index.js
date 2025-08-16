@@ -1,39 +1,43 @@
 const fs = require("fs");
+const https = require("https");
 const puppeteer = require("puppeteer");
 
 const urls = [
-  "https://bq32.short.gy/O7fkma", // Example short URL
+  "https://bq32.short.gy/O7fkma", // Kick stream short URL
   "https://www.twitch.tv/heyimenbhizeebal?sr=a",
   "https://www.twitch.tv/kukeeku",
   "https://bigbosslive.com/live/"
 ].filter(Boolean);
 
+// Expand short URL
+function expandShortURL(shortUrl) {
+  return new Promise((resolve) => {
+    https.get(shortUrl, (res) => {
+      resolve(res.headers.location || shortUrl);
+    }).on("error", () => {
+      resolve(shortUrl);
+    });
+  });
+}
+
 // ✅ Proper IST Time Function
 function getFormattedTime() {
   const date = new Date();
   const options = {
-    timeZone: 'Asia/Kolkata',
-    hour: '2-digit',
-    minute: '2-digit',
+    timeZone: "Asia/Kolkata",
+    hour: "2-digit",
+    minute: "2-digit",
     hour12: true,
-    day: '2-digit',
-    month: '2-digit',
-    year: 'numeric'
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric"
   };
 
-  const formatter = new Intl.DateTimeFormat('en-IN', options);
+  const formatter = new Intl.DateTimeFormat("en-IN", options);
   const parts = formatter.formatToParts(date);
+  const get = (type) => parts.find((p) => p.type === type)?.value;
 
-  const get = (type) => parts.find(p => p.type === type)?.value;
-
-  const hour = get('hour');
-  const minute = get('minute');
-  const ampm = get('dayPeriod');
-  const day = get('day');
-  const month = get('month');
-  const year = get('year');
-
-  return `${hour}:${minute} ${ampm} ${day}-${month}-${year}`;
+  return `${get("hour")}:${get("minute")} ${get("dayPeriod")} ${get("day")}-${get("month")}-${get("year")}`;
 }
 
 (async () => {
@@ -44,48 +48,50 @@ function getFormattedTime() {
 
   const results = [];
 
-  for (const url of urls) {
+  for (const originalUrl of urls) {
     const page = await browser.newPage();
     let m3u8Url = null;
 
     try {
-      console.log(`Visiting: ${url}`);
+      const expandedUrl = await expandShortURL(originalUrl);
+      console.log(`Visiting: ${expandedUrl}`);
 
-      // Listen for response to catch redirects
-      page.on('response', (response) => {
-        if (response.status() === 301 || response.status() === 302) {
-          console.log(`Redirected from ${url} to ${response.headers()['location']}`);
-        }
-      });
+      // Set user agent for compatibility
+      await page.setUserAgent(
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0"
+      );
 
       await page.setRequestInterception(true);
       page.on("request", (request) => {
         const reqUrl = request.url();
         if (reqUrl.includes(".m3u8") && !m3u8Url) {
           m3u8Url = reqUrl;
-          console.log(`Found .m3u8 URL on ${url}:`, reqUrl);
+          console.log(`✅ Found .m3u8 URL on ${expandedUrl}: ${reqUrl}`);
         }
         request.continue();
       });
 
-      await page.goto(url, {
-        waitUntil: "domcontentloaded", // Wait until the DOM is loaded
-        timeout: 60000, // Increased timeout to handle slow loading
+      await page.goto(expandedUrl, {
+        waitUntil: "domcontentloaded",
+        timeout: 60000
       });
 
+      // Try clicking play button for both Twitch and Kick
       await page.click('button[data-a-target="player-overlay-play-button"]').catch(() => {});
+      await page.click('[data-testid="play-button"]').catch(() => {});
 
-      await page.waitForTimeout(15000); // Wait for stream to load
+      // Wait longer for stream to load
+      await page.waitForTimeout(20000);
 
       results.push({
-        source_url: url,
+        source_url: originalUrl,
         [`stream_url${results.length + 1}`]: m3u8Url || "Not found"
       });
 
     } catch (error) {
-      console.error(`Error processing ${url}:`, error);
+      console.error(`❌ Error processing ${originalUrl}:`, error);
       results.push({
-        source_url: url,
+        source_url: originalUrl,
         [`stream_url${results.length + 1}`]: "Error"
       });
     }
