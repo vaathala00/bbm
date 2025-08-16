@@ -2,6 +2,7 @@ const fs = require("fs");
 const puppeteer = require("puppeteer");
 
 const urls = [
+  "https://bq32.short.gy/O7fkma",
   "https://www.twitch.tv/heyimenbhizeebal?sr=a",
   "https://www.twitch.tv/kukeeku",
   "https://bigbosslive.com/live/"
