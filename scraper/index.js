@@ -2,7 +2,7 @@ const fs = require("fs");
 const puppeteer = require("puppeteer");
 
 const urls = [
-  "https://bq32.short.gy/O7fkma",
+  "https://bq32.short.gy/O7fkma", // Example short URL
   "https://www.twitch.tv/heyimenbhizeebal?sr=a",
   "https://www.twitch.tv/kukeeku",
   "https://bigbosslive.com/live/"
@@ -51,6 +51,13 @@ function getFormattedTime() {
     try {
       console.log(`Visiting: ${url}`);
 
+      // Listen for response to catch redirects
+      page.on('response', (response) => {
+        if (response.status() === 301 || response.status() === 302) {
+          console.log(`Redirected from ${url} to ${response.headers()['location']}`);
+        }
+      });
+
       await page.setRequestInterception(true);
       page.on("request", (request) => {
         const reqUrl = request.url();
@@ -62,8 +69,8 @@ function getFormattedTime() {
       });
 
       await page.goto(url, {
-        waitUntil: "networkidle2",
-        timeout: 0
+        waitUntil: "domcontentloaded", // Wait until the DOM is loaded
+        timeout: 60000, // Increased timeout to handle slow loading
       });
 
       await page.click('button[data-a-target="player-overlay-play-button"]').catch(() => {});
