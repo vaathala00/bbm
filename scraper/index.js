@@ -5,19 +5,34 @@ const urls = [
   "https://www.twitch.tv/heyimenbhizeebal?sr=a",
   "https://www.twitch.tv/kukeeku",
   "https://bigbosslive.com/live/"
-].filter(Boolean); // Remove falsy URLs
+].filter(Boolean);
 
+// ✅ Proper IST Time Function
 function getFormattedTime() {
-  const now = new Date();
-  const pad = (n) => n.toString().padStart(2, '0');
-  const hours24 = now.getHours();
-  const hours = hours24 % 12 || 12;
-  const ampm = hours24 >= 12 ? "PM" : "AM";
-  const minutes = pad(now.getMinutes());
-  const day = pad(now.getDate());
-  const month = pad(now.getMonth() + 1);
-  const year = now.getFullYear();
-  return `${pad(hours)}:${minutes} ${ampm} ${day}-${month}-${year}`;
+  const date = new Date();
+  const options = {
+    timeZone: 'Asia/Kolkata',
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: true,
+    day: '2-digit',
+    month: '2-digit',
+    year: 'numeric'
+  };
+
+  const formatter = new Intl.DateTimeFormat('en-IN', options);
+  const parts = formatter.formatToParts(date);
+
+  const get = (type) => parts.find(p => p.type === type)?.value;
+
+  const hour = get('hour');
+  const minute = get('minute');
+  const ampm = get('dayPeriod');
+  const day = get('day');
+  const month = get('month');
+  const year = get('year');
+
+  return `${hour}:${minute} ${ampm} ${day}-${month}-${year}`;
 }
 
 (async () => {
@@ -50,21 +65,20 @@ function getFormattedTime() {
         timeout: 0
       });
 
-      // Try clicking play button (works for Twitch)
       await page.click('button[data-a-target="player-overlay-play-button"]').catch(() => {});
 
       await page.waitForTimeout(15000); // Wait for stream to load
 
       results.push({
         source_url: url,
-      [`stream_url${results.length + 1}`]: m3u8Url || "Not found"
+        [`stream_url${results.length + 1}`]: m3u8Url || "Not found"
       });
 
     } catch (error) {
       console.error(`Error processing ${url}:`, error);
       results.push({
         source_url: url,
-      [`stream_url${results.length + 1}`]: "Error"
+        [`stream_url${results.length + 1}`]: "Error"
       });
     }
 
@@ -73,7 +87,6 @@ function getFormattedTime() {
 
   await browser.close();
 
-  // Final structured output
   const output = {
     telegram: "https://t.me/vaathala1",
     "last update time": getFormattedTime(),
@@ -81,5 +94,5 @@ function getFormattedTime() {
   };
 
   fs.writeFileSync("stream.json", JSON.stringify(output, null, 2));
-  console.log("Saved all stream URLs to stream.json");
+  console.log("✅ Saved all stream URLs to stream.json");
 })();
