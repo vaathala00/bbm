@@ -39,17 +39,32 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
 
+          # Set authenticated remote URL for pulling and pushing
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
 
+          # Pull the latest changes and rebase to avoid conflicts
           git pull --rebase origin main
 
+          # Copy updated stream.json from scraper/
           cp scraper/stream.json stream.json
 
+          # Stage changes
           git add stream.json
 
+          # Commit if there are changes
           git diff-index --quiet HEAD || git commit -m "👉 updated HLS Links"
 
+          # Check if there are any changes to push
           if [ "$(git rev-parse HEAD)" != "$(git rev-parse @{u})" ]; then
+            echo "Changes detected, pushing to remote..."
             git push origin main
+            # Optionally, create a tag after pushing
+            git tag -a "v$(date +'%Y%m%d%H%M%S')" -m "Auto tag on $(date)"
+            git push origin --tags  # Push the tags to the remote
           else
             echo "No changes to push."
+          fi
+
+          # Post-push logging (even if no changes were pushed)
+          echo "Script execution completed successfully." >> result.log
+          cat result.log  # View the log content for confirmation
