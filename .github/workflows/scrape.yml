@@ -2,7 +2,7 @@ name: Scrape Stream URL
 
 on:
   schedule:
-    - cron: '*/10 * * * *' # every 15 minutes
+    - cron: '*/15 * * * *' # every 15 minutes
   workflow_dispatch:
 
 jobs:
