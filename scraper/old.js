@@ -49,7 +49,7 @@ function getFormattedTime() {
     try {
       console.log(`Visiting: ${url}`);
 
-      // Listen for redirects
+      // Listen for response to catch redirects
       page.on('response', (response) => {
         if (response.status() === 301 || response.status() === 302) {
           console.log(`Redirected from ${url} to ${response.headers()['location']}`);
@@ -67,23 +67,13 @@ function getFormattedTime() {
       });
 
       await page.goto(url, {
-        waitUntil: "domcontentloaded",
-        timeout: 60000,
+        waitUntil: "domcontentloaded", // Wait until the DOM is loaded
+        timeout: 60000, // Increased timeout to handle slow loading
       });
 
       await page.click('button[data-a-target="player-overlay-play-button"]').catch(() => {});
-      await page.waitForTimeout(15000); // Wait for stream to load
 
-      // ⛔ If no .m3u8 found in network, check HTML source
-      if (!m3u8Url) {
-        console.log(`No .m3u8 found via network on ${url}. Checking page source...`);
-        const html = await page.content();
-        const m3u8Matches = html.match(/https?:\/\/[^\s'"<>]+\.m3u8[^\s'"<>]*/g);
-        if (m3u8Matches && m3u8Matches.length > 0) {
-          m3u8Url = m3u8Matches[0];
-          console.log(`Found .m3u8 in page source on ${url}:`, m3u8Url);
-        }
-      }
+      await page.waitForTimeout(15000); // Wait for stream to load
 
       results.push({
         source_url: url,
@@ -112,3 +102,4 @@ function getFormattedTime() {
   fs.writeFileSync("stream.json", JSON.stringify(output, null, 2));
   console.log("✅ Saved all stream URLs to stream.json");
 })();
+
