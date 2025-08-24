@@ -6,7 +6,7 @@ const urls = [
   "https://bigbosslive.com/live/"
 ].filter(Boolean);
 
-// ✅ Proper IST Time Function
+// ✅ IST Time Formatter
 function getFormattedTime() {
   const date = new Date();
   const options = {
@@ -47,51 +47,36 @@ function getFormattedTime() {
     let m3u8Url = null;
 
     try {
-      console.log(`Visiting: ${url}`);
+      console.log(`🔗 Visiting: ${url}`);
 
-      // Listen for redirects
-      page.on('response', (response) => {
-        if (response.status() === 301 || response.status() === 302) {
-          console.log(`Redirected from ${url} to ${response.headers()['location']}`);
-        }
-      });
-
-      await page.setRequestInterception(true);
-      page.on("request", (request) => {
-        const reqUrl = request.url();
-        if (reqUrl.includes(".m3u8") && !m3u8Url) {
-          m3u8Url = reqUrl;
-          console.log(`Found .m3u8 URL on ${url}:`, reqUrl);
-        }
-        request.continue();
-      });
-
-      await page.goto(url, {
-        waitUntil: "domcontentloaded",
+      const response = await page.goto(url, {
+        waitUntil: "networkidle2", // Wait for full page load
         timeout: 60000,
       });
 
-      await page.click('button[data-a-target="player-overlay-play-button"]').catch(() => {});
-      await page.waitForTimeout(15000); // Wait for stream to load
+      const finalUrl = page.url();
+      console.log(`➡️ Final resolved URL: ${finalUrl}`);
 
-      // ⛔ If no .m3u8 found in network, check HTML source
-      if (!m3u8Url) {
-        console.log(`No .m3u8 found via network on ${url}. Checking page source...`);
-        const html = await page.content();
-        const m3u8Matches = html.match(/https?:\/\/[^\s'"<>]+\.m3u8[^\s'"<>]*/g);
-        if (m3u8Matches && m3u8Matches.length > 0) {
-          m3u8Url = m3u8Matches[0];
-          console.log(`Found .m3u8 in page source on ${url}:`, m3u8Url);
-        }
+      // 🔍 Extract HTML content
+      const html = await page.content();
+
+      // 🧠 Look for .m3u8 using regex
+      const m3u8Matches = html.match(/https?:\/\/[^\s"'<>]+\.m3u8[^\s"'<>]*/g);
+      if (m3u8Matches && m3u8Matches.length > 0) {
+        m3u8Url = m3u8Matches[0];
+        console.log(`✅ Found .m3u8: ${m3u8Url}`);
+      } else {
+        console.log(`❌ No .m3u8 link found on ${finalUrl}`);
       }
 
       results.push({
         source_url: url,
+        resolved_url: finalUrl,
         [`stream_url${results.length + 1}`]: m3u8Url || "Not found"
       });
 
     } catch (error) {
-      console.error(`Error processing ${url}:`, error);
+      console.error(`💥 Error processing ${url}:`, error.message);
       results.push({
         source_url: url,
         [`stream_url${results.length + 1}`]: "Error"
