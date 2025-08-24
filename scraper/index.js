@@ -69,17 +69,31 @@ function getFormattedTime() {
       let m3u8Url = null;
 
       if (m3u8UrlsFromNetwork.size > 0) {
-        // If found in network requests, take the first one
+        // Take the first .m3u8 found in network requests
         m3u8Url = [...m3u8UrlsFromNetwork][0];
       } else {
-        // Fallback: search page content (like view-source)
+        // First HTML fallback scan
         const html = await page.content();
-        const m3u8Matches = html.match(/https?:\/\/[^\s"'<>]+\.m3u8[^\s"'<>]*/g);
+        let m3u8Matches = html.match(/https?:\/\/[^"'<>\s]+\.m3u8[^"'<>\s]*/g);
+
         if (m3u8Matches && m3u8Matches.length > 0) {
           m3u8Url = m3u8Matches[0];
-          console.log(`🔍 Found .m3u8 in page source: ${m3u8Url}`);
+          console.log(`🔍 Found .m3u8 in page source (first scan): ${m3u8Url}`);
         } else {
-          console.log(`❌ No .m3u8 link found on ${finalUrl}`);
+          console.log(`🔁 No .m3u8 found on first scan. Refreshing page and scanning again...`);
+
+          await page.reload({ waitUntil: 'networkidle2' });
+          await page.waitForTimeout(5000); // Let dynamic content load
+
+          const htmlAfterReload = await page.content();
+          m3u8Matches = htmlAfterReload.match(/https?:\/\/[^"'<>\s]+\.m3u8[^"'<>\s]*/g);
+
+          if (m3u8Matches && m3u8Matches.length > 0) {
+            m3u8Url = m3u8Matches[0];
+            console.log(`🔍 Found .m3u8 in page source (second scan): ${m3u8Url}`);
+          } else {
+            console.log(`❌ Still no .m3u8 link found after refresh on ${finalUrl}`);
+          }
         }
       }
 
