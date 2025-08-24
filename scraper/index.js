@@ -43,7 +43,6 @@ function getFormattedTime() {
 
   for (const url of urls) {
     const page = await browser.newPage();
-
     let m3u8UrlsFromNetwork = new Set();
 
     // Listen to all network requests
@@ -69,59 +68,35 @@ function getFormattedTime() {
       let m3u8Url = null;
 
       if (m3u8UrlsFromNetwork.size > 0) {
-        // Take the first .m3u8 found in network requests
         m3u8Url = [...m3u8UrlsFromNetwork][0];
       } else {
-        // First HTML fallback scan
+        // First scan: check HTML
         const html = await page.content();
+
+        // Match any .m3u8 link
         let m3u8Matches = html.match(/https?:\/\/[^"'<>\s]+\.m3u8[^"'<>\s]*/g);
 
-        if (m3u8Matches && m3u8Matches.length > 0) {
+        // Specifically match YouTube-style "hlsManifestUrl":"<url>"
+        const hlsManifestMatch = html.match(/"hlsManifestUrl":"(https?:\/\/[^"']+\.m3u8[^"']*)"/);
+
+        if (hlsManifestMatch && hlsManifestMatch[1]) {
+          m3u8Url = hlsManifestMatch[1];
+          console.log(`🔍 Found .m3u8 in hlsManifestUrl: ${m3u8Url}`);
+        } else if (m3u8Matches && m3u8Matches.length > 0) {
           m3u8Url = m3u8Matches[0];
           console.log(`🔍 Found .m3u8 in page source (first scan): ${m3u8Url}`);
         } else {
           console.log(`🔁 No .m3u8 found on first scan. Refreshing page and scanning again...`);
 
           await page.reload({ waitUntil: 'networkidle2' });
-          await page.waitForTimeout(5000); // Let dynamic content load
+          await page.waitForTimeout(5000); // Wait for content to reload
 
           const htmlAfterReload = await page.content();
           m3u8Matches = htmlAfterReload.match(/https?:\/\/[^"'<>\s]+\.m3u8[^"'<>\s]*/g);
+          const hlsManifestMatch2 = htmlAfterReload.match(/"hlsManifestUrl":"(https?:\/\/[^"']+\.m3u8[^"']*)"/);
 
-          if (m3u8Matches && m3u8Matches.length > 0) {
-            m3u8Url = m3u8Matches[0];
-            console.log(`🔍 Found .m3u8 in page source (second scan): ${m3u8Url}`);
-          } else {
-            console.log(`❌ Still no .m3u8 link found after refresh on ${finalUrl}`);
-          }
-        }
-      }
-
-      results.push({
-        source_url: url,
-        resolved_url: finalUrl,
-        [`stream_url${results.length + 1}`]: m3u8Url || "Not found"
-      });
-
-    } catch (error) {
-      console.error(`💥 Error processing ${url}:`, error.message);
-      results.push({
-        source_url: url,
-        [`stream_url${results.length + 1}`]: "Error"
-      });
-    }
-
-    await page.close();
-  }
-
-  await browser.close();
-
-  const output = {
-    telegram: "https://t.me/vaathala1",
-    "last update time": getFormattedTime(),
-    stream: results
-  };
-
-  fs.writeFileSync("stream.json", JSON.stringify(output, null, 2));
-  console.log("✅ Saved all stream URLs to stream.json");
-})();
+          if (hlsManifestMatch2 && hlsManifestMatch2[1]) {
+            m3u8Url = hlsManifestMatch2[1];
+            console.log(`🔍 Found .m3u8 in hlsManifestUrl (second scan): ${m3u8Url}`);
+          } else if (m3u8Matches && m3u8Matches.length > 0) {
+            m3u8Url = m3u8Match
