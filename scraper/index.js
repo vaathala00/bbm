@@ -1,123 +1,98 @@
-const fs = require("fs");
+const axios = require("axios");
 const puppeteer = require("puppeteer");
+const fs = require("fs");
 
 const urls = [
   "https://bq32.short.gy/O7fkma",
-  "https://bigbosslive.com/live/"
+  "https://bigbosslive.com/live/",
 ].filter(Boolean);
 
 function getFormattedTime() {
   const date = new Date();
   const options = {
-    timeZone: 'Asia/Kolkata',
-    hour: '2-digit',
-    minute: '2-digit',
+    timeZone: "Asia/Kolkata",
+    hour: "2-digit",
+    minute: "2-digit",
     hour12: true,
-    day: '2-digit',
-    month: '2-digit',
-    year: 'numeric'
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
   };
 
-  const formatter = new Intl.DateTimeFormat('en-IN', options);
+  const formatter = new Intl.DateTimeFormat("en-IN", options);
   const parts = formatter.formatToParts(date);
 
-  const get = (type) => parts.find(p => p.type === type)?.value;
+  const get = (type) => parts.find((p) => p.type === type)?.value;
 
-  const hour = get('hour');
-  const minute = get('minute');
-  const ampm = get('dayPeriod');
-  const day = get('day');
-  const month = get('month');
-  const year = get('year');
-
-  return `${hour}:${minute} ${ampm} ${day}-${month}-${year}`;
+  return `${get("hour")}:${get("minute")} ${get("dayPeriod")} ${get("day")}-${get("month")}-${get("year")}`;
 }
 
 (async () => {
   const browser = await puppeteer.launch({
     headless: "new",
-    args: ["--no-sandbox", "--disable-setuid-sandbox"]
+    args: ["--no-sandbox", "--disable-setuid-sandbox"],
   });
 
   const results = [];
 
   for (const url of urls) {
     const page = await browser.newPage();
-    let m3u8UrlsFromNetwork = new Set();
-
-    // Listen to all network requests
-    page.on('request', (request) => {
-      const requestUrl = request.url();
-      if (requestUrl.includes('.m3u8')) {
-        m3u8UrlsFromNetwork.add(requestUrl);
-        console.log(`🔍 Found .m3u8 in network request: ${requestUrl}`);
-      }
-    });
+    let m3u8Url = null;
+    let resolvedUrl = url;
 
     try {
-      console.log(`🔗 Visiting: ${url}`);
-
-      await page.goto(url, {
-        waitUntil: "networkidle2",
-        timeout: 60000,
+      // ✅ 1. Try fetching raw page source (before JS executes)
+      const { data: rawHTML } = await axios.get(url, {
+        headers: {
+          "User-Agent":
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/118.0.5993.90 Safari/537.36",
+        },
       });
 
-      const finalUrl = page.url();
-      console.log(`➡️ Final resolved URL: ${finalUrl}`);
-
-      let m3u8Url = null;
-
-      if (m3u8UrlsFromNetwork.size > 0) {
-        m3u8Url = [...m3u8UrlsFromNetwork][0];
-      } else {
-        // First scan: check HTML
-        const html = await page.content();
-
-        // Match any .m3u8 link
-        let m3u8Matches = html.match(/https?:\/\/[^"'<>\s]+\.m3u8[^"'<>\s]*/g);
-
-        // Specifically match YouTube-style "hlsManifestUrl":"<url>"
-        const hlsManifestMatch = html.match(/"hlsManifestUrl":"(https?:\/\/[^"']+\.m3u8[^"']*)"/);
-
-        if (hlsManifestMatch && hlsManifestMatch[1]) {
-          m3u8Url = hlsManifestMatch[1];
-          console.log(`🔍 Found .m3u8 in hlsManifestUrl: ${m3u8Url}`);
-        } else if (m3u8Matches && m3u8Matches.length > 0) {
-          m3u8Url = m3u8Matches[0];
-          console.log(`🔍 Found .m3u8 in page source (first scan): ${m3u8Url}`);
-        } else {
-          console.log(`🔁 No .m3u8 found on first scan. Refreshing page and scanning again...`);
-
-          await page.reload({ waitUntil: 'networkidle2' });
-          await page.waitForTimeout(5000); // Wait for content to reload
-
-          const htmlAfterReload = await page.content();
-          m3u8Matches = htmlAfterReload.match(/https?:\/\/[^"'<>\s]+\.m3u8[^"'<>\s]*/g);
-          const hlsManifestMatch2 = htmlAfterReload.match(/"hlsManifestUrl":"(https?:\/\/[^"']+\.m3u8[^"']*)"/);
-
-          if (hlsManifestMatch2 && hlsManifestMatch2[1]) {
-            m3u8Url = hlsManifestMatch2[1];
-            console.log(`🔍 Found .m3u8 in hlsManifestUrl (second scan): ${m3u8Url}`);
-          } else if (m3u8Matches && m3u8Matches.length > 0) {
-            m3u8Url = m3u8Matches[0];
-            console.log(`🔍 Found .m3u8 in page source (second scan): ${m3u8Url}`);
-          } else {
-            console.log(`❌ No .m3u8 URL found for: ${url}`);
-          }
-        }
+      // ✅ 2. Try to extract hlsManifestUrl from raw HTML
+      const hlsMatch = rawHTML.match(/"hlsManifestUrl":"(https:[^"]+\.m3u8[^"]*)"/);
+      if (hlsMatch && hlsMatch[1]) {
+        m3u8Url = hlsMatch[1].replace(/\\u0026/g, "&"); // decode escaped ampersands
+        console.log(`🎯 Found hlsManifestUrl from raw HTML: ${m3u8Url}`);
       }
 
-      results.push({
-        url,
-        resolvedUrl: finalUrl,
-        m3u8Url: m3u8Url || null,
-        timestamp: getFormattedTime()
-      });
+      // ✅ 3. If not found, fallback to Puppeteer for .m3u8 via network
+      if (!m3u8Url) {
+        let m3u8UrlsFromNetwork = new Set();
 
-      await page.close();
+        page.on("request", (request) => {
+          const reqUrl = request.url();
+          if (reqUrl.includes(".m3u8")) {
+            m3u8UrlsFromNetwork.add(reqUrl);
+            console.log(`🔍 Found .m3u8 in network request: ${reqUrl}`);
+          }
+        });
+
+        await page.goto(url, {
+          waitUntil: "domcontentloaded",
+          timeout: 30000,
+        });
+
+        resolvedUrl = page.url();
+
+        await page.waitForTimeout(5000);
+
+        if (m3u8UrlsFromNetwork.size > 0) {
+          m3u8Url = [...m3u8UrlsFromNetwork][0];
+        }
+
+        await page.close();
+      }
     } catch (err) {
-      console.error(`⚠️ Error scraping ${url}:`, err.message);
+      console.error(`⚠️ Error processing ${url}: ${err.message}`);
     }
+
+    results.push({
+      url,
+      resolvedUrl,
+      m3u8Url: m3u8Url || "Not Found",
+      timestamp: getFormattedTime(),
+    });
   }
 
   await browser.close();
@@ -125,10 +100,9 @@ function getFormattedTime() {
   const output = {
     telegram: "https://t.me/vaathala1",
     "last update time": getFormattedTime(),
-    stream: results
+    stream: results,
   };
 
-  fs.writeFileSync("stream.json", JSON.stringify(output, null, 2));
+  fs.writeFileSync("stream.json", JSON.stringify(output, null, 2), "utf-8");
   console.log("✅ Saved all stream URLs to stream.json");
 })();
-
