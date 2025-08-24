@@ -1,12 +1,11 @@
-const fs = require("fs");
 const puppeteer = require("puppeteer");
+const fs = require("fs");
 
 const urls = [
-  "https://bq32.short.gy/O7fkma", 
+  "https://bq32.short.gy/O7fkma",
   "https://bigbosslive.com/live/"
 ].filter(Boolean);
 
-// ✅ IST Time Formatter
 function getFormattedTime() {
   const date = new Date();
   const options = {
@@ -44,29 +43,44 @@ function getFormattedTime() {
 
   for (const url of urls) {
     const page = await browser.newPage();
-    let m3u8Url = null;
+
+    let m3u8UrlsFromNetwork = new Set();
+
+    // Listen to all network requests
+    page.on('request', (request) => {
+      const requestUrl = request.url();
+      if (requestUrl.includes('.m3u8')) {
+        m3u8UrlsFromNetwork.add(requestUrl);
+        console.log(`🔍 Found .m3u8 in network request: ${requestUrl}`);
+      }
+    });
 
     try {
       console.log(`🔗 Visiting: ${url}`);
 
-      const response = await page.goto(url, {
-        waitUntil: "networkidle2", // Wait for full page load
+      await page.goto(url, {
+        waitUntil: "networkidle2",
         timeout: 60000,
       });
 
       const finalUrl = page.url();
       console.log(`➡️ Final resolved URL: ${finalUrl}`);
 
-      // 🔍 Extract HTML content
-      const html = await page.content();
+      let m3u8Url = null;
 
-      // 🧠 Look for .m3u8 using regex
-      const m3u8Matches = html.match(/https?:\/\/[^\s"'<>]+\.m3u8[^\s"'<>]*/g);
-      if (m3u8Matches && m3u8Matches.length > 0) {
-        m3u8Url = m3u8Matches[0];
-        console.log(`✅ Found .m3u8: ${m3u8Url}`);
+      if (m3u8UrlsFromNetwork.size > 0) {
+        // If found in network requests, take the first one
+        m3u8Url = [...m3u8UrlsFromNetwork][0];
       } else {
-        console.log(`❌ No .m3u8 link found on ${finalUrl}`);
+        // Fallback: search page content (like view-source)
+        const html = await page.content();
+        const m3u8Matches = html.match(/https?:\/\/[^\s"'<>]+\.m3u8[^\s"'<>]*/g);
+        if (m3u8Matches && m3u8Matches.length > 0) {
+          m3u8Url = m3u8Matches[0];
+          console.log(`🔍 Found .m3u8 in page source: ${m3u8Url}`);
+        } else {
+          console.log(`❌ No .m3u8 link found on ${finalUrl}`);
+        }
       }
 
       results.push({
