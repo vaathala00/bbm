@@ -99,4 +99,36 @@ function getFormattedTime() {
             m3u8Url = hlsManifestMatch2[1];
             console.log(`🔍 Found .m3u8 in hlsManifestUrl (second scan): ${m3u8Url}`);
           } else if (m3u8Matches && m3u8Matches.length > 0) {
-            m3u8Url = m3u8Match
+            m3u8Url = m3u8Matches[0];
+            console.log(`🔍 Found .m3u8 in page source (second scan): ${m3u8Url}`);
+          } else {
+            console.log(`❌ No .m3u8 URL found for: ${url}`);
+          }
+        }
+      }
+
+      results.push({
+        url,
+        resolvedUrl: finalUrl,
+        m3u8Url: m3u8Url || null,
+        timestamp: getFormattedTime()
+      });
+
+      await page.close();
+    } catch (err) {
+      console.error(`⚠️ Error scraping ${url}:`, err.message);
+    }
+  }
+
+  await browser.close();
+
+  const output = {
+    telegram: "https://t.me/vaathala1",
+    "last update time": getFormattedTime(),
+    stream: results
+  };
+
+  fs.writeFileSync("stream.json", JSON.stringify(output, null, 2));
+  console.log("✅ Saved all stream URLs to stream.json");
+})();
+
