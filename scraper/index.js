@@ -1,5 +1,5 @@
-const puppeteer = require("puppeteer");
 const fs = require("fs");
+const puppeteer = require("puppeteer");
 
 const urls = [
   "https://bq32.short.gy/O7fkma",
