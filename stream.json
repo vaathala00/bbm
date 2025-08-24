@@ -1,6 +1,6 @@
 {
   "telegram": "https://t.me/vaathala1",
-  "last update time": "08:02 am 24-08-2025",
+  "last update time": "12:08 pm 24-08-2025",
   "stream": [
     {
       "source_url": "https://bq32.short.gy/O7fkma",
@@ -10,7 +10,7 @@
     {
       "source_url": "https://bigbosslive.com/live/",
       "resolved_url": "https://bigbosslive.com/live/",
-      "stream_url2": "Not found"
+      "stream_url2": "https://bigbosslive.com/live/stream.m3u8"
     }
   ]
 }
