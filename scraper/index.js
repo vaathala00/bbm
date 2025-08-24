@@ -41,7 +41,7 @@ function getFormattedTime() {
     let resolvedUrl = url;
 
     try {
-      // ✅ 1. Try fetching raw page source (before JS executes)
+      // 1. Try fetching raw page source (before JS executes)
       const { data: rawHTML } = await axios.get(url, {
         headers: {
           "User-Agent":
@@ -49,14 +49,14 @@ function getFormattedTime() {
         },
       });
 
-      // ✅ 2. Try to extract hlsManifestUrl from raw HTML
+      // 2. Try to extract hlsManifestUrl from raw HTML
       const hlsMatch = rawHTML.match(/"hlsManifestUrl":"(https:[^"]+\.m3u8[^"]*)"/);
       if (hlsMatch && hlsMatch[1]) {
         m3u8Url = hlsMatch[1].replace(/\\u0026/g, "&"); // decode escaped ampersands
         console.log(`🎯 Found hlsManifestUrl from raw HTML: ${m3u8Url}`);
       }
 
-      // ✅ 3. If not found, fallback to Puppeteer for .m3u8 via network
+      // 3. If not found, fallback to Puppeteer for .m3u8 via network requests
       if (!m3u8Url) {
         let m3u8UrlsFromNetwork = new Set();
 
@@ -75,15 +75,27 @@ function getFormattedTime() {
 
         resolvedUrl = page.url();
 
+        // Wait a bit to allow network requests to finish
         await page.waitForTimeout(5000);
 
         if (m3u8UrlsFromNetwork.size > 0) {
           m3u8Url = [...m3u8UrlsFromNetwork][0];
         }
-
+      }
+    } catch (err) {
+      console.error(`❌ Error while processing ${url}:`, err.message);
+    } finally {
+      if (!page.isClosed()) {
         await page.close();
       }
-   
+    }
+
+    results.push({
+      source: resolvedUrl,
+      m3u8: m3u8Url || "Not found",
+    });
+  }
+
   await browser.close();
 
   const output = {
