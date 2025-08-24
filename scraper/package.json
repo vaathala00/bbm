@@ -1,3 +1,5 @@
+
+
 {
   "name": "bbm",
   "version": "1.0.0",
@@ -6,6 +8,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "puppeteer": "^21.3.8"
+    "puppeteer": "^21.3.8",
+    "axios": "^1.6.8"
   }
 }

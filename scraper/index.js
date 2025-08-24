@@ -83,18 +83,7 @@ function getFormattedTime() {
 
         await page.close();
       }
-    } catch (err) {
-      console.error(`⚠️ Error processing ${url}: ${err.message}`);
-    }
-
-    results.push({
-      url,
-      resolvedUrl,
-      m3u8Url: m3u8Url || "Not Found",
-      timestamp: getFormattedTime(),
-    });
-  }
-
+   
   await browser.close();
 
   const output = {
