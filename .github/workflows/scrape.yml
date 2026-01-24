@@ -1,8 +1,8 @@
-name: Scrape Hotstar Stream URLs
+name: Scrape Hotstar HLS
 
 on:
   schedule:
-    - cron: "*/10 * * * *"  # every 10 minutes
+    - cron: "*/10 * * * *" # every 10 minutes
   workflow_dispatch:
 
 jobs:
@@ -12,31 +12,21 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: "20"
 
-      # Install only modern Chromium dependencies
-      - name: Install Puppeteer dependencies
+      - name: Install Dependencies
         run: |
-          sudo apt-get update
-          sudo apt-get install -y wget ca-certificates fonts-liberation libnss3 lsb-release xdg-utils
-
-      - name: Install Node.js dependencies
-        run: |
-          cd scraper
           npm install
 
       - name: Run Scraper
         env:
-          BB_COOKIES: ${{ secrets.BB_COOKIES }}  # Hotstar login cookies as JSON array
+          BB_COOKIES: ${{ secrets.BB_COOKIES }}
         run: |
-          cd scraper
-          npm start
+          node index.js
 
       - name: Commit and Push stream.json
         env:
@@ -44,11 +34,7 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-
           git pull --rebase origin main || true
-
-          cp scraper/stream.json stream.json
           git add stream.json
-
-          git diff-index --quiet HEAD || git commit -m "👉 Updated HLS Links"
+          git diff-index --quiet HEAD || git commit -m "Update HLS Links"
           git push origin main || echo "Nothing to push"
