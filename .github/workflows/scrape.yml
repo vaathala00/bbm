@@ -1,8 +1,8 @@
-name: Scrape Hotstar HLS Links
+name: Scrape Stream URL
 
 on:
   schedule:
-    - cron: "*/10 * * * *" # every 10 minutes
+    - cron: "*/10 * * * *"   # every 10 minutes
   workflow_dispatch:
 
 jobs:
@@ -21,12 +21,16 @@ jobs:
           node-version: "20"
 
       - name: Install Dependencies
-        run: npm install
+        run: |
+          cd scraper
+          npm install
 
       - name: Run Scraper
         env:
           BB_COOKIES: ${{ secrets.BB_COOKIES }}
-        run: node index.js
+        run: |
+          cd scraper
+          npm start
 
       - name: Commit and Push stream.json
         env:
@@ -34,8 +38,9 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-
+          
           git pull --rebase origin main || true
+          cp scraper/stream.json stream.json
           git add stream.json
-          git diff-index --quiet HEAD || git commit -m "👉 Updated HLS links"
+          git diff-index --quiet HEAD || git commit -m "👉 updated HLS Links"
           git push origin main || echo "Nothing to push"
