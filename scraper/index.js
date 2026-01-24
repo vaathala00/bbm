@@ -3,8 +3,8 @@ const puppeteer = require("puppeteer");
 const fs = require("fs");
 
 const urls = [
-  "https://bq32.short.gy/O7fkma",
-  "https://bigbosslive.com/live/",
+  "https://www.hotstar.com/in/sports/cricket/kishans-76-vs-nz-in-2nd-t20i/1271525272/watch",
+  "",
 ];
 
 // Format IST time
