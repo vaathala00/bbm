@@ -5,11 +5,11 @@ const fs = require("fs");
 const urls = [
   "https://bq32.short.gy/O7fkma",
   "https://bigbosslive.com/live/",
-].filter(Boolean);
+];
 
+// Format IST time
 function getFormattedTime() {
-  const date = new Date();
-  const options = {
+  return new Date().toLocaleString("en-IN", {
     timeZone: "Asia/Kolkata",
     hour: "2-digit",
     minute: "2-digit",
@@ -17,14 +17,7 @@ function getFormattedTime() {
     day: "2-digit",
     month: "2-digit",
     year: "numeric",
-  };
-
-  const formatter = new Intl.DateTimeFormat("en-IN", options);
-  const parts = formatter.formatToParts(date);
-
-  const get = (type) => parts.find((p) => p.type === type)?.value;
-
-  return `${get("hour")}:${get("minute")} ${get("dayPeriod")} ${get("day")}-${get("month")}-${get("year")}`;
+  });
 }
 
 (async () => {
@@ -41,53 +34,57 @@ function getFormattedTime() {
     let resolvedUrl = url;
 
     try {
-      // 1. Try fetching raw page source (before JS executes)
-      const { data: rawHTML } = await axios.get(url, {
-        headers: {
-          "User-Agent":
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/118.0.5993.90 Safari/537.36",
-        },
-      });
-
-      // 2. Try to extract hlsManifestUrl from raw HTML
-      const hlsMatch = rawHTML.match(/"hlsManifestUrl":"(https:[^"]+\.m3u8[^"]*)"/);
-      if (hlsMatch && hlsMatch[1]) {
-        m3u8Url = hlsMatch[1].replace(/\\u0026/g, "&"); // decode escaped ampersands
-        console.log(`🎯 Found hlsManifestUrl from raw HTML: ${m3u8Url}`);
+      // 🔐 Inject login cookies (for bigbosslive.com)
+      if (process.env.BB_COOKIES) {
+        const cookies = JSON.parse(process.env.BB_COOKIES);
+        await page.setCookie(...cookies);
+        console.log("🍪 Login cookies injected");
       }
 
-      // 3. If not found, fallback to Puppeteer for .m3u8 via network requests
-      if (!m3u8Url) {
-        let m3u8UrlsFromNetwork = new Set();
+      // ⚡ Try raw HTML first
+      try {
+        const { data } = await axios.get(url, {
+          headers: {
+            "User-Agent":
+              "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120",
+          },
+        });
 
-        page.on("request", (request) => {
-          const reqUrl = request.url();
-          if (reqUrl.includes(".m3u8")) {
-            m3u8UrlsFromNetwork.add(reqUrl);
-            console.log(`🔍 Found .m3u8 in network request: ${reqUrl}`);
+        const match = data.match(
+          /"hlsManifestUrl":"(https:[^"]+\.m3u8[^"]*)"/
+        );
+
+        if (match) {
+          m3u8Url = match[1].replace(/\\u0026/g, "&");
+          console.log("🎯 Found m3u8 in HTML:", m3u8Url);
+        }
+      } catch (_) {}
+
+      // 🕷️ Fallback: Puppeteer network sniffing
+      if (!m3u8Url) {
+        const found = new Set();
+
+        page.on("request", (req) => {
+          if (req.url().includes(".m3u8")) {
+            found.add(req.url());
+            console.log("🔍 Network m3u8:", req.url());
           }
         });
 
         await page.goto(url, {
-          waitUntil: "domcontentloaded",
+          waitUntil: "networkidle2",
           timeout: 30000,
         });
 
         resolvedUrl = page.url();
+        await page.waitForTimeout(6000);
 
-        // Wait a bit to allow network requests to finish
-        await page.waitForTimeout(5000);
-
-        if (m3u8UrlsFromNetwork.size > 0) {
-          m3u8Url = [...m3u8UrlsFromNetwork][0];
-        }
+        if (found.size) m3u8Url = [...found][0];
       }
     } catch (err) {
-      console.error(`❌ Error while processing ${url}:`, err.message);
+      console.error("❌ Error:", err.message);
     } finally {
-      if (!page.isClosed()) {
-        await page.close();
-      }
+      await page.close();
     }
 
     results.push({
@@ -104,6 +101,6 @@ function getFormattedTime() {
     stream: results,
   };
 
-  fs.writeFileSync("stream.json", JSON.stringify(output, null, 2), "utf-8");
-  console.log("✅ Saved all stream URLs to stream.json");
+  fs.writeFileSync("stream.json", JSON.stringify(output, null, 2));
+  console.log("✅ stream.json saved");
 })();
