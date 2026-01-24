@@ -2,7 +2,7 @@ const axios = require("axios");
 const puppeteer = require("puppeteer");
 const fs = require("fs");
 
-// 🔗 Hotstar URLs to scrape
+// Hotstar URLs to scrape
 const urls = [
   "https://www.hotstar.com/in/sports/cricket/kishans-76-vs-nz-in-2nd-t20i/1271525272/watch",
   "https://www.hotstar.com/in/sports/cricket/abhisheks-blitz-floors-nz/1271524824/watch"
@@ -35,14 +35,14 @@ function getFormattedTime() {
     let resolvedUrl = url;
 
     try {
-      // 🔐 Inject login cookies if available
+      // Inject login cookies if provided
       if (process.env.BB_COOKIES) {
         const cookies = JSON.parse(process.env.BB_COOKIES);
         await page.setCookie(...cookies);
         console.log("🍪 Login cookies injected");
       }
 
-      // ⚡ Try fetching HTML first
+      // Try fetching HTML
       try {
         const { data } = await axios.get(url, {
           headers: {
@@ -55,7 +55,7 @@ function getFormattedTime() {
         if (matches) {
           const link = matches
             .map(m => m.replace(/"hlsManifestUrl":"|\\u0026/g, ""))
-            .find(u => u.includes("/eng/") || u.includes("/tam/")); // pick language
+            .find(u => u.includes("/eng/") || u.includes("/tam/"));
           if (link) {
             m3u8Url = link;
             console.log("🎯 Found m3u8 in HTML:", m3u8Url);
@@ -65,7 +65,7 @@ function getFormattedTime() {
         console.warn("⚠️ HTML fetch failed:", err.message);
       }
 
-      // 🕷️ Fallback: Puppeteer network sniffing
+      // Puppeteer network sniffing fallback
       if (!m3u8Url) {
         const found = new Set();
 
@@ -78,7 +78,7 @@ function getFormattedTime() {
         });
 
         await page.goto(url, { waitUntil: "networkidle0", timeout: 45000 });
-        await page.waitForTimeout(8000); // wait for network requests
+        await page.waitForTimeout(8000);
 
         resolvedUrl = page.url();
         if (found.size) m3u8Url = [...found][0];
