@@ -11,14 +11,19 @@ const urls = [
 function getFormattedTime() {
   return new Date().toLocaleString("en-IN", {
     timeZone: "Asia/Kolkata",
-    hour12: true
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: true,
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
   });
 }
 
 (async () => {
   const browser = await puppeteer.launch({
-    headless: false,
-    args: ["--no-sandbox", "--disable-setuid-sandbox"]
+    headless: "new",
+    args: ["--no-sandbox", "--disable-setuid-sandbox"],
   });
 
   const results = [];
@@ -32,45 +37,43 @@ function getFormattedTime() {
       if (process.env.BB_COOKIES) {
         const cookies = JSON.parse(process.env.BB_COOKIES);
         await page.setCookie(...cookies);
-        console.log("🍪 Cookies injected");
+        console.log("🍪 Login cookies injected");
       }
 
-      // Listen to network requests to find .m3u8
+      // Capture network requests for .m3u8
+      const found = new Set();
       page.on("request", (req) => {
         const reqUrl = req.url();
         if (reqUrl.includes(".m3u8")) {
-          m3u8Url = reqUrl;
-          console.log("🎯 Found HLS URL:", m3u8Url);
+          found.add(reqUrl);
+          console.log("🔍 Found HLS:", reqUrl);
         }
       });
 
-      await page.goto(url, {
-        waitUntil: "networkidle2",
-        timeout: 60000
-      });
+      await page.goto(url, { waitUntil: "networkidle2", timeout: 30000 });
+      await page.waitForTimeout(6000);
 
-      // Give extra time for Hotstar JS to generate HLS
-      await page.waitForTimeout(8000);
+      if (found.size) m3u8Url = [...found][0];
 
-      if (!m3u8Url) console.warn("❌ HLS not found:", url);
     } catch (err) {
-      console.error("❌ Error:", err.message);
+      console.error("❌ Error scraping URL:", url, err.message);
     } finally {
       await page.close();
     }
 
     results.push({
       source: url,
-      m3u8: m3u8Url || "Not found"
+      m3u8: m3u8Url || "Not found",
     });
   }
 
   await browser.close();
 
+  // Save results
   const output = {
     telegram: "https://t.me/vaathala1",
     "last update time": getFormattedTime(),
-    stream: results
+    stream: results,
   };
 
   fs.writeFileSync("stream.json", JSON.stringify(output, null, 2));

@@ -1,4 +1,4 @@
-name: Scrape Hotstar HLS
+name: Scrape Hotstar HLS Links
 
 on:
   schedule:
@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -19,14 +21,12 @@ jobs:
           node-version: "20"
 
       - name: Install Dependencies
-        run: |
-          npm install
+        run: npm install
 
       - name: Run Scraper
         env:
           BB_COOKIES: ${{ secrets.BB_COOKIES }}
-        run: |
-          node index.js
+        run: node index.js
 
       - name: Commit and Push stream.json
         env:
@@ -34,7 +34,8 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
+
           git pull --rebase origin main || true
           git add stream.json
-          git diff-index --quiet HEAD || git commit -m "Update HLS Links"
+          git diff-index --quiet HEAD || git commit -m "👉 Updated HLS links"
           git push origin main || echo "Nothing to push"
