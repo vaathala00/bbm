@@ -1,10 +1,12 @@
+// worker.js
 const axios = require("axios");
 const puppeteer = require("puppeteer");
 const fs = require("fs");
 
+// 🔗 Hotstar URLs to process
 const urls = [
   "https://www.hotstar.com/in/sports/cricket/kishans-76-vs-nz-in-2nd-t20i/1271525272/watch",
-  "",
+  // Add more URLs here if needed
 ];
 
 // Format IST time
@@ -34,40 +36,50 @@ function getFormattedTime() {
     let resolvedUrl = url;
 
     try {
-      // 🔐 Inject login cookies (for bigbosslive.com)
+      // 🔐 Optional: inject login cookies
       if (process.env.BB_COOKIES) {
         const cookies = JSON.parse(process.env.BB_COOKIES);
         await page.setCookie(...cookies);
         console.log("🍪 Login cookies injected");
       }
 
-      // ⚡ Try raw HTML first
+      // ⚡ First try: fetch raw HTML
       try {
         const { data } = await axios.get(url, {
           headers: {
-            "User-Agent":
-              "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120",
           },
         });
 
-        const match = data.match(
-          /"hlsManifestUrl":"(https:[^"]+\.m3u8[^"]*)"/
+        // Look for HLS links in HTML
+        const matches = data.match(
+          /"hlsManifestUrl":"(https:[^"]+\.m3u8[^"]*)"/g
         );
 
-        if (match) {
-          m3u8Url = match[1].replace(/\\u0026/g, "&");
-          console.log("🎯 Found m3u8 in HTML:", m3u8Url);
+        if (matches) {
+          // Filter Tamil links
+          const tamLink = matches
+            .map(m => m.replace(/"hlsManifestUrl":"|\\u0026/g, ""))
+            .find(u => u.includes("/tam/"));
+
+          if (tamLink) {
+            m3u8Url = tamLink;
+            console.log("🎯 Found Tamil m3u8 in HTML:", m3u8Url);
+          }
         }
-      } catch (_) {}
+      } catch (err) {
+        console.warn("⚠️ Axios HTML fetch failed:", err.message);
+      }
 
       // 🕷️ Fallback: Puppeteer network sniffing
       if (!m3u8Url) {
         const found = new Set();
 
         page.on("request", (req) => {
-          if (req.url().includes(".m3u8")) {
-            found.add(req.url());
-            console.log("🔍 Network m3u8:", req.url());
+          const reqUrl = req.url();
+          if (reqUrl.includes(".m3u8") && reqUrl.includes("/tam/")) {
+            found.add(reqUrl);
+            console.log("🔍 Network m3u8 (Tamil):", reqUrl);
           }
         });
 
@@ -81,8 +93,12 @@ function getFormattedTime() {
 
         if (found.size) m3u8Url = [...found][0];
       }
+
+      if (!m3u8Url) {
+        console.warn("❌ Tamil m3u8 not found for URL:", url);
+      }
     } catch (err) {
-      console.error("❌ Error:", err.message);
+      console.error("❌ Error processing URL:", url, err.message);
     } finally {
       await page.close();
     }
@@ -95,6 +111,7 @@ function getFormattedTime() {
 
   await browser.close();
 
+  // Save results
   const output = {
     telegram: "https://t.me/vaathala1",
     "last update time": getFormattedTime(),
