@@ -1,13 +1,9 @@
 {
   "telegram": "https://t.me/vaathala1",
-  "last update time": "24/01/2026, 09:05 am",
+  "last update time": "24/01/2026, 11:19 am",
   "stream": [
     {
       "source": "https://www.hotstar.com/in/sports/cricket/kishans-76-vs-nz-in-2nd-t20i/1271525272/watch",
-      "m3u8": "Not found"
-    },
-    {
-      "source": "",
       "m3u8": "Not found"
     }
   ]
