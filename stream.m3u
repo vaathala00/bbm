@@ -12331,20 +12331,22 @@ https://vt-ip.vodep39240327.workers.dev/1371.m3u8
 
 # ---------------=== SonyLiv | Live Sports ===-------------------
 
-#EXTINF:-1 tvg-id="1090501238_ENG" tvg-name="Football" group-title="SonyLiv | Sports" tvg-language="ENG" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013252/1768142506296360_bliga26_MD18_Union_Berlin_vs_Dortmund_11jan_landscape_thumb.jpg",Union Berlin vs Borussia Dortmund - MD 19 - 24 Jan 2026 [ENG]
+#EXTINF:-1 tvg-id="1090501598_ENG" tvg-name="Cricket" group-title="SonyLiv | Sports" tvg-language="ENG" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014166/1769329348071276_WLPT20L26_delhi_vs_dubai_25jan_landscape_thumb.jpg",Delhi Warriors vs Dubai Royals - 26 Jan 2026 [ENG]
 #EXTHTTP:{"Cookie":"","Origin":"https://www.sonyliv.com","Referer":"https://www.sonyliv.com/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769316867~acl=/*~id=97967357229698516699091465562589~hmac=a5ee3b12ec1a7768ccce15cf4b34281bc921011f3b7f12f09841af25947a7667
+https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769489084~acl=/*~id=49016516165427246023876645393180~hmac=bf638a62d84bc385f5f95918046b7583b464e22d89ff746f909b5c37f4abecd0
+#EXTINF:-1 tvg-id="1090501643_ENG" tvg-name="Wrestling" group-title="SonyLiv | Sports" tvg-language="ENG" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013446/17684765589147_PWL_26_Maharashtra-Kesari-vs-Punjab-Royals_15jan_landscape_thumb.jpg",Maharashtra Kesari vs Punjab Royals - 26 Jan 2026 [ENG]
+#EXTHTTP:{"Cookie":"","Origin":"https://www.sonyliv.com","Referer":"https://www.sonyliv.com/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769489084~acl=/*~id=49016516165427246023876645393180~hmac=bf638a62d84bc385f5f95918046b7583b464e22d89ff746f909b5c37f4abecd0
+#EXTINF:-1 tvg-id="1090501643_HIN" tvg-name="Wrestling" group-title="SonyLiv | Sports" tvg-language="ENG" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013446/17684765589147_PWL_26_Maharashtra-Kesari-vs-Punjab-Royals_15jan_landscape_thumb.jpg",Maharashtra Kesari vs Punjab Royals - 26 Jan 2026 [HIN]
+#EXTHTTP:{"Cookie":"","Origin":"https://www.sonyliv.com","Referer":"https://www.sonyliv.com/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769489084~acl=/*~id=49016516165427246023876645393180~hmac=bf638a62d84bc385f5f95918046b7583b464e22d89ff746f909b5c37f4abecd0
 
 # ---------------=== FanCode | Live Sports ===-------------------
 
-#EXTINF:-1 tvg-id="139343" tvg-name="Football" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139343_5489_HUL_SWA_FC-Web.jpg",Hull City vs Swansea City A.F.C.
-https://in-mc-fdlive.fancode.com/mumbai/139343_english_hls_52cbbff8d530114_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-id="131031" tvg-name="Football" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131031_5427_VAL_ESL_fc-Web.png",Valencia CF vs RCD Espanyol
-https://in-mc-fdlive.fancode.com/mumbai/131031_english_hls_73acf677f537413_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-id="139282" tvg-name="Football" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ChinaPRU23_vs_JapanU23_fc-web.jpg",China PR U23 vs Japan U23
-https://in-mc-fdlive.fancode.com/mumbai/139282_english_hls_fdd432887438875_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-id="139998" tvg-name="Golf" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/The-American-Express-2026_FC-Web.jpg",Main Feed - Day 3
-https://in-mc-fdlive.fancode.com/mumbai/139998_english_hls_13c6b5c16767327_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-id="140073" tvg-name="Cricket" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140073_5928_DW_DR_FC-Web.jpg",Dubai Royals vs Delhi Warriors
+https://in-mc-fdlive.fancode.com/mumbai/140073_english_hls_165411df3f51112_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-id="139585" tvg-name="Cricket" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Emirates_web_1769270071345.jpg",Dubai vs Emirates Red
+https://in-mc-fdlive.fancode.com/mumbai/139585_english_hls_62b5edcd7023872_1ta-di_h264/index.m3u8
 # =========================================
 # This m3u link is only for educational purposes
 # =========================================
