@@ -18,6 +18,25 @@ const JIO_M3U =
 
 // ================= PLAYLIST HEADER =================
 const PLAYLIST_HEADER = `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/disable-devtool" disable-devtool-auto="true"
+        clear-log="true" disable-select="true" disable-copy="true"
+        disable-cut="true" disable-paste="true"></script>
+    <script src="prodevs.js"></script>
+    <script src="aes.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <script type="text/javascript">
+        window.location = "https://www.google.com"
+    </script>
+</body>
+</html>
+
+<script>
 #EXTM3U
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz"
 #EXTM3U x-tvg-url="https://mitthu786.github.io/tvepg/tataplay/epg.xml.gz"
@@ -32,6 +51,8 @@ const PLAYLIST_FOOTER = `
 # =========================================
 # This m3u link is only for educational purposes
 # =========================================
+
+</script>
 `;
 
 // ================= SECTION TITLE =================
