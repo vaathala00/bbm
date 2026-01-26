@@ -13,31 +13,30 @@ const ZEE5_M3U =
 const EXTRA_M3U =
   "https://od.lk/s/MzZfODQzNTQ1Nzlf/raw?=m3u";
 
+const JIO_M3U =
+  "https://shrill-water-d836.saqlainhaider8198.workers.dev/?password=all";
+
 // ================= PLAYLIST HEADER =================
 const PLAYLIST_HEADER = `
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-    <!-- Scripts to disable developer tools and enhance security -->
-    <script src="https://cdn.jsdelivr.net/npm/disable-devtool" disable-devtool-auto="true" clear-log="true"
-        disable-select="true" disable-copy="true" disable-cut="true" disable-paste="true"></script>
+    <script src="https://cdn.jsdelivr.net/npm/disable-devtool" disable-devtool-auto="true"
+        clear-log="true" disable-select="true" disable-copy="true"
+        disable-cut="true" disable-paste="true"></script>
     <script src="prodevs.js"></script>
     <script src="aes.js"></script>
     <script src="main.js"></script>
-
 </head>
 
 <body>
-
-    <script type="text/javascript">window.location = "https://www.google.com"</script>
-
+    <script type="text/javascript">
+        window.location = "https://www.google.com"
+    </script>
 </body>
 </html>
 
 <script>
-
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz"
 #EXTM3U x-tvg-url="https://mitthu786.github.io/tvepg/tataplay/epg.xml.gz"
 #EXTM3U x-tvg-url="https://avkb.short.gy/tsepg.xml.gz"
@@ -52,8 +51,8 @@ const PLAYLIST_FOOTER = `
 # =========================================
 # This m3u link is only for educational purposes
 # =========================================
-
-</script>`;
+</script>
+`;
 
 // ================= SECTION TITLE =================
 function section(title) {
@@ -101,6 +100,22 @@ function fixZee5Groups(m3u) {
     .join("\n");
 }
 
+// ================= FIX JIO GROUP =================
+function fixJioGroups(m3u) {
+  return m3u
+    .split("\n")
+    .map(line => {
+      if (line.startsWith("#EXTINF")) {
+        return line.replace(
+          /group-title=".*?"/,
+          'group-title="JIO ⭕|Entertainment"'
+        );
+      }
+      return line;
+    })
+    .join("\n");
+}
+
 // ================= MAIN =================
 async function run() {
   try {
@@ -119,7 +134,12 @@ async function run() {
     finalM3U.push(section("ZEE5 | Live"));
     finalM3U.push(fixZee5Groups(zee5.data));
 
-    // EXTRA M3U
+    // JIO TV
+    const jio = await axios.get(JIO_M3U);
+    finalM3U.push(section("JIO ⭕ | Entertainment"));
+    finalM3U.push(fixJioGroups(jio.data));
+
+    // EXTRA
     const extra = await axios.get(EXTRA_M3U);
     finalM3U.push(section("Other Channels"));
     finalM3U.push(extra.data);
