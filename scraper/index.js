@@ -18,32 +18,13 @@ const JIO_M3U =
 
 // ================= PLAYLIST HEADER =================
 const PLAYLIST_HEADER = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <script src="https://cdn.jsdelivr.net/npm/disable-devtool" disable-devtool-auto="true"
-        clear-log="true" disable-select="true" disable-copy="true"
-        disable-cut="true" disable-paste="true"></script>
-    <script src="prodevs.js"></script>
-    <script src="aes.js"></script>
-    <script src="main.js"></script>
-</head>
-
-<body>
-    <script type="text/javascript">
-        window.location = "https://www.google.com"
-    </script>
-</body>
-</html>
-
-<script>
+#EXTM3U
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz"
 #EXTM3U x-tvg-url="https://mitthu786.github.io/tvepg/tataplay/epg.xml.gz"
 #EXTM3U x-tvg-url="https://avkb.short.gy/tsepg.xml.gz"
 
 # ===== Vaathala Playlist =====
 # Join Telegram: @vaathala1
-# Playlist Information:
 `;
 
 // ================= PLAYLIST FOOTER =================
@@ -51,7 +32,6 @@ const PLAYLIST_FOOTER = `
 # =========================================
 # This m3u link is only for educational purposes
 # =========================================
-</script>
 `;
 
 // ================= SECTION TITLE =================
@@ -100,20 +80,18 @@ function fixZee5Groups(m3u) {
     .join("\n");
 }
 
-// ================= FIX JIO GROUP =================
+// ================= FIX / NORMALIZE JIO GROUPS =================
 function fixJioGroups(m3u) {
-  return m3u
-    .split("\n")
-    .map(line => {
-      if (line.startsWith("#EXTINF")) {
-        return line.replace(
-          /group-title=".*?"/,
-          'group-title="JIO ⭕|Entertainment"'
-        );
-      }
-      return line;
-    })
-    .join("\n");
+  return m3u.replace(
+    /group-title="([^"]+)"/g,
+    (match, group) => {
+      // keep existing JIO groups (News, Entertainment, Sports, etc)
+      if (group.startsWith("JIO")) return match;
+
+      // normalize non-JIO group titles
+      return `group-title="JIO ⭕ | ${group}"`;
+    }
+  );
 }
 
 // ================= MAIN =================
@@ -134,9 +112,9 @@ async function run() {
     finalM3U.push(section("ZEE5 | Live"));
     finalM3U.push(fixZee5Groups(zee5.data));
 
-    // JIO TV
+    // JIO TV (MULTI GROUP SAFE)
     const jio = await axios.get(JIO_M3U);
-    finalM3U.push(section("JIO ⭕ | Entertainment"));
+    finalM3U.push(section("JIO ⭕ | Live TV"));
     finalM3U.push(fixJioGroups(jio.data));
 
     // EXTRA
