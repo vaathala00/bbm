@@ -16,6 +16,12 @@ const EXTRA_M3U =
 const JIO_M3U =
   "https://shrill-water-d836.saqlainhaider8198.workers.dev/?password=all";
 
+const SONYLIV_JSON =
+  "https://raw.githubusercontent.com/drmlive/sliv-live-events/main/sonyliv.json";
+
+const FANCODE_JSON =
+  "https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.json";
+
 // ================= PLAYLIST HEADER =================
 const PLAYLIST_HEADER = `
 <!DOCTYPE html>
@@ -85,7 +91,7 @@ function convertHotstar(json) {
   return out.join("\n");
 }
 
-// ================= FIX ZEE5 GROUP =================
+// ================= ZEE5 → NORMALIZE GROUP =================
 function fixZee5Groups(m3u) {
   return m3u
     .split("\n")
@@ -101,18 +107,67 @@ function fixZee5Groups(m3u) {
     .join("\n");
 }
 
-// ================= FIX / NORMALIZE JIO GROUPS =================
+// ================= JIO → NORMALIZE GROUP =================
 function fixJioGroups(m3u) {
   return m3u.replace(
     /group-title="([^"]+)"/g,
     (match, group) => {
-      // keep existing JIO groups (News, Entertainment, Sports, etc)
       if (group.startsWith("JIO")) return match;
-
-      // normalize non-JIO group titles
       return `group-title="JIO ⭕ | ${group}"`;
     }
   );
+}
+
+// ================= SONYLIV JSON → M3U =================
+function convertSonyliv(json) {
+  let out = [];
+  json.matches.forEach(match => {
+    if (!match.isLive) return; // Only include live matches
+    const name = match.match_name || match.event_name;
+    const logo = match.src || "";
+    const tvgId = match.contentId || "";
+    const lang = match.audioLanguageName || "ENG";
+
+    out.push(
+      `#EXTINF:-1 tvg-id="${tvgId}" tvg-name="${match.event_category}" group-title="SonyLiv | Sports" tvg-language="${lang}" tvg-logo="${logo}",${name}`
+    );
+
+    out.push(
+      `#EXTHTTP:${JSON.stringify({
+        Cookie: "",
+        Origin: "https://www.sonyliv.com",
+        Referer: "https://www.sonyliv.com/",
+        "User-Agent":
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+        Telegram: "@links_macha_official",
+        Creator: "@DJ-TM"
+      })}`
+    );
+
+    out.push(match.dai_url || match.pub_url || match.video_url);
+  });
+  return out.join("\n");
+}
+
+// ================= FANCODE JSON → M3U =================
+function convertFancode(json) {
+  let out = [];
+  json.matches.forEach(match => {
+    if (match.status !== "LIVE") return; // Only live matches
+    const name = match.match_name || match.title || match.event_name;
+    const logo = match.src || "";
+    const tvgId = match.match_id || "";
+    const url = match.adfree_url || match.dai_url || "";
+
+    if (!url) return;
+
+    out.push(
+      `#EXTINF:-1 tvg-id="${tvgId}" tvg-name="${match.event_category}" group-title="FanCode | Sports" tvg-language="" tvg-logo="${logo}",${name}`
+    );
+
+    out.push(url);
+  });
+  return out.join("\n");
 }
 
 // ================= MAIN =================
@@ -133,7 +188,7 @@ async function run() {
     finalM3U.push(section("ZEE5 | Live"));
     finalM3U.push(fixZee5Groups(zee5.data));
 
-    // JIO TV (MULTI GROUP SAFE)
+    // JIO TV
     const jio = await axios.get(JIO_M3U);
     finalM3U.push(section("JIO ⭕ | Live TV"));
     finalM3U.push(fixJioGroups(jio.data));
@@ -143,16 +198,21 @@ async function run() {
     finalM3U.push(section("Other Channels"));
     finalM3U.push(extra.data);
 
+    // SONYLIV
+    const sonyliv = await axios.get(SONYLIV_JSON);
+    finalM3U.push(section("SonyLiv | Live Sports"));
+    finalM3U.push(convertSonyliv(sonyliv.data));
+
+    // FANCODE
+    const fancode = await axios.get(FANCODE_JSON);
+    finalM3U.push(section("FanCode | Live Sports"));
+    finalM3U.push(convertFancode(fancode.data));
+
     // FOOTER
     finalM3U.push(PLAYLIST_FOOTER.trim());
 
     // WRITE FILE
-    fs.writeFileSync(
-      OUTPUT_FILE,
-      finalM3U.join("\n") + "\n",
-      "utf8"
-    );
-
+    fs.writeFileSync(OUTPUT_FILE, finalM3U.join("\n") + "\n", "utf8");
     console.log("✅ stream.m3u generated successfully");
   } catch (err) {
     console.error("❌ Error:", err.message);
