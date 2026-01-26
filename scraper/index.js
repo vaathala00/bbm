@@ -1,78 +1,84 @@
-const puppeteer = require("puppeteer");
-const fs = require("fs");
 const axios = require("axios");
+const fs = require("fs");
 
-const urls = [
-  "https://www.hotstar.com/in/sports/cricket/kishans-76-vs-nz-in-2nd-t20i/1271525272/watch",
-  "https://www.hotstar.com/in/sports/cricket/abhisheks-blitz-floors-nz/1271524824/watch"
-];
+const OUTPUT_FILE = "stream.m3u";
 
-function getFormattedTime() {
-  return new Date().toLocaleString("en-IN", {
-    timeZone: "Asia/Kolkata",
-    hour: "2-digit",
-    minute: "2-digit",
-    hour12: true,
-    day: "2-digit",
-    month: "2-digit",
-    year: "numeric"
+// SOURCES
+const HOTSTAR_JSON =
+  "https://cloudplay-app.cloudplay-help.workers.dev/hotstar?password=all";
+
+const ZEE5_M3U =
+  "https://raw.githubusercontent.com/cloudplay97/m3u/main/zee5.m3u";
+
+const EXTRA_M3U =
+  "https://od.lk/s/MjFfNTI0OTk4NTBf/raw?=m3u";
+
+// ---------------- HOTSTAR JSON → M3U ----------------
+function convertHotstar(json) {
+  let out = [];
+
+  json.forEach(ch => {
+    out.push(
+      `#EXTINF:-1 tvg-id="" tvg-logo="${ch.logo}" group-title="VOOT | Jio Cinema",${ch.name}`
+    );
+
+    out.push(
+      `#EXTHTTP:${JSON.stringify({
+        ...ch.headers,
+        "User-Agent":
+          "Hotstar;in.startv.hotstar.links_macha_official(Android/15)",
+        Telegram: "@links_macha_official",
+        Creator: "@DJ-TM"
+      })}`
+    );
+
+    out.push(ch.m3u8_url);
   });
+
+  return out.join("\n");
 }
 
-(async () => {
-  const browser = await puppeteer.launch({
-    headless: "new",
-    args: ["--no-sandbox", "--disable-setuid-sandbox"]
-  });
-
-  const results = [];
-
-  for (const url of urls) {
-    const page = await browser.newPage();
-    let m3u8Url = null;
-
-    try {
-      // Inject cookies if provided
-      if (process.env.BB_COOKIES) {
-        const cookies = JSON.parse(process.env.BB_COOKIES);
-        await page.setCookie(...cookies);
-        console.log("🍪 Login cookies injected");
-      }
-
-      const foundUrls = new Set();
-
-      page.on("request", (req) => {
-        const reqUrl = req.url();
-        if (reqUrl.includes(".m3u8")) {
-          foundUrls.add(reqUrl);
+// ---------------- M3U GROUP FIX ----------------
+function fixGroups(m3u) {
+  return m3u
+    .split("\n")
+    .map(line => {
+      if (line.startsWith("#EXTINF")) {
+        if (line.includes("Zee")) {
+          return line.replace(
+            /group-title=".*?"/,
+            'group-title="ZEE5 | Live"'
+          );
         }
-      });
+      }
+      return line;
+    })
+    .join("\n");
+}
 
-      await page.goto(url, { waitUntil: "networkidle2", timeout: 30000 });
-      await page.waitForTimeout(6000);
+// ---------------- MAIN ----------------
+async function run() {
+  try {
+    let finalM3U = ["#EXTM3U"];
 
-      if (foundUrls.size) m3u8Url = [...foundUrls][0];
+    // HOTSTAR
+    const hotstar = await axios.get(HOTSTAR_JSON);
+    finalM3U.push(convertHotstar(hotstar.data));
 
-    } catch (err) {
-      console.error("❌ Error processing URL:", url, err.message);
-    } finally {
-      await page.close();
-    }
+    // ZEE5
+    const zee5 = await axios.get(ZEE5_M3U);
+    finalM3U.push(fixGroups(zee5.data));
 
-    results.push({
-      source: url,
-      m3u8: m3u8Url || "Not found"
-    });
+    // EXTRA
+    const extra = await axios.get(EXTRA_M3U);
+    finalM3U.push(extra.data);
+
+    fs.writeFileSync(OUTPUT_FILE, finalM3U.join("\n") + "\n", "utf8");
+    console.log("✅ stream.m3u updated");
+  } catch (e) {
+    console.error("❌ Error:", e.message);
+    process.exit(1);
   }
+}
 
-  await browser.close();
-
-  const output = {
-    telegram: "https://t.me/vaathala1",
-    "last update time": getFormattedTime(),
-    stream: results
-  };
-
-  fs.writeFileSync("stream.json", JSON.stringify(output, null, 2));
-  console.log("✅ stream.json saved");
-})();
+run();

@@ -1,12 +1,11 @@
 {
-  "name": "bbm-scraper",
+  "name": "scraper",
   "version": "1.0.0",
-  "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "puppeteer": "^21.3.8",
-    "axios": "^1.6.8"
+    "axios": "^1.6.0"
   }
 }

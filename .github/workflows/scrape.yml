@@ -1,33 +1,33 @@
-name: Scrape Stream URL
+name: Fetch and Update Stream JSON
 
 on:
   schedule:
-    - cron: "*/10 * * * *"   # every 10 minutes
+    - cron: '*/10 * * * *'  # Every 10 minutes
   workflow_dispatch:
 
 jobs:
-  scrape:
+  fetch-json:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
+          ref: main
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: "20"
+          node-version: '20'
 
       - name: Install Dependencies
         run: |
           cd scraper
           npm install
 
-      - name: Run Scraper
-        env:
-          BB_COOKIES: ${{ secrets.BB_COOKIES }}
+      - name: Run Fetch Script
         run: |
           cd scraper
           npm start
@@ -38,9 +38,16 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          
-          git pull --rebase origin main || true
-          cp scraper/stream.json stream.json
-          git add stream.json
-          git diff-index --quiet HEAD || git commit -m "👉 updated HLS Links"
-          git push origin main || echo "Nothing to push"
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
+
+          git pull --rebase origin main
+
+          cp scraper/stream.m3u stream.m3u
+          git add stream.m3u
+          git diff-index --quiet HEAD || git commit -m "📥 updated stream.m3u from remote source"
+
+          if [ "$(git rev-parse HEAD)" != "$(git rev-parse @{u})" ]; then
+            git push origin main
+          else
+            echo "No changes to push."
+          fi
