@@ -12333,22 +12333,16 @@ https://vt-ip.vodep39240327.workers.dev/1371.m3u8
 
 #EXTINF:-1 tvg-id="1090501598_ENG" tvg-name="Cricket" group-title="SonyLiv | Sports" tvg-language="ENG" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014166/1769329348071276_WLPT20L26_delhi_vs_dubai_25jan_landscape_thumb.jpg",Delhi Warriors vs Dubai Royals - 26 Jan 2026 [ENG]
 #EXTHTTP:{"Cookie":"","Origin":"https://www.sonyliv.com","Referer":"https://www.sonyliv.com/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769489084~acl=/*~id=49016516165427246023876645393180~hmac=bf638a62d84bc385f5f95918046b7583b464e22d89ff746f909b5c37f4abecd0
-#EXTINF:-1 tvg-id="1090501643_ENG" tvg-name="Wrestling" group-title="SonyLiv | Sports" tvg-language="ENG" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013446/17684765589147_PWL_26_Maharashtra-Kesari-vs-Punjab-Royals_15jan_landscape_thumb.jpg",Maharashtra Kesari vs Punjab Royals - 26 Jan 2026 [ENG]
-#EXTHTTP:{"Cookie":"","Origin":"https://www.sonyliv.com","Referer":"https://www.sonyliv.com/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769489084~acl=/*~id=49016516165427246023876645393180~hmac=bf638a62d84bc385f5f95918046b7583b464e22d89ff746f909b5c37f4abecd0
-#EXTINF:-1 tvg-id="1090501643_HIN" tvg-name="Wrestling" group-title="SonyLiv | Sports" tvg-language="ENG" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013446/17684765589147_PWL_26_Maharashtra-Kesari-vs-Punjab-Royals_15jan_landscape_thumb.jpg",Maharashtra Kesari vs Punjab Royals - 26 Jan 2026 [HIN]
-#EXTHTTP:{"Cookie":"","Origin":"https://www.sonyliv.com","Referer":"https://www.sonyliv.com/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769489084~acl=/*~id=49016516165427246023876645393180~hmac=bf638a62d84bc385f5f95918046b7583b464e22d89ff746f909b5c37f4abecd0
+https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769492720~acl=/*~id=99289228706879132289340275688931~hmac=21faad39ac264223eb93ae48eca19567127bd1de0a59cd320ef902b1d819dba8
 
 # ---------------=== FanCode | Live Sports ===-------------------
 
-#EXTINF:-1 tvg-id="140073" tvg-name="Cricket" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140073_5928_DW_DR_FC-Web.jpg",Dubai Royals vs Delhi Warriors
-https://in-mc-fdlive.fancode.com/mumbai/140073_english_hls_165411df3f51112_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-id="139585" tvg-name="Cricket" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Emirates_web_1769270071345.jpg",Dubai vs Emirates Red
-https://in-mc-fdlive.fancode.com/mumbai/139585_english_hls_62b5edcd7023872_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-id="139586" tvg-name="Cricket" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Emirates_web_1769270071345.jpg",Emirates Blues vs Ajman
+https://in-mc-fdlive.fancode.com/mumbai/139586_english_hls_9536b0ef8e5728_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-id="139829" tvg-name="Football" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139829_5655_ANF_ALTW_FC-Web.jpg",Al-Nassr FC vs Al Taawoun
 https://in-mc-fdlive.fancode.com/mumbai/139829_english_hls_12e11e4ae52390_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-id="140073" tvg-name="Cricket" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140073_5928_DW_DR_FC-Web.jpg",Dubai Royals vs Delhi Warriors
+https://in-mc-fdlive.fancode.com/mumbai/140073_english_hls_165411df3f51112_1ta-di_h264/index.m3u8
 # =========================================
 # This m3u link is only for educational purposes
 # =========================================
