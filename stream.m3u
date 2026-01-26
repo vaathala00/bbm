@@ -5325,46 +5325,49 @@ https://example.com/video.m3u8
 --------------== WPL ==------------------                
      #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/bb/2026_Women%27s_Premier_League_%28cricket%29.jpg" group-title="WPL |Live", Star|KANNADA
 #EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://public.kliv.fun/Sharetv211J/play.php?id=380977
+https://c2ag.short.gy/n/kan.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/bb/2026_Women%27s_Premier_League_%28cricket%29.jpg" group-title="WPL |Live", Star|TELUGU
 #EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://public.kliv.fun/Sharetv211J/play.php?id=177843
+https://c2ag.short.gy/n/telugu.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/bb/2026_Women%27s_Premier_League_%28cricket%29.jpg" group-title="WPL |Live", Star|TAMIL
 #EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://public.kliv.fun/Sharetv211J/play.php?id=9722
+https://c2ag.short.gy/n/tamil.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/bb/2026_Women%27s_Premier_League_%28cricket%29.jpg" group-title="WPL |Live", Star|HINDI
 #EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://public.kliv.fun/Sharetv211J/play.php?id=9399
+https://c2ag.short.gy/n/hin.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/bb/2026_Women%27s_Premier_League_%28cricket%29.jpg" group-title="WPL |Live", Star|ENGLISH
 #EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://public.kliv.fun/Sharetv211J/play.php?id=9397
+https://c2ag.short.gy/n/english.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/bb/2026_Women%27s_Premier_League_%28cricket%29.jpg" group-title="WPL |Live",Hotstar|HINDI
+#EXTHTTP:{"Cookie":"","Origin":"https://allrounderlive.pages.dev","Referer":"https://allrounderlive.pages.dev","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+https://dillzyserver.dillzycreations.workers.dev/live/hotstar.m3u8
 
 --------------== T20I ==------------------
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6423/1768690606423-i" group-title="T20 |Live", Star|KANNADA
 #EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://public.kliv.fun/Sharetv211J/play.php?id=380977
+https://c2ag.short.gy/n/kan.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6423/1768690606423-i" group-title="T20 |Live", Star|TELUGU
 #EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://public.kliv.fun/Sharetv211J/play.php?id=177843
+https://c2ag.short.gy/n/telugu.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6423/1768690606423-i" group-title="T20 |Live", Star|TAMIL
 #EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://public.kliv.fun/Sharetv211J/play.php?id=9722
+https://c2ag.short.gy/n/tamil.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6423/1768690606423-i" group-title="T20 |Live", Star|HINDI
 #EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://public.kliv.fun/Sharetv211J/play.php?id=9399
+https://c2ag.short.gy/n/hin.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6423/1768690606423-i" group-title="T20 |Live", Star|ENGLISH
 #EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://public.kliv.fun/Sharetv211J/play.php?id=9397
+https://c2ag.short.gy/n/english.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6423/1768690606423-i" group-title="T20 |Live",Hotstar|HINDI
 #EXTHTTP:{"Cookie":"","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
