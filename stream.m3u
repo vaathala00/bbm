@@ -32,190 +32,190 @@
 # ---------------=== VOOT | Jio Cinema ===-------------------
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://v3img.voot.com/resizeMedium,w_1090,h_613/v3Storage/assets/colors-hindi--16x9-1714557869344.jpg" group-title="VOOT | Jio Cinema",Colors HD
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/JC_ColorsHD/JCHLS/JC_ColorsHD.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/collors-rishtey-live-channels-16x9-3-1642676080416-1674198105431-1697532377978.jpg" group-title="VOOT | Jio Cinema",Colors Rishtey
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/JC_ColorsRishtey/JCHLS/JC_ColorsRishtey.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/colors-bangla-new-16x9-4-1649659533344.jpg" group-title="VOOT | Jio Cinema",Colors Bangla HD
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/JC_ColorsBanglaHD/JCHLS/JC_ColorsBanglaHD.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/colors-kannada-16x9-1677754085834.jpg" group-title="VOOT | Jio Cinema",Colors Kannada HD
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/JC_ColorsKannadaHD/JCHLS/JC_ColorsKannadaHD.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/colors-marathi-live-channels-16x9-4-6-apr-1649257093359.jpg" group-title="VOOT | Jio Cinema",Colors Marathi HD
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/JC_ColorsMarathiHD/JCHLS/JC_ColorsMarathiHD.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/colors-gujarati-16x9-1713269620328.jpg" group-title="VOOT | Jio Cinema",Colors Gujarati
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/JC_ColorsGujarati/JCHLS/JC_ColorsGujarati.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/ct-1644165913136.jpg" group-title="VOOT | Jio Cinema",Colors Tamil HD
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/JC_ColorsTamilHD/JCHLS/JC_ColorsTamilHD.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/colors-infinity-live-channels-16x9-1642496946057.jpg" group-title="VOOT | Jio Cinema",Colors Infinity HD
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/JC_ColorsInfinityHD/JCHLS/JC_ColorsInfinityHD.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/colors-super-live-channels-16x9-4-1642744939924.jpg" group-title="VOOT | Jio Cinema",Colors Super
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/JC_ColorsSuperKannada/JCHLS/JC_ColorsSuperKannada.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/Live-Tv-Channels-colors-cineplex-1607514413063.jpg" group-title="VOOT | Jio Cinema",Colors Cineplex HD
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/JC_ColorsCineplexHD/JCHLS/JC_ColorsCineplexHD.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://v3img.voot.com/resizeMedium,w_960,h_540/v3Storage/assets/colors-cineplex-superhit%2016x9-1648793655358.jpg" group-title="VOOT | Jio Cinema",Colors Cineplex Superhits
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/JC_ColorsCineplexSuperhit/JCHLS/JC_ColorsCineplexSuperhit.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/cineplex-1713963820848.jpeg" group-title="VOOT | Jio Cinema",Colors Cineplex Bollywood
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/JC_ColorsCineplexBollywood/JCHLS/JC_ColorsCineplexBollywood.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/colors-kannada-cinema-16x9-1713963481807.jpg" group-title="VOOT | Jio Cinema",Colors Kannada Cinema
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/JC_ColorsKannadaCinema/JCHLS/JC_ColorsKannadaCinema.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/mtv-16x9-1714316345624.jpg" group-title="VOOT | Jio Cinema",MTV HD
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/JC_MTVHD/JCHLS/JC_MTVHD.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets//16x9-1719554242246.jpg" group-title="VOOT | Jio Cinema",Nick
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/JC_NickSD/JCHLS/JC_NickSD.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/sonic-16x9-2-1626707025539.jpg" group-title="VOOT | Jio Cinema",Sonic
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/JC_SonicNick/JCHLS/JC_SonicNick.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://v3img.voot.com/resizeMedium,w_1090,h_613/v3Storage/assets/nick-hd-plus-live-channels-16x9-4-1642585145139.jpg" group-title="VOOT | Jio Cinema",Nick HD+
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/JC_NickHD/JCHLS/JC_NickHD.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/nick-jr-16x9-2-1626708077243.jpg" group-title="VOOT | Jio Cinema",Nick Jr
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/JC_NickJr/JCHLS/JC_NickJr.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/StarSports2HindiHD_Transparent_c72d6289-27aa-422d-8420-40135329a5b6.png" group-title="VOOT | Jio Cinema",Star Sports 2 Hindi HD
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/f0e3e64ae415771d8e460317ce97aa5e/Fallback/f0e3e64ae415771d8e460317ce97aa5e.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/StarSports2Hindi_Transparent_e2c035d5-8451-4c1e-930f-4cb4449d1901.png" group-title="VOOT | Jio Cinema",Star Sports 2 Hindi
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/2c7182c8e6a22cfa6ebc02bbc9ed6dd0/Fallback/2c7182c8e6a22cfa6ebc02bbc9ed6dd0.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/StarSports2Telugu_Transparent_5f794134-ddc1-457f-af2d-d4101d9f6711.png" group-title="VOOT | Jio Cinema",Star Sports 2 Telugu
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/034d1fb94cae87294a06f4dc266084b9/Fallback/034d1fb94cae87294a06f4dc266084b9.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/StarSports2Tamil_Transparent_495e7bfa-b0b9-4055-a22e-56f3507ca469.png" group-title="VOOT | Jio Cinema",Star Sports 2 Tamil
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/4db6f833701e78ae4443cb268020f03b/Fallback/4db6f833701e78ae4443cb268020f03b.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://v3img.voot.com/resizeMedium,w_1090,h_613/v3Storage/assets/cnbc-awaaz-16x9-1702387934761.jpg" group-title="VOOT | Jio Cinema",CNBC Awaaz
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/CNBC_Awaaz_voot_MOB/Fallback/CNBC_Awaaz_voot_MOB.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://v3img.voot.com/resizeMedium,w_1090,h_613/v3Storage/assets/whatsapp16x9-1693491956187.jpg" group-title="VOOT | Jio Cinema",CNBC Bazaar
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/CNBC_Bazaar_voot_MOB/Fallback/CNBC_Bazaar_voot_MOB.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://v3img.voot.com/resizeMedium,w_1090,h_613/v3Storage/assets/cnbc18-shereen-bhan-16x9-2-1693479472079.jpg" group-title="VOOT | Jio Cinema",CNBC TV18
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/CNBC_TV18_voot_MOB/Fallback/CNBC_TV18_voot_MOB.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/IBN_7.png" group-title="VOOT | Jio Cinema",News18 India
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/News18_India_voot_MOB/Fallback/News18_India_voot_MOB.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/CNN_NEWS_18.png" group-title="VOOT | Jio Cinema",CNN News18
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/CNN_News18_voot_MOB/Fallback/CNN_News18_voot_MOB.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/News_18_Tamilnadu.png" group-title="VOOT | Jio Cinema",News18 Tamil Nadu
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/News18_Tamil_Nadu_voot_MOB/Fallback/News18_Tamil_Nadu_voot_MOB.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/IBN_Lokmat.png" group-title="VOOT | Jio Cinema",News18 Lokmat
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/News18_Lokmat_voot_MOB/Fallback/News18_Lokmat_voot_MOB.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_Bangla_News.png" group-title="VOOT | Jio Cinema",News18 Bangla
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/News18_Bangla_voot_MOB/Fallback/News18_Bangla_voot_MOB.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_Kannada_News.png" group-title="VOOT | Jio Cinema",News18 Kannada
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/News18_Kannada_voot_MOB/Fallback/News18_Kannada_voot_MOB.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_News_Gujarati.png" group-title="VOOT | Jio Cinema",News18 Gujarati
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/News18_Gujarati_voot_MOB/Fallback/News18_Gujarati_voot_MOB.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_Haryana_and_HP_News.png" group-title="VOOT | Jio Cinema",News18 Punjab Haryana
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/News18_Punjab_Haryana_HP_voot_MOB/Fallback/News18_Punjab_Haryana_HP_voot_MOB.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_News_Oriya.png" group-title="VOOT | Jio Cinema",News18 Odia
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/News18_Odia_voot_MOB/Fallback/News18_Odia_voot_MOB.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/News_18_Assam.png" group-title="VOOT | Jio Cinema",News18 Assam North East
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/News18_Assam_North_East_voot_MOB/Fallback/News18_Assam_North_East_voot_MOB.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/News_18_Kerala.png" group-title="VOOT | Jio Cinema",News18 Kerala
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/News18_Kerala_voot_MOB/Fallback/News18_Kerala_voot_MOB.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_RAJASTHAN.png" group-title="VOOT | Jio Cinema",News18 Rajasthan
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/News18_Rajasthan_voot_MOB/Fallback/News18_Rajasthan_voot_MOB.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_BIHAR.png" group-title="VOOT | Jio Cinema",News18 Bihar Jharkhand
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/News18_Bihar_Jharkhand_voot_MOB/Fallback/News18_Bihar_Jharkhand_voot_MOB.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_MP.png" group-title="VOOT | Jio Cinema",News18 MP Chhattisgarh
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/News18_MP_Chhattisgarh_voot_MOB/Fallback/News18_MP_Chhattisgarh_voot_MOB.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_UP.png" group-title="VOOT | Jio Cinema",News18 UP Uttarakhand
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/News18_UP_Uttarakhand_voot_MOB/Fallback/News18_UP_Uttarakhand_voot_MOB.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_Urdu.png" group-title="VOOT | Jio Cinema",News18 JKLH
-#EXTHTTP:{"Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://jcevents.hotstar.com/bpk-tv/News18_Urdu_voot_MOB/Fallback/News18_Urdu_voot_MOB.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7429/567429-h" group-title="VOOT | Jio Cinema",Star Suvarna
-#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7424/567424-h" group-title="VOOT | Jio Cinema",Asianet Plus
-#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5868/595868-h" group-title="VOOT | Jio Cinema",Star Pravah
-#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7421/567421-h" group-title="VOOT | Jio Cinema",Star Maa Movies
-#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7420/567420-h" group-title="VOOT | Jio Cinema",Asianet
-#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7419/567419-h" group-title="VOOT | Jio Cinema",Star Jalsha
-#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7418/567418-h" group-title="VOOT | Jio Cinema",Star Maa
-#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7415/567415-h" group-title="VOOT | Jio Cinema",StarPlus
-#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7409/567409-h" group-title="VOOT | Jio Cinema",Star Vijay
-#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7408/567408-h" group-title="VOOT | Jio Cinema",Maa Gold
-#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7407/567407-h" group-title="VOOT | Jio Cinema",Star Utsav
-#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7437/567437-h" group-title="VOOT | Jio Cinema",Star Sports Select HD2
-#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769468413~acl=*ssselecthd2*~id=368f423f2ad89b1bae9ccd933050b9fd~data=hdntl~hmac=f7a6f657848c3ca8e46d351222d77f18abe0677558a4667da9765f582eedeff6","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769446811~acl=*ssselecthd2*~id=19c7fb3f70ec61b3f28b2271e7b34367~data=hdntl~hmac=a79a4f949a10cf9fc9102747fec13cf0c9a6733b97ab07edccd5ce153d3f2f3f","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7433/567433-h" group-title="VOOT | Jio Cinema",Star Sports Hindi 1
-#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769468412~acl=*sshindi*~id=9dfa7f84c660605e8990b8c87fd57131~data=hdntl~hmac=cd7be6e30b63e4680f05758fb30c4b3edd9eb55fae838be7347282144286957c","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769446810~acl=*sshindi*~id=c146e1e2acbaccc1138bd9ec8c1ad020~data=hdntl~hmac=8caa8df5996d9b580148608e3176a2726a56d1933987c3a6cf1e59f0504ee109","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7406/567406-h" group-title="VOOT | Jio Cinema",Star Bharat
-#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7432/567432-h" group-title="VOOT | Jio Cinema",Star Sports 2
-#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769468413~acl=*sshd2livetv*~id=88299631934a10eb10f3c20267599c8f~data=hdntl~hmac=eda370c88fc3680c7bbae37b9bb95bbc0696713c7ef8076f0b37c3f65b7137a0","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769446811~acl=*sshd2livetv*~id=e3c89de267afe6ecb4a64b3da2b74267~data=hdntl~hmac=a1dca8c574bcfda81230f20ecacdc4b7e7b060b2e799a62652390fb367fd0172","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7435/567435-h" group-title="VOOT | Jio Cinema",Star Sports Select HD1
-#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769468413~acl=*ssselecthd1*~id=a09bed6044655e105f5fa45822c35acd~data=hdntl~hmac=ba413a018265e129f135936aae40ac2fb68e0c91525bf29c234fe3163149c35f","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769446811~acl=*ssselecthd1*~id=f25f4da03f561f491ff78d74c036f76f~data=hdntl~hmac=89f974574fde38cfeeeac4afdee0383655558d4510303b8dc853d70b69d9d542","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7430/567430-h" group-title="VOOT | Jio Cinema",Star Sports 1
-#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769468413~acl=*sshd1livetv*~id=53c536d1c6c00f99052479abed6f3a13~data=hdntl~hmac=6ef513b113167ea4f3ba5e78961cdfb1e241ed6619fbd58ef0a866c4a9045644","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769446811~acl=*sshd1livetv*~id=5c0ca3f17c55f9657d10d5cc83b84f3a~data=hdntl~hmac=8e3108a8a2ad85dd99b6f3b8447729dbb7243b9904aee8103b4bf6a8761098fb","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7404/567404-h" group-title="VOOT | Jio Cinema",Jalsha Movies
-#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7403/567403-h" group-title="VOOT | Jio Cinema",Star Gold
-#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7400/567400-h" group-title="VOOT | Jio Cinema",Asianet Movies
-#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7399/567399-h" group-title="VOOT | Jio Cinema",Star Suvarna Plus
-#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769468412~acl=%2f*~id=f92ed38afff4e2b799704f324fb51541~data=hdntl~hmac=e4a07591de7c460bd7157e3972204335cb04afb0e75e3596d62dc83f702f7d22","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+#EXTHTTP:{"Referer":"https://www.hotstar.com/","Origin":"https://www.hotstar.com","Cookie":"hdntl=exp=1769446810~acl=%2f*~id=02d9d7789d635077933b3463911a641f~data=hdntl~hmac=7c8e06e9a7bf0e71e7cde1f38b73771116e61186e183a91dc1cc198e508ff22e","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 
 
 # ---------------=== ZEE5 | Live ===-------------------
@@ -501,37 +501,6 @@ https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=ex
 
 # ---------------=== Other Channels ===-------------------
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-    <!-- Scripts to disable developer tools and enhance security -->
-    <script src="https://cdn.jsdelivr.net/npm/disable-devtool" disable-devtool-auto="true" clear-log="true"
-        disable-select="true" disable-copy="true" disable-cut="true" disable-paste="true"></script>
-    <script src="prodevs.js"></script>
-    <script src="aes.js"></script>
-    <script src="main.js"></script>
-
-</head>
-
-<body>
-
-    <script type="text/javascript">window.location = "https://www.google.com"</script>
-
-</body>
-</html>
-
-<script>
-
-#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz" 
-
-#EXTM3U x-tvg-url="https://mitthu786.github.io/tvepg/tataplay/epg.xml.gz"
-
-#EXTM3U x-tvg-url="https://avkb.short.gy/tsepg.xml.gz"
-
-Vaathala Playlist ( Join- @vaathala1 )
-Playlist Information:
 
        _________ JOIN @vaathala1 ______
 
@@ -9551,281 +9520,7 @@ https://462dx4mlqj3o-hls-live.wmncdn.net/jnvisiontv/0e1fd802947a734b3af7787436f1
 
 
 
-                      _________ ZEE5 LIVE_______
-
-                      
-#EXTINF:-1 tvg-id="0-9-aajtak" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Aaj_Tak.png",Aaj Tak
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Aaj Tak.m3u8
-
-#EXTINF:-1 tvg-id="0-9-zeenews" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_News.png",Zee News
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee News.m3u8
-
-#EXTINF:-1 tvg-id="0-9-indiatoday" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/India_Today.png",India Today
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/India Today.m3u8
-
-#EXTINF:-1 tvg-id="0-9-255" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Good News_Today.png",Good News Today
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Good News Today.m3u8
-
-#EXTINF:-1 tvg-id="0-9-9z5543514" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/And_Prive_HD.png",&Prive HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/&Prive HD.m3u8
-
-#EXTINF:-1 tvg-id="0-9-zeepunjabharyanahima" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Punjab_Haryana_Himachal_Pradesh.png",Zee Punjab Haryana Himachal Pradesh
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Punjab Haryana Himachal Pradesh.m3u8
-
-#EXTINF:-1 tvg-id="0-9-zeebusiness" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Business.png",Zee Business
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Business.m3u8
-
-#EXTINF:-1 tvg-id="0-9-zee24kalak" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_24_Kalak.png",Zee 24 Kalak
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee 24 Kalak.m3u8
-
-#EXTINF:-1 tvg-id="0-9-zee24taas" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_24_Taas.png",Zee 24 Taas
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee 24 Taas.m3u8
-
-#EXTINF:-1 tvg-id="0-9-wion" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/WION.png",WION
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/WION.m3u8
-
-#EXTINF:-1 tvg-id="0-9-zeehindustan" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Bharat.png",Zee Bharat
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Bharat.m3u8
-
-#EXTINF:-1 tvg-id="0-9-zeebiharjharkhand" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Bihar_Jharkhand.png",Zee Bihar Jharkhand
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Bihar Jharkhand.m3u8
-
-#EXTINF:-1 tvg-id="0-9-24ghantatv" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/24_Ghanta_TV.png",Zee 24 Ghanta
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee 24 Ghanta.m3u8
-
-#EXTINF:-1 tvg-id="0-9-zeekalinganews" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Delhi_NCR_Haryana.png",Zee Delhi NCR Haryana
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Delhi NCR Haryana.m3u8
-
-#EXTINF:-1 tvg-id="0-9-zeerajasthannews" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Rajasthan_News.png",Zee Rajasthan News
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Rajasthan News.m3u8
-
-#EXTINF:-1 tvg-id="0-9-zeemadhyapradeshchat" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Madhya_Pradesh_Chhattisgarh.png",Zee Madhya Pradesh Chhattisgarh
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Madhya Pradesh Chhattisgarh.m3u8
-
-#EXTINF:-1 tvg-id="0-9-bigmagic_1786965389" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Big_Magic.png",Big Magic
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Big Magic.m3u8
-
-#EXTINF:-1 tvg-id="0-9-zing" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zing.png",Zing
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zing.m3u8
-
-#EXTINF:-1 tvg-id="0-9-zeetvhd" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_TV_HD.png",Zee TV HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee TV HD.m3u8
-
-#EXTINF:-1 tvg-id="0-9-tvhd_0" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/And_TV_HD.png",&TV HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/&TV HD.m3u8
-
-#EXTINF:-1 tvg-id="0-9-zeemarathi" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Marathi_HD.png",Zee Marathi HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Marathi HD.m3u8
-
-#EXTINF:-1 tvg-id="0-9-zeeyuva" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Yuva.png",Zee Yuva
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Yuva.m3u8
-
-#EXTINF:-1 tvg-id="0-9-zeecafehd" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Cafe_HD.png",Zee Café HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Café HD.m3u8
-
-#EXTINF:-1 tvg-id="0-9-bigganga" group-title="ZEE5| Live" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_1755,h_987,c_scale,f_webp,q_auto:eco/resources/0-9-bigganga/list_clean/1170x658b1a857ea78b747b4a6256dd13b3828fd.png",Zee Anmol Cinema 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Anmol Cinema 2.m3u8
-
-#EXTINF:-1 tvg-id="0-9-zeetamil" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Tamil_HD.png",Zee Tamil HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Tamil HD.m3u8
-
-#EXTINF:-1 tvg-id="0-9-zeetelugu" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Telugu_HD.png",Zee Telugu HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Telugu HD.m3u8
-
-#EXTINF:-1 tvg-id="0-9-zeekannada" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Kannada_HD.png",Zee Kannada HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Kannada HD.m3u8
-
-#EXTINF:-1 tvg-id="0-9-129" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Keralam_HD.png",Zee Keralam HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Keralam HD.m3u8
-
-#EXTINF:-1 tvg-id="0-9-zeebangla" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Bangla_HD.png",Zee Bangla HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Bangla HD.m3u8
-
-#EXTINF:-1 tvg-id="0-9-zeeanmol" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Anmol.png",Zee Anmol
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Anmol.m3u8
-
-#EXTINF:-1 tvg-id="0-9-zeecinemahd" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Cinema_HD.png",Zee Cinema HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Cinema HD.m3u8
-
-#EXTINF:-1 tvg-id="0-9-zeecinemalu" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Cinemalu_HD.png",Zee Cinemalu HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Cinemalu HD.m3u8
-
-#EXTINF:-1 tvg-id="0-9-tvpictureshd" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/And_Pictures_HD.png",&Pictures HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/&Pictures HD.m3u8
-
-#EXTINF:-1 tvg-id="0-9-zeetalkies" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Talkies_HD.png",Zee Talkies HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Talkies HD.m3u8
-
-#EXTINF:-1 tvg-id="0-9-zeebanglacinema" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Bangla_Cinema.png",Zee Bangla Cinema
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Bangla Cinema.m3u8
-
-#EXTINF:-1 tvg-id="0-9-215" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Punjabi.png",Zee Punjabi
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Punjabi.m3u8
-
-#EXTINF:-1 tvg-id="0-9-zeeanmolcinema" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Anmol_Cinema.png",Zee Anmol Cinema
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Anmol Cinema.m3u8
-
-#EXTINF:-1 tvg-id="0-9-zeeclassic" group-title="ZEE5| Live" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Zee_Classic.png",Zee Bollywood
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Bollywood.m3u8
-
-#EXTINF:-1 tvg-id="0-9-pictures" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/And_Pictures.png",&Pictures
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/&Pictures.m3u8
-
-#EXTINF:-1 tvg-id="0-9-zeecinema" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Cinema.png",Zee Cinema
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Cinema.m3u8
-
-#EXTINF:-1 tvg-id="0-9-zeeaction" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Action.png",Zee Action
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Action.m3u8
-
-#EXTINF:-1 tvg-id="0-9-channel_2105335046" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/And_Flix_HD.png",&flix HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/&flix HD.m3u8
-
-#EXTINF:-1 tvg-id="0-9-channel_1144658965" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sanskar.png",Sanskar TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Sanskar TV.m3u8
-
-#EXTINF:-1 tvg-id="0-9-zeetv" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_TV.png",Zee TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee TV.m3u8
-
-#EXTINF:-1 tvg-id="0-9-zeesalaam" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Salaam.png",Zee Salaam
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Salaam.m3u8
-
-#EXTINF:-1 tvg-id="0-9-sarthaktv" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Sarthak.png",Zee Sarthak
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Sarthak.m3u8
-
-#EXTINF:-1 tvg-id="0-9-channel_265145625" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_News_Uttar_Pradesh_Uttrakhand.png",Zee News Uttar Pradesh Uttrakhand
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee News Uttar Pradesh Uttrakhand.m3u8
-
-#EXTINF:-1 tvg-id="0-9-176" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Classic.png",Zee Classic
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Classic.m3u8
-
-#EXTINF:-1 tvg-id="0-9-209" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/And_Xplore_HD.png",&xplorHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/&xplorHD.m3u8
-
-#EXTINF:-1 tvg-id="0-9-216" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Bioskope_SD.png",Zee Biskope
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Biskope.m3u8
-
-#EXTINF:-1 tvg-id="0-9-224" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Thirai.png",Zee Thirai
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Thirai.m3u8
-
-#EXTINF:-1 tvg-id="0-9-348" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Zest_HD.png",Zee Zest HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Zest HD.m3u8
-
-#EXTINF:-1 tvg-id="0-9-241" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Picchar_SD.png",Zee Picchar
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Picchar.m3u8
-
-#EXTINF:-1 tvg-id="0-9-394" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Chitramandir.png",Zee Chitramandir
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Chitramandir.m3u8
-
-#EXTINF:-1 tvg-id="0-9-9z5383466" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Kannada.png",Zee Kannada
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Kannada.m3u8
-
-#EXTINF:-1 tvg-id="0-9-9z5383484" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Bangla.png",Zee Bangla
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Bangla.m3u8
-
-#EXTINF:-1 tvg-id="0-9-9z5383485" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Telugu.png",Zee Telugu
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Telugu.m3u8
-
-#EXTINF:-1 tvg-id="0-9-9z5383486" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Marathi.png",Zee Marathi
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Marathi.m3u8
-
-#EXTINF:-1 tvg-id="0-9-9z5383487" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Tamil.png",Zee Tamil
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Tamil.m3u8
-
-#EXTINF:-1 tvg-id="0-9-9z5383488" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Cinemalu.png",Zee Cinemalu
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Cinemalu.m3u8
-
-#EXTINF:-1 tvg-id="0-9-9z5398768" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Aastha_Telugu.png",Aastha Telugu
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Aastha Telugu.m3u8
-
-#EXTINF:-1 tvg-id="0-9-9z5398770" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Aastha_Tamil.png",Aastha Tamil
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Aastha Tamil.m3u8
-
-#EXTINF:-1 tvg-id="0-9-9z5398771" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Aastha_Kannada.png",Aastha Kannada
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Aastha Kannada.m3u8
-
-#EXTINF:-1 tvg-id="0-9-9z5398791" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Aastha_Tamil.png",Aastha Gujarati
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Aastha Gujarati.m3u8
-
-#EXTINF:-1 tvg-id="0-9-9z5398792" group-title="ZEE5| Live" tvg-logo="https://akamaividz.zee5.com/resources/0-9-9z5398792/list/270x152/1170x658c79674cf57ac4de48addad4284053d8e.png",Dharm Sandesh
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Dharm Sandesh.m3u8
-
-#EXTINF:-1 tvg-id="0-9-9z5398793" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Aastha_Bhajan.png",Aastha Bhajan
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Aastha Bhajan.m3u8
-
-#EXTINF:-1 tvg-id="0-9-9z5383489" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Talkies.png",Zee Talkies
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Zee Talkies.m3u8
-
-#EXTINF:-1 tvg-id="0-9-9z5398761" group-title="ZEE5| Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Aastha.png",Aastha
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://ze5.vodep39240327.workers.dev/channel/Aastha.m3u8
-
+              
                       _________ DISCOVERY LIVE _______
 
 #EXTINF: -1 tvg-id="" group-logo="" tvg-logo="" group-title="VT OTT | Discovery",Discovery Channel
@@ -10094,146 +9789,8 @@ https://livestream.sunnxt.com/1893b9ab790747cb80a584873a608dcb/KochuTVB_IN_index
 #KODIPROP:inputstream.adaptive.license_key=19d8a5cc002f411b89b33925acdc33e0:2a9aa7a3f69834c4f348430cc3f658bb
 #EXTINF:-1 group-title="VT | SunNxt" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194347" tvg-language="Kannada" tvg-logo="https://sund-images.sunnxt.com/194347/960x540_ChintuTV_194347_64af5425-0ed0-4c8a-b071-00ef86eaefde.jpg" ,Chintu TV
 https://livestream.sunnxt.com/ed4c67ad957644b69361651d9101107e/ChintuTVB_IN_index.mpd
-
-                         _________ TATA PLAY __________
-
-
-                         ________TAMILRADIOS.VT________
-
   
-                         _________ VT OTT | Voot LIVE_______
-
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="https://v3img.voot.com/resizeMedium,w_1090,h_613/v3Storage/assets/colors-hindi--16x9-1714557869344.jpg",Colors HD
-https://vot1.vodep39240327.workers.dev/channel/Colors%20HD.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/collors-rishtey-live-channels-16x9-3-1642676080416-1674198105431-1697532377978.jpg",Rishtey
-https://vot1.vodep39240327.workers.dev/channel/Rishtey.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/colors-bangla-new-16x9-4-1649659533344.jpg",Colors Bengla HD
-https://vot1.vodep39240327.workers.dev/channel/Colors%20Bengla%20HD.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/colors-kannada-16x9-1677754085834.jpg",Colors Kannada HD
-https://vot1.vodep39240327.workers.dev/channel/Colors%20Kannada%20HD.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/colors-marathi-live-channels-16x9-4-6-apr-1649257093359.jpg",Colors Marathi HD
-https://vot1.vodep39240327.workers.dev/channel/Colors%20Marathi%20HD.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/colors-gujarati-16x9-1713269620328.jpg",Colors Gujarati
-https://vot1.vodep39240327.workers.dev/channel/Colors%20Gujarati.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/ct-1644165913136.jpg",Colors Tamil HD
-https://vot1.vodep39240327.workers.dev/channel/Colors%20Tamil%20HD.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/colors-odia-live-channels-16x9-4-1642583679866.jpg",Colors Oriya
-https://vot1.vodep39240327.workers.dev/channel/Colors%20Oriya.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/colors-infinity-live-channels-16x9-1642496946057.jpg",Colors Infinity HD
-https://vot1.vodep39240327.workers.dev/channel/Colors%20Infinity%20HD.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/colors-super-live-channels-16x9-4-1642744939924.jpg",Colors Super
-https://vot1.vodep39240327.workers.dev/channel/Colors%20Super.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/Live-Tv-Channels-colors-cineplex-1607514413063.jpg",Colors Cineplex HD
-https://vot1.vodep39240327.workers.dev/channel/Colors%20Cineplex%20HD.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="https://v3img.voot.com/resizeMedium,w_960,h_540/v3Storage/assets/colors-cineplex-superhit%2016x9-1648793655358.jpg",Colors Cineplex Superhit
-https://vot1.vodep39240327.workers.dev/channel/Colors%20Cineplex%20Superhit.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/cineplex-1713963820848.jpeg",Colors Cineplex Bollywood
-https://vot1.vodep39240327.workers.dev/channel/Colors%20Cineplex%20Bollywood.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/colors-kannada-cinema-16x9-1713963481807.jpg",Colors Kannada Cinema
-https://vot1.vodep39240327.workers.dev/channel/Colors%20Kannada%20Cinema.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/mtv-16x9-1714316345624.jpg",MTV HD
-https://vot1.vodep39240327.workers.dev/channel/MTV%20HD.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/mtv-beats-live-channels-16x9-1642675874665.jpg",MTV Beats HD
-https://vot1.vodep39240327.workers.dev/channel/MTV%20Beats%20HD.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/nick-jr-16x9-2-1626708077243.jpg",Nick Junior
-https://vot1.vodep39240327.workers.dev/channel/Nick%20Junior.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/nick-hd-plus-live-channels-16x9-4-1642585145139.jpg",Nickelodeon Jr.
-https://vot1.vodep39240327.workers.dev/channel/Nickelodeon%20Jr..m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="https://v3img.voot.com/resizeMedium,w_1090,h_613/v3Storage/assets/nick-hd-plus-live-channels-16x9-4-1642585145139.jpg",Nick HD+
-https://vot1.vodep39240327.workers.dev/channel/Nick%20HD%2B.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/sonic-16x9-2-1626707025539.jpg",Sonic
-https://vot1.vodep39240327.workers.dev/channel/Sonic.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/sports18_tray-1693930594270.jpg",SPORTS 18 HD
-https://vot1.vodep39240327.workers.dev/channel/SPORTS%2018%20HD.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="https://v3img.voot.com/resizeMedium,w_1090,h_613/v3Storage/assets/sports18_khel_tray-1693931658589.jpg",SPORTS 18 Khel
-https://vot1.vodep39240327.workers.dev/channel/SPORTS%2018%20Khel.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="https://v3img.voot.com/resizeMedium,w_1090,h_613/v3Storage/assets/jc_sports_horizontal_tray-1695561700528.jpg",JC Sports 24x7
-https://vot1.vodep39240327.workers.dev/channel/JC%20Sports%2024x7.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="https://v3img.voot.com/resizeMedium,w_1090,h_613/v3Storage/assets/sports_zone_cricket_horizontal-1695032322122.jpg",CricStream
-https://vot1.vodep39240327.workers.dev/channel/CricStream.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="https://v3img.voot.com/resizeMedium,w_1090,h_613/v3Storage/assets/cnbc-awaaz-16x9-1702387934761.jpg",CNBC Awaaz
-https://vot1.vodep39240327.workers.dev/channel/CNBC%20Awaaz.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="https://v3img.voot.com/resizeMedium,w_1090,h_613/v3Storage/assets/whatsapp16x9-1693491956187.jpg",CNBC Bazaar
-https://vot1.vodep39240327.workers.dev/channel/CNBC%20Bazaar.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="https://v3img.voot.com/resizeMedium,w_1090,h_613/v3Storage/assets/cnbc18-shereen-bhan-16x9-2-1693479472079.jpg",CNBC Tv 18
-https://vot1.vodep39240327.workers.dev/channel/CNBC%20Tv%2018.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/IBN_7.png",News18 India
-https://vot1.vodep39240327.workers.dev/channel/News18%20India.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/CNN_NEWS_18.png",CNN NEWS 18
-https://vot1.vodep39240327.workers.dev/channel/CNN%20NEWS%2018.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/News_18_Tamilnadu.png",News18 Tamilnadu
-https://vot1.vodep39240327.workers.dev/channel/News18%20Tamilnadu.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/IBN_Lokmat.png",News18 Lokmat
-https://vot1.vodep39240327.workers.dev/channel/News18%20Lokmat.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_Bangla_News.png",News18 Bangla News
-https://vot1.vodep39240327.workers.dev/channel/News18%20Bangla%20News.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_Kannada_News.png",News18 Kannada News
-https://vot1.vodep39240327.workers.dev/channel/News18%20Kannada%20News.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_News_Gujarati.png",News18 Gujarati
-https://vot1.vodep39240327.workers.dev/channel/News18%20Gujarati.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_Haryana_and_HP_News.png",News18 Punjab Haryana
-https://vot1.vodep39240327.workers.dev/channel/News18%20Punjab%20Haryana.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_News_Oriya.png",News18 Oriya
-https://vot1.vodep39240327.workers.dev/channel/News18%20Oriya.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/News_18_Assam.png",News18 Assam
-https://vot1.vodep39240327.workers.dev/channel/News18%20Assam.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/News_18_Kerala.png",News 18 Kerala
-https://vot1.vodep39240327.workers.dev/channel/News%2018%20Kerala.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_RAJASTHAN.png",News18 RAJASTHAN
-https://vot1.vodep39240327.workers.dev/channel/News18%20RAJASTHAN.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_BIHAR.png",News18 BIHAR
-https://vot1.vodep39240327.workers.dev/channel/News18%20BIHAR.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_MP.png",News18 MP
-https://vot1.vodep39240327.workers.dev/channel/News18%20MP.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_UP.png",News18 UP
-https://vot1.vodep39240327.workers.dev/channel/News18%20UP.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="VOOT | Jio Cinema" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_Urdu.png",News18 JKLH
-https://vot1.vodep39240327.workers.dev/channel/News18%20JKLH.m3u8
-
-                 
+                  
               _________________________IPTV VAATHALA___________________________
 
 
@@ -12802,13 +12359,7 @@ https://vt-ip.vodep39240327.workers.dev/1370.m3u8
 #EXTINF:-1 tvg-id="No details available" tvg-name="FIGHTBOX" tvg-logo="" group-title="TV-C | POLISH",FIGHTBOX
 https://vt-ip.vodep39240327.workers.dev/1371.m3u8
 
-=================== TATA PLAY HLS ===================
-
-                This m3u,link is only for educational purposes
-
-</script>
-
-                                      
+                     
 # =========================================
 # This m3u link is only for educational purposes
 # =========================================
