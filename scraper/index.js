@@ -11,7 +11,7 @@ const ZEE5_M3U =
   "https://raw.githubusercontent.com/cloudplay97/m3u/main/zee5.m3u";
 
 const EXTRA_M3U =
-  "https://od.lk/s/MjFfNTI0OTk4NTBf/raw?=m3u";
+  "https://od.lk/s/MzZfODQzNTQ1Nzlf/raw?=m3u";
 
 // ================= PLAYLIST HEADER =================
 const PLAYLIST_HEADER = `
