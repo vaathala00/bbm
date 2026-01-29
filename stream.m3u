@@ -12388,17 +12388,10 @@ https://vt-ip.vodep39240327.workers.dev/1371.m3u8
 
 # ---------------=== SonyLiv | Live Sports ===-------------------
 
-#EXTINF:-1 tvg-id="1090502149_ENG" tvg-name="Football" group-title="SonyLiv | Sports" tvg-language="ENG" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013970/176908771569375_UEFA_Europa_League_2025_26_Aston_Villa_vs_Salzburg_landscape_thumb.jpg",Aston Villa vs Salzburg - MD 8 - 30 Jan 2026 [ENG]
-#EXTHTTP:{"Cookie":"","Origin":"https://www.sonyliv.com","Referer":"https://www.sonyliv.com/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769766713~acl=/*~id=54814027920325149822102207257125~hmac=c849271b805fb19820799c744ce7341107943668ed533a11837788bfba6e88e7
-#EXTINF:-1 tvg-id="1090502151_ENG" tvg-name="Football" group-title="SonyLiv | Sports" tvg-language="ENG" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014011/1769144562373371_UEFA_Europa_League_2025_26_Nottm-Forest_vs_Ferencvaros_landscape_thumb.jpg",Nottingham Forest vs Ferencvaros - MD 8 - 30 Jan 2026 [ENG]
-#EXTHTTP:{"Cookie":"","Origin":"https://www.sonyliv.com","Referer":"https://www.sonyliv.com/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://sonydaimenew.akamaized.net/hls/live/2022322/DAI18ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769766713~acl=/*~id=54814027920325149822102207257125~hmac=c849271b805fb19820799c744ce7341107943668ed533a11837788bfba6e88e7
+
 
 # ---------------=== FanCode | Live Sports ===-------------------
 
-#EXTINF:-1 tvg-id="140021" tvg-name="Golf" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/farmers-insurance-open-2026-old-match-card-.png",Main Feed - Day 1
-https://in-mc-fdlive.fancode.com/mumbai/140021_english_hls_9d2ae0e2065301_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-id="140024" tvg-name="Golf" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/farmers-insurance-open-2026-old-match-card-.png",Featured Holes - Day 1
 https://in-mc-fdlive.fancode.com/mumbai/140024_english_hls_bab0487a5a76887_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-id="140023" tvg-name="Golf" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/farmers-insurance-open-2026-old-match-card-.png",Featured Groups - Day 1
