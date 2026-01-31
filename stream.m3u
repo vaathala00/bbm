@@ -12407,10 +12407,6 @@ https://vt-ip.vodep39240327.workers.dev/1371.m3u8
 
 # ---------------=== FanCode | Live Sports ===-------------------
 
-#EXTINF:-1 tvg-id="140031" tvg-name="Golf" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/farmers-insurance-open-2026-old-match-card-_1769182129290.png",Main Feed - Day 3
-https://in-mc-fdlive.fancode.com/mumbai/140031_english_hls_ba0311953b17264_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-id="140033" tvg-name="Golf" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/farmers-insurance-open-2026-old-match-card-_1769182129290.png",Featured Groups - Day 3
-https://in-mc-fdlive.fancode.com/mumbai/140033_english_hls_97fcdda9ad89287_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-id="140030" tvg-name="Golf" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/farmers-insurance-open-2026-old-match-card-_1769182129290.png",World Feed - Day 3
 https://in-mc-fdlive.fancode.com/mumbai/140030_english_hls_2df3d9260570747_1ta-di_h264/index.m3u8
 # =========================================
