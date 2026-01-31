@@ -12405,7 +12405,7 @@ https://vt-ip.vodep39240327.workers.dev/1371.m3u8
 
 #EXTINF:-1 tvg-id="1090502759_ENG" tvg-name="Racing" group-title="SonyLiv | Sports" tvg-language="ENG" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013179/1767969000060690_ABB_FIA_FormulaE_WC2526_Round_3_Miami_EPRIX_final_Race_9jan_landscape_thumb.jpg",Round 3 - Miami E-Prix - Final Race - 31 Jan 2026 [ENG]
 #EXTHTTP:{"Cookie":"","Origin":"https://www.sonyliv.com","Referer":"https://www.sonyliv.com/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://sonydaimenew.akamaized.net/hls/live/2022322/DAI18ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769933022~acl=/*~id=80362375033854670495568479321423~hmac=fad7f12fc17c1b4b8f5cc5710fbd07e48201ea4da10ed978f852b8ff9b4d6b3d
+https://sonydaimenew.akamaized.net/hls/live/2022322/DAI18ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769934837~acl=/*~id=72553390471802676871870864929190~hmac=e77059a7d1ae03f1bd05c1ad921902d0aef708a79dadcbec95643764d204a7d1
 
 # ---------------=== FanCode | Live Sports ===-------------------
 
@@ -12413,12 +12413,8 @@ https://sonydaimenew.akamaized.net/hls/live/2022322/DAI18ME-V3/std_lrh-800300010
 https://in-mc-fdlive.fancode.com/mumbai/139771_english_hls_c91209300573504_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-id="139770" tvg-name="Cricket" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/CWI-Women's-Super-50-Cup-2026_Old_match-card_2025_FC-WEB_2-(1).jpg",Leeward Islands Women vs Jamaica Women
 https://in-mc-fdlive.fancode.com/mumbai/139770_english_hls_0ea4ec86db77405_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-id="139769" tvg-name="Cricket" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/CWI-Women's-Super-50-Cup-2026_Old_match-card_2025_FC-WEB_1-(1).jpg",Windward Islands Women vs Guyana Women
-https://in-mc-fdlive.fancode.com/mumbai/139769_english_hls_fc8cb32e1e37514_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-id="131041" tvg-name="Football" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131041_5427_ELC_BAR_FC-Web.png",Elche CF vs FC Barcelona
 https://in-mc-fdlive.fancode.com/mumbai/131041_english_hls_3cab0967848633_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-id="140010" tvg-name="Football" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://images.fancode.com/aig/match/v1/140010_CASACARDS_APP.png",Cultural Leonesa vs Deportivo La Coruna
-https://in-mc-fdlive.fancode.com/mumbai/140010_english_hls_d31568c46179077_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-id="140168" tvg-name="Live Events" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1769529100515.png",Day 4 - Centre Court
 https://in-mc-fdlive.fancode.com/mumbai/140168_english_hls_735e4dbfcd78236_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-id="140031" tvg-name="Golf" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/farmers-insurance-open-2026-old-match-card-_1769182129290.png",Main Feed - Day 3
