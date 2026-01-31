@@ -12407,8 +12407,6 @@ https://vt-ip.vodep39240327.workers.dev/1371.m3u8
 
 # ---------------=== FanCode | Live Sports ===-------------------
 
-#EXTINF:-1 tvg-id="139771" tvg-name="Cricket" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/CWI-Women's-Super-50-Cup-2026_Old_match-card_2025_FC-WEB_1-(1).jpg",Trinidad and Tobago Women vs Barbados Women
-https://in-mc-fdlive.fancode.com/mumbai/139771_english_hls_c91209300573504_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-id="139770" tvg-name="Cricket" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/CWI-Women's-Super-50-Cup-2026_Old_match-card_2025_FC-WEB_2-(1).jpg",Leeward Islands Women vs Jamaica Women
 https://in-mc-fdlive.fancode.com/mumbai/139770_english_hls_0ea4ec86db77405_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-id="131041" tvg-name="Football" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131041_5427_ELC_BAR_FC-Web.png",Elche CF vs FC Barcelona
