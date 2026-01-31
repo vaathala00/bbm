@@ -12388,18 +12388,34 @@ https://vt-ip.vodep39240327.workers.dev/1371.m3u8
 
 # ---------------=== SonyLiv | Live Sports ===-------------------
 
-
+#EXTINF:-1 tvg-id="1090499148_ENG" tvg-name="Tennis" group-title="SonyLiv | Sports" tvg-language="ENG" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014585/1769739316000782_AO2026_Landscape_Thumb_WoMens_Doubles_Danilina_Krunic_vs_Zhang_Mertens_SP.jpg",Danilina/Krunic vs Mertens/Zhang - Final - 31 Jan 2026 [ENG]
+#EXTHTTP:{"Cookie":"","Origin":"https://www.sonyliv.com","Referer":"https://www.sonyliv.com/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769868661~acl=/*~id=43835709189473730339849882267290~hmac=ab38465b9be78133999f1d7deed61e89254f954f4ec907ebb08d47c2d5582e5a
+#EXTINF:-1 tvg-id="1090499148_HIN" tvg-name="Tennis" group-title="SonyLiv | Sports" tvg-language="ENG" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014585/1769739316000782_AO2026_Landscape_Thumb_WoMens_Doubles_Danilina_Krunic_vs_Zhang_Mertens_SP.jpg",Danilina/Krunic vs Mertens/Zhang - Final - 31 Jan 2026 [HIN]
+#EXTHTTP:{"Cookie":"","Origin":"https://www.sonyliv.com","Referer":"https://www.sonyliv.com/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769868661~acl=/*~id=43835709189473730339849882267290~hmac=ab38465b9be78133999f1d7deed61e89254f954f4ec907ebb08d47c2d5582e5a
+#EXTINF:-1 tvg-id="1090499148_TAM" tvg-name="Tennis" group-title="SonyLiv | Sports" tvg-language="ENG" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014585/1769739316000782_AO2026_Landscape_Thumb_WoMens_Doubles_Danilina_Krunic_vs_Zhang_Mertens_SP.jpg",Danilina/Krunic vs Mertens/Zhang - Final - 31 Jan 2026 [TAM]
+#EXTHTTP:{"Cookie":"","Origin":"https://www.sonyliv.com","Referer":"https://www.sonyliv.com/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769868661~acl=/*~id=43835709189473730339849882267290~hmac=ab38465b9be78133999f1d7deed61e89254f954f4ec907ebb08d47c2d5582e5a
+#EXTINF:-1 tvg-id="1090499148_TEL" tvg-name="Tennis" group-title="SonyLiv | Sports" tvg-language="ENG" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014585/1769739316000782_AO2026_Landscape_Thumb_WoMens_Doubles_Danilina_Krunic_vs_Zhang_Mertens_SP.jpg",Danilina/Krunic vs Mertens/Zhang - Final - 31 Jan 2026 [TEL]
+#EXTHTTP:{"Cookie":"","Origin":"https://www.sonyliv.com","Referer":"https://www.sonyliv.com/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769868661~acl=/*~id=43835709189473730339849882267290~hmac=ab38465b9be78133999f1d7deed61e89254f954f4ec907ebb08d47c2d5582e5a
+#EXTINF:-1 tvg-id="1090502625_ENG" tvg-name="Cricket" group-title="SonyLiv | Sports" tvg-language="ENG" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014560/1769771106140816_SS_womens_FINAL_Auckland-Hearts-v-Wellington-Blaze_landscape_thumb.jpg",Auckland Hearts vs Wellington Blaze - Final - 31 Jan 2026 [ENG]
+#EXTHTTP:{"Cookie":"","Origin":"https://www.sonyliv.com","Referer":"https://www.sonyliv.com/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769868661~acl=/*~id=43835709189473730339849882267290~hmac=ab38465b9be78133999f1d7deed61e89254f954f4ec907ebb08d47c2d5582e5a
+#EXTINF:-1 tvg-id="1090498781_ENG" tvg-name="Tennis" group-title="SonyLiv | Sports" tvg-language="ENG" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014577/1769774745614353_AO26_final_KIA_Arena_30jan_landscape_thumb.jpg",Kia Arena - 31 Jan 2026 [ENG]
+#EXTHTTP:{"Cookie":"","Origin":"https://www.sonyliv.com","Referer":"https://www.sonyliv.com/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+https://sonydaimenew.akamaized.net/hls/live/2022315/DAI11ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769868661~acl=/*~id=43835709189473730339849882267290~hmac=ab38465b9be78133999f1d7deed61e89254f954f4ec907ebb08d47c2d5582e5a
+#EXTINF:-1 tvg-id="1090498773_ENG" tvg-name="Tennis" group-title="SonyLiv | Sports" tvg-language="ENG" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014573/1769774281955989_AO26_final_stream2_30jan_landscape_thumb.jpg",Stream 2 - 31 Jan 2026 [ENG]
+#EXTHTTP:{"Cookie":"","Origin":"https://www.sonyliv.com","Referer":"https://www.sonyliv.com/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769868661~acl=/*~id=43835709189473730339849882267290~hmac=ab38465b9be78133999f1d7deed61e89254f954f4ec907ebb08d47c2d5582e5a
 
 # ---------------=== FanCode | Live Sports ===-------------------
 
-#EXTINF:-1 tvg-id="140029" tvg-name="Golf" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/farmers-insurance-open-2026-old-match-card-_1769182129290.png",Featured Holes - Day 2
-https://in-mc-fdlive.fancode.com/mumbai/140029_english_hls_6bcd3247e853583_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-id="140028" tvg-name="Golf" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/farmers-insurance-open-2026-old-match-card-_1769182129290.png",Featured Groups - Day 2
-https://in-mc-fdlive.fancode.com/mumbai/140028_english_hls_c12538667399400_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-id="140027" tvg-name="Golf" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/farmers-insurance-open-2026-old-match-card-_1769182129290.png",Marquee Group - Day 2
-https://in-mc-fdlive.fancode.com/mumbai/140027_english_hls_e548bad07f82404_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-id="140025" tvg-name="Golf" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/farmers-insurance-open-2026-old-match-card-_1769182129290.png",World Feed - Day 2
-https://in-mc-fdlive.fancode.com/mumbai/140025_english_hls_8f0440044384792_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-id="138794" tvg-name="Cricket" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138766_5801_WB-W_AH-W_fc-web_1766596522064.jpg",Auckland Hearts vs Wellington Blaze
+https://in-mc-fdlive.fancode.com/mumbai/138794_english_hls_b9779fb4e927951_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-id="140136" tvg-name="Golf" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Icons-Series-Golf_2026_FC-Web.jpg",Day 1
+https://in-mc-fdlive.fancode.com/mumbai/140136_english_hls_03471c5e7053101_1ta-di_h264/index.m3u8
 # =========================================
 # This m3u link is only for educational purposes
 # =========================================
