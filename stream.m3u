@@ -12403,24 +12403,12 @@ https://vt-ip.vodep39240327.workers.dev/1371.m3u8
 
 # ---------------=== SonyLiv | Live Sports ===-------------------
 
-#EXTINF:-1 tvg-id="1090502681_ENG" tvg-name="Cricket" group-title="SonyLiv | Sports" tvg-language="ENG" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014664/176985276588391_WLPL26_Dubai-Royals-vs-Pune-Panthers_landscape_thumb.jpg",Dubai Royals vs Pune Panthers - 31 Jan 2026 [ENG]
-#EXTHTTP:{"Cookie":"","Origin":"https://www.sonyliv.com","Referer":"https://www.sonyliv.com/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769923934~acl=/*~id=04000342358447107372779267410373~hmac=988e52ed714ba6c3c7c9a5faaf7ab4f3babb6716311f1663fb175311e2e74f96
-#EXTINF:-1 tvg-id="1090502681_HIN" tvg-name="Cricket" group-title="SonyLiv | Sports" tvg-language="ENG" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014664/176985276588391_WLPL26_Dubai-Royals-vs-Pune-Panthers_landscape_thumb.jpg",Dubai Royals vs Pune Panthers - 31 Jan 2026 [HIN]
-#EXTHTTP:{"Cookie":"","Origin":"https://www.sonyliv.com","Referer":"https://www.sonyliv.com/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI37ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769923934~acl=/*~id=04000342358447107372779267410373~hmac=988e52ed714ba6c3c7c9a5faaf7ab4f3babb6716311f1663fb175311e2e74f96
 #EXTINF:-1 tvg-id="1090502782_ENG" tvg-name="Football" group-title="SonyLiv | Sports" tvg-language="ENG" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014668/1769855535899643_Bundesliga_2025_26_Hamburger_SV_vs_Bayern_Munich_landscape_thumb.jpg",Hamburger SV vs Bayern Munich - MD 20 - 31 Jan 2026 [ENG]
 #EXTHTTP:{"Cookie":"","Origin":"https://www.sonyliv.com","Referer":"https://www.sonyliv.com/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://sonydaimenew.akamaized.net/hls/live/2022317/DAI13ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769923934~acl=/*~id=04000342358447107372779267410373~hmac=988e52ed714ba6c3c7c9a5faaf7ab4f3babb6716311f1663fb175311e2e74f96
-#EXTINF:-1 tvg-id="1090502791_ENG" tvg-name="Wrestling" group-title="SonyLiv | Sports" tvg-language="ENG" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014520/1769732526010414_pwl_SemiFinal_Semi-Final-2-DelhiDangalWarriors_vs_MaharashtraKesari_Landscapet_thumb.jpg",Delhi Dangal Warriors vs Maharashtra Kesari - 31 Jan 2026 [ENG]
-#EXTHTTP:{"Cookie":"","Origin":"https://www.sonyliv.com","Referer":"https://www.sonyliv.com/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769923934~acl=/*~id=04000342358447107372779267410373~hmac=988e52ed714ba6c3c7c9a5faaf7ab4f3babb6716311f1663fb175311e2e74f96
-#EXTINF:-1 tvg-id="1090502791_HIN" tvg-name="Wrestling" group-title="SonyLiv | Sports" tvg-language="ENG" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014520/1769732526010414_pwl_SemiFinal_Semi-Final-2-DelhiDangalWarriors_vs_MaharashtraKesari_Landscapet_thumb.jpg",Delhi Dangal Warriors vs Maharashtra Kesari - 31 Jan 2026 [HIN]
-#EXTHTTP:{"Cookie":"","Origin":"https://www.sonyliv.com","Referer":"https://www.sonyliv.com/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769923934~acl=/*~id=04000342358447107372779267410373~hmac=988e52ed714ba6c3c7c9a5faaf7ab4f3babb6716311f1663fb175311e2e74f96
+https://sonydaimenew.akamaized.net/hls/live/2022317/DAI13ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769925148~acl=/*~id=94729272341487086321381000332149~hmac=33982cd565b136fe59dabda669e2f3ca31d51200c860cfd2ae39b1069bfcd30b
 #EXTINF:-1 tvg-id="1090502759_ENG" tvg-name="Racing" group-title="SonyLiv | Sports" tvg-language="ENG" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013179/1767969000060690_ABB_FIA_FormulaE_WC2526_Round_3_Miami_EPRIX_final_Race_9jan_landscape_thumb.jpg",Round 3 - Miami E-Prix - Final Race - 31 Jan 2026 [ENG]
 #EXTHTTP:{"Cookie":"","Origin":"https://www.sonyliv.com","Referer":"https://www.sonyliv.com/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://sonydaimenew.akamaized.net/hls/live/2022322/DAI18ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769923934~acl=/*~id=04000342358447107372779267410373~hmac=988e52ed714ba6c3c7c9a5faaf7ab4f3babb6716311f1663fb175311e2e74f96
+https://sonydaimenew.akamaized.net/hls/live/2022322/DAI18ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769925148~acl=/*~id=94729272341487086321381000332149~hmac=33982cd565b136fe59dabda669e2f3ca31d51200c860cfd2ae39b1069bfcd30b
 
 # ---------------=== FanCode | Live Sports ===-------------------
 
@@ -12432,6 +12420,8 @@ https://in-mc-fdlive.fancode.com/mumbai/139770_english_hls_0ea4ec86db77405_1ta-d
 https://in-mc-fdlive.fancode.com/mumbai/139769_english_hls_fc8cb32e1e37514_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-id="131040" tvg-name="Football" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131040_5427_LE_ATL_FC-Web.png",Levante vs Atletico de Madrid
 https://in-mc-fdlive.fancode.com/mumbai/131040_english_hls_86a8497dc77036_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-id="139606" tvg-name="Cricket" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Emirates_web_opt2.jpg",Fujairah vs Abu Dhabi
+https://in-mc-fdlive.fancode.com/mumbai/139606_english_hls_213cb2f12a68997_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-id="140010" tvg-name="Football" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://images.fancode.com/aig/match/v1/140010_CASACARDS_APP.png",Cultural Leonesa vs Deportivo La Coruna
 https://in-mc-fdlive.fancode.com/mumbai/140010_english_hls_d31568c46179077_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-id="140168" tvg-name="Live Events" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1769529100515.png",Day 4 - Centre Court
@@ -12444,10 +12434,8 @@ https://in-mc-fdlive.fancode.com/mumbai/140034_english_hls_bc9889b7b389576_1ta-d
 https://in-mc-fdlive.fancode.com/mumbai/140033_english_hls_97fcdda9ad89287_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-id="140032" tvg-name="Golf" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/farmers-insurance-open-2026-old-match-card-_1769182129290.png",Marquee Group - Day 3
 https://in-mc-fdlive.fancode.com/mumbai/140032_english_hls_6ce940b61978129_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-id="140083" tvg-name="Cricket" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140083_5928_DR_PPT_FC-Web_1769805880964.jpg",Pune Panthers vs Dubai Royals
-https://in-mc-fdlive.fancode.com/mumbai/140083_english_hls_1c689b86ca82425_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-id="131048" tvg-name="Football" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131048_5427_OSN_VIL_FC-Web.png",CA Osasuna vs Villarreal CF
-https://in-mc-fdlive.fancode.com/mumbai/131048_english_hls_1526422ab378838_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-id="140030" tvg-name="Golf" group-title="FanCode | Sports" tvg-language="" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/farmers-insurance-open-2026-old-match-card-_1769182129290.png",World Feed - Day 3
+https://in-mc-fdlive.fancode.com/mumbai/140030_english_hls_2df3d9260570747_1ta-di_h264/index.m3u8
 # =========================================
 # This m3u link is only for educational purposes
 # =========================================
