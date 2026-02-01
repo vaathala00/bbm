@@ -115,7 +115,7 @@ function convertZee5(m3u) {
             Creator: "@DJ-TM",
           })}`
         );
-        output.push(urlLine);
+        output.push(cleanUrl);
         i++;
       }
     }
