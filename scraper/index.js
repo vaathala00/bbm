@@ -1,4 +1,3 @@
-
 const axios = require("axios");
 const fs = require("fs");
 
@@ -6,18 +5,12 @@ const OUTPUT_FILE = "stream.m3u";
 
 // ================= SOURCES =================
 const SOURCES = {
-  HOTSTAR_JSON:
-    "https://cloudplay-app.cloudplay-help.workers.dev/hotstar?password=all",
-  ZEE5_M3U:
-    "https://raw.githubusercontent.com/cloudplay97/m3u/main/zee5.m3u",
-  EXTRA_M3U:
-    "https://od.lk/s/MzZfODQzNTQ1Nzlf/raw?=m3u",
-  JIO_M3U:
-    "https://shrill-water-d836.saqlainhaider8198.workers.dev/?password=all",
-  SONYLIV_JSON:
-    "https://raw.githubusercontent.com/drmlive/sliv-live-events/main/sonyliv.json",
-  FANCODE_JSON:
-    "https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.json",
+  HOTSTAR_JSON: "https://cloudplay-app.cloudplay-help.workers.dev/hotstar?password=all",
+  ZEE5_M3U: "https://raw.githubusercontent.com/cloudplay97/m3u/main/zee5.m3u",
+  EXTRA_M3U: "https://od.lk/s/MzZfODQzNTQ1Nzlf/raw?=m3u",
+  JIO_M3U: "https://shrill-water-d836.saqlainhaider8198.workers.dev/?password=all",
+  SONYLIV_JSON: "https://raw.githubusercontent.com/drmlive/sliv-live-events/main/sonyliv.json",
+  FANCODE_JSON: "https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.json",
 };
 
 // ================= PLAYLIST HEADER =================
@@ -56,8 +49,8 @@ function convertHotstar(json) {
     out.push(
       `#EXTHTTP:${JSON.stringify({
         ...ch.headers,
-        "User-Agent":
-          "Hotstar;in.startv.hotstar.links_macha_official(Android/15)",
+        // Keep the original User-Agent from JSON
+        "User-Agent": ch.user_agent || "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
         Telegram: "@links_macha_official",
         Creator: "@DJ-TM",
       })}`
@@ -71,12 +64,7 @@ function convertHotstar(json) {
 function fixZee5Groups(m3u) {
   return m3u
     .split("\n")
-    .map((line) => {
-      if (line.startsWith("#EXTINF")) {
-        return line.replace(/group-title=".*?"/, 'group-title="ZEE5 | Live"');
-      }
-      return line;
-    })
+    .map((line) => line.startsWith("#EXTINF") ? line.replace(/group-title=".*?"/, 'group-title="ZEE5 | Live"') : line)
     .join("\n");
 }
 
@@ -90,64 +78,50 @@ function fixJioGroups(m3u) {
 
 // ================= SONYLIV JSON → M3U =================
 function convertSonyliv(json) {
-  if (!json || !Array.isArray(json.matches)) {
-    console.warn("⚠️ SonyLiv JSON invalid or empty, skipping");
-    return "";
-  }
+  if (!json || !Array.isArray(json.matches)) return "";
+  const ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/129.0.0.0 Safari/537.36";
 
-  let out = [];
-  json.matches.forEach((match) => {
-    if (!match.isLive) return;
-    const name = match.match_name || match.event_name;
-    const logo = match.src || "";
-    const tvgId = match.contentId || "";
-    const lang = match.audioLanguageName || "ENG";
+  return json.matches
+    .filter((m) => m.isLive)
+    .map((match) => {
+      const name = match.match_name || match.event_name;
+      const logo = match.src || "";
+      const tvgId = match.contentId || "";
+      const lang = match.audioLanguageName || "ENG";
 
-    out.push(
-      `#EXTINF:-1 tvg-id="${tvgId}" tvg-name="${match.event_category}" group-title="SonyLiv | Sports" tvg-language="${lang}" tvg-logo="${logo}",${name}`
-    );
-
-    out.push(
-      `#EXTHTTP:${JSON.stringify({
-        Cookie: "",
-        Origin: "https://www.sonyliv.com",
-        Referer: "https://www.sonyliv.com/",
-        "User-Agent":
-          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
-        Telegram: "@links_macha_official",
-        Creator: "@DJ-TM",
-      })}`
-    );
-
-    out.push(match.dai_url || match.pub_url || match.video_url);
-  });
-
-  return out.join("\n");
+      return [
+        `#EXTINF:-1 tvg-id="${tvgId}" tvg-name="${match.event_category}" group-title="SonyLiv | Sports" tvg-language="${lang}" tvg-logo="${logo}",${name}`,
+        `#EXTHTTP:${JSON.stringify({
+          Cookie: "",
+          Origin: "https://www.sonyliv.com",
+          Referer: "https://www.sonyliv.com/",
+          "User-Agent": ua,
+          Telegram: "@links_macha_official",
+          Creator: "@DJ-TM"
+        })}`,
+        match.dai_url || match.pub_url || match.video_url
+      ].join("\n");
+    }).join("\n");
 }
 
 // ================= FANCODE JSON → M3U =================
 function convertFancode(json) {
-  if (!json || !Array.isArray(json.matches)) {
-    console.warn("⚠️ FanCode JSON invalid or empty, skipping");
-    return "";
-  }
-
-  let out = [];
-  json.matches.forEach((match) => {
-    if (match.status !== "LIVE") return;
-    const name = match.match_name || match.title || match.event_name;
-    const logo = match.src || "";
-    const tvgId = match.match_id || "";
-    const url = match.adfree_url || match.dai_url || "";
-    if (!url) return;
-
-    out.push(
-      `#EXTINF:-1 tvg-id="${tvgId}" tvg-name="${match.event_category}" group-title="FanCode | Sports" tvg-language="" tvg-logo="${logo}",${name}`
-    );
-    out.push(url);
-  });
-
-  return out.join("\n");
+  if (!json || !Array.isArray(json.matches)) return "";
+  return json.matches
+    .filter((m) => m.status === "LIVE")
+    .map((match) => {
+      const name = match.match_name || match.title || match.event_name;
+      const logo = match.src || "";
+      const tvgId = match.match_id || "";
+      const url = match.adfree_url || match.dai_url || "";
+      if (!url) return null;
+      return [
+        `#EXTINF:-1 tvg-id="${tvgId}" tvg-name="${match.event_category}" group-title="FanCode | Sports" tvg-language="" tvg-logo="${logo}",${name}`,
+        url
+      ].join("\n");
+    })
+    .filter(Boolean)
+    .join("\n");
 }
 
 // ================= SAFE FETCH =================
@@ -160,9 +134,7 @@ async function safeFetch(url, description) {
     console.log(`✅ Fetched ${description}`);
     return res.data;
   } catch (err) {
-    console.warn(
-      `⚠️ Skipping ${description}: ${err.response?.status || err.message}`
-    );
+    console.warn(`⚠️ Skipping ${description}: ${err.response?.status || err.message}`);
     return null;
   }
 }
