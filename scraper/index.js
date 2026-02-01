@@ -6,7 +6,7 @@ const OUTPUT_FILE = "stream.m3u";
 // ================= SOURCES =================
 const SOURCES = {
   HOTSTAR_JSON: "https://cloudplay-app.cloudplay-help.workers.dev/hotstar?password=all",
-  ZEE5_M3U: "https://raw.githubusercontent.com/cloudplay97/m3u/main/zee5.m3u",
+  ZEE5_M3U: "https://raw.githubusercontent.com/Sufiyan123yivh/Testing/refs/heads/main/Zee5.m3u",
   EXTRA_M3U: "https://od.lk/s/MzZfODQzNTQ1Nzlf/raw?=m3u",
   JIO_M3U: "https://shrill-water-d836.saqlainhaider8198.workers.dev/?password=all",
   SONYLIV_JSON: "https://raw.githubusercontent.com/drmlive/sliv-live-events/main/sonyliv.json",
