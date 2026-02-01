@@ -102,6 +102,11 @@ function convertZee5(m3u) {
         const cookieMatch = urlLine.match(/hdntl=[^&]*/);
         if (cookieMatch) currentCookie = cookieMatch[0];
 
+ // 🔥 REMOVE hdntl FROM URL
+  const cleanUrl = urlLine
+    .replace(/([?&])hdntl=[^&]*/g, "")
+    .replace(/[?&]$/, "");
+
         output.push(
           `#EXTHTTP:${JSON.stringify({
             Cookie: currentCookie,
