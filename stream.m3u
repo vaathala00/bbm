@@ -12332,7 +12332,14 @@ https://vt-ip.vodep39240327.workers.dev/1371.m3u8
 
 # ---------------=== FanCode | Sports ===-------------------
 
-
+#EXTINF:-1 tvg-id="140311" group-title="FanCode | Sports" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Dream-Sports-Championship-2026---Table-Tennisold-match-card.png",Day 3 - Table 1
+https://in-mc-fdlive.fancode.com/mumbai/140311_english_hls_046a5fd0a12299_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-id="140336" group-title="FanCode | Sports" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Dream-Sports-Championship-2026---Table-Tennisold-match-card.png",Day 3 - Table 2
+https://in-mc-fdlive.fancode.com/mumbai/140336_english_hls_145bb3119d72738_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-id="140335" group-title="FanCode | Sports" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Dream-Sports-Championship-2026---Table-Tennisold-match-card.png",Day 3 - Table 3
+https://in-mc-fdlive.fancode.com/mumbai/140335_english_hls_312fac0a6763899_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-id="140334" group-title="FanCode | Sports" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Dream-Sports-Championship-2026---Table-Tennisold-match-card.png",Day 3 - Table 4
+https://in-mc-fdlive.fancode.com/mumbai/140334_english_hls_08c8b85c8716638_1ta-di_h264/index.m3u8
 # =========================================
 # This m3u link is only for educational purposes
 # =========================================
