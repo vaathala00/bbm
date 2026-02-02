@@ -12330,15 +12330,17 @@ https://vt-ip.vodep39240327.workers.dev/1371.m3u8
 
 #EXTINF:-1 tvg-id="1090502934_ENG" group-title="SonyLiv | Sports" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014713/1769910295357886_WLP26_RajasthanLions_vs_DelhiWarriors_Landscape_thumb.jpg",Rajasthan Lions vs Delhi Warriors - 2 Feb 2026 [ENG]
 #EXTHTTP:{"Origin":"https://www.sonyliv.com","Referer":"https://www.sonyliv.com/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/129.0.0.0 Safari/537.36","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770068715~acl=/*~id=63009585660169363955057198492739~hmac=7f798d98e8742133fd2d8c4ac7f92d89715a653a41e22e6522a9b801b14949cc
+https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770072351~acl=/*~id=95660492757352221309576494749214~hmac=5a021737dbaa27361e2e795b0846cdfa090d3148a9e6ab647434bb06e2a4f8fe
 #EXTINF:-1 tvg-id="1090502934_HIN" group-title="SonyLiv | Sports" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014713/1769910295357886_WLP26_RajasthanLions_vs_DelhiWarriors_Landscape_thumb.jpg",Rajasthan Lions vs Delhi Warriors - 2 Feb 2026 [HIN]
 #EXTHTTP:{"Origin":"https://www.sonyliv.com","Referer":"https://www.sonyliv.com/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/129.0.0.0 Safari/537.36","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI37ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770068715~acl=/*~id=63009585660169363955057198492739~hmac=7f798d98e8742133fd2d8c4ac7f92d89715a653a41e22e6522a9b801b14949cc
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI37ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770072351~acl=/*~id=95660492757352221309576494749214~hmac=5a021737dbaa27361e2e795b0846cdfa090d3148a9e6ab647434bb06e2a4f8fe
 
 # ---------------=== FanCode | Sports ===-------------------
 
 #EXTINF:-1 tvg-id="140086" group-title="FanCode | Sports" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140086_5928_RLS_DW_FC-Web_1769807667662.jpg",Rajasthan Lions vs Delhi Warriors
 https://in-mc-fdlive.fancode.com/mumbai/140086_english_hls_968b76f4828971_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-id="139607" group-title="FanCode | Sports" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Emirates_web_1769265237104.jpg",Emirates Blues vs Ajman
+https://in-mc-fdlive.fancode.com/mumbai/139607_english_hls_42f7164b7827313_1ta-di_h264/index.m3u8
 # =========================================
 # This m3u link is only for educational purposes
 # =========================================
