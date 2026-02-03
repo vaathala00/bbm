@@ -12330,17 +12330,15 @@ https://vt-ip.vodep39240327.workers.dev/1371.m3u8
 
 #EXTINF:-1 tvg-id="1090503005_ENG" group-title="SonyLiv | Sports" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014795/177005952267219_WLP26_semifinal_Rajasthan_vs_pune_3feb_landscape_thumb.jpg",Rajasthan Lions vs Pune Panthers - SF - 3 Feb 2026 [ENG]
 #EXTHTTP:{"Origin":"https://www.sonyliv.com","Referer":"https://www.sonyliv.com/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/129.0.0.0 Safari/537.36","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770155280~acl=/*~id=05831937423610950805426174361150~hmac=80ab951aa8ef7a439c04d3f59e197766831a52ab0b554b3153a1471d3057313c
+https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770157099~acl=/*~id=89269420506982850372028220779487~hmac=5c87778af49c8c1d22527ae93183c26cdc4db523bc7cb4a7f9f94115547e4816
 #EXTINF:-1 tvg-id="1090503005_HIN" group-title="SonyLiv | Sports" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014795/177005952267219_WLP26_semifinal_Rajasthan_vs_pune_3feb_landscape_thumb.jpg",Rajasthan Lions vs Pune Panthers - SF - 3 Feb 2026 [HIN]
 #EXTHTTP:{"Origin":"https://www.sonyliv.com","Referer":"https://www.sonyliv.com/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/129.0.0.0 Safari/537.36","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI37ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770155280~acl=/*~id=05831937423610950805426174361150~hmac=80ab951aa8ef7a439c04d3f59e197766831a52ab0b554b3153a1471d3057313c
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI37ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770157099~acl=/*~id=89269420506982850372028220779487~hmac=5c87778af49c8c1d22527ae93183c26cdc4db523bc7cb4a7f9f94115547e4816
 
 # ---------------=== FanCode | Sports ===-------------------
 
 #EXTINF:-1 tvg-id="140088" group-title="FanCode | Sports" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140081_5928_PPT_RLS_FC-Web_1769654908421.jpg",Rajasthan Lions vs Pune Panthers
 https://in-mc-fdlive.fancode.com/mumbai/140088_english_hls_36901c014c76059_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-id="139906" group-title="FanCode | Sports" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(2)_1769333142206.png",Thailand vs Iraq
-https://in-mc-fdlive.fancode.com/mumbai/139906_english_hls_8d49da81ec40844_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-id="139907" group-title="FanCode | Sports" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(2)_1769333142206.png",Japan vs Afghanistan
 https://in-mc-fdlive.fancode.com/mumbai/139907_english_hls_26250372ac61796_1ta-di_h264/index.m3u8
 # =========================================
