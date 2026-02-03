@@ -12328,20 +12328,10 @@ https://vt-ip.vodep39240327.workers.dev/1371.m3u8
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
-#EXTINF:-1 tvg-id="1090503007_ENG" group-title="SonyLiv | Sports" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014795/177006016894319_WLP26_semifinal_delhi_vs_dubai_3feb_landscape_thumb.jpg",Dubai Royals vs Delhi Warriors - SF - 3 Feb 2026 [ENG]
-#EXTHTTP:{"Origin":"https://www.sonyliv.com","Referer":"https://www.sonyliv.com/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/129.0.0.0 Safari/537.36","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770186253~acl=/*~id=50217965921004373794369112981224~hmac=1d0262df0638e74304aef8c928fa02b8bd5c0169c5268f177b38cd49948aebe6
-#EXTINF:-1 tvg-id="1090503007_HIN" group-title="SonyLiv | Sports" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014795/177006016894319_WLP26_semifinal_delhi_vs_dubai_3feb_landscape_thumb.jpg",Dubai Royals vs Delhi Warriors - SF - 3 Feb 2026 [HIN]
-#EXTHTTP:{"Origin":"https://www.sonyliv.com","Referer":"https://www.sonyliv.com/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/129.0.0.0 Safari/537.36","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI37ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770186253~acl=/*~id=50217965921004373794369112981224~hmac=1d0262df0638e74304aef8c928fa02b8bd5c0169c5268f177b38cd49948aebe6
-#EXTINF:-1 tvg-id="1090503012_ENG" group-title="SonyLiv | Sports" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014781/177003646252030_UYL2526_RD32_Chelsea-vs-PSV_landscape_thumb.jpg",Chelsea vs PSV - 3 Feb 2026 [ENG]
-#EXTHTTP:{"Origin":"https://www.sonyliv.com","Referer":"https://www.sonyliv.com/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/129.0.0.0 Safari/537.36","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770186253~acl=/*~id=50217965921004373794369112981224~hmac=1d0262df0638e74304aef8c928fa02b8bd5c0169c5268f177b38cd49948aebe6
+
 
 # ---------------=== FanCode | Sports ===-------------------
 
-#EXTINF:-1 tvg-id="140089" group-title="FanCode | Sports" tvg-logo="https://images.fancode.com/aig/match/v1770065318593/140089_CASACARDS_APP.png",Dubai Royals vs Delhi Warriors
-https://in-mc-fdlive.fancode.com/mumbai/140089_english_hls_3c1abd5aef39468_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-id="139614" group-title="FanCode | Sports" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Emirates_web_opt2.jpg",Emirates Blues vs Abu Dhabi
 https://in-mc-fdlive.fancode.com/mumbai/139614_english_hls_ca89ff10fd58686_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-id="140181" group-title="FanCode | Sports" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Open-Occitanie_web.jpg",Day 2
