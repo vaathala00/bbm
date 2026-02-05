@@ -464,29 +464,10 @@ https://c2ag.short.gy/HS/Hindi.m3u8
 #EXTHTTP:{"Cookie":"","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://c2ag.short.gy/HS/telugu.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6423/1768690606423-i" group-title="T20 |Live",Hotstar|HINDI
-#EXTHTTP:{"Cookie":"","Origin":"https://allrounderlive.pages.dev","Referer":"https://allrounderlive.pages.dev","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://dillzyserver.dillzycreations.workers.dev/live/hotstar.m3u8
-
 #EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6423/1768690606423-i" group-title="T20 |Live",Hotstar|TAMIL
 #EXTHTTP:{"Cookie":"","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://c2ag.short.gy/HS/tamil.m3u8
 
-#EXTINF:-1 tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6423/1768690606423-i" group-title="T20 |Live",HOTSTAR| TAM s2
-#EXTHTTP:{"Cookie":"CloudFront-Key-Pair-Id=APKAJC3ILMJXG4AINKJA;CloudFront-Key-Pair-Id=APKAJC3ILMJXG4AINKJA;CloudFront-Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovLypsaXZlLWNmLmNkbi5ob3RzdGFyLmNvbS9obHMvbGl2ZS8yMDAzNzE1L2luYWxsb3ctaW5kdnNuei0yMDI2L3RhbS8xNTQwMDU5NjUzLzE1bWluZHZybTAxNzZkYjY3YTkyN2VkNDM4Mjk5NzRhMDJmZGFiYjE4MzgzMWphbnVhcnkyMDI2LyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3Njk5NDg1MDF9fX1dfQ;CloudFront-Signature=i16tEIUssA4Wevm33SH7F~YTIxRFyIo5eKx94nqyAj4-2FzB6YhtDPt85Z44~CLagPZoWsQAjjbu~6CFDGAzCE3LJqBAfP-soUD0Sb37TWmdYQ0CESrx1FXLw35bmOwxo5J8wQkpIvP~QeJ-IUeUi05ocYvn4iqNWg7~EmpVkSMI0QLIPbtMkvcWpJGlcCYbeXe1pSr1axtA9sX70IoKC3y5yiubMhWosV~tgoCOgdqc8ofUK~k~wXrbDEZ5o8DUctvIrslZGzIvzMTRaskD6sRz6DDtgvxoOXNQYm-tt7C4RCuSEClwRpF1GRKwDPK75TbCLWU8lWz3bIMjTqPXIQ;;","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar/25.12.22.4.12134","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://tere-mere-rishta.pages.dev/LIVE/FREEMIUM/1540059653/TAM/2K/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6423/1768690606423-i" group-title="T20 |Live",HOTSTAR| TEL s2
-#EXTHTTP:{"Cookie":"CloudFront-Key-Pair-Id=APKAJC3ILMJXG4AINKJA;CloudFront-Key-Pair-Id=APKAJC3ILMJXG4AINKJA;CloudFront-Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovLypsaXZlLWNmLmNkbi5ob3RzdGFyLmNvbS9obHMvbGl2ZS8yMDAzODc3L2luYWxsb3ctaW5kdnNuei0yMDI2L3RlbC8xNTQwMDU5NjUzLzE1bWluZHZybTAxNzZkYjY3YTkyN2VkNDM4Mjk5NzRhMDJmZGFiYjE4MzgzMWphbnVhcnkyMDI2LyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3Njk5NDg1Njl9fX1dfQ;CloudFront-Signature=PzC7NAJuJ9dUuP0zJ70sEx1NSqIWV5rpJvjYXc4YnhTWCDFN4qpjmMyIjHt7S4cHm6fAF0N~XPsdaHTP2qcixex02K9uOIEqWd00yk6ePf1EVR7PozfjsW8YXDY4yin97PO6h4kpvUn2WCwWZjCaXtyH3jyo0UhJHGQHf5dYduleH-oYKEGTwBcd063pJNhDyFgZ3HKjIqm-VzC86L4n6IVMwxUhoalUmbrZXWBKHu2i1zW60BuzfBuCGqNEu-Eig18mgw7LCBvg9yP~XMzY5NWzklhR5OVB9o-xcQ5UPnAcmquPqciYgiyt98Q6K~5qZfnGR9CW2Eftix6TqNW-Lg;;","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar/25.12.22.4.12134","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://tere-mere-rishta.pages.dev/LIVE/FREEMIUM/1540059653/TEL/2K/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6423/1768690606423-i" group-title="T20 |Live",HOTSTAR| ENG s2
-#EXTHTTP:{"Cookie":"CloudFront-Key-Pair-Id=APKAJC3ILMJXG4AINKJA;CloudFront-Key-Pair-Id=APKAJC3ILMJXG4AINKJA;CloudFront-Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovLypsaXZlLWNmLmNkbi5ob3RzdGFyLmNvbS9obHMvbGl2ZS8yMDI0NzIwL2luYWxsb3ctaW5kdnNuei0yMDI2L2VuZy8xNTQwMDU5NjUzLzE1bWluZHZybTAxNzZkYjY3YTkyN2VkNDM4Mjk5NzRhMDJmZGFiYjE4MzgzMWphbnVhcnkyMDI2LyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3Njk5NDg1Nzd9fX1dfQ;CloudFront-Signature=UHOzI0zwSsUdsFxEM46pO4xY2nw0ML51CA4zIhOGMgCf4FctQZodOvcZym2nuZ8OhPAoAlIXb5oyhWcL8pSdBLxrZ6GPCvWHXeEsWZmojAsUgpoCmN-IASCo2BF1MJ1dYodUSv1LhVqI5Nj7vLMx95OZ8swjJXIqYFuOgKIdhPxGecOOlIzvkBvYjWkBp7q0rvgu7zesuZ3Az1qIU2VjbCr2DlGf0ZdYFBzXDYeCLYienT1WGJOVxz-405XLacUK7Ngfui7f0hjfhi~mcEt4yw1xuTIutPQtstf2wuDyfEHVeYT0SWeHJmkoFy2c~fBbPUJYedHgVepir2VVj6cVuQ;;","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar/25.12.22.4.12134","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://tere-mere-rishta.pages.dev/LIVE/FREEMIUM/1540059653/ENG/2K/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6423/1768690606423-i" group-title="T20 |Live",HOTSTAR| HIN s2
-#EXTHTTP:{"Cookie":"CloudFront-Key-Pair-Id=APKAJC3ILMJXG4AINKJA;CloudFront-Key-Pair-Id=APKAJC3ILMJXG4AINKJA;CloudFront-Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovLypsaXZlLWNmLmNkbi5ob3RzdGFyLmNvbS9obHMvbGl2ZS8yMDI0NzI1L2luYWxsb3ctaW5kdnNuei0yMDI2L2hpbi8xNTQwMDU5NjUzLzE1bWluZHZybTAxNzZkYjY3YTkyN2VkNDM4Mjk5NzRhMDJmZGFiYjE4MzgzMWphbnVhcnkyMDI2LyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3Njk5NDg0OTZ9fX1dfQ;CloudFront-Signature=L9NZdkyWMV2O-e7OzJjc0Z9~wwfGBCRlvZevqxmsaDeg0fH9~g7nbrwENdmQ48VAOWeCeTnYbS2F50B5vCvR1HwYOw3f6D5tVc-jW6CDxBUE1c8A0xw7m9iwPVkKLAlYo8KkGc-TofjrIUo~5~nRDr6ifEbAY5keR3cPP4IEF8By25cqHT91vO4hNB7Qvnxux9vlUIY3WMyXbEFeQaMxeL40-1qNjYQKwx3MJdKObw1PbXFNp10LbvaaTr308ejLAjsWe0Rwtw~B6x-AWuXVXtnTvq7GQnZY3AWCp3u~W43HZGKFwML0Jw4at3-QlBrvH7GCaR~wHRQarBQV6n4FBw;;","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar/25.12.22.4.12134","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://tere-mere-rishta.pages.dev/LIVE/FREEMIUM/1540059653/HIN/2K/index.m3u8
 
                          _________  Adhu idhu yedhu   _______
 
@@ -800,6 +781,30 @@ https://dub6-1.uptodub.ch/files/Tamil20Dubbed20Movies/Red20Eye20(2005)/Red20Eye2
 
 #EXTINF:-1 group-logo="" tvg-logo="https://marketplace.canva.com/EAGFGXfhSPI/1/0/1131w/canva-red-yellow-creative-movie-night-flyer-QKLXth_cpRw.jpg" group-title="VT 🎬 | Tamil Movies",#AAY
 https://bq32.short.gy/aaa.mkv
+
+#EXTINF:-1 type="movie" group-logo="" tvg-logo="https://m.media-amazon.com/images/M/MV5BNzk3OTFiNmEtOGE1NC00YjQ0LWE5ZGUtODhjNGJkMmQ3NTMzXkEyXkFqcGc@._V1_.jpg" group-title="VT 🎬 | Tamil Movies",Nari Nari Naduma Murari (𝗜𝗠𝗗𝗕 8.2 2026 ‧ Drama\Telugu ‧ 2h 20m Director Ram Abbaraju | Writers Ram Abbaraju ‧ Bhanu Bhogavarapu ‧ Nandu Savirigana | Stars Samyuktha Menon ‧ Sharwanand ‧ Sakshi Vaidya)
+https://tentkotta.short.gy/AgADkx5791.mkv
+
+#EXTINF:-1 type="movie" group-logo="" tvg-logo="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xxlarge/padaiyaanda-maaveeraa-et00462890-1758005874.jpg" group-title="VT 🎬 | Tamil Movies",Padaiyaanda Maaveeraa (𝗜𝗠𝗗𝗕 3.4 2025 ‧ Tamil\Drama ‧ 2h 35m Director V. Gowthaman | Writers V. Gowthaman | Stars Sai Dheena ‧ V. Gowthaman ‧ Mansoor Ali Khan)
+https://tentkotta.short.gy/AgADoh5789.mkv
+
+#EXTINF:-1 type="movie" group-logo="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1080/sources/r1/cms/prod/647/1769707550647-v" group-title="VT 🎬 | Tamil Movies",Sarvam Maya (𝗜𝗠𝗗𝗕 7.8 2025 ‧ Comedy\Fantasy\Horror\Malayalam ‧ 2h 26m Director Akhil Sathyan | Writers Akhil Sathyan | Stars Nivin Pauly ‧ Riya Shibu ‧ Preity Mukhundhan)
+https://tentkotta.short.gy/AgADpR5787.mkv
+
+#EXTINF:-1 type="movie" group-logo="" tvg-logo="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xxlarge/patang-et00417632-1730094710.jpg" group-title="VT 🎬 | Tamil Movies",Patang (𝗜𝗠𝗗𝗕 7.2 2025 ‧ Comedy\Sport\Telugu ‧ 2h 42m Director Praneeth Prattipati | Writers Praneeth Prattipati | Stars S.P. Charan ‧ Keshav Deepak ‧ S.S. Kaanchi)
+https://tentkotta.short.gy/AgADDR5785.mkv
+
+#EXTINF:-1 type="movie" group-logo="" tvg-logo="https://m.media-amazon.com/images/M/MV5BOTA4ZWJmMWQtMjk0OS00ZmY2LThhNmYtYzU2YjY2ZDc3ZmYwXkEyXkFqcGc@._V1_.jpg" group-title="VT 🎬 | Tamil Movies",45 (𝗜𝗠𝗗𝗕 6.3 2025 ‧ Action\Fantasy\Kannada ‧ 2h 24m Director Arjun Janya | Writers Arjun Janya ‧ Anil Kumar | Stars Shivarajkumar ‧ Upendra ‧ Raj B. Shetty)
+https://tentkotta.short.gy/AgADSh5772.mkv
+
+#EXTINF:-1 type="movie" group-logo="" tvg-logo="https://m.media-amazon.com/images/M/MV5BOWM0NTQzYjAtYjg4MS00MDZmLWI2YTEtNGViMmEzNGVhZmI3XkEyXkFqcGc@._V1_.jpg" group-title="VT 🎬 | Tamil Movies",Gurram Paapi Reddy (𝗜𝗠𝗗𝗕 6.6 2025 ‧ Comedy\Crime\Telugu ‧ 2h 40m Director Murali Manohar Reddy | Writers Poorna Pragna | Stars Faria Abdullah ‧ Naresh Agastya ‧ Rajiv Kumar Aneja)
+https://tentkotta.short.gy/AgAD2R5777.mkv
+
+#EXTINF:-1 type="movie" group-logo="" tvg-logo="https://m.media-amazon.com/images/M/MV5BMzFiNTVkZjYtM2I3Yi00MGNjLWEyYTAtMGViNGExZmMzMGMzXkEyXkFqcGc@._V1_.jpg" group-title="VT 🎬 | Tamil Movies",Dhurandhar (𝗜𝗠𝗗𝗕 8.4 2025 ‧ Action\Adventure\Crime\Action Epic\Gangster\Political Drama\Political Thriller\Spy\Drama\Hindi ‧ 3h 34m Director Aditya Dhar | Writers Aditya Dhar ‧ Ojas Gautam ‧ Shivkumar V. Panicker | Stars Ranveer Singh ‧ Akshaye Khanna ‧ Sanjay Dutt)
+https://tentkotta.short.gy/AgADGC5783.mkv
+
+#EXTINF:-1 type="movie" group-logo="" tvg-logo="https://m.media-amazon.com/images/M/MV5BNjQyNjViZmItMDIxMC00YjgwLTk1ZjUtNzRiYzI0YmU3YjZjXkEyXkFqcGc@._V1_.jpg" group-title="VT 🎬 | Tamil Movies",Champion (𝗜𝗠𝗗𝗕 6.4 2025 ‧ Drama\Sport\Telugu ‧ 2h 45m Director Pradeep Advaitham | Writers Pradeep Advaitham ‧ Rutham Samar | Stars Roshann Meka ‧ Anaswara Rajan ‧ Kalyan Chakravarthy Nandamuri)
+https://tentkotta.short.gy/AgADSB5781.mkv
 
 #EXTINF:-1 type="movie" group-logo="" tvg-logo="https://m.media-amazon.com/images/M/MV5BODQ3Yjk1NmQtNWYyMi00YmE1LTkwZTUtZTI0YzYyMzhhMDE5XkEyXkFqcGc@._V1_.jpg" group-title="VT 🎬 | Tamil Movies",Vaa Vaathiyaar (𝗜𝗠𝗗𝗕 5.7 2026 ‧ Tamil\Action\Comedy\Fantasy ‧ 2h 9m Director Nalan Kumarasamy | Writers Nalan Kumarasamy | Stars Karthi ‧ Krithi Shetty ‧ Sathyaraj)
 https://tentkotta.short.gy/AgADcC5760.mkv
@@ -12332,16 +12337,16 @@ https://vt-ip.vodep39240327.workers.dev/1371.m3u8
 
 # ---------------=== FanCode | Sports ===-------------------
 
-#EXTINF:-1 tvg-id="133978" group-title="FanCode | Sports" tvg-logo=" https://www.fancode.com/skillup-uploads/cms-media/Women's-National-Cricket-League_old_v3_1758034980120.jpg",Victoria Women vs South Australian Scorpions
-https://in-mc-fdlive.fancode.com/mumbai/133978_english_hls_fac81cabc189944_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-id="134033" group-title="FanCode | Sports" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/134033_5609_VCT_QUN_fc-Web.jpg",Queensland vs Victoria
 https://in-mc-fdlive.fancode.com/mumbai/134033_english_hls_2b9895c52741502_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-id="134032" group-title="FanCode | Sports" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/134032_5609_NSW_SAU_fc-Web.jpg",New South Wales vs South Australia
-https://in-mc-fdlive.fancode.com/mumbai/134032_english_hls_046dbb137026643_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-id="134034" group-title="FanCode | Sports" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/134034_5609_WAU_TAS_fc-Web.jpg",Tasmania vs Western Australia
 https://in-mc-fdlive.fancode.com/mumbai/134034_english_hls_c4cbfdf20720719_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-id="134032" group-title="FanCode | Sports" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/134032_5609_NSW_SAU_fc-Web.jpg",New South Wales vs South Australia
+https://in-mc-fdlive.fancode.com/mumbai/134032_english_hls_046dbb137026643_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-id="140320" group-title="FanCode | Sports" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Asian-Rifle_Pistol-Championship-2026-old-match-card.png",Day 2
 https://in-mc-fdlive.fancode.com/mumbai/140320_english_hls_61025a7bd349802_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-id="140314" group-title="FanCode | Sports" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Dream-Sports-Championship-2026---Table-Tennisold-match-card.png",Semi - Finals
+https://in-mc-fdlive.fancode.com/mumbai/140314_english_hls_2b98fe202644475_1ta-di_h264/index.m3u8
 # =========================================
 # This m3u link is only for educational purposes
 # =========================================
