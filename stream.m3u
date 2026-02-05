@@ -12337,12 +12337,8 @@ https://vt-ip.vodep39240327.workers.dev/1371.m3u8
 
 # ---------------=== FanCode | Sports ===-------------------
 
-#EXTINF:-1 tvg-id="134033" group-title="FanCode | Sports" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/134033_5609_VCT_QUN_fc-Web.jpg",Queensland vs Victoria
-https://in-mc-fdlive.fancode.com/mumbai/134033_english_hls_2b9895c52741502_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-id="134034" group-title="FanCode | Sports" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/134034_5609_WAU_TAS_fc-Web.jpg",Tasmania vs Western Australia
 https://in-mc-fdlive.fancode.com/mumbai/134034_english_hls_c4cbfdf20720719_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-id="134032" group-title="FanCode | Sports" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/134032_5609_NSW_SAU_fc-Web.jpg",New South Wales vs South Australia
-https://in-mc-fdlive.fancode.com/mumbai/134032_english_hls_046dbb137026643_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-id="140320" group-title="FanCode | Sports" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Asian-Rifle_Pistol-Championship-2026-old-match-card.png",Day 2
 https://in-mc-fdlive.fancode.com/mumbai/140320_english_hls_61025a7bd349802_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-id="140314" group-title="FanCode | Sports" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Dream-Sports-Championship-2026---Table-Tennisold-match-card.png",Semi - Finals
