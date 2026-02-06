@@ -8,7 +8,7 @@ const SOURCES = {
   HOTSTAR_JSON: "https://cloudplay-app.cloudplay-help.workers.dev/hotstar?password=all",
   ZEE5_M3U: "https://raw.githubusercontent.com/Sufiyan123yivh/Testing/refs/heads/main/Zee5.m3u",
   EXTRA_M3U: "https://od.lk/s/MzZfODQzNTQ1Nzlf/raw?=m3u",
-  JIO_M3U: "https://shrill-water-d836.saqlainhaider8198.workers.dev/?password=all",
+  JIO_JSON: "https://raw.githubusercontent.com/vaathala00/jo/main/stream.json",
   SONYLIV_JSON: "https://raw.githubusercontent.com/drmlive/sliv-live-events/main/sonyliv.json",
   FANCODE_JSON: "https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.json",
 };
@@ -102,10 +102,10 @@ function convertZee5(m3u) {
         const cookieMatch = urlLine.match(/hdntl=[^&]*/);
         if (cookieMatch) currentCookie = cookieMatch[0];
 
- // 🔥 REMOVE hdntl FROM URL
-  const cleanUrl = urlLine
-    .replace(/([?&])hdntl=[^&]*/g, "")
-    .replace(/[?&]$/, "");
+        // 🔥 REMOVE hdntl FROM URL
+        const cleanUrl = urlLine
+          .replace(/([?&])hdntl=[^&]*/g, "")
+          .replace(/[?&]$/, "");
 
         output.push(
           `#EXTHTTP:${JSON.stringify({
@@ -124,12 +124,37 @@ function convertZee5(m3u) {
   return output.join("\n");
 }
 
-// ================= JIO GROUP FIX =================
-function fixJioGroups(m3u) {
-  return m3u.replace(/group-title="([^"]+)"/g, (m, g) => {
-    if (g.startsWith("JIO")) return m;
-    return `group-title="JIO ⭕ | ${g}"`;
-  });
+// ================= JIO JSON → M3U (WITH CLEARKEY) =================
+function convertJioJson(json) {
+  if (!json) return "";
+
+  const uaDefault =
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/121.0.0.0 Safari/537.36";
+
+  const output = [];
+
+  for (const id in json) {
+    const ch = json[id];
+
+    const cookie = `hdnea=${ch.url.match(/__hdnea__=([^&]*)/)?.[1] || ""}`;
+
+    output.push(
+      `#EXTINF:-1 tvg-id="${id}" group-title="JIO ⭕|${ch.group_title}" tvg-logo="${ch.tvg_logo}",${ch.channel_name}`,
+      `#KODIPROP:inputstream.adaptive.license_type=clearkey`,
+      `#KODIPROP:inputstream.adaptive.license_key=${ch.kid}:${ch.key}`,
+      `#EXTHTTP:${JSON.stringify({
+        Cookie: cookie,
+        Origin: "",
+        Referer: "",
+        "User-Agent": ch.user_agent || uaDefault,
+        Telegram: "@links_macha_official",
+        Creator: "@DJ-TM",
+      })}`,
+      ch.url
+    );
+  }
+
+  return output.join("\n");
 }
 
 // ================= SONYLIV =================
@@ -212,10 +237,10 @@ async function run() {
     finalM3U.push(convertZee5(zee5));
   }
 
-  const jio = await safeFetch(SOURCES.JIO_M3U, "JIO TV");
+  const jio = await safeFetch(SOURCES.JIO_JSON, "JIO TV");
   if (jio) {
     finalM3U.push(section("JIO ⭕ | Live TV"));
-    finalM3U.push(fixJioGroups(jio));
+    finalM3U.push(convertJioJson(jio));
   }
 
   const extra = await safeFetch(SOURCES.EXTRA_M3U, "Extra");
