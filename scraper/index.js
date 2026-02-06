@@ -8,7 +8,7 @@ const SOURCES = {
   HOTSTAR_JSON: "https://cloudplay-app.cloudplay-help.workers.dev/hotstar?password=all",
   ZEE5_M3U: "https://raw.githubusercontent.com/Sufiyan123yivh/Testing/refs/heads/main/Zee5.m3u",
   EXTRA_M3U: "https://od.lk/s/MzZfODQzNTQ1Nzlf/raw?=m3u",
-  JIO_JSON: "https://raw.githubusercontent.com/vaathala00/jo/main/stream.json",
+  JIO_JSON: "https://raw.githubusercontent.com/vaathala00/jo/main/stream.jso",
   SONYLIV_JSON: "https://raw.githubusercontent.com/drmlive/sliv-live-events/main/sonyliv.json",
   FANCODE_JSON: "https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.json",
 };
