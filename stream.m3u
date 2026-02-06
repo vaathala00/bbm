@@ -409,6 +409,43 @@ https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8
 #EXTINF:-1 group-logo="" tvg-logo="https://od.lk/s/OV8yMTQ5MzMzMzRf/vt20.PNG" group-title="𝙏𝙀𝙇𝙀𝙂𝙍𝘼𝙈 𝘾𝙃𝘼𝙉𝙉𝙀𝙇 | @𝙫𝙖𝙖𝙩𝙝𝙖𝙡𝙖1" ,
 https://example.com/video.m3u8   
 
+--------------== U19 ==------------------                
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3d7a73de8c41b3ba9125a6544e5f89bf:8f93b0a810e89801ef8fa1fbb4cd59d2
+#EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6339/1770323376339-i" group-title="U19 | Men's Cricket ", WILLOW
+#EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/kbndcj80tn/out/v1/31fc126027704d56bd0e09134a19085a/cenc.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
+#EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6339/1770323376339-i" group-title="U19 | Men's Cricket ",ICC TV
+#EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+https://livem-d-02-icc-ne.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-02)/manifest.mpd?vcfilter=ab179ffc-6dbd-4cdc-bc0c-a31e13745497
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f159241d40e659d58e81bc17ca30da31:6b7fe24f7a16343bd447b0b30f68b7b2
+#EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6339/1770323376339-i" group-title="U19 | Men's Cricket ",PRIME
+#EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/att545vfjr/out/v1/450d606c6a17471f84d09372f55004e2/cenc.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=fe7718fbb3fb4ba78c07cc0f578744e6:624e24b1843b459fab0a949609416f0d
+#EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6339/1770323376339-i" group-title="U19 | Men's Cricket ",SS 1 ENGLISH
+#EXTHTTP:{"Cookie":"hdntl=exp=1770449171~acl=*sshd1livetv*~id=3416848d7efb9a2e17d3ea747f78f85e~data=hdntl~hmac=3b4d21b3e210bc18683bbfa25109bfe775ed9ae5968e64f068c8dd58f92e4683","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar/25.02.24.8.11169%20(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+https://livetv-push.hotstar.com/dash/live/2002464/sshd1livetvwv/master.mpd
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6339/1770323376339-i" group-title="U19 | Men's Cricket ",SS 2 HINDI HD
+#EXTHTTP:{"Cookie":"hdntl=exp=1770448717~acl=%2f*~id=f6c28565bcfb944e56ce79c0ce896718~data=hdntl~hmac=91c3e86e272c1bd6032e0e5540a718b9124f8d75bc3f982118c49d47a62e7200","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar/25.02.24.8.11169%20(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+https://jcevents.hotstar.com/bpk-tv/f0e3e64ae415771d8e460317ce97aa5e/Fallback/index2.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6339/1770323376339-i" group-title="U19 | Men's Cricket ",SS 2 TAMIL
+#EXTHTTP:{"Cookie":"hdntl=exp=1770448717~acl=%2f*~id=f6c28565bcfb944e56ce79c0ce896718~data=hdntl~hmac=91c3e86e272c1bd6032e0e5540a718b9124f8d75bc3f982118c49d47a62e7200","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar/25.02.24.8.11169%20(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+https://jcevents.hotstar.com/bpk-tv/4db6f833701e78ae4443cb268020f03b/Fallback/index2.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6339/1770323376339-i" group-title="U19 | Men's Cricket ",SS 2 TELUGU
+#EXTHTTP:{"Cookie":"hdntl=exp=1770448717~acl=%2f*~id=f6c28565bcfb944e56ce79c0ce896718~data=hdntl~hmac=91c3e86e272c1bd6032e0e5540a718b9124f8d75bc3f982118c49d47a62e7200","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar/25.02.24.8.11169%20(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+https://jcevents.hotstar.com/bpk-tv/034d1fb94cae87294a06f4dc266084b9/Fallback/index2.m3u8
+
 --------------== WPL ==------------------                
      #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/bb/2026_Women%27s_Premier_League_%28cricket%29.jpg" group-title="WPL |Live", Star|KANNADA
 #EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
@@ -12333,7 +12370,9 @@ https://vt-ip.vodep39240327.workers.dev/1371.m3u8
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
-
+#EXTINF:-1 tvg-id="1090503198_ENG" group-title="SonyLiv | Sports" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014812/1770116872509170_DPworld_tour_Qatar_Masters_Day2_3feb_landscape_thumb.jpg",Qatar Masters Day 2 - 6 Feb 2026 [ENG]
+#EXTHTTP:{"Origin":"https://www.sonyliv.com","Referer":"https://www.sonyliv.com/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/129.0.0.0 Safari/537.36","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770411187~acl=/*~id=67009830101516693846976847874160~hmac=6cefbd323facfe22d7b198d901c688ed5bbccc3a65398f69f70fa8c075b93fa1
 
 # ---------------=== FanCode | Sports ===-------------------
 
@@ -12341,8 +12380,8 @@ https://vt-ip.vodep39240327.workers.dev/1371.m3u8
 https://in-mc-fdlive.fancode.com/mumbai/133979_english_hls_001a51db6a54394_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-id="134034" group-title="FanCode | Sports" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/134034_5609_WAU_TAS_fc-Web.jpg",Tasmania vs Western Australia
 https://in-mc-fdlive.fancode.com/mumbai/134034_english_hls_c4cbfdf20783713_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-id="139402" group-title="FanCode | Sports" tvg-logo="https://images.fancode.com/aig/match/v1/139402_CASACARDS_APP.png",Wellington Phoenix vs Melbourne Victory
-https://in-mc-fdlive.fancode.com/mumbai/139402_english_hls_a1eb0f6c1672953_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-id="139403" group-title="FanCode | Sports" tvg-logo="https://images.fancode.com/aig/match/v1/139403_CASACARDS_APP.png",Macarthur vs Perth Glory
+https://in-mc-fdlive.fancode.com/mumbai/139403_english_hls_c698197c3542208_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-id="140321" group-title="FanCode | Sports" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Asian-Rifle_Pistol-Championship-2026-old-match-card.png",Day 3
 https://in-mc-fdlive.fancode.com/mumbai/140321_english_hls_0866837ebd87086_1ta-di_h264/index.m3u8
 # =========================================
