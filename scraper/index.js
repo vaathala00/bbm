@@ -12,7 +12,7 @@ const SOURCES = {
   SONYLIV_JSON: "https://raw.githubusercontent.com/drmlive/sliv-live-events/main/sonyliv.json",
   FANCODE_JSON: "https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.json",
   ICC_TV_JSON: "https://psplay.indevs.in/icctv",
-  SPORTS_JSON: "https://sports.vodep39240327.workers.dev/sports.json",
+  SPORTS_JSON: "https://sports.vodep39240327.workers.dev/sports.jso",
 };
 
 // ================= PLAYLIST HEADER =================
