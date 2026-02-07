@@ -11,6 +11,7 @@ const SOURCES = {
   JIO_JSON: "https://raw.githubusercontent.com/vaathala00/jo/main/stream.jso",
   SONYLIV_JSON: "https://raw.githubusercontent.com/drmlive/sliv-live-events/main/sonyliv.json",
   FANCODE_JSON: "https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.json",
+  ICC_TV_JSON: "https://psplay.indevs.in/icctv",
 };
 
 // ================= PLAYLIST HEADER =================
@@ -34,28 +35,17 @@ function section(title) {
   return `\n# ---------------=== ${title} ===-------------------\n`;
 }
 
-// ================= HOTSTAR JSON → M3U (MPD FIX) =================
+// ================= HOTSTAR =================
 function convertHotstar(json) {
-  if (!json || !Array.isArray(json)) {
-    console.warn("⚠️ Hotstar JSON invalid or empty, skipping");
-    return "";
-  }
-
+  if (!Array.isArray(json)) return "";
   const out = [];
 
   json.forEach((ch) => {
-    const streamUrl = ch.mpd_url || ch.m3u8_url;
-
-    if (!streamUrl) {
-      console.warn(`⚠️ Missing stream URL for ${ch.name}`);
-      return;
-    }
+    const url = ch.mpd_url || ch.m3u8_url;
+    if (!url) return;
 
     out.push(
-      `#EXTINF:-1 tvg-id="" tvg-logo="${ch.logo}" group-title="VOOT | Jio Cinema",${ch.name}`
-    );
-
-    out.push(
+      `#EXTINF:-1 tvg-logo="${ch.logo}" group-title="VOOT | Jio Cinema",${ch.name}`,
       `#EXTHTTP:${JSON.stringify({
         ...ch.headers,
         Referer: "https://www.hotstar.com/",
@@ -63,122 +53,86 @@ function convertHotstar(json) {
         "User-Agent":
           ch.user_agent ||
           "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
-        Telegram: "@links_macha_official",
-        Creator: "@DJ-TM",
-      })}`
+      })}`,
+      url
     );
-
-    // MPD OR M3U8
-    out.push(streamUrl);
   });
 
   return out.join("\n");
 }
 
-// ================= ZEE5 → EXTHTTP =================
+// ================= ZEE5 =================
 function convertZee5(m3u) {
   const lines = m3u.split("\n");
-  const output = [];
-
-  let currentCookie = "";
-  let currentUA =
+  const out = [];
+  let ua =
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/121.0.0.0 Safari/537.36";
+  let cookie = "";
 
   for (let i = 0; i < lines.length; i++) {
     let line = lines[i].trim();
 
     if (line.startsWith("#EXTINF")) {
-      line = line.replace(/group-title=".*?"/, 'group-title="ZEE5 | Live"');
-      output.push(line);
+      out.push(line.replace(/group-title=".*?"/, 'group-title="ZEE5 | Live"'));
 
-      const nextLine = lines[i + 1]?.trim() || "";
-      if (nextLine.startsWith("#EXTVLCOPT:http-user-agent=")) {
-        currentUA = nextLine.split("=")[1];
-        i++;
-      }
+      const url = lines[i + 1]?.trim();
+      if (url?.startsWith("http")) {
+        const m = url.match(/hdntl=[^&]*/);
+        if (m) cookie = m[0];
 
-      const urlLine = lines[i + 1]?.trim() || "";
-      if (urlLine.startsWith("http")) {
-        const cookieMatch = urlLine.match(/hdntl=[^&]*/);
-        if (cookieMatch) currentCookie = cookieMatch[0];
-
-        // 🔥 REMOVE hdntl FROM URL
-        const cleanUrl = urlLine
+        const clean = url
           .replace(/([?&])hdntl=[^&]*/g, "")
           .replace(/[?&]$/, "");
 
-        output.push(
+        out.push(
           `#EXTHTTP:${JSON.stringify({
-            Cookie: currentCookie,
-            "User-Agent": currentUA,
-            Telegram: "@links_macha_official",
-            Creator: "@DJ-TM",
-          })}`
+            Cookie: cookie,
+            "User-Agent": ua,
+          })}`,
+          clean
         );
-        output.push(cleanUrl);
         i++;
       }
     }
   }
 
-  return output.join("\n");
+  return out.join("\n");
 }
 
-// ================= JIO JSON → M3U (WITH CLEARKEY) =================
+// ================= JIO =================
 function convertJioJson(json) {
   if (!json) return "";
-
-  const uaDefault =
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/121.0.0.0 Safari/537.36";
-
-  const output = [];
+  const out = [];
 
   for (const id in json) {
     const ch = json[id];
-
     const cookie = `hdnea=${ch.url.match(/__hdnea__=([^&]*)/)?.[1] || ""}`;
 
-    output.push(
-      `#EXTINF:-1 tvg-id="${id}" group-title="JIO ⭕|${ch.group_title}" tvg-logo="${ch.tvg_logo}",${ch.channel_name}`,
+    out.push(
+      `#EXTINF:-1 tvg-id="${id}" tvg-logo="${ch.tvg_logo}" group-title="JIO ⭕ | Live TV",${ch.channel_name}`,
       `#KODIPROP:inputstream.adaptive.license_type=clearkey`,
       `#KODIPROP:inputstream.adaptive.license_key=${ch.kid}:${ch.key}`,
       `#EXTHTTP:${JSON.stringify({
         Cookie: cookie,
-        Origin: "",
-        Referer: "",
-        "User-Agent": ch.user_agent || uaDefault,
-        Telegram: "@links_macha_official",
-        Creator: "@DJ-TM",
+        "User-Agent": ch.user_agent,
       })}`,
       ch.url
     );
   }
 
-  return output.join("\n");
+  return out.join("\n");
 }
 
 // ================= SONYLIV =================
 function convertSonyliv(json) {
-  if (!json || !Array.isArray(json.matches)) return "";
-
-  const ua =
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/129.0.0.0 Safari/537.36";
-
+  if (!Array.isArray(json.matches)) return "";
   return json.matches
     .filter((m) => m.isLive)
     .map((m) => {
-      const url = m.dai_url || m.pub_url || m.video_url;
+      const url = m.dai_url || m.pub_url;
       if (!url) return null;
-
       return [
-        `#EXTINF:-1 tvg-id="${m.contentId}" group-title="SonyLiv | Sports" tvg-logo="${m.src}",${m.match_name}`,
-        `#EXTHTTP:${JSON.stringify({
-          Origin: "https://www.sonyliv.com",
-          Referer: "https://www.sonyliv.com/",
-          "User-Agent": ua,
-          Telegram: "@links_macha_official",
-          Creator: "@DJ-TM",
-        })}`,
+        `#EXTINF:-1 tvg-logo="${m.src}" group-title="SonyLiv | Sports",${m.match_name}`,
         url,
       ].join("\n");
     })
@@ -188,16 +142,14 @@ function convertSonyliv(json) {
 
 // ================= FANCODE =================
 function convertFancode(json) {
-  if (!json || !Array.isArray(json.matches)) return "";
-
+  if (!Array.isArray(json.matches)) return "";
   return json.matches
     .filter((m) => m.status === "LIVE")
     .map((m) => {
       const url = m.adfree_url || m.dai_url;
       if (!url) return null;
-
       return [
-        `#EXTINF:-1 tvg-id="${m.match_id}" group-title="FanCode | Sports" tvg-logo="${m.src}",${m.match_name}`,
+        `#EXTINF:-1 tvg-logo="${m.src}" group-title="FanCode | Sports",${m.match_name}`,
         url,
       ].join("\n");
     })
@@ -205,16 +157,39 @@ function convertFancode(json) {
     .join("\n");
 }
 
+// ================= ICC TV =================
+function convertIccTv(json) {
+  if (!Array.isArray(json.tournaments)) return "";
+  const out = [];
+
+  json.tournaments.forEach((t) => {
+    if (t.status !== "success") return;
+
+    t.live_streams.forEach((s) => {
+      if (!s.mpd || !s.keys) return;
+
+      const logo = s.match?.thumbnail || "";
+      const title = s.title || "ICC Live";
+
+      out.push(
+        `#KODIPROP:inputstream.adaptive.license_type=clearkey`,
+        `#KODIPROP:inputstream.adaptive.license_key=${s.keys}`,
+        `#EXTINF:-1 group-title="T20 World Cup |Live Matches" group-logo="${logo}" tvg-logo="${logo}",ICC-${title}`,
+        s.mpd
+      );
+    });
+  });
+
+  return out.join("\n");
+}
+
 // ================= SAFE FETCH =================
 async function safeFetch(url, name) {
   try {
-    const res = await axios.get(url, {
-      timeout: 15000,
-      headers: { "User-Agent": "Mozilla/5.0" },
-    });
+    const res = await axios.get(url, { timeout: 15000 });
     console.log(`✅ Loaded ${name}`);
     return res.data;
-  } catch (e) {
+  } catch {
     console.warn(`⚠️ Skipped ${name}`);
     return null;
   }
@@ -222,48 +197,33 @@ async function safeFetch(url, name) {
 
 // ================= MAIN =================
 async function run() {
-  const finalM3U = [];
-  finalM3U.push(PLAYLIST_HEADER.trim());
+  const out = [];
+  out.push(PLAYLIST_HEADER.trim());
 
   const hotstar = await safeFetch(SOURCES.HOTSTAR_JSON, "Hotstar");
-  if (hotstar) {
-    finalM3U.push(section("VOOT | Jio Cinema"));
-    finalM3U.push(convertHotstar(hotstar));
-  }
+  if (hotstar) out.push(section("VOOT | Jio Cinema"), convertHotstar(hotstar));
 
   const zee5 = await safeFetch(SOURCES.ZEE5_M3U, "ZEE5");
-  if (zee5) {
-    finalM3U.push(section("ZEE5 | Live"));
-    finalM3U.push(convertZee5(zee5));
-  }
+  if (zee5) out.push(section("ZEE5 | Live"), convertZee5(zee5));
 
-  const jio = await safeFetch(SOURCES.JIO_JSON, "JIO TV");
-  if (jio) {
-    finalM3U.push(section("JIO ⭕ | Live TV"));
-    finalM3U.push(convertJioJson(jio));
-  }
+  const jio = await safeFetch(SOURCES.JIO_JSON, "JIO");
+  if (jio) out.push(section("JIO ⭕ | Live TV"), convertJioJson(jio));
 
-  const extra = await safeFetch(SOURCES.EXTRA_M3U, "Extra");
-  if (extra) {
-    finalM3U.push(section("Other Channels"));
-    finalM3U.push(extra);
-  }
+  const icc = await safeFetch(SOURCES.ICC_TV_JSON, "ICC TV");
+  if (icc) out.push(section("T20 World Cup | Live Matches"), convertIccTv(icc));
 
   const sony = await safeFetch(SOURCES.SONYLIV_JSON, "SonyLiv");
-  if (sony) {
-    finalM3U.push(section("SonyLiv | Sports"));
-    finalM3U.push(convertSonyliv(sony));
-  }
+  if (sony) out.push(section("SonyLiv | Sports"), convertSonyliv(sony));
 
   const fan = await safeFetch(SOURCES.FANCODE_JSON, "FanCode");
-  if (fan) {
-    finalM3U.push(section("FanCode | Sports"));
-    finalM3U.push(convertFancode(fan));
-  }
+  if (fan) out.push(section("FanCode | Sports"), convertFancode(fan));
 
-  finalM3U.push(PLAYLIST_FOOTER.trim());
+  const extra = await safeFetch(SOURCES.EXTRA_M3U, "Extra");
+  if (extra) out.push(section("Other Channels"), extra);
 
-  fs.writeFileSync(OUTPUT_FILE, finalM3U.join("\n") + "\n");
+  out.push(PLAYLIST_FOOTER.trim());
+
+  fs.writeFileSync(OUTPUT_FILE, out.join("\n") + "\n");
   console.log(`✅ ${OUTPUT_FILE} generated successfully`);
 }
 
