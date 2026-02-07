@@ -269,26 +269,36 @@ https://livetv.hotstar.com/mp2/gec-india-1540057081/5c13f17d142c4963a1c7bd54fcd4
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
-#EXTINF:-1 group-title="T20 World Cup |Live Matches" group-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770457774/prd/munbuskrrn8mpyz5jrho" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770457774/prd/munbuskrrn8mpyz5jrho",ICC-MT20: West Indies v Scotland
-https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-03)/manifest.mpd?vcfilter=fb301c18-9ad4-4ae2-a04e-1f5842c76a21
+#EXTINF:-1 group-title="T20 World Cup |Live Matches" group-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770470443/prd/cqmwffcxzaf4ssbscdol" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770470443/prd/cqmwffcxzaf4ssbscdol",ICC-MT20: India v USA
+https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-02)/manifest.mpd?vcfilter=0d7ecdf3-8c1b-4d5e-b5e5-764536417ba1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
-#EXTINF:-1 group-title="T20 World Cup |Live Matches" group-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770457808/prd/kb2riqrqupbffj0y7hye" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770457808/prd/kb2riqrqupbffj0y7hye",ICC-MT20: West Indies v Scotland (HINDI)
-https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-05)/manifest.mpd?vcfilter=44951f97-10ec-427f-a95a-a2ecf57e9a41
+#EXTINF:-1 group-title="T20 World Cup |Live Matches" group-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770470392/prd/t4pn1pnqzvrv4b55try1" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770470392/prd/t4pn1pnqzvrv4b55try1",ICC-MT20: India v USA (HINDI)
+https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-04)/manifest.mpd?vcfilter=a2432dde-92bc-4e39-b7ad-d799c59e3d80
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014812/1770116879810170_DPworld_tour_Qatar_Masters_Day3_3feb_landscape_thumb.jpg" group-title="SonyLiv | Sports",Qatar Masters Day 3 - 7 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770506189~acl=/*~id=17923083125323424152580257953355~hmac=5c8fee12cb36c70dd6e9c37de57dd788a2cc148dbbc81525284bf3c6041af559
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014934/1770407604971489_WPL26_SF_Delhi_vs_Bengaluru_7feb_landscape_thumb.jpg" group-title="SonyLiv | Sports",Dilli Dillwale vs Bengaluru Jawans - Semi-final - 7 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770518317~acl=/*~id=15566423366394732559842535089901~hmac=673c5ae9ea9ab86e4ac60d9b4c6ed18738dcfae71cb3e1f8e573510417b8a02d
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014298/1769512669080875_Bundesliga_2025_26_VfL-Wolfsburg-vs-Borussia-Dortmund_landscape_thumb.jpg" group-title="SonyLiv | Sports",VfL Wolfsburg vs Borussia Dortmund - MD 21 - 7 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022317/DAI13ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770518317~acl=/*~id=15566423366394732559842535089901~hmac=673c5ae9ea9ab86e4ac60d9b4c6ed18738dcfae71cb3e1f8e573510417b8a02d
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014913/177036380733226_BLIGA_26_Mainz-vs-FC-Augsburg_landscape_thumb.jpg" group-title="SonyLiv | Sports",Mainz vs FC Augsburg- MD 21 - 7 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770518317~acl=/*~id=15566423366394732559842535089901~hmac=673c5ae9ea9ab86e4ac60d9b4c6ed18738dcfae71cb3e1f8e573510417b8a02d
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014298/1769512262497875_Bundesliga_2025_26_SC-Freiburg-vs-Werder-Bremen_landscape_thumb.jpg" group-title="SonyLiv | Sports",SC Freiburg vs Werder Bremen - MD 21 - 7 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770518317~acl=/*~id=15566423366394732559842535089901~hmac=673c5ae9ea9ab86e4ac60d9b4c6ed18738dcfae71cb3e1f8e573510417b8a02d
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014927/1770390675980904_Bundesliga_2025_26_St_Pauli_vs_VfB_Stuttgart_6feb_landscape_thumb.jpg" group-title="SonyLiv | Sports",St. Pauli vs VfB Stuttgart - MD 21 - 7 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022315/DAI11ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770518317~acl=/*~id=15566423366394732559842535089901~hmac=673c5ae9ea9ab86e4ac60d9b4c6ed18738dcfae71cb3e1f8e573510417b8a02d
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014913/177036401214026_BLIGA_26_Heidenheim-vs-Hamburger-sv_landscape_thumb.jpg" group-title="SonyLiv | Sports",Heidenheim vs Hamburger SV - MD 21 - 7 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770518317~acl=/*~id=15566423366394732559842535089901~hmac=673c5ae9ea9ab86e4ac60d9b4c6ed18738dcfae71cb3e1f8e573510417b8a02d
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000006892/1755929846694147_Bliga26_Goal_Arena_landscape_thumb.jpg" group-title="SonyLiv | Sports",Goal Arena - MD 21 - 7 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770518317~acl=/*~id=15566423366394732559842535089901~hmac=673c5ae9ea9ab86e4ac60d9b4c6ed18738dcfae71cb3e1f8e573510417b8a02d
 
 # ---------------=== FanCode | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Emirates_web_1769270071345.jpg" group-title="FanCode | Sports",Dubai vs Abu Dhabi
-https://in-mc-fdlive.fancode.com/mumbai/139625_english_hls_bf28bdac6590850_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Asian-Rifle_Pistol-Championship-2026-old-match-card.png" group-title="FanCode | Sports",Day 4
-https://in-mc-fdlive.fancode.com/mumbai/140322_english_hls_7871d97b5914503_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/MotoGP-Launch-Event-2026_Web_1080_x_810_2.jpg" group-title="FanCode | Sports",MotoGP Launch
-https://in-mc-fdlive.fancode.com/mumbai/140391_english_hls_336c66184870565_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(2)_1769333142206.png" group-title="FanCode | Sports",Indonesia vs IR Iran
+https://in-mc-fdlive.fancode.com/mumbai/139911_english_hls_1ac8cc7f696053_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Open-Occitanie_web.jpg" group-title="FanCode | Sports",Day 6
+https://in-mc-fdlive.fancode.com/mumbai/140185_english_hls_dd7f4c5e7332165_1ta-di_h264/index.m3u8
 
 # ---------------=== Other Channels ===-------------------
 
@@ -303,35 +313,35 @@ https://example.com/video.m3u8
 
 --------------== T20I ==------------------
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6423/1768690606423-i" group-title="T20 World Cup |Live Matches",Star-KANNADA
+#EXTINF:-1 tvg-id="" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="T20 World Cup |Live Matches",Star-KANNADA
 #EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://c2ag.short.gy/n/kan.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6423/1768690606423-i" group-title="T20 World Cup |Live Matches",Star-TELUGU
+#EXTINF:-1 tvg-id="" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="T20 World Cup |Live Matches",Star-TELUGU
 #EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://c2ag.short.gy/n/telugu.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6423/1768690606423-i" group-title="T20 World Cup |Live Matches",Star-TAMIL
+#EXTINF:-1 tvg-id="" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="T20 World Cup |Live Matches",Star-TAMIL
 #EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://c2ag.short.gy/n/tamil.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6423/1768690606423-i" group-title="T20 World Cup |Live Matches",Star-HINDI
+#EXTINF:-1 tvg-id="" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="T20 World Cup |Live Matches",Star-HINDI
 #EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://c2ag.short.gy/n/hin.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6423/1768690606423-i" group-title="T20 World Cup |Live Matches",Star-ENGLISH
+#EXTINF:-1 tvg-id="" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="T20 World Cup |Live Matches",Star-ENGLISH
 #EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://c2ag.short.gy/n/english.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6423/1768690606423-i" group-title="T20 World Cup |Live Matches",Hotstar-HINDI
+#EXTINF:-1 tvg-id="" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="T20 World Cup |Live Matches",Hotstar-HINDI
 #EXTHTTP:{"Cookie":"","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://c2ag.short.gy/HS/Hindi.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6423/1768690606423-i" group-title="T20 World Cup |Live Matches",Hotstar-TELUGU
+#EXTINF:-1 tvg-id="" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="T20 World Cup |Live Matches",Hotstar-TELUGU
 #EXTHTTP:{"Cookie":"","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://c2ag.short.gy/HS/telugu.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6423/1768690606423-i" group-title="T20 World Cup |Live Matches",Hotstar-TAMIL
+#EXTINF:-1 tvg-id="" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="T20 World Cup |Live Matches",Hotstar-TAMIL
 #EXTHTTP:{"Cookie":"","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://c2ag.short.gy/HS/tamil.m3u8
 
