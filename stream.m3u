@@ -267,34 +267,81 @@ https://livetv.hotstar.com/mp2/gec-india-1540057081/5c13f17d142c4963a1c7bd54fcd4
 
 # ---------------=== T20 World Cup | Live Matches ===-------------------
 
+#EXTINF:-1 tvg-id="1100" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="T20 World Cup |Live Matches",Star Sports HD1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=965dc2ddb1d85138ad787999a7f30ca5:859695076e67fe961836b564db6d689c
+#EXTHTTP:{"Cookie":"__hdnea__=st=1770467681~exp=1770554081~acl=/*~hmac=18d942d58b641d85fb5647a457a82d102ac4d8fbf94b0d64450a904796470414|drmScheme=clearkey","Origin":"","Referer":"","User-Agent":"plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0","Telegram":"@vaathala1","Creator":"@vaathala1"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Sports_HD1_BTS/output/index.mpd?__hdnea__=st%3D1770467681%7Eexp%3D1770554081%7Eacl%3D%2F*%7Ehmac%3D18d942d58b641d85fb5647a457a82d102ac4d8fbf94b0d64450a904796470414%7CdrmScheme%3Dclearkey
+#EXTINF:-1 tvg-id="1101" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="T20 World Cup |Live Matches",Star Sports HD1 Hindi
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=400131994b445d8c8817202248760fda:2d56cb6f07a75b9aff165d534ae2bfc4
+#EXTHTTP:{"Cookie":"__hdnea__=st=1770467681~exp=1770554081~acl=/*~hmac=18d942d58b641d85fb5647a457a82d102ac4d8fbf94b0d64450a904796470414|drmScheme=clearkey","Origin":"","Referer":"","User-Agent":"plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0","Telegram":"@vaathala1","Creator":"@vaathala1"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Sports_HD1_Hindi_BTS/output/index.mpd?__hdnea__=st%3D1770467681%7Eexp%3D1770554081%7Eacl%3D%2F*%7Ehmac%3D18d942d58b641d85fb5647a457a82d102ac4d8fbf94b0d64450a904796470414%7CdrmScheme%3Dclearkey
+#EXTINF:-1 tvg-id="1102" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="T20 World Cup |Live Matches",Star Sports 2 Kannada
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7af2add2968a56309519ac2680c18f25:f992a14e0def17ccdfe16f58c4ce56c5
+#EXTHTTP:{"Cookie":"__hdnea__=st=1770467681~exp=1770554081~acl=/*~hmac=18d942d58b641d85fb5647a457a82d102ac4d8fbf94b0d64450a904796470414|drmScheme=clearkey","Origin":"","Referer":"","User-Agent":"plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0","Telegram":"@vaathala1","Creator":"@vaathala1"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Sports_2_Kannada_BTS/output/index.mpd?__hdnea__=st%3D1770467681%7Eexp%3D1770554081%7Eacl%3D%2F*%7Ehmac%3D18d942d58b641d85fb5647a457a82d102ac4d8fbf94b0d64450a904796470414%7CdrmScheme%3Dclearkey
+#EXTINF:-1 tvg-id="1103" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="T20 World Cup |Live Matches",Star Sports 1 Kannada
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9a6d058fa40b5460a946178900eb44cb:791d7444110cec32d731ca0c33ac6c15
+#EXTHTTP:{"Cookie":"__hdnea__=st=1770467681~exp=1770554081~acl=/*~hmac=18d942d58b641d85fb5647a457a82d102ac4d8fbf94b0d64450a904796470414|drmScheme=clearkey","Origin":"","Referer":"","User-Agent":"plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0","Telegram":"@vaathala1","Creator":"@vaathala1"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Sports_1_Kannada_BTS/output/index.mpd?__hdnea__=st%3D1770467681%7Eexp%3D1770554081%7Eacl%3D%2F*%7Ehmac%3D18d942d58b641d85fb5647a457a82d102ac4d8fbf94b0d64450a904796470414%7CdrmScheme%3Dclearkey
+#EXTINF:-1 tvg-id="1104" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="T20 World Cup |Live Matches",Star Sports 2 Telugu
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6576a2664bc1563db2abd4fc192152b2:452e28454297a4193dbdf8f5cebc70b0
+#EXTHTTP:{"Cookie":"__hdnea__=st=1770467681~exp=1770554081~acl=/*~hmac=18d942d58b641d85fb5647a457a82d102ac4d8fbf94b0d64450a904796470414|drmScheme=clearkey","Origin":"","Referer":"","User-Agent":"plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0","Telegram":"@vaathala1","Creator":"@vaathala1"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/StarSports2Telugu_BTS/output/index.mpd?__hdnea__=st%3D1770467681%7Eexp%3D1770554081%7Eacl%3D%2F*%7Ehmac%3D18d942d58b641d85fb5647a457a82d102ac4d8fbf94b0d64450a904796470414%7CdrmScheme%3Dclearkey
+#EXTINF:-1 tvg-id="1105" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="T20 World Cup |Live Matches",Star Sports 2 Tamil
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3c1b335c4bb858a7a6ac5a883d898a09:6eeff4302a7d19befd43c6b7b5fac268
+#EXTHTTP:{"Cookie":"__hdnea__=st=1770467681~exp=1770554081~acl=/*~hmac=18d942d58b641d85fb5647a457a82d102ac4d8fbf94b0d64450a904796470414|drmScheme=clearkey","Origin":"","Referer":"","User-Agent":"plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0","Telegram":"@vaathala1","Creator":"@vaathala1"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/StarSports2Tamil_BTS/output/index.mpd?__hdnea__=st%3D1770467681%7Eexp%3D1770554081%7Eacl%3D%2F*%7Ehmac%3D18d942d58b641d85fb5647a457a82d102ac4d8fbf94b0d64450a904796470414%7CdrmScheme%3Dclearkey
+#EXTINF:-1 tvg-id="1106" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="T20 World Cup |Live Matches",Star Sports 1 Tamil HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2272c0bc6b2e5cb090b1f55996e0026c:943923934de1d5536ab01c67fca8b337
+#EXTHTTP:{"Cookie":"__hdnea__=st=1770467681~exp=1770554081~acl=/*~hmac=18d942d58b641d85fb5647a457a82d102ac4d8fbf94b0d64450a904796470414|drmScheme=clearkey","Origin":"","Referer":"","User-Agent":"plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0","Telegram":"@vaathala1","Creator":"@vaathala1"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Sports_1_Tamil_HD_BTS/output/index.mpd?__hdnea__=st%3D1770467681%7Eexp%3D1770554081%7Eacl%3D%2F*%7Ehmac%3D18d942d58b641d85fb5647a457a82d102ac4d8fbf94b0d64450a904796470414%7CdrmScheme%3Dclearkey
+#EXTINF:-1 tvg-id="1107" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="T20 World Cup |Live Matches",Star Sports 1 Telugu HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=49e84b9edfd85379b90c81b7d2d3d2bf:19c82d3ff094fa06af95820a1572ecb5
+#EXTHTTP:{"Cookie":"__hdnea__=st=1770467681~exp=1770554081~acl=/*~hmac=18d942d58b641d85fb5647a457a82d102ac4d8fbf94b0d64450a904796470414|drmScheme=clearkey","Origin":"","Referer":"","User-Agent":"plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0","Telegram":"@vaathala1","Creator":"@vaathala1"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Sports_1_Telugu_HD_BTS/output/index.mpd?__hdnea__=st%3D1770467681%7Eexp%3D1770554081%7Eacl%3D%2F*%7Ehmac%3D18d942d58b641d85fb5647a457a82d102ac4d8fbf94b0d64450a904796470414%7CdrmScheme%3Dclearkey
+
+# ---------------=== ICC TV ===-------------------
+
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
-#EXTINF:-1 group-title="T20 World Cup |Live Matches" group-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770470443/prd/cqmwffcxzaf4ssbscdol" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770470443/prd/cqmwffcxzaf4ssbscdol",ICC-MT20: India v USA
+#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770470443/prd/cqmwffcxzaf4ssbscdol",ICC-MT20: India v USA
 https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-02)/manifest.mpd?vcfilter=0d7ecdf3-8c1b-4d5e-b5e5-764536417ba1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
-#EXTINF:-1 group-title="T20 World Cup |Live Matches" group-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770470392/prd/t4pn1pnqzvrv4b55try1" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770470392/prd/t4pn1pnqzvrv4b55try1",ICC-MT20: India v USA (HINDI)
+#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770470392/prd/t4pn1pnqzvrv4b55try1",ICC-MT20: India v USA (HINDI)
 https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-04)/manifest.mpd?vcfilter=a2432dde-92bc-4e39-b7ad-d799c59e3d80
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014934/1770407604971489_WPL26_SF_Delhi_vs_Bengaluru_7feb_landscape_thumb.jpg" group-title="SonyLiv | Sports",Dilli Dillwale vs Bengaluru Jawans - Semi-final - 7 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770518317~acl=/*~id=15566423366394732559842535089901~hmac=673c5ae9ea9ab86e4ac60d9b4c6ed18738dcfae71cb3e1f8e573510417b8a02d
+https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770519508~acl=/*~id=97515956279197020218962984970853~hmac=e40d6cc4f7380f0daa1d114792d84fd5548119ed5b6e5dda397ddec9126d90c7
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014298/1769512669080875_Bundesliga_2025_26_VfL-Wolfsburg-vs-Borussia-Dortmund_landscape_thumb.jpg" group-title="SonyLiv | Sports",VfL Wolfsburg vs Borussia Dortmund - MD 21 - 7 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022317/DAI13ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770518317~acl=/*~id=15566423366394732559842535089901~hmac=673c5ae9ea9ab86e4ac60d9b4c6ed18738dcfae71cb3e1f8e573510417b8a02d
+https://sonydaimenew.akamaized.net/hls/live/2022317/DAI13ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770519508~acl=/*~id=97515956279197020218962984970853~hmac=e40d6cc4f7380f0daa1d114792d84fd5548119ed5b6e5dda397ddec9126d90c7
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014913/177036380733226_BLIGA_26_Mainz-vs-FC-Augsburg_landscape_thumb.jpg" group-title="SonyLiv | Sports",Mainz vs FC Augsburg- MD 21 - 7 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770518317~acl=/*~id=15566423366394732559842535089901~hmac=673c5ae9ea9ab86e4ac60d9b4c6ed18738dcfae71cb3e1f8e573510417b8a02d
+https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770519508~acl=/*~id=97515956279197020218962984970853~hmac=e40d6cc4f7380f0daa1d114792d84fd5548119ed5b6e5dda397ddec9126d90c7
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014298/1769512262497875_Bundesliga_2025_26_SC-Freiburg-vs-Werder-Bremen_landscape_thumb.jpg" group-title="SonyLiv | Sports",SC Freiburg vs Werder Bremen - MD 21 - 7 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770518317~acl=/*~id=15566423366394732559842535089901~hmac=673c5ae9ea9ab86e4ac60d9b4c6ed18738dcfae71cb3e1f8e573510417b8a02d
+https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770519508~acl=/*~id=97515956279197020218962984970853~hmac=e40d6cc4f7380f0daa1d114792d84fd5548119ed5b6e5dda397ddec9126d90c7
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014927/1770390675980904_Bundesliga_2025_26_St_Pauli_vs_VfB_Stuttgart_6feb_landscape_thumb.jpg" group-title="SonyLiv | Sports",St. Pauli vs VfB Stuttgart - MD 21 - 7 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022315/DAI11ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770518317~acl=/*~id=15566423366394732559842535089901~hmac=673c5ae9ea9ab86e4ac60d9b4c6ed18738dcfae71cb3e1f8e573510417b8a02d
+https://sonydaimenew.akamaized.net/hls/live/2022315/DAI11ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770519508~acl=/*~id=97515956279197020218962984970853~hmac=e40d6cc4f7380f0daa1d114792d84fd5548119ed5b6e5dda397ddec9126d90c7
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014913/177036401214026_BLIGA_26_Heidenheim-vs-Hamburger-sv_landscape_thumb.jpg" group-title="SonyLiv | Sports",Heidenheim vs Hamburger SV - MD 21 - 7 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770518317~acl=/*~id=15566423366394732559842535089901~hmac=673c5ae9ea9ab86e4ac60d9b4c6ed18738dcfae71cb3e1f8e573510417b8a02d
+https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770519508~acl=/*~id=97515956279197020218962984970853~hmac=e40d6cc4f7380f0daa1d114792d84fd5548119ed5b6e5dda397ddec9126d90c7
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000006892/1755929846694147_Bliga26_Goal_Arena_landscape_thumb.jpg" group-title="SonyLiv | Sports",Goal Arena - MD 21 - 7 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770518317~acl=/*~id=15566423366394732559842535089901~hmac=673c5ae9ea9ab86e4ac60d9b4c6ed18738dcfae71cb3e1f8e573510417b8a02d
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770519508~acl=/*~id=97515956279197020218962984970853~hmac=e40d6cc4f7380f0daa1d114792d84fd5548119ed5b6e5dda397ddec9126d90c7
 
 # ---------------=== FanCode | Sports ===-------------------
 
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139350_5489_CVC_OU_FC-Web.jpg" group-title="FanCode | Sports",Coventry City Football Club vs Oxford United
+https://in-mc-fdlive.fancode.com/mumbai/139350_english_hls_6ea52b0d4b76187_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131059_5427_BAR_MRC_FC-Web.png" group-title="FanCode | Sports",FC Barcelona vs RCD Mallorca
+https://in-mc-fdlive.fancode.com/mumbai/131059_english_hls_36b861092e2085_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(2)_1769333142206.png" group-title="FanCode | Sports",Indonesia vs IR Iran
 https://in-mc-fdlive.fancode.com/mumbai/139911_english_hls_1ac8cc7f696053_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Open-Occitanie_web.jpg" group-title="FanCode | Sports",Day 6
@@ -309,29 +356,33 @@ https://in-mc-fdlive.fancode.com/mumbai/140185_english_hls_dd7f4c5e7332165_1ta-d
 https://example.com/video.m3u8   
 
 
+------------ Star
+#EXTINF:-1 tvg-id="" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="Star Sports| Live ",Star-KANNADA
+#EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+https://c2ag.short.gy/n/kan.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="Star Sports| Live ",Star-TELUGU
+#EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+https://c2ag.short.gy/n/telugu.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="Star Sports| Live ",Star-TAMIL
+#EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+https://c2ag.short.gy/n/tamil.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="Star Sports| Live ",Star-HINDI
+#EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+https://c2ag.short.gy/n/hin.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="Star Sports| Live ",Star-ENGLISH
+#EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
+https://c2ag.short.gy/n/english.m3u8
+
+
 
 
 --------------== T20I ==------------------
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="T20 World Cup |Live Matches",Star-KANNADA
-#EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://c2ag.short.gy/n/kan.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="T20 World Cup |Live Matches",Star-TELUGU
-#EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://c2ag.short.gy/n/telugu.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="T20 World Cup |Live Matches",Star-TAMIL
-#EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://c2ag.short.gy/n/tamil.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="T20 World Cup |Live Matches",Star-HINDI
-#EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://c2ag.short.gy/n/hin.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="T20 World Cup |Live Matches",Star-ENGLISH
-#EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
-https://c2ag.short.gy/n/english.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="T20 World Cup |Live Matches",Hotstar-HINDI
 #EXTHTTP:{"Cookie":"","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
@@ -3429,11 +3480,13 @@ https://keys.vodep39240327.workers.dev/?id=1094.mpd
 #KODIPROP:inputstream.adaptive.license_key=https://keys.vodep39240327.workers.dev/?key=1104
 #EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0","Telegram":"@vaathala1","Creator":"@vaathala1"}
 https://keys.vodep39240327.workers.dev/?id=1104.mpd
+
 #EXTINF:-1 tvg-id="1106" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_HD1.png" group-title="JIO ⭕|Sports",Star Sports HD1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://keys.vodep39240327.workers.dev/?key=1106
 #EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0","Telegram":"@vaathala1","Creator":"@vaathala1"}
 https://keys.vodep39240327.workers.dev/?id=1106.mpd
+
 #EXTINF:-1 tvg-id="1108" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_HD1_Hindi.png" group-title="JIO ⭕|Sports",Star Sports HD1 Hindi
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://keys.vodep39240327.workers.dev/?key=1108
