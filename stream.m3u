@@ -269,35 +269,25 @@ https://livetv.hotstar.com/mp2/gec-india-1540057081/5c13f17d142c4963a1c7bd54fcd4
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
-#EXTINF:-1 group-title="T20 World Cup |Live Matches" group-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770457774/prd/munbuskrrn8mpyz5jrho" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770457774/prd/munbuskrrn8mpyz5jrho",ICC-MT20: West Indies v Scotland
-https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-03)/manifest.mpd?vcfilter=fb301c18-9ad4-4ae2-a04e-1f5842c76a21
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
-#EXTINF:-1 group-title="T20 World Cup |Live Matches" group-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770457808/prd/kb2riqrqupbffj0y7hye" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770457808/prd/kb2riqrqupbffj0y7hye",ICC-MT20: West Indies v Scotland (HINDI)
-https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-05)/manifest.mpd?vcfilter=44951f97-10ec-427f-a95a-a2ecf57e9a41
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
-#EXTINF:-1 group-title="T20 World Cup |Live Matches" group-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/prd/htwbuhfdzb39fgvqxx2v" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/prd/htwbuhfdzb39fgvqxx2v",ICC-MT20: India v USA
+#EXTINF:-1 group-title="T20 World Cup |Live Matches" group-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770470443/prd/cqmwffcxzaf4ssbscdol" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770470443/prd/cqmwffcxzaf4ssbscdol",ICC-MT20: India v USA
 https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-02)/manifest.mpd?vcfilter=0d7ecdf3-8c1b-4d5e-b5e5-764536417ba1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
-#EXTINF:-1 group-title="T20 World Cup |Live Matches" group-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/prd/y9duraliksgrweqab5df" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/prd/y9duraliksgrweqab5df",ICC-MT20: India v USA (HINDI)
+#EXTINF:-1 group-title="T20 World Cup |Live Matches" group-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770470392/prd/t4pn1pnqzvrv4b55try1" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770470392/prd/t4pn1pnqzvrv4b55try1",ICC-MT20: India v USA (HINDI)
 https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-04)/manifest.mpd?vcfilter=a2432dde-92bc-4e39-b7ad-d799c59e3d80
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014934/1770407266663489_WPL26_SF_Chennai_vs_Pune_7feb_landscape_thumb.jpg" group-title="SonyLiv | Sports",Chennai Super Champs vs Pune United - Semi-final - 7 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770511639~acl=/*~id=29768337869944673932752251254684~hmac=15528e3bc94e6c8457a858bde18d6e827361bea54f98d4b6523f5052fb889e85
+https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770514669~acl=/*~id=40747666426869352905756458999919~hmac=93fbfacc42dfbd6d78d52d5f03fbfc496a334c32a9bd7225c559a09ca9b3c77c
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014812/1770116879810170_DPworld_tour_Qatar_Masters_Day3_3feb_landscape_thumb.jpg" group-title="SonyLiv | Sports",Qatar Masters Day 3 - 7 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770511639~acl=/*~id=29768337869944673932752251254684~hmac=15528e3bc94e6c8457a858bde18d6e827361bea54f98d4b6523f5052fb889e85
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770514669~acl=/*~id=40747666426869352905756458999919~hmac=93fbfacc42dfbd6d78d52d5f03fbfc496a334c32a9bd7225c559a09ca9b3c77c
 
 # ---------------=== FanCode | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Emirates_web_1769270071345.jpg" group-title="FanCode | Sports",Dubai vs Abu Dhabi
-https://in-mc-fdlive.fancode.com/mumbai/139625_english_hls_bf28bdac6590850_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140097_5826_LEI-W_MUN-W_FC-Web.jpg" group-title="FanCode | Sports",Leicester City Women vs Manchester United Women
 https://in-mc-fdlive.fancode.com/mumbai/140097_english_hls_b2e6c9aeaa14459_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg" group-title="FanCode | Sports",Derby County Football Club vs Ipswich Town F.C.
+#EXTINF:-1 tvg-logo="https://images.fancode.com/aig/match/v1770469617052/139349_CASACARDS_APP.png" group-title="FanCode | Sports",Derby County Football Club vs Ipswich Town F.C.
 https://in-mc-fdlive.fancode.com/mumbai/139349_english_hls_87f2ca2be534292_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/MotoGP-Launch-Event-2026_Web_1080_x_810_2.jpg" group-title="FanCode | Sports",MotoGP Launch
 https://in-mc-fdlive.fancode.com/mumbai/140391_english_hls_336c66184870565_1ta-di_h264/index.m3u8
