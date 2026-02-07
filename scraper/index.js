@@ -12,6 +12,7 @@ const SOURCES = {
   SONYLIV_JSON: "https://raw.githubusercontent.com/drmlive/sliv-live-events/main/sonyliv.json",
   FANCODE_JSON: "https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.json",
   ICC_TV_JSON: "https://psplay.indevs.in/icctv",
+  SPORTS_JSON: "https://sports.vodep39240327.workers.dev/sports.json",
 };
 
 // ================= PLAYLIST HEADER =================
@@ -30,7 +31,7 @@ const PLAYLIST_FOOTER = `
 # =========================================
 `;
 
-// ================= SECTION TITLE =================
+// ================= SECTION =================
 function section(title) {
   return `\n# ---------------=== ${title} ===-------------------\n`;
 }
@@ -95,7 +96,6 @@ function convertZee5(m3u) {
       }
     }
   }
-
   return out.join("\n");
 }
 
@@ -119,7 +119,6 @@ function convertJioJson(json) {
       ch.url
     );
   }
-
   return out.join("\n");
 }
 
@@ -131,10 +130,7 @@ function convertSonyliv(json) {
     .map((m) => {
       const url = m.dai_url || m.pub_url;
       if (!url) return null;
-      return [
-        `#EXTINF:-1 tvg-logo="${m.src}" group-title="SonyLiv | Sports",${m.match_name}`,
-        url,
-      ].join("\n");
+      return `#EXTINF:-1 tvg-logo="${m.src}" group-title="SonyLiv | Sports",${m.match_name}\n${url}`;
     })
     .filter(Boolean)
     .join("\n");
@@ -148,10 +144,7 @@ function convertFancode(json) {
     .map((m) => {
       const url = m.adfree_url || m.dai_url;
       if (!url) return null;
-      return [
-        `#EXTINF:-1 tvg-logo="${m.src}" group-title="FanCode | Sports",${m.match_name}`,
-        url,
-      ].join("\n");
+      return `#EXTINF:-1 tvg-logo="${m.src}" group-title="FanCode | Sports",${m.match_name}\n${url}`;
     })
     .filter(Boolean)
     .join("\n");
@@ -174,10 +167,48 @@ function convertIccTv(json) {
       out.push(
         `#KODIPROP:inputstream.adaptive.license_type=clearkey`,
         `#KODIPROP:inputstream.adaptive.license_key=${s.keys}`,
-        `#EXTINF:-1 group-title="T20 World Cup |Live Matches" group-logo="${logo}" tvg-logo="${logo}",ICC-${title}`,
+        `#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="${logo}",ICC-${title}`,
         s.mpd
       );
     });
+  });
+
+  return out.join("\n");
+}
+
+// ================= SPORTS JSON =================
+function convertSportsJson(json) {
+  if (!json || !Array.isArray(json.streams)) return "";
+  const out = [];
+
+  json.streams.forEach((s, i) => {
+    if (!s.url) return;
+
+    const urlObj = new URL(s.url);
+
+    const drm = urlObj.searchParams.get("drmLicense") || "";
+    const [kid, key] = drm.split(":");
+
+    const ua = urlObj.searchParams.get("User-Agent") || "";
+    const hdnea = urlObj.searchParams.get("__hdnea__") || "";
+
+    urlObj.searchParams.delete("drmLicense");
+    urlObj.searchParams.delete("User-Agent");
+
+    out.push(
+      `#EXTINF:-1 tvg-id="${1100 + i}" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="T20 World Cup |Live Matches",${s.language}`,
+      `#KODIPROP:inputstream.adaptive.license_type=clearkey`,
+      `#KODIPROP:inputstream.adaptive.license_key=${kid}:${key}`,
+      `#EXTHTTP:${JSON.stringify({
+        Cookie: hdnea ? `__hdnea__=${hdnea}` : "",
+        Origin: "",
+        Referer: "",
+        "User-Agent": ua,
+        Telegram: "@vaathala1",
+        Creator: "@vaathala1",
+      })}`,
+      urlObj.toString()
+    );
   });
 
   return out.join("\n");
@@ -209,8 +240,12 @@ async function run() {
   const jio = await safeFetch(SOURCES.JIO_JSON, "JIO");
   if (jio) out.push(section("JIO ⭕ | Live TV"), convertJioJson(jio));
 
+  const sports = await safeFetch(SOURCES.SPORTS_JSON, "Sports JSON");
+  if (sports)
+    out.push(section("T20 World Cup | Live Matches"), convertSportsJson(sports));
+
   const icc = await safeFetch(SOURCES.ICC_TV_JSON, "ICC TV");
-  if (icc) out.push(section("T20 World Cup | Live Matches"), convertIccTv(icc));
+  if (icc) out.push(section("ICC TV"), convertIccTv(icc));
 
   const sony = await safeFetch(SOURCES.SONYLIV_JSON, "SonyLiv");
   if (sony) out.push(section("SonyLiv | Sports"), convertSonyliv(sony));
