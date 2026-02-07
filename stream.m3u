@@ -279,7 +279,7 @@ https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01
 # ---------------=== SonyLiv | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014812/1770116879810170_DPworld_tour_Qatar_Masters_Day3_3feb_landscape_thumb.jpg" group-title="SonyLiv | Sports",Qatar Masters Day 3 - 7 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770506794~acl=/*~id=42237886113296035558982396265792~hmac=169407c76721a2f9da499fbadf07a7c228cbf6b1c51f811dcdf0dfcb0915acbe
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770508006~acl=/*~id=69819278982305458144614055250613~hmac=9d08c0c514a8283f68a084c7907fa129796cd52cd2250f39e5e266f727f3a1a8
 
 # ---------------=== FanCode | Sports ===-------------------
 
@@ -301,35 +301,35 @@ https://example.com/video.m3u8
 
 --------------== T20I ==------------------
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6423/1768690606423-i" group-title="T20 World Cup |Live Matches",Star-KANNADA
+#EXTINF:-1 tvg-id="" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="T20 World Cup |Live Matches",Star-KANNADA
 #EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://c2ag.short.gy/n/kan.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6423/1768690606423-i" group-title="T20 World Cup |Live Matches",Star-TELUGU
+#EXTINF:-1 tvg-id="" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="T20 World Cup |Live Matches",Star-TELUGU
 #EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://c2ag.short.gy/n/telugu.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6423/1768690606423-i" group-title="T20 World Cup |Live Matches",Star-TAMIL
+#EXTINF:-1 tvg-id="" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="T20 World Cup |Live Matches",Star-TAMIL
 #EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://c2ag.short.gy/n/tamil.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6423/1768690606423-i" group-title="T20 World Cup |Live Matches",Star-HINDI
+#EXTINF:-1 tvg-id="" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="T20 World Cup |Live Matches",Star-HINDI
 #EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://c2ag.short.gy/n/hin.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6423/1768690606423-i" group-title="T20 World Cup |Live Matches",Star-ENGLISH
+#EXTINF:-1 tvg-id="" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="T20 World Cup |Live Matches",Star-ENGLISH
 #EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://c2ag.short.gy/n/english.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6423/1768690606423-i" group-title="T20 World Cup |Live Matches",Hotstar-HINDI
+#EXTINF:-1 tvg-id="" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="T20 World Cup |Live Matches",Hotstar-HINDI
 #EXTHTTP:{"Cookie":"","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://c2ag.short.gy/HS/Hindi.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6423/1768690606423-i" group-title="T20 World Cup |Live Matches",Hotstar-TELUGU
+#EXTINF:-1 tvg-id="" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="T20 World Cup |Live Matches",Hotstar-TELUGU
 #EXTHTTP:{"Cookie":"","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://c2ag.short.gy/HS/telugu.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6423/1768690606423-i" group-title="T20 World Cup |Live Matches",Hotstar-TAMIL
+#EXTINF:-1 tvg-id="" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp" group-title="T20 World Cup |Live Matches",Hotstar-TAMIL
 #EXTHTTP:{"Cookie":"","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://c2ag.short.gy/HS/tamil.m3u8
 
