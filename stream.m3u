@@ -407,19 +407,14 @@ https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=ex
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
-#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770533847/prd/x0wmukspvpvhlrbnrznn",ICC-MT20: New Zealand v Afghanistan
-#EXTHTTP:{"Referer":"","Origin":"","Cookie":"","User-Agent":"CJ"}
-https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-02)/hdntl=exp=1770554119~acl=%2Fvariant%2Fv1blackout%2Fvcg-01-d%2F*~id=f33bcbce-bf81-4cf7-a450-7dcd818ec5d9~data=hdntl~hmac=a11814a6630c188f1705b870868c5ce9edecbbc11187d483d23baa9140ea753f/manifest.mpd?vcfilter=f4c760e4-f3c6-4a55-a8ba-a17336644587
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
-#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770533886/prd/xtfyfhs8xavapczv76p4",ICC-MT20: New Zealand v Afghanistan (HINDI)
-#EXTHTTP:{"Referer":"","Origin":"","Cookie":"","User-Agent":"CJ"}
-https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-04)/hdntl=exp=1770554119~acl=%2Fvariant%2Fv1blackout%2Fvcg-01-d%2F*~id=f33bcbce-bf81-4cf7-a450-7dcd818ec5d9~data=hdntl~hmac=a11814a6630c188f1705b870868c5ce9edecbbc11187d483d23baa9140ea753f/manifest.mpd?vcfilter=c80449e6-0652-4c4b-b0d1-c676d485d59e
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
 #EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770534240/prd/rpgwzawfhyfiyjrazmew",ICC-MT20: England v Nepal
 #EXTHTTP:{"Referer":"","Origin":"","Cookie":"","User-Agent":"CJ"}
 https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-03)/hdntl=exp=1770554119~acl=%2Fvariant%2Fv1blackout%2Fvcg-01-d%2F*~id=f33bcbce-bf81-4cf7-a450-7dcd818ec5d9~data=hdntl~hmac=a11814a6630c188f1705b870868c5ce9edecbbc11187d483d23baa9140ea753f/manifest.mpd?vcfilter=a9b8f36f-dc68-44d7-a329-3e2d99ff223d
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
+#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770534213/prd/gelgueezokobjvbejhqf",ICC-MT20: England v Nepal (NEPALI)
+#EXTHTTP:{"Referer":"","Origin":"","Cookie":"","User-Agent":"CJ"}
+https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-07)/hdntl=exp=1770554119~acl=%2Fvariant%2Fv1blackout%2Fvcg-01-d%2F*~id=f33bcbce-bf81-4cf7-a450-7dcd818ec5d9~data=hdntl~hmac=a11814a6630c188f1705b870868c5ce9edecbbc11187d483d23baa9140ea753f/manifest.mpd?vcfilter=23839721-4c9b-41d2-a71c-db629eff78e7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
 #EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770534256/prd/az6hsf82jgaewihjm1t0",ICC-MT20: England v Nepal (HINDI)
@@ -429,7 +424,7 @@ https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Liv
 # ---------------=== SonyLiv | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014812/1770116887759170_DPworld_tour_Qatar_Masters_Day4_3feb_landscape_thumb.jpg" group-title="SonyLiv | Sports",Qatar Masters Day 4 - 8 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770583694~acl=/*~id=14375356322961542470845405181199~hmac=cf0e78055cc70a4d382f528779824047541cf73433e8d622d4eb2b084474b551
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770586117~acl=/*~id=25296706862250106747397264440120~hmac=f997fa743ea2960ddf096b8e1883be7545c08584f15049c1714e19f7941af717
 
 # ---------------=== FanCode | Sports ===-------------------
 
