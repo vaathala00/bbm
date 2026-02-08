@@ -132,7 +132,7 @@ function convertIccTv(json) {
           Referer: "",
           Origin: "",
           Cookie: "",
-          "User-Agent": "CJ"
+          "User-Agent": ""
         })}`,
         s.mpd
       );
