@@ -223,20 +223,16 @@ https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=ex
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
 #EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770549232/prd/ka4teh4xxt4s6r5arnaj",ICC-MT20: Sri Lanka v Ireland
-#EXTHTTP:{"Referer":"","Origin":"","Cookie":"","User-Agent":""}
 https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-02)/hdntl=exp=1770569922~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~id=2b1123b7-8508-49a2-bff6-e089eec0fbbf~data=hdntl~hmac=462d46eba1ed197ea0d1c0bb2225fa5150bd48e9f6964be85ad064aa9ff73899/manifest.mpd?vcfilter=d9166b3c-4cad-4bd6-8953-982a4957c910
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
 #EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770549212/prd/li3kretyvh84fnarwwnr",ICC-MT20: Sri Lanka v Ireland (HINDI)
-#EXTHTTP:{"Referer":"","Origin":"","Cookie":"","User-Agent":""}
 https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-04)/hdntl=exp=1770569922~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~id=2b1123b7-8508-49a2-bff6-e089eec0fbbf~data=hdntl~hmac=462d46eba1ed197ea0d1c0bb2225fa5150bd48e9f6964be85ad064aa9ff73899/manifest.mpd?vcfilter=080f9b8b-8f66-4353-b5b5-40ae57c24211
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014958/1770497709076993_WPBL26_final_Chennai_Super_Champs_vs_Dilli_Dillwale_8feb_landscape_thumb.jpg" group-title="SonyLiv | Sports",Chennai Super Champs vs Dilli Dillwale - Final - 8 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770600656~acl=/*~id=93454768870695324918996628561592~hmac=fd721eddc19a2d67d9cfa3e5029d719d0b6fb1a25d8ef1bc244e36406436d6fe
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014812/1770116887759170_DPworld_tour_Qatar_Masters_Day4_3feb_landscape_thumb.jpg" group-title="SonyLiv | Sports",Qatar Masters Day 4 - 8 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770600656~acl=/*~id=93454768870695324918996628561592~hmac=fd721eddc19a2d67d9cfa3e5029d719d0b6fb1a25d8ef1bc244e36406436d6fe
+https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770601263~acl=/*~id=75486901902258634829940218897158~hmac=00efeecadc02aedb809f8fcc00d99a3645606084dbb669b55d02dd7c6db5dfc0
 
 # ---------------=== FanCode | Sports ===-------------------
 
@@ -254,6 +250,8 @@ https://in-mc-fdlive.fancode.com/mumbai/140098_english_hls_5816bbef1492554_1ta-d
 https://in-mc-fdlive.fancode.com/mumbai/131056_english_hls_f9cac542f252226_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://images.fancode.com/aig/match/v1770347072524/140430_CASACARDS_APP.png" group-title="FanCode | Sports",Real Valladolid vs Castellón
 https://in-mc-fdlive.fancode.com/mumbai/140430_english_hls_287845a7cf93054_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Open-Occitanie_web.jpg" group-title="FanCode | Sports",Finals
+https://in-mc-fdlive.fancode.com/mumbai/140186_english_hls_8e47b2787f27163_1ta-di_h264/index.m3u8
 
 # ---------------=== Other Channels ===-------------------
 
