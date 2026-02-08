@@ -128,12 +128,6 @@ function convertIccTv(json) {
         `#KODIPROP:inputstream.adaptive.license_type=clearkey`,
         `#KODIPROP:inputstream.adaptive.license_key=${s.keys}`,
         `#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="${s.match?.thumbnail || ""}",ICC-${s.title || "Live"}`,
-`#EXTHTTP:${JSON.stringify({
-          Referer: "",
-          Origin: "",
-          Cookie: "",
-          "User-Agent": ""
-        })}`,
         s.mpd
       );
     });
