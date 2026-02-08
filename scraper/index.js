@@ -6,7 +6,7 @@ const OUTPUT_FILE = "stream.m3u";
 // ================= SOURCES =================
 const SOURCES = {
   HOTSTAR_JSON: "https://cloudplay-app.cloudplay-help.workers.dev/hotstar?password=all",
-  ZEE5_M3U: "https://raw.githubusercontent.com/Sufiyan123yivh/Testing/refs/heads/main/Zee5.m3u",
+  ZEE5_M3U: "https://join-vaathala1-for-more.vodep39240327.workers.dev/zee5.m3u",
   EXTRA_M3U: "https://od.lk/s/MzZfODQzNTQ1Nzlf/raw?=m3u",
   JIO_JSON: "https://raw.githubusercontent.com/vaathala00/jo/main/stream.jso",
   SONYLIV_JSON: "https://raw.githubusercontent.com/drmlive/sliv-live-events/main/sonyliv.json",
@@ -59,43 +59,6 @@ function convertHotstar(json) {
     );
   });
 
-  return out.join("\n");
-}
-
-// ================= ZEE5 =================
-function convertZee5(m3u) {
-  const lines = m3u.split("\n");
-  const out = [];
-  let ua =
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/121.0.0.0 Safari/537.36";
-  let cookie = "";
-
-  for (let i = 0; i < lines.length; i++) {
-    let line = lines[i].trim();
-
-    if (line.startsWith("#EXTINF")) {
-      out.push(line.replace(/group-title=".*?"/, 'group-title="ZEE5 | Live"'));
-
-      const url = lines[i + 1]?.trim();
-      if (url?.startsWith("http")) {
-        const m = url.match(/hdntl=[^&]*/);
-        if (m) cookie = m[0];
-
-        const clean = url
-          .replace(/([?&])hdntl=[^&]*/g, "")
-          .replace(/[?&]$/, "");
-
-        out.push(
-          `#EXTHTTP:${JSON.stringify({
-            Cookie: cookie,
-            "User-Agent": ua,
-          })}`,
-          clean
-        );
-        i++;
-      }
-    }
-  }
   return out.join("\n");
 }
 
@@ -161,13 +124,10 @@ function convertIccTv(json) {
     t.live_streams.forEach((s) => {
       if (!s.mpd || !s.keys) return;
 
-      const logo = s.match?.thumbnail || "";
-      const title = s.title || "ICC Live";
-
       out.push(
         `#KODIPROP:inputstream.adaptive.license_type=clearkey`,
         `#KODIPROP:inputstream.adaptive.license_key=${s.keys}`,
-        `#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="${logo}",ICC-${title}`,
+        `#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="${s.match?.thumbnail || ""}",ICC-${s.title || "Live"}`,
         s.mpd
       );
     });
@@ -185,7 +145,6 @@ function convertSportsJson(json) {
     if (!s.url) return;
 
     const urlObj = new URL(s.url);
-
     const drm = urlObj.searchParams.get("drmLicense") || "";
     const [kid, key] = drm.split(":");
 
@@ -201,11 +160,7 @@ function convertSportsJson(json) {
       `#KODIPROP:inputstream.adaptive.license_key=${kid}:${key}`,
       `#EXTHTTP:${JSON.stringify({
         Cookie: hdnea ? `__hdnea__=${hdnea}` : "",
-        Origin: "",
-        Referer: "",
         "User-Agent": ua,
-        Telegram: "@vaathala1",
-        Creator: "@vaathala1",
       })}`,
       urlObj.toString()
     );
@@ -235,14 +190,13 @@ async function run() {
   if (hotstar) out.push(section("VOOT | Jio Cinema"), convertHotstar(hotstar));
 
   const zee5 = await safeFetch(SOURCES.ZEE5_M3U, "ZEE5");
-  if (zee5) out.push(section("ZEE5 | Live"), convertZee5(zee5));
+  if (zee5) out.push(section("ZEE5 | Live"), zee5);
 
   const jio = await safeFetch(SOURCES.JIO_JSON, "JIO");
   if (jio) out.push(section("JIO ⭕ | Live TV"), convertJioJson(jio));
 
-  const sports = await safeFetch(SOURCES.SPORTS_JSON, "Sports JSON");
-  if (sports)
-    out.push(section("T20 World Cup | Live Matches"), convertSportsJson(sports));
+  const sports = await safeFetch(SOURCES.SPORTS_JSON, "Sports");
+  if (sports) out.push(section("T20 World Cup | Live Matches"), convertSportsJson(sports));
 
   const icc = await safeFetch(SOURCES.ICC_TV_JSON, "ICC TV");
   if (icc) out.push(section("ICC TV"), convertIccTv(icc));
