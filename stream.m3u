@@ -223,35 +223,30 @@ https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=ex
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
 #EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/prd/nl3znkx8qkoeqfn8xiuh",ICC-MT20: England v Nepal
-#EXTHTTP:{"Referer":"","Origin":"","Cookie":"","User-Agent":"CJ"}
-https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-03)/hdntl=exp=1770570791~acl=%2Fvariant%2Fv1blackout%2Fvcg-01-d%2F*~id=9a8c906e-a026-4af4-827b-fcfeeacfa4cf~data=hdntl~hmac=3f0a8cde993d53ba0c58685d09ed2e3d5c771d816729369d9256c2c29c852903/manifest.mpd?vcfilter=a9b8f36f-dc68-44d7-a329-3e2d99ff223d
+#EXTHTTP:{"Referer":"","Origin":"","Cookie":"","User-Agent":""}
+https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-03)/hdntl=exp=1770569922~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~id=2b1123b7-8508-49a2-bff6-e089eec0fbbf~data=hdntl~hmac=462d46eba1ed197ea0d1c0bb2225fa5150bd48e9f6964be85ad064aa9ff73899/manifest.mpd?vcfilter=a9b8f36f-dc68-44d7-a329-3e2d99ff223d
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
 #EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770550072/prd/mtrbykyoplebzu1ieusg",ICC-MT20: England v Nepal (NEPALI)
-#EXTHTTP:{"Referer":"","Origin":"","Cookie":"","User-Agent":"CJ"}
-https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-07)/hdntl=exp=1770570791~acl=%2Fvariant%2Fv1blackout%2Fvcg-01-d%2F*~id=9a8c906e-a026-4af4-827b-fcfeeacfa4cf~data=hdntl~hmac=3f0a8cde993d53ba0c58685d09ed2e3d5c771d816729369d9256c2c29c852903/manifest.mpd?vcfilter=23839721-4c9b-41d2-a71c-db629eff78e7
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
-#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770549182/prd/znki6vg4ghtgwt5xcfdd",ICC-MT20: England v Nepal (HINDI)
-#EXTHTTP:{"Referer":"","Origin":"","Cookie":"","User-Agent":"CJ"}
-https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-05)/hdntl=exp=1770570791~acl=%2Fvariant%2Fv1blackout%2Fvcg-01-d%2F*~id=9a8c906e-a026-4af4-827b-fcfeeacfa4cf~data=hdntl~hmac=3f0a8cde993d53ba0c58685d09ed2e3d5c771d816729369d9256c2c29c852903/manifest.mpd?vcfilter=67fd0da8-aa9f-49ac-b82f-a5845e913179
+#EXTHTTP:{"Referer":"","Origin":"","Cookie":"","User-Agent":""}
+https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-07)/hdntl=exp=1770569922~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~id=2b1123b7-8508-49a2-bff6-e089eec0fbbf~data=hdntl~hmac=462d46eba1ed197ea0d1c0bb2225fa5150bd48e9f6964be85ad064aa9ff73899/manifest.mpd?vcfilter=23839721-4c9b-41d2-a71c-db629eff78e7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
 #EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770549232/prd/ka4teh4xxt4s6r5arnaj",ICC-MT20: Sri Lanka v Ireland
-#EXTHTTP:{"Referer":"","Origin":"","Cookie":"","User-Agent":"CJ"}
-https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-02)/hdntl=exp=1770570791~acl=%2Fvariant%2Fv1blackout%2Fvcg-01-d%2F*~id=9a8c906e-a026-4af4-827b-fcfeeacfa4cf~data=hdntl~hmac=3f0a8cde993d53ba0c58685d09ed2e3d5c771d816729369d9256c2c29c852903/manifest.mpd?vcfilter=d9166b3c-4cad-4bd6-8953-982a4957c910
+#EXTHTTP:{"Referer":"","Origin":"","Cookie":"","User-Agent":""}
+https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-02)/hdntl=exp=1770569922~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~id=2b1123b7-8508-49a2-bff6-e089eec0fbbf~data=hdntl~hmac=462d46eba1ed197ea0d1c0bb2225fa5150bd48e9f6964be85ad064aa9ff73899/manifest.mpd?vcfilter=d9166b3c-4cad-4bd6-8953-982a4957c910
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
 #EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770549212/prd/li3kretyvh84fnarwwnr",ICC-MT20: Sri Lanka v Ireland (HINDI)
-#EXTHTTP:{"Referer":"","Origin":"","Cookie":"","User-Agent":"CJ"}
-https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-04)/hdntl=exp=1770570791~acl=%2Fvariant%2Fv1blackout%2Fvcg-01-d%2F*~id=9a8c906e-a026-4af4-827b-fcfeeacfa4cf~data=hdntl~hmac=3f0a8cde993d53ba0c58685d09ed2e3d5c771d816729369d9256c2c29c852903/manifest.mpd?vcfilter=080f9b8b-8f66-4353-b5b5-40ae57c24211
+#EXTHTTP:{"Referer":"","Origin":"","Cookie":"","User-Agent":""}
+https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-04)/hdntl=exp=1770569922~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~id=2b1123b7-8508-49a2-bff6-e089eec0fbbf~data=hdntl~hmac=462d46eba1ed197ea0d1c0bb2225fa5150bd48e9f6964be85ad064aa9ff73899/manifest.mpd?vcfilter=080f9b8b-8f66-4353-b5b5-40ae57c24211
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014958/1770497709076993_WPBL26_final_Chennai_Super_Champs_vs_Dilli_Dillwale_8feb_landscape_thumb.jpg" group-title="SonyLiv | Sports",Chennai Super Champs vs Dilli Dillwale - Final - 8 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770598226~acl=/*~id=67455464418058632783688303443885~hmac=dff1d2e192e288cbdc91b913cd7bdf8e0fc928ff3accce5c8541b271fba05151
+https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770599445~acl=/*~id=11321146682170765131585468099790~hmac=40401c8d9f1ff4842d07cf0c7b715c67e39d18fd96187b4a5341a1671aa9c7f6
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014812/1770116887759170_DPworld_tour_Qatar_Masters_Day4_3feb_landscape_thumb.jpg" group-title="SonyLiv | Sports",Qatar Masters Day 4 - 8 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770598226~acl=/*~id=67455464418058632783688303443885~hmac=dff1d2e192e288cbdc91b913cd7bdf8e0fc928ff3accce5c8541b271fba05151
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770599445~acl=/*~id=11321146682170765131585468099790~hmac=40401c8d9f1ff4842d07cf0c7b715c67e39d18fd96187b4a5341a1671aa9c7f6
 
 # ---------------=== FanCode | Sports ===-------------------
 
