@@ -220,32 +220,17 @@ https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=ex
 
 # ---------------=== ICC TV ===-------------------
 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
-#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770558772/prd/k4bfg80jgzctybkwlppe",ICC-MT20: Sri Lanka v Ireland
-https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-02)/hdntl=exp=1770584031~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~id=2b1123b7-8508-49a2-bff6-e089eec0fbbf~data=hdntl~hmac=c6f654deefc3184bc38a612525bb3224838eb697e023ff9591cf305db8993648/manifest.mpd?vcfilter=d9166b3c-4cad-4bd6-8953-982a4957c910
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
-#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770558755/prd/kzntb8e7q6jfrkszcjxi",ICC-MT20: Sri Lanka v Ireland (HINDI)
-https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-04)/hdntl=exp=1770584031~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~id=2b1123b7-8508-49a2-bff6-e089eec0fbbf~data=hdntl~hmac=c6f654deefc3184bc38a612525bb3224838eb697e023ff9591cf305db8993648/manifest.mpd?vcfilter=080f9b8b-8f66-4353-b5b5-40ae57c24211
+
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014298/1769517469638875_Bundesliga_2025_26_Bayern-Munich-vs-Hoffenheim_landscape_thumb.jpg" group-title="SonyLiv | Sports",Bayern Munich vs Hoffenheim - MD 21 - 8 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770614004~acl=/*~id=18180199387307675891146886352760~hmac=78b8f1e3b2f30fc4ab698733122f71b43f578674752162182f471874126f85fa
+https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770615822~acl=/*~id=40490576858053671820945212069217~hmac=38694dff7ca98e45331a66d735c322b176d0ec3f3078823efe95031904eaf991
 
 # ---------------=== FanCode | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131057_5427_ATH_LE_FC-Web.png" group-title="FanCode | Sports",Athletic Club vs Levante
-https://in-mc-fdlive.fancode.com/mumbai/131057_english_hls_0f147c501129921_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131053_5427_SEV_GIR_FC-Web.png" group-title="FanCode | Sports",Sevilla FC vs Girona FC
-https://in-mc-fdlive.fancode.com/mumbai/131053_english_hls_272ab041873662_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131058_5427_ATL_RB_FC-Web.png" group-title="FanCode | Sports",Atletico de Madrid vs Real Betis
 https://in-mc-fdlive.fancode.com/mumbai/131058_english_hls_d354bdbb394851_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://images.fancode.com/aig/match/v1770347072522/140429_CASACARDS_APP.png" group-title="FanCode | Sports",Cádiz vs Almería
-https://in-mc-fdlive.fancode.com/mumbai/140429_english_hls_e32406962614544_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Live-Event-old.jpg" group-title="FanCode | Sports",BCPL Auction
-https://in-mc-fdlive.fancode.com/mumbai/140529_english_hls_5bfd8cd4eb49701_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/WM-Phoenix-Open-2026_web-(1).jpg" group-title="FanCode | Sports",Main Feed - Day 4
 https://in-mc-fdlive.fancode.com/mumbai/140401_english_hls_8219ba135b71627_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/WM-Phoenix-Open-2026_web-(1).jpg" group-title="FanCode | Sports",Featured Groups - Day 4
@@ -254,6 +239,10 @@ https://in-mc-fdlive.fancode.com/mumbai/140402_english_hls_037dbf5b1784258_1ta-d
 https://in-mc-fdlive.fancode.com/mumbai/140043_english_hls_d8dd9655ac63389_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/WM-Phoenix-Open-2026_web-(1).jpg" group-title="FanCode | Sports",Featured Holes - Day 4
 https://in-mc-fdlive.fancode.com/mumbai/140403_english_hls_4c21942d2238373_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131057_5427_ATH_LE_FC-Web.png" group-title="FanCode | Sports",Athletic Club vs Levante
+https://in-mc-fdlive.fancode.com/mumbai/131057_english_hls_0f147c501129921_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131053_5427_SEV_GIR_FC-Web.png" group-title="FanCode | Sports",Sevilla FC vs Girona FC
+https://in-mc-fdlive.fancode.com/mumbai/131053_english_hls_272ab041873662_1ta-di_h264/index.m3u8
 
 # ---------------=== Other Channels ===-------------------
 
