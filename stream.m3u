@@ -239,11 +239,18 @@ https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Liv
 # ---------------=== SonyLiv | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014812/1770116887759170_DPworld_tour_Qatar_Masters_Day4_3feb_landscape_thumb.jpg" group-title="SonyLiv | Sports",Qatar Masters Day 4 - 8 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770593381~acl=/*~id=08654021146155950510582706395918~hmac=5da6a3d599f9d7ca96d03eb106132101e348788997f293eab3154aa7e96cff95
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770594592~acl=/*~id=58109903426218094358856920895453~hmac=a561cdda355f58201b696a772fb8757da3f1b792a49a9bb7bb4ccab82b0f2e33
 
 # ---------------=== FanCode | Sports ===-------------------
 
-
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140101_5826_WHU-W_BHA-W_FC-Web.jpg" group-title="FanCode | Sports",West Ham United Women vs Brighton and Hove Albion Women
+https://in-mc-fdlive.fancode.com/mumbai/140101_english_hls_78571c76d135008_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140100_5826_LCL_EVE-W_FC-Web.jpg" group-title="FanCode | Sports",London City Lionesses vs Everton Women
+https://in-mc-fdlive.fancode.com/mumbai/140100_english_hls_f4b19f5cc747792_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140099_5826_ARS-W_MCI-W_FC-Web.jpg" group-title="FanCode | Sports",Arsenal Women vs Manchester City Women
+https://in-mc-fdlive.fancode.com/mumbai/140099_english_hls_7c6869c29a99249_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140098_5826_LIV-W_AST-W_FC-Web.jpg" group-title="FanCode | Sports",Liverpool Women vs Aston Villa Women
+https://in-mc-fdlive.fancode.com/mumbai/140098_english_hls_5816bbef1492554_1ta-di_h264/index.m3u8
 
 # ---------------=== Other Channels ===-------------------
 
