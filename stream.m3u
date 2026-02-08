@@ -222,29 +222,28 @@ https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=ex
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
-#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770534240/prd/rpgwzawfhyfiyjrazmew",ICC-MT20: England v Nepal
+#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/prd/nl3znkx8qkoeqfn8xiuh",ICC-MT20: England v Nepal
 #EXTHTTP:{"Referer":"","Origin":"","Cookie":"","User-Agent":"CJ"}
 https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-03)/hdntl=exp=1770554119~acl=%2Fvariant%2Fv1blackout%2Fvcg-01-d%2F*~id=f33bcbce-bf81-4cf7-a450-7dcd818ec5d9~data=hdntl~hmac=a11814a6630c188f1705b870868c5ce9edecbbc11187d483d23baa9140ea753f/manifest.mpd?vcfilter=a9b8f36f-dc68-44d7-a329-3e2d99ff223d
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
-#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770534213/prd/gelgueezokobjvbejhqf",ICC-MT20: England v Nepal (NEPALI)
+#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770550072/prd/mtrbykyoplebzu1ieusg",ICC-MT20: England v Nepal (NEPALI)
 #EXTHTTP:{"Referer":"","Origin":"","Cookie":"","User-Agent":"CJ"}
 https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-07)/hdntl=exp=1770554119~acl=%2Fvariant%2Fv1blackout%2Fvcg-01-d%2F*~id=f33bcbce-bf81-4cf7-a450-7dcd818ec5d9~data=hdntl~hmac=a11814a6630c188f1705b870868c5ce9edecbbc11187d483d23baa9140ea753f/manifest.mpd?vcfilter=23839721-4c9b-41d2-a71c-db629eff78e7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
-#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770534256/prd/az6hsf82jgaewihjm1t0",ICC-MT20: England v Nepal (HINDI)
+#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770549182/prd/znki6vg4ghtgwt5xcfdd",ICC-MT20: England v Nepal (HINDI)
 #EXTHTTP:{"Referer":"","Origin":"","Cookie":"","User-Agent":"CJ"}
 https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-05)/hdntl=exp=1770554119~acl=%2Fvariant%2Fv1blackout%2Fvcg-01-d%2F*~id=f33bcbce-bf81-4cf7-a450-7dcd818ec5d9~data=hdntl~hmac=a11814a6630c188f1705b870868c5ce9edecbbc11187d483d23baa9140ea753f/manifest.mpd?vcfilter=67fd0da8-aa9f-49ac-b82f-a5845e913179
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014812/1770116887759170_DPworld_tour_Qatar_Masters_Day4_3feb_landscape_thumb.jpg" group-title="SonyLiv | Sports",Qatar Masters Day 4 - 8 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770591564~acl=/*~id=68954312950348714510093652552173~hmac=f89f971248d7ed6117e94d6a7be4505424c58ac845eee5cad2ea23f4f72dbebf
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770593381~acl=/*~id=08654021146155950510582706395918~hmac=5da6a3d599f9d7ca96d03eb106132101e348788997f293eab3154aa7e96cff95
 
 # ---------------=== FanCode | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Asian-Rifle_Pistol-Championship-2026-old-match-card.png" group-title="FanCode | Sports",Day 5
-https://in-mc-fdlive.fancode.com/mumbai/140323_english_hls_d07a0b52d383397_1ta-di_h264/index.m3u8
+
 
 # ---------------=== Other Channels ===-------------------
 
