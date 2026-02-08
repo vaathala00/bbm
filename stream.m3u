@@ -222,16 +222,6 @@ https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=ex
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
-#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/prd/nl3znkx8qkoeqfn8xiuh",ICC-MT20: England v Nepal
-#EXTHTTP:{"Referer":"","Origin":"","Cookie":"","User-Agent":""}
-https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-03)/hdntl=exp=1770569922~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~id=2b1123b7-8508-49a2-bff6-e089eec0fbbf~data=hdntl~hmac=462d46eba1ed197ea0d1c0bb2225fa5150bd48e9f6964be85ad064aa9ff73899/manifest.mpd?vcfilter=a9b8f36f-dc68-44d7-a329-3e2d99ff223d
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
-#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770550072/prd/mtrbykyoplebzu1ieusg",ICC-MT20: England v Nepal (NEPALI)
-#EXTHTTP:{"Referer":"","Origin":"","Cookie":"","User-Agent":""}
-https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-07)/hdntl=exp=1770569922~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~id=2b1123b7-8508-49a2-bff6-e089eec0fbbf~data=hdntl~hmac=462d46eba1ed197ea0d1c0bb2225fa5150bd48e9f6964be85ad064aa9ff73899/manifest.mpd?vcfilter=23839721-4c9b-41d2-a71c-db629eff78e7
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
 #EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770549232/prd/ka4teh4xxt4s6r5arnaj",ICC-MT20: Sri Lanka v Ireland
 #EXTHTTP:{"Referer":"","Origin":"","Cookie":"","User-Agent":""}
 https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-02)/hdntl=exp=1770569922~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~id=2b1123b7-8508-49a2-bff6-e089eec0fbbf~data=hdntl~hmac=462d46eba1ed197ea0d1c0bb2225fa5150bd48e9f6964be85ad064aa9ff73899/manifest.mpd?vcfilter=d9166b3c-4cad-4bd6-8953-982a4957c910
@@ -244,9 +234,9 @@ https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Liv
 # ---------------=== SonyLiv | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014958/1770497709076993_WPBL26_final_Chennai_Super_Champs_vs_Dilli_Dillwale_8feb_landscape_thumb.jpg" group-title="SonyLiv | Sports",Chennai Super Champs vs Dilli Dillwale - Final - 8 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770599445~acl=/*~id=11321146682170765131585468099790~hmac=40401c8d9f1ff4842d07cf0c7b715c67e39d18fd96187b4a5341a1671aa9c7f6
+https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770600656~acl=/*~id=93454768870695324918996628561592~hmac=fd721eddc19a2d67d9cfa3e5029d719d0b6fb1a25d8ef1bc244e36406436d6fe
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014812/1770116887759170_DPworld_tour_Qatar_Masters_Day4_3feb_landscape_thumb.jpg" group-title="SonyLiv | Sports",Qatar Masters Day 4 - 8 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770599445~acl=/*~id=11321146682170765131585468099790~hmac=40401c8d9f1ff4842d07cf0c7b715c67e39d18fd96187b4a5341a1671aa9c7f6
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770600656~acl=/*~id=93454768870695324918996628561592~hmac=fd721eddc19a2d67d9cfa3e5029d719d0b6fb1a25d8ef1bc244e36406436d6fe
 
 # ---------------=== FanCode | Sports ===-------------------
 
@@ -274,7 +264,7 @@ https://in-mc-fdlive.fancode.com/mumbai/140430_english_hls_287845a7cf93054_1ta-d
 https://example.com/video.m3u8   
 
 
------------- Star
+------------ Star------
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Star Sports| Live ",Star-KANNADA
 #EXTHTTP:{"Cookie":"","Origin":"","Referer":"","User-Agent":"null","Telegram":"@links_macha_official","Creator":"@DJ-TM"}
 https://c2ag.short.gy/n/kan.m3u8
@@ -673,6 +663,21 @@ https://dub6-1.uptodub.ch/files/Tamil20Dubbed20Movies/Red20Eye20(2005)/Red20Eye2
 
 #EXTINF:-1 group-logo="" tvg-logo="https://marketplace.canva.com/EAGFGXfhSPI/1/0/1131w/canva-red-yellow-creative-movie-night-flyer-QKLXth_cpRw.jpg" group-title="VT 🎬 | Tamil Movies",#AAY
 https://bq32.short.gy/aaa.mkv
+
+#EXTINF:-1 type="movie" group-logo="" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjhhMTk1MjEtZDAwNS00NDYxLTljYzEtYjhmYjlmMDhhNzQyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" group-title="VT 🎬 | Tamil Movies",Parasakthi (𝗜𝗠𝗗𝗕 6.2 2026 ‧ Tamil\Action\Drama\History\Epic\Period Drama\Political Drama ‧ 2h 41m Director Sudha Kongara | Writers Ganeshaa ‧ Madhan Karky ‧ Shan Karuppusamy | Stars Sivakarthikeyan ‧ Ravi Mohan ‧ Atharvaa Murali)
+https://tentkotta.short.gy/AgADiR5818.mkv
+
+#EXTINF:-1 type="movie" group-logo="" tvg-logo="https://m.media-amazon.com/images/M/MV5BOWIwMTVjMjItZDEzNS00NGVhLWJmZGQtNGU1ODNmNWQ3ZWZiXkEyXkFqcGc@._V1_.jpg" group-title="VT 🎬 | Tamil Movies",Indian Penal Law (𝗜𝗠𝗗𝗕 6.9 2025 ‧ Tamil\Drama ‧ 2h 8m Director Karunanithi | Writers Karunanithi | Stars Abhirami ‧ Aranganathan ‧ Dileepan)
+https://tentkotta.short.gy/AgADqh5816.mkv
+
+#EXTINF:-1 type="movie" group-logo="" tvg-logo="https://m.media-amazon.com/images/M/MV5BYWVlODJmZWQtNTQ0Yy00ZGViLWE4OWItNGVlYWE3NTJmNWJjXkEyXkFqcGc@._V1_.jpg" group-title="VT 🎬 | Tamil Movies",Shahkot (𝗜𝗠𝗗𝗕 7.7 2024 ‧ Thriller\Punjabi ‧ 1h 55m Director Rajiv Dhingra | Writers Rajiv Dhingra ‧ Davinder Virk | Stars Raj Babbar ‧ Bharat Bharial ‧ Jimmy James Burke)
+https://tentkotta.short.gy/AgADFh5814.mkv
+
+#EXTINF:-1 type="movie" group-logo="" tvg-logo="https://m.media-amazon.com/images/M/MV5BNzA1YjI5YWQtNTJhYS00MTNiLWFmZDktNjNjNGZkNWYyN2ZlXkEyXkFqcGc@._V1_.jpg" group-title="VT 🎬 | Tamil Movies",Nilakanta (𝗜𝗠𝗗𝗕 9.1 2026 ‧ Action\Telugu ‧ 2h 34m Director Rakesh Madhavan | Writers Rakesh Madhavan | Stars Mahendran ‧ Yashna Muthuluri ‧ Neha Pathan)
+https://tentkotta.short.gy/AgADSi5812.mkv
+
+#EXTINF:-1 type="movie" group-logo="" tvg-logo="https://m.media-amazon.com/images/M/MV5BOTc5Mjk4ZDQtM2Y4Zi00YTZmLTkxYmUtYWMwNzk3NDBkOGQzXkEyXkFqcGc@._V1_.jpg" group-title="VT 🎬 | Tamil Movies",The RajaSaab (𝗜𝗠𝗗𝗕 3.6 2026 ‧ Action\Comedy\Fantasy\Fantasy Epic\Supernatural Horror\Horror\Romance\Thriller\Telugu ‧ 3h 10m Director Maruthi Dasari | Writers Maruthi Dasari | Stars Prabhas ‧ Sanjay Dutt ‧ Nidhhi Agerwal)
+https://tentkotta.short.gy/AgADsx5810.mkv
 
 #EXTINF:-1 type="movie" group-logo="" tvg-logo="https://m.media-amazon.com/images/M/MV5BNzk3OTFiNmEtOGE1NC00YjQ0LWE5ZGUtODhjNGJkMmQ3NTMzXkEyXkFqcGc@._V1_.jpg" group-title="VT 🎬 | Tamil Movies",Nari Nari Naduma Murari (𝗜𝗠𝗗𝗕 8.2 2026 ‧ Drama\Telugu ‧ 2h 20m Director Ram Abbaraju | Writers Ram Abbaraju ‧ Bhanu Bhogavarapu ‧ Nandu Savirigana | Stars Samyuktha Menon ‧ Sharwanand ‧ Sakshi Vaidya)
 https://tentkotta.short.gy/AgADkx5791.mkv
