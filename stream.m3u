@@ -223,11 +223,11 @@ https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=ex
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
 #EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770558340/prd/rwt9ydsf2gfsyhao23pi",ICC-MT20: South Africa v Canada
-https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-02)/hdntl=exp=1770584031~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~id=2b1123b7-8508-49a2-bff6-e089eec0fbbf~data=hdntl~hmac=c6f654deefc3184bc38a612525bb3224838eb697e023ff9591cf305db8993648/manifest.mpd?vcfilter=bd9fa8fd-2c60-4d08-bd97-256c1aedfc06
+https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-02)//manifest.mpd?vcfilter=bd9fa8fd-2c60-4d08-bd97-256c1aedfc06
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
 #EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770558321/prd/hwl8y2c2mtbb8tmibxhn",ICC-MT20: South Africa v Canada (HINDI)
-https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-04)/hdntl=exp=1770584031~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~id=2b1123b7-8508-49a2-bff6-e089eec0fbbf~data=hdntl~hmac=c6f654deefc3184bc38a612525bb3224838eb697e023ff9591cf305db8993648/manifest.mpd?vcfilter=e0a17e5f-3ff2-4d67-bf01-c4448b026d2c
+https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-04)//manifest.mpd?vcfilter=e0a17e5f-3ff2-4d67-bf01-c4448b026d2c
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
