@@ -220,14 +220,7 @@ https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=ex
 
 # ---------------=== ICC TV ===-------------------
 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
-#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770558340/prd/rwt9ydsf2gfsyhao23pi",ICC-MT20: South Africa v Canada
-https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-02)//manifest.mpd?vcfilter=bd9fa8fd-2c60-4d08-bd97-256c1aedfc06
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
-#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770558321/prd/hwl8y2c2mtbb8tmibxhn",ICC-MT20: South Africa v Canada (HINDI)
-https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-04)//manifest.mpd?vcfilter=e0a17e5f-3ff2-4d67-bf01-c4448b026d2c
+
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
@@ -235,14 +228,18 @@ https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01
 
 # ---------------=== FanCode | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/07_Al-Wahda-vs-Al-Ahli_1770633912121.png" group-title="FanCode | Sports",Al Wahda vs Al-Ahli Saudi FC
-https://in-mc-fdlive.fancode.com/mumbai/136080_english_hls_2aa81b8c6142339_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/08_Nasaf-vs-Al-Shorta.png" group-title="FanCode | Sports",Nasaf vs Al Shorta
-https://in-mc-fdlive.fancode.com/mumbai/136079_english_hls_7ffc08dd7017696_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/09_Al-Duhail-vs-Sharjah_1770634292017.png" group-title="FanCode | Sports",Al Duhail vs Sharjah
+https://in-mc-fdlive.fancode.com/mumbai/136082_english_hls_49d6ca913523981_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(5).png" group-title="FanCode | Sports",Shabab Al Ahli vs Al Hilal SFC
+https://in-mc-fdlive.fancode.com/mumbai/136081_english_hls_51f2d5730165507_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3)_1770389196821.png" group-title="FanCode | Sports",World Feed
 https://in-mc-fdlive.fancode.com/mumbai/140194_english_hls_314df8104326579_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3)_1770389196821.png" group-title="FanCode | Sports",Centre Court
 https://in-mc-fdlive.fancode.com/mumbai/140541_english_hls_fecb6abd2f83486_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ATP-250IEBArgentina-Open--old-card-(1).png" group-title="FanCode | Sports",Cancha Guillermo Vilas
+https://in-mc-fdlive.fancode.com/mumbai/140201_english_hls_fbb36ff56921479_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Dallas-Open-(ATP-500)-old-card-_1770541232780.png" group-title="FanCode | Sports",Grandstand
+https://in-mc-fdlive.fancode.com/mumbai/140530_english_hls_23b89ec9cf5138_1ta-di_h264/index.m3u8
 
 # ---------------=== Other Channels ===-------------------
 
