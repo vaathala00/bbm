@@ -218,6 +218,17 @@ https://z5ak-cmaflive.zee5.com/cmaf/live/2105538/ZeeTalkiesELE/master.m3u8?hdntl
 #EXTHTTP:{"Referer":"","Origin":"","Cookie":"","User-Agent":"Mozilla/5.0 (Linux; Android 12; Redmi) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.69 Mobile Safari/537.36"}
 https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=exp=1770617611~acl=/*~id=63f7b582-5fb4-432a-a77c-2080b69f5173~data=hdntl~hmac=c9b952d0b8898a68b6cec243c03ea107783592733451e85aa1596d3bdc58a9a6
 
+# ---------------=== ICC TV ===-------------------
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
+#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770558361/prd/ualzpibfkipsvmqz8eas",ICC-MT20: Zimbabwe v Oman
+https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-03)/hdntl=exp=1770584031~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~id=2b1123b7-8508-49a2-bff6-e089eec0fbbf~data=hdntl~hmac=c6f654deefc3184bc38a612525bb3224838eb697e023ff9591cf305db8993648/manifest.mpd?vcfilter=466a9354-1f7e-4737-aacd-57f36f268f49
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
+#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770558395/prd/makct51a6po5qfqucsxy",ICC-MT20: Zimbabwe v Oman (HINDI)
+https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-05)/hdntl=exp=1770584031~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~id=2b1123b7-8508-49a2-bff6-e089eec0fbbf~data=hdntl~hmac=c6f654deefc3184bc38a612525bb3224838eb697e023ff9591cf305db8993648/manifest.mpd?vcfilter=9ee17438-1838-4959-b439-b2f60636f53d
+
 # ---------------=== SonyLiv | Sports ===-------------------
 
 
@@ -226,8 +237,6 @@ https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=ex
 
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Strikers-Cup-2026_fc-web.jpg" group-title="FanCode | Sports",Day 1
 https://in-mc-fdlive.fancode.com/mumbai/140315_english_hls_0c2d07557c80676_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Asian-Rifle_Pistol-Championship-2026-old-match-card.png" group-title="FanCode | Sports",Day 6
-https://in-mc-fdlive.fancode.com/mumbai/140324_english_hls_bdff2172b713439_1ta-di_h264/index.m3u8
 
 # ---------------=== Other Channels ===-------------------
 
