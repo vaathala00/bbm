@@ -218,6 +218,10 @@ https://z5ak-cmaflive.zee5.com/cmaf/live/2105538/ZeeTalkiesELE/master.m3u8?hdntl
 #EXTHTTP:{"Referer":"","Origin":"","Cookie":"","User-Agent":"Mozilla/5.0 (Linux; Android 12; Redmi) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.69 Mobile Safari/537.36"}
 https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=exp=1770777296~acl=/*~id=99bc7c17-a2f2-4386-b53b-900b5830f2c7~data=hdntl~hmac=ddd8e5b509e668869836fc4a6618f547c19cfad94bbf73038718346855b0a5f7
 
+# ---------------=== ICC TV ===-------------------
+
+
+
 # ---------------=== SonyLiv | Sports ===-------------------
 
 
@@ -226,12 +230,14 @@ https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=ex
 
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/16_Al-Ittihad-vs--Al-Gharafa_1770635658022.png" group-title="FanCode | Sports",Al-Ittihad vs Al Gharafa
 https://in-mc-fdlive.fancode.com/mumbai/136084_english_hls_bcb9fc0b8627697_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/03_Hertha-BSC-vs-SC-Freiburg_1769793016237.png" group-title="FanCode | Sports",Hertha BSC vs SC Freiburg
+https://in-mc-fdlive.fancode.com/mumbai/139000_english_hls_1da02b1cf413076_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Birmingham-City-vs-West-Bromwich-Albion_fc-web..jpg" group-title="FanCode | Sports",Birmingham City F.C. vs West Bromwich Albion F.C.
+https://in-mc-fdlive.fancode.com/mumbai/140526_english_hls_7ec81e5ae713868_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3)_1770389196821.png" group-title="FanCode | Sports",World Feed
 https://in-mc-fdlive.fancode.com/mumbai/140543_english_hls_f65455d4a422900_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3)_1770389196821.png" group-title="FanCode | Sports",Centre Court
 https://in-mc-fdlive.fancode.com/mumbai/140542_english_hls_647ee1df7834456_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3)_1770389196821.png" group-title="FanCode | Sports",Court 1
-https://in-mc-fdlive.fancode.com/mumbai/140544_english_hls_53771c29ef75606_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ATP-250IEBArgentina-Open--old-card-(1).png" group-title="FanCode | Sports",Cancha Guillermo Vilas
 https://in-mc-fdlive.fancode.com/mumbai/140202_english_hls_162ef3e0251699_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Dallas-Open-(ATP-500)-old-card-_1770112378426.png" group-title="FanCode | Sports",World Feed
