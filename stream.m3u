@@ -220,7 +220,14 @@ https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=ex
 
 # ---------------=== ICC TV ===-------------------
 
-
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
+#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770696360/prd/sfycijzqlx8kpj8q8x0f",ICC-MT20: Netherlands v Namibia
+https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-02)//manifest.mpd?vcfilter=073da234-0e75-4909-87eb-11df56b9c4c4
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
+#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770696389/prd/ycbo9y0girgd1pakeq1n",ICC-MT20: Netherlands v Namibia (HINDI)
+https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-04)//manifest.mpd?vcfilter=3f03b902-5fa4-40f7-95c2-0c162501b9f8
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
@@ -230,10 +237,6 @@ https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=ex
 
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/New-South-Wales-vs-South-Australia_fc-web.jpg" group-title="FanCode | Sports",South Australia vs New South Wales
 https://in-mc-fdlive.fancode.com/mumbai/133943_english_hls_9eed4fb7a459528_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Dallas-Open-(ATP-500)-old-card-_1770112378426.png" group-title="FanCode | Sports",World Feed
-https://in-mc-fdlive.fancode.com/mumbai/140187_english_hls_4bf2a27eb512185_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Dallas-Open-(ATP-500)-old-card-_1770541232780.png" group-title="FanCode | Sports",Center Court
-https://in-mc-fdlive.fancode.com/mumbai/140531_english_hls_0ec584619423979_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Strikers-Cup-2026_fc-web.jpg" group-title="FanCode | Sports",Day 2
 https://in-mc-fdlive.fancode.com/mumbai/140316_english_hls_30686eed2f55810_1ta-di_h264/index.m3u8
 
