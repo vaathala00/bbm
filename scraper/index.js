@@ -5,7 +5,7 @@ const OUTPUT_FILE = "stream.m3u";
 
 // ================= SOURCES =================
 const SOURCES = {
-  HOTSTAR_JSON: "https://cloudplay-app.cloudplay-help.workers.dev/hotstar?password=all",
+  HOTSTAR_JSON: "https://livetv.panguplay.workers.dev/hotstar?uid=vaathala",
   ZEE5_M3U: "https://join-vaathala1-for-more.vodep39240327.workers.dev/zee5.m3u",
   EXTRA_M3U: "https://od.lk/s/MzZfODQzNTQ1Nzlf/raw?=m3u",
   JIO_JSON: "https://raw.githubusercontent.com/vaathala00/jo/main/stream.jso",
@@ -42,25 +42,39 @@ function convertHotstar(json) {
   const out = [];
 
   json.forEach((ch) => {
-    const url = ch.mpd_url || ch.m3u8_url;
-    if (!url) return;
+    const rawUrl = ch.m3u8_url || ch.mpd_url;
+    if (!rawUrl) return;
+
+    const urlObj = new URL(rawUrl);
+
+    // Extract values from query
+    const cookieMatch = rawUrl.match(/hdntl=[^&]*/);
+    const cookie = cookieMatch ? cookieMatch[0] : "";
+
+    const userAgent =
+      decodeURIComponent(urlObj.searchParams.get("User-agent") || "") ||
+      "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)";
+
+    // Clean unwanted params
+    urlObj.searchParams.delete("User-agent");
+    urlObj.searchParams.delete("Origin");
+    urlObj.searchParams.delete("Referer");
 
     out.push(
       `#EXTINF:-1 tvg-logo="${ch.logo}" group-title="VOOT | Jio Cinema",${ch.name}`,
+      `#EXTVLCOPT:${userAgent}`,
       `#EXTHTTP:${JSON.stringify({
-        ...ch.headers,
-        Referer: "https://www.hotstar.com/",
+        cookie: cookie,
         Origin: "https://www.hotstar.com",
-        "User-Agent":
-          ch.user_agent ||
-          "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
+        Referer: "https://www.hotstar.com/",
       })}`,
-      url
+      urlObj.toString()
     );
   });
 
   return out.join("\n");
 }
+
 
 // ================= JIO =================
 function convertJioJson(json) {
