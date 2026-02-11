@@ -5,7 +5,7 @@ const OUTPUT_FILE = "stream.m3u";
 
 // ================= SOURCES =================
 const SOURCES = {
-  HOTSTAR_JSON: "https://livetv.panguplay.workers.dev/hotstar?uid=vaathala",
+  HOTSTAR_M3U: "https://livetv.panguplay.workers.dev/hotstar?uid=vaathala",
   ZEE5_M3U: "https://join-vaathala1-for-more.vodep39240327.workers.dev/zee5.m3u",
   EXTRA_M3U: "https://od.lk/s/MzZfODQzNTQ1Nzlf/raw?=m3u",
   JIO_JSON: "https://raw.githubusercontent.com/vaathala00/jo/main/stream.jso",
@@ -37,43 +37,77 @@ function section(title) {
 }
 
 // ================= HOTSTAR =================
-function convertHotstar(json) {
-  if (!Array.isArray(json)) return "";
+function convertHotstar(data) {
+  // FIX: Check if data is already a raw M3U string
+  if (typeof data === 'string' && data.trim().startsWith('#EXTM3U')) {
+    console.log("✅ Hotstar: Detected raw M3U format. Passing through.");
+    return data;
+  }
+
+  // Existing JSON Logic
+  let json = data;
+
+  if (!Array.isArray(json) && typeof json === 'object') {
+    const possibleKeys = ['channels', 'data', 'results', 'streams', 'list'];
+    for (const key of possibleKeys) {
+      if (Array.isArray(json[key])) {
+        json = json[key];
+        console.log(`✅ Hotstar: Extracted array from key '${key}'`);
+        break;
+      }
+    }
+  }
+
+  if (!Array.isArray(json)) {
+    console.warn("⚠️ Hotstar: Data is not an array or M3U. Keys found:", Object.keys(data || {}));
+    return "";
+  }
+
+  if (json.length === 0) {
+    console.warn("⚠️ Hotstar: Array is empty.");
+    return "";
+  }
+
   const out = [];
 
   json.forEach((ch) => {
-    const rawUrl = ch.m3u8_url || ch.mpd_url;
+    const rawUrl = ch.m3u8_url || ch.mpd_url || ch.url || ch.playback_url || ch.streamUrl;
     if (!rawUrl) return;
 
-    const urlObj = new URL(rawUrl);
+    try {
+      const urlObj = new URL(rawUrl);
+      const cookieMatch = rawUrl.match(/hdntl=[^&]*/);
+      const cookie = cookieMatch ? cookieMatch[0] : "";
+      const userAgent =
+        decodeURIComponent(urlObj.searchParams.get("User-agent") || "") ||
+        "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)";
 
-    // Extract values from query
-    const cookieMatch = rawUrl.match(/hdntl=[^&]*/);
-    const cookie = cookieMatch ? cookieMatch[0] : "";
+      urlObj.searchParams.delete("User-agent");
+      urlObj.searchParams.delete("Origin");
+      urlObj.searchParams.delete("Referer");
 
-    const userAgent =
-      decodeURIComponent(urlObj.searchParams.get("User-agent") || "") ||
-      "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)";
+      const logo = ch.logo || ch.logo_url || ch.image || "";
+      const name = ch.name || ch.title || ch.channel_name || "Unknown";
 
-    // Clean unwanted params
-    urlObj.searchParams.delete("User-agent");
-    urlObj.searchParams.delete("Origin");
-    urlObj.searchParams.delete("Referer");
-
-    out.push(
-      `#EXTINF:-1 tvg-logo="${ch.logo}" group-title="VOOT | Jio Cinema",${ch.name}`,
-      `#EXTVLCOPT:${userAgent}`,
-      `#EXTHTTP:${JSON.stringify({
-        cookie: cookie,
-        Origin: "https://www.hotstar.com",
-        Referer: "https://www.hotstar.com/",
-      })}`,
-      urlObj.toString()
-    );
+      out.push(
+        `#EXTINF:-1 tvg-logo="${logo}" group-title="VOOT | Jio Cinema",${name}`,
+        `#EXTVLCOPT:${userAgent}`,
+        `#EXTHTTP:${JSON.stringify({
+          cookie: cookie,
+          Origin: "https://www.hotstar.com",
+          Referer: "https://www.hotstar.com/",
+        })}`,
+        urlObj.toString()
+      );
+    } catch (e) {
+      console.error("Error processing Hotstar channel:", ch.name, e.message);
+    }
   });
 
+  console.log(`✅ Converted ${out.length} Hotstar channels.`);
   return out.join("\n");
 }
+
 
 
 // ================= JIO =================
@@ -200,7 +234,7 @@ async function run() {
   const out = [];
   out.push(PLAYLIST_HEADER.trim());
 
-  const hotstar = await safeFetch(SOURCES.HOTSTAR_JSON, "Hotstar");
+  const hotstar = await safeFetch(SOURCES.HOTSTAR_M3U, "Hotstar");
   if (hotstar) out.push(section("VOOT | Jio Cinema"), convertHotstar(hotstar));
 
   const zee5 = await safeFetch(SOURCES.ZEE5_M3U, "ZEE5");
