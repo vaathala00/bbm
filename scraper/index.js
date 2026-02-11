@@ -73,62 +73,70 @@ function convertHotstar(data) {
     return "";
   }
 
-  // 2. Handle RAW M3U String (The Fix)
+  // 2. Handle RAW M3U String
   console.log("✅ Hotstar: Parsing and reformatting raw M3U...");
   const lines = data.split('\n');
   const out = [];
   let currentInf = "";
+
+  // Helper to get RAW parameter value (No Decoding)
+  const getRawParam = (url, name) => {
+    // Regex: Look for ? or & or %7C (pipe) followed by name=value, until next &
+    const regex = new RegExp(`(?:[?&%7C])${name}=([^&]*)`);
+    const match = url.match(regex);
+    return match ? match[1] : "";
+  };
+
+  // Default values to inject if missing
+  const DEFAULT_UA = "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)";
+  const DEFAULT_ORIGIN = "https://www.hotstar.com";
+  const DEFAULT_REFERER = "https://www.hotstar.com/";
 
   for (let line of lines) {
     line = line.trim();
     if (!line) continue;
 
     if (line.startsWith('#EXTINF')) {
-      // Fix group-title to "VOOT | Jio Cinema"
+      // Fix group-title
       line = line.replace(/group-title="[^"]*"/, 'group-title="VOOT | Jio Cinema"');
       currentInf = line;
     } 
     else if (line.startsWith('http')) {
-      // This line contains the URL + Auth params
-      
-      // Helper to extract params (handling ?| or ?%7C separators)
-      const getParam = (url, name) => {
-        // Matches ?|Name=Value or ?%7CName=Value
-        const regex = new RegExp(`[?&]%7C?${name}=([^&]*)`);
-        const match = url.match(regex);
-        return match ? decodeURIComponent(match[1]) : "";
-      };
+      // Extract RAW values
+      const cookie = getRawParam(line, 'Cookie');
+      let userAgent = getRawParam(line, 'User-agent');
+      let origin = getRawParam(line, 'Origin');
+      let referer = getRawParam(line, 'Referer');
 
-      const cookie = getParam(line, 'Cookie');
-      const userAgent = getParam(line, 'User-agent');
-      const origin = getParam(line, 'Origin');
-      const referer = getParam(line, 'Referer');
+      // Inject defaults if missing to ensure consistent format
+      if (!userAgent) userAgent = DEFAULT_UA;
+      if (!origin) origin = DEFAULT_ORIGIN;
+      if (!referer) referer = DEFAULT_REFERER;
 
-      // Get clean URL (remove everything after ?)
+      // Get clean URL
       const cleanUrl = line.split('?')[0];
 
       if (currentInf) {
         out.push(currentInf);
         
-        // Add User Agent
-        if (userAgent) {
-          out.push(`#EXTVLCOPT:http-user-agent=${userAgent}`);
-        }
+        // 1. User Agent Line
+        // Replace space with %20 if you want it strictly encoded, though space usually works.
+        // User's desired output showed %20, so let's ensure that for the default UA.
+        const safeUA = userAgent.replace(/ /g, "%20");
+        out.push(`#EXTVLCOPT:http-user-agent=${safeUA}`);
 
-        // Add HTTP Headers
-        const headers = {};
-        if (cookie) headers.cookie = cookie;
-        if (origin) headers.Origin = origin;
-        if (referer) headers.Referer = referer;
+        // 2. HTTP Headers Line
+        const headers = {
+          cookie: cookie,
+          Origin: origin,
+          Referer: referer
+        };
+        out.push(`#EXTHTTP:${JSON.stringify(headers)}`);
 
-        if (Object.keys(headers).length > 0) {
-          out.push(`#EXTHTTP:${JSON.stringify(headers)}`);
-        }
-
-        // Add Clean URL
+        // 3. Clean URL
         out.push(cleanUrl);
         
-        currentInf = ""; // Reset
+        currentInf = "";
       }
     }
   }
@@ -136,7 +144,6 @@ function convertHotstar(data) {
   console.log(`✅ Processed ${out.length / 4} Hotstar channels.`);
   return out.join("\n");
 }
-
 
 // ================= JIO =================
 function convertJioJson(json) {
