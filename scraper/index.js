@@ -38,76 +38,104 @@ function section(title) {
 
 // ================= HOTSTAR =================
 function convertHotstar(data) {
-  // FIX: Check if data is already a raw M3U string
-  if (typeof data === 'string' && data.trim().startsWith('#EXTM3U')) {
-    console.log("✅ Hotstar: Detected raw M3U format. Passing through.");
-    return data;
+  // 1. Handle JSON format (Legacy/Backup)
+  if (typeof data !== 'string' || !data.trim().startsWith('#EXTM3U')) {
+    let json = data;
+    if (!Array.isArray(json) && typeof json === 'object') {
+      const possibleKeys = ['channels', 'data', 'results', 'streams', 'list'];
+      for (const key of possibleKeys) {
+        if (Array.isArray(json[key])) { json = json[key]; break; }
+      }
+    }
+    if (Array.isArray(json)) {
+      const out = [];
+      json.forEach((ch) => {
+        const rawUrl = ch.m3u8_url || ch.mpd_url || ch.url || ch.playback_url || ch.streamUrl;
+        if (!rawUrl) return;
+        try {
+          const urlObj = new URL(rawUrl);
+          const cookieMatch = rawUrl.match(/hdntl=[^&]*/);
+          const cookie = cookieMatch ? cookieMatch[0] : "";
+          const userAgent = decodeURIComponent(urlObj.searchParams.get("User-agent") || "") || "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)";
+          urlObj.searchParams.delete("User-agent"); urlObj.searchParams.delete("Origin"); urlObj.searchParams.delete("Referer");
+          const logo = ch.logo || ch.logo_url || ch.image || "";
+          const name = ch.name || ch.title || ch.channel_name || "Unknown";
+          out.push(
+            `#EXTINF:-1 tvg-logo="${logo}" group-title="VOOT | Jio Cinema",${name}`,
+            `#EXTVLCOPT:http-user-agent=${userAgent}`,
+            `#EXTHTTP:${JSON.stringify({ cookie: cookie, Origin: "https://www.hotstar.com", Referer: "https://www.hotstar.com/" })}`,
+            urlObj.toString()
+          );
+        } catch (e) {}
+      });
+      return out.join("\n");
+    }
+    return "";
   }
 
-  // Existing JSON Logic
-  let json = data;
+  // 2. Handle RAW M3U String (The Fix)
+  console.log("✅ Hotstar: Parsing and reformatting raw M3U...");
+  const lines = data.split('\n');
+  const out = [];
+  let currentInf = "";
 
-  if (!Array.isArray(json) && typeof json === 'object') {
-    const possibleKeys = ['channels', 'data', 'results', 'streams', 'list'];
-    for (const key of possibleKeys) {
-      if (Array.isArray(json[key])) {
-        json = json[key];
-        console.log(`✅ Hotstar: Extracted array from key '${key}'`);
-        break;
+  for (let line of lines) {
+    line = line.trim();
+    if (!line) continue;
+
+    if (line.startsWith('#EXTINF')) {
+      // Fix group-title to "VOOT | Jio Cinema"
+      line = line.replace(/group-title="[^"]*"/, 'group-title="VOOT | Jio Cinema"');
+      currentInf = line;
+    } 
+    else if (line.startsWith('http')) {
+      // This line contains the URL + Auth params
+      
+      // Helper to extract params (handling ?| or ?%7C separators)
+      const getParam = (url, name) => {
+        // Matches ?|Name=Value or ?%7CName=Value
+        const regex = new RegExp(`[?&]%7C?${name}=([^&]*)`);
+        const match = url.match(regex);
+        return match ? decodeURIComponent(match[1]) : "";
+      };
+
+      const cookie = getParam(line, 'Cookie');
+      const userAgent = getParam(line, 'User-agent');
+      const origin = getParam(line, 'Origin');
+      const referer = getParam(line, 'Referer');
+
+      // Get clean URL (remove everything after ?)
+      const cleanUrl = line.split('?')[0];
+
+      if (currentInf) {
+        out.push(currentInf);
+        
+        // Add User Agent
+        if (userAgent) {
+          out.push(`#EXTVLCOPT:http-user-agent=${userAgent}`);
+        }
+
+        // Add HTTP Headers
+        const headers = {};
+        if (cookie) headers.cookie = cookie;
+        if (origin) headers.Origin = origin;
+        if (referer) headers.Referer = referer;
+
+        if (Object.keys(headers).length > 0) {
+          out.push(`#EXTHTTP:${JSON.stringify(headers)}`);
+        }
+
+        // Add Clean URL
+        out.push(cleanUrl);
+        
+        currentInf = ""; // Reset
       }
     }
   }
 
-  if (!Array.isArray(json)) {
-    console.warn("⚠️ Hotstar: Data is not an array or M3U. Keys found:", Object.keys(data || {}));
-    return "";
-  }
-
-  if (json.length === 0) {
-    console.warn("⚠️ Hotstar: Array is empty.");
-    return "";
-  }
-
-  const out = [];
-
-  json.forEach((ch) => {
-    const rawUrl = ch.m3u8_url || ch.mpd_url || ch.url || ch.playback_url || ch.streamUrl;
-    if (!rawUrl) return;
-
-    try {
-      const urlObj = new URL(rawUrl);
-      const cookieMatch = rawUrl.match(/hdntl=[^&]*/);
-      const cookie = cookieMatch ? cookieMatch[0] : "";
-      const userAgent =
-        decodeURIComponent(urlObj.searchParams.get("User-agent") || "") ||
-        "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)";
-
-      urlObj.searchParams.delete("User-agent");
-      urlObj.searchParams.delete("Origin");
-      urlObj.searchParams.delete("Referer");
-
-      const logo = ch.logo || ch.logo_url || ch.image || "";
-      const name = ch.name || ch.title || ch.channel_name || "Unknown";
-
-      out.push(
-        `#EXTINF:-1 tvg-logo="${logo}" group-title="VOOT | Jio Cinema",${name}`,
-        `#EXTVLCOPT:${userAgent}`,
-        `#EXTHTTP:${JSON.stringify({
-          cookie: cookie,
-          Origin: "https://www.hotstar.com",
-          Referer: "https://www.hotstar.com/",
-        })}`,
-        urlObj.toString()
-      );
-    } catch (e) {
-      console.error("Error processing Hotstar channel:", ch.name, e.message);
-    }
-  });
-
-  console.log(`✅ Converted ${out.length} Hotstar channels.`);
+  console.log(`✅ Processed ${out.length / 4} Hotstar channels.`);
   return out.join("\n");
 }
-
 
 
 // ================= JIO =================
