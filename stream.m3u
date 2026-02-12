@@ -41,23 +41,23 @@ https://livetv.hotstar.com/mp1/gec-india-hotstartv/3e222014b2524730ad86d0a8457ca
 https://livetv.hotstar.com/mp2/gec-india/60b51adb7eae4ae492e6ba6c156a1efe/index_7.m3u8
 #EXTINF:-1 tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7430/567430-h" group-title="VOOT | Jio Cinema",Star Sports HD1
 #EXTVLCOPT:http-user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169%20(Android/15)
-#EXTHTTP:{"cookie":"hdntl=exp=1770904172~acl=*sshd1livetv*~id=dd6348977ea77f210f367f35cf1179cb~data=hdntl~hmac=8ca603fed2aecbd0a883db477fe45eac0bf66a07e847e78239942f6173394718","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
+#EXTHTTP:{"cookie":"hdntl=exp=1770986347~acl=*sshd1livetv*~id=99161c16c9987a7e5e83ae50db87325a~data=hdntl~hmac=44be8167bdd34ebb93175ddf2821f9810fa6327b092c41a8db4e1c83193b6d0e","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
 https://livetv-push.hotstar.com/dash/live/2002464/sshd1livetvwv/master.mpd
 #EXTINF:-1 tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7432/567432-h" group-title="VOOT | Jio Cinema",Star Sports HD2
 #EXTVLCOPT:http-user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169%20(Android/15)
-#EXTHTTP:{"cookie":"hdntl=exp=1770904207~acl=*sshd2livetv*~id=edf438469eca9d14be8f6144e402c34f~data=hdntl~hmac=bbcaac11e8f595ad259029da2a27839f3c6d6353c260e437f979cd36f1630ab3","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
+#EXTHTTP:{"cookie":"hdntl=exp=1770986399~acl=*sshd2livetv*~id=46e8938224127dce06b22bc8076d49d0~data=hdntl~hmac=f0e7236dae803962be2ee2dfd2d5f10c3350bfdbf828e4a1da6eeea53ec4d814","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
 https://livetv-push.hotstar.com/dash/live/2002465/sshd2livetvwv/master.mpd
 #EXTINF:-1 tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7433/567433-h" group-title="VOOT | Jio Cinema",Star Sports Hindi HD1
 #EXTVLCOPT:http-user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169%20(Android/15)
-#EXTHTTP:{"cookie":"hdntl=exp=1770904252~acl=*sshindi*~id=13f4fbda58048c8e864df7ce54604c2b~data=hdntl~hmac=8598fd585bd8bc7c6201f481e95d31e9e14efa853a973e4cb3e513874a31aeb6","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
+#EXTHTTP:{"cookie":"hdntl=exp=1770986528~acl=*sshindi*~id=b67ac9d46d477c787807ee8a61f4ba4c~data=hdntl~hmac=0e155c8724a68247596f3dea7d736850215f62bc32ea0946868b2f66cc2a9893","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
 https://livetv-push.hotstar.com/dash/live/2002466-b/sshindiwv/master.mpd
 #EXTINF:-1 tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7435/567435-h" group-title="VOOT | Jio Cinema",Star Sports Select HD1
 #EXTVLCOPT:http-user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169%20(Android/15)
-#EXTHTTP:{"cookie":"hdntl=exp=1770904272~acl=*ssselecthd1*~id=ffb27dc3c4f12835348c03f9a9d4fd14~data=hdntl~hmac=937bd6765eeb7a329c6abc1f74eba794c98a8725a3d65a26c8a30b9292747192","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
+#EXTHTTP:{"cookie":"hdntl=exp=1770986562~acl=*ssselecthd1*~id=1d06b6ef4a19fdb965c82e520fa7a8cb~data=hdntl~hmac=d0b41454b1ffedc05b0b94b56dd227eb3cc631d57f331c8f7eb43903b6533a84","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
 https://livetv-push.hotstar.com/dash/live/2002470-b/ssselecthd1wv/master.mpd
 #EXTINF:-1 tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7437/567437-h" group-title="VOOT | Jio Cinema",Star Sports Select HD2
 #EXTVLCOPT:http-user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169%20(Android/15)
-#EXTHTTP:{"cookie":"hdntl=exp=1770904304~acl=*ssselecthd2*~id=e410de46960305e50b1144380d528ceb~data=hdntl~hmac=6601b1c9bbd685760ca112e5b76a073a6141567855c01700fa13c4b18b9b79ec","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
+#EXTHTTP:{"cookie":"hdntl=exp=1770986609~acl=*ssselecthd2*~id=aad1b58e43b4efecdf574e27829179a3~data=hdntl~hmac=977ce8afcf7b32303e58e12755fa1ff0ece334a5b2b5e8be2edb8337b037d13d","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/"}
 https://livetv-push.hotstar.com/dash/live/2002471/ssselecthd2wv/master.mpd
 #EXTINF:-1 tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/StarSports2HindiHD_Transparent_c72d6289-27aa-422d-8420-40135329a5b6.png" group-title="VOOT | Jio Cinema",Star Sports 2 Hindi HD
 #EXTVLCOPT:http-user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169%20(Android/15)
@@ -501,16 +501,12 @@ https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=ex
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=225c55ce3bff3d02b71b5dbd42209860:cb5d16c706bbf565df2afa108eccb879
-#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770827748/prd/qe784iz9vz0f0reik1is",ICC-MT20: Nepal v Italy
-https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-03)/manifest.mpd?vcfilter=35cfa6d4-86fc-4603-aaf9-d2b2a4fd0f0b
+#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770827827/prd/vbfkp2sucf1dylienyvz",ICC-MT20: India v Namibia
+https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d-nodvr/DASH_DASH/Live/channel(vcg-01-ch-hd-02)/manifest.mpd?vcfilter=39d36e9e-3128-45f1-9868-1a5d1d43e6c4
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=225c55ce3bff3d02b71b5dbd42209860:cb5d16c706bbf565df2afa108eccb879
-#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770827796/prd/yztiwtcjdlfrvsfwyged",ICC-MT20: Nepal v Italy (NEPALI)
-https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-07)/manifest.mpd?vcfilter=00aac4c5-0ce3-439e-b016-d70534c6a368
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=225c55ce3bff3d02b71b5dbd42209860:cb5d16c706bbf565df2afa108eccb879
-#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770827763/prd/c69qrie7phw4whb9d9bf",ICC-MT20: Nepal v Italy (HINDI)
-https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-05)/manifest.mpd?vcfilter=da73c9d4-de4b-42cb-97f9-70f49964ba78
+#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770827779/prd/peo4efycnp3s2zwba5u9",ICC-MT20: India v Namibia (HINDI)
+https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-04)/manifest.mpd?vcfilter=bc8ace65-8dbd-4bf1-8bd7-2a0dcca8edb2
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
@@ -518,10 +514,8 @@ https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01
 
 # ---------------=== FanCode | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140058_5648_PHG_OSK_FC-Web.jpg" group-title="FanCode | Sports",Pohang Steelers vs Gamba Osaka
-https://in-mc-fdlive.fancode.com/mumbai/140058_english_hls_6be8cbce3793806_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Strikers-Cup-2026_fc-web.jpg" group-title="FanCode | Sports",Day 4
-https://in-mc-fdlive.fancode.com/mumbai/140318_english_hls_d621b5dcd676482_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140059_5648_BU_MAC_FC-Web.jpg" group-title="FanCode | Sports",Bangkok United vs Macarthur
+https://in-mc-fdlive.fancode.com/mumbai/140059_english_hls_9ee73e318791810_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/WTT_web.jpg" group-title="FanCode | Sports",Day 1
 https://in-mc-fdlive.fancode.com/mumbai/140603_english_hls_9af047dcaa91442_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3)_1770389196821.png" group-title="FanCode | Sports",World Feed
