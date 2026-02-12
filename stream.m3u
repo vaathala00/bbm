@@ -501,24 +501,16 @@ https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=ex
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=225c55ce3bff3d02b71b5dbd42209860:cb5d16c706bbf565df2afa108eccb879
-#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770827733/prd/s9wtmgvltx2ulg7lcomi",ICC-MT20: Sri Lanka v Oman
-https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-02)/manifest.mpd?vcfilter=b07523f3-71b8-42f0-855d-05bd51421305
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=225c55ce3bff3d02b71b5dbd42209860:cb5d16c706bbf565df2afa108eccb879
-#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770827814/prd/tk2dgcugqud14ylug47i",ICC-MT20: Sri Lanka v Oman (HINDI)
-https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-04)/manifest.mpd?vcfilter=b1242146-e379-4b2d-8c88-f63e15595d2c
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=225c55ce3bff3d02b71b5dbd42209860:cb5d16c706bbf565df2afa108eccb879
 #EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770827748/prd/qe784iz9vz0f0reik1is",ICC-MT20: Nepal v Italy
-https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-03)/manifest.mpd?vcfilter=35cfa6d4-86fc-4603-aaf9-d2b2a4fd0f0b
+https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-north/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-03)/manifest.mpd?vcfilter=35cfa6d4-86fc-4603-aaf9-d2b2a4fd0f0b
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=225c55ce3bff3d02b71b5dbd42209860:cb5d16c706bbf565df2afa108eccb879
 #EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770827796/prd/yztiwtcjdlfrvsfwyged",ICC-MT20: Nepal v Italy (NEPALI)
-https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-07)/manifest.mpd?vcfilter=00aac4c5-0ce3-439e-b016-d70534c6a368
+https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-north/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-07)/manifest.mpd?vcfilter=00aac4c5-0ce3-439e-b016-d70534c6a368
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=225c55ce3bff3d02b71b5dbd42209860:cb5d16c706bbf565df2afa108eccb879
 #EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770827763/prd/c69qrie7phw4whb9d9bf",ICC-MT20: Nepal v Italy (HINDI)
-https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-05)/manifest.mpd?vcfilter=da73c9d4-de4b-42cb-97f9-70f49964ba78
+https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-north/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-05)/manifest.mpd?vcfilter=da73c9d4-de4b-42cb-97f9-70f49964ba78
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
