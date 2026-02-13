@@ -504,12 +504,12 @@ https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=ex
 # ---------------=== SonyLiv | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014909/1770322663392886_ABBFIAFormulaE_WC26_Round4_JeddahEPrix_final_Race_6feb_landscape_thumb.jpg" group-title="SonyLiv | Sports",Round 4 - Jeddah E-Prix - Final Race - 13 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022322/DAI18ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771044841~acl=/*~id=19040302050785308448943280710199~hmac=536f6281deb0881c515fa120c0668e10337b4123925a7239b5211a7b3ccb29ea
+https://sonydaimenew.akamaized.net/hls/live/2022322/DAI18ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771047869~acl=/*~id=33278768445814875905969035376479~hmac=0788956cde505718c430efa0b11c3f7a44f39526b9b28a7a9de7177c7dd64b21
 
 # ---------------=== FanCode | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Al-Hilal-SFC-vs-Al-Ettifaq_fc-web_1770704951504.jpg" group-title="FanCode | Sports",Al Hilal SFC vs Al-Ettifaq
-https://in-mc-fdlive.fancode.com/mumbai/139839_english_hls_78f74167a46056_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Al-Ittihad-vs-Al-Fayha-FC_fc-web.jpg" group-title="FanCode | Sports",Al-Ittihad vs Al-Fayha FC
+https://in-mc-fdlive.fancode.com/mumbai/139840_english_hls_a4d60de1db72659_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3)_1770389196821.png" group-title="FanCode | Sports",Centre Court
 https://in-mc-fdlive.fancode.com/mumbai/140198_english_hls_ec741f5b8189351_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3)_1770389196821.png" group-title="FanCode | Sports",World Feed
@@ -518,6 +518,12 @@ https://in-mc-fdlive.fancode.com/mumbai/140549_english_hls_3bd94c769f36_1ta-di_h
 https://in-mc-fdlive.fancode.com/mumbai/140205_english_hls_19519daa2163100_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/AT&T-Pebble-Beach-Pro-Am-2026-old-card-.png" group-title="FanCode | Sports",Main Feed - Day 2
 https://in-mc-fdlive.fancode.com/mumbai/140628_english_hls_b717d6d84760625_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/AT&T-Pebble-Beach-Pro-Am-2026-old-card-.png" group-title="FanCode | Sports",Marquee Feed - Day 2
+https://in-mc-fdlive.fancode.com/mumbai/140625_english_hls_e87c1a62fb91775_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/AT&T-Pebble-Beach-Pro-Am-2026-old-card-.png" group-title="FanCode | Sports",Featured Holes - Day 2
+https://in-mc-fdlive.fancode.com/mumbai/140627_english_hls_5fc2a13dbb70811_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Al-Hilal-SFC-vs-Al-Ettifaq_fc-web_1770704951504.jpg" group-title="FanCode | Sports",Al Hilal SFC vs Al-Ettifaq
+https://in-mc-fdlive.fancode.com/mumbai/139839_english_hls_78f74167a46056_1ta-di_h264/index.m3u8
 
 # ---------------=== Other Channels ===-------------------
 
