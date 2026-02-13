@@ -503,15 +503,10 @@ https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=ex
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014851/1769599808040891_FA_26_RD4_Hull-City-vs-Chelsea_Landscape_thumb.jpg" group-title="SonyLiv | Sports",Hull City vs Chelsea - RD 4 - 14 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771061802~acl=/*~id=92748066995539166313578541828494~hmac=be6ad8c5b940976ba06c10ebc8b7b4d260393f4c5a42876b86d84afa457264d9
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014851/1769600466200891_FA_26_RD4_Wrexham-vs-Ipswich-Town_Landscape_thumb.jpg" group-title="SonyLiv | Sports",Wrexham vs Ipswich Town - RD 4 - 14 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771061802~acl=/*~id=92748066995539166313578541828494~hmac=be6ad8c5b940976ba06c10ebc8b7b4d260393f4c5a42876b86d84afa457264d9
+
 
 # ---------------=== FanCode | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131065_5427_ELC_OSN_FC-Web.png" group-title="FanCode | Sports",Elche CF vs CA Osasuna
-https://in-mc-fdlive.fancode.com/mumbai/131065_english_hls_ec648f22e676837_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://images.fancode.com/aig/match/v1770347072506/140420_CASACARDS_APP.png" group-title="FanCode | Sports",Almería vs FC Andorra
 https://in-mc-fdlive.fancode.com/mumbai/140420_english_hls_5e5b60976a84494_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3)_1770389196821.png" group-title="FanCode | Sports",Centre Court
@@ -536,6 +531,8 @@ https://in-mc-fdlive.fancode.com/mumbai/140626_english_hls_1c0b3a43136357_1ta-di
 https://india-mpv2.fancode.com/out/v1/ap-south-1/140045_english_847333/ad-h264/index.m3u8
 #EXTINF:-1 tvg-logo="  https://www.fancode.com/skillup-uploads/cms-media/Dallas-Open-(ATP-500)-old-card-_1770541232780.png" group-title="FanCode | Sports",Grandstand
 https://in-mc-fdlive.fancode.com/mumbai/140640_english_hls_82b355eb0690566_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131065_5427_ELC_OSN_FC-Web.png" group-title="FanCode | Sports",Elche CF vs CA Osasuna
+https://in-mc-fdlive.fancode.com/mumbai/131065_english_hls_ec648f22e676837_1ta-di_h264/index.m3u8
 
 # ---------------=== Other Channels ===-------------------
 
