@@ -499,11 +499,25 @@ https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=ex
 
 # ---------------=== ICC TV ===-------------------
 
-
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=225c55ce3bff3d02b71b5dbd42209860:cb5d16c706bbf565df2afa108eccb879
+#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770905333/prd/nqlhzsm3kkaq0n2ip4xo",ICC-MT20: Australia v Zimbabwe
+https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-02)/manifest.mpd?vcfilter=1c7d0756-7390-4af5-9a8d-4c597286473c
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=225c55ce3bff3d02b71b5dbd42209860:cb5d16c706bbf565df2afa108eccb879
+#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770905340/prd/kvkudtc8ie9ma3ljchn6",ICC-MT20: Australia v Zimbabwe (HINDI)
+https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-04)/manifest.mpd?vcfilter=aae203c8-4ec8-42c8-b9d5-275167c843ee
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
-
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015084/1770893142436347_AsiaCup_RisingStar_Womens2026_pak_vs_nepal_12feb_clean_Landscape_thumb.jpg" group-title="SonyLiv | Sports",Pakistan A Women vs Nepal Women - 13 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771002438~acl=/*~id=92749687465285556667947863034834~hmac=fb1f3b0c74785d14148ba86a967c8cfcf798fee1241b43a8ac190858513e5a9b
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015084/1770893142436347_AsiaCup_RisingStar_Womens2026_pak_vs_nepal_12feb_clean_Landscape_thumb.jpg" group-title="SonyLiv | Sports",Pakistan A Women vs Nepal Women - 13 Feb 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771002438~acl=/*~id=92749687465285556667947863034834~hmac=fb1f3b0c74785d14148ba86a967c8cfcf798fee1241b43a8ac190858513e5a9b
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015084/1770893142436347_AsiaCup_RisingStar_Womens2026_pak_vs_nepal_12feb_clean_Landscape_thumb.jpg" group-title="SonyLiv | Sports",Pakistan A Women vs Nepal Women - 13 Feb 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771002438~acl=/*~id=92749687465285556667947863034834~hmac=fb1f3b0c74785d14148ba86a967c8cfcf798fee1241b43a8ac190858513e5a9b
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015084/1770893142436347_AsiaCup_RisingStar_Womens2026_pak_vs_nepal_12feb_clean_Landscape_thumb.jpg" group-title="SonyLiv | Sports",Pakistan A Women vs Nepal Women - 13 Feb 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771002438~acl=/*~id=92749687465285556667947863034834~hmac=fb1f3b0c74785d14148ba86a967c8cfcf798fee1241b43a8ac190858513e5a9b
 
 # ---------------=== FanCode | Sports ===-------------------
 
