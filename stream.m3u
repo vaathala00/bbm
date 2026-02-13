@@ -507,22 +507,32 @@ https://livem-d-02-icc-ne.akamaized.net/variant/v1/dai-event-prd-pal-north/vcg-0
 #KODIPROP:inputstream.adaptive.license_key=225c55ce3bff3d02b71b5dbd42209860:cb5d16c706bbf565df2afa108eccb879
 #EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770905340/prd/kvkudtc8ie9ma3ljchn6",ICC-MT20: Australia v Zimbabwe (HINDI)
 https://livem-d-02-icc-ne.akamaized.net/variant/v1/dai-event-prd-pal-north/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-04)/manifest.mpd?vcfilter=aae203c8-4ec8-42c8-b9d5-275167c843ee
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=225c55ce3bff3d02b71b5dbd42209860:cb5d16c706bbf565df2afa108eccb879
+#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770905387/prd/vh4csubprbmuskgjmzbg",ICC-MT20: Canada v United Arab Emirates
+https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-03)/manifest.mpd?vcfilter=9d725f5b-e0c4-4a80-b6ba-4f71c22827aa
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=225c55ce3bff3d02b71b5dbd42209860:cb5d16c706bbf565df2afa108eccb879
+#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770905348/prd/btr76ph262f7uhme21mc",ICC-MT20: Canada v United Arab Emirates (HINDI)
+https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-05)/manifest.mpd?vcfilter=af827393-bc69-45d3-ba4e-b31405f966e5
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015092/1770898643786306_AsiaCup_RisingStar_Womens2026_ind_a_vs_uae_11feb_clean_Landscape_thumb.jpg" group-title="SonyLiv | Sports",India A Women vs UAE Women - 13 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771012741~acl=/*~id=66473947516929026222137360516341~hmac=e61eb2400d0af8dcdd7a6009c6b218320cdef96ef99e4ed50ff26808155173c3
+https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771016377~acl=/*~id=38653302216324118677034794892086~hmac=3b9f35cf43b9d1a7d93ec68255745971e5e375ff1df0435768e475360666af2f
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015092/1770898643786306_AsiaCup_RisingStar_Womens2026_ind_a_vs_uae_11feb_clean_Landscape_thumb.jpg" group-title="SonyLiv | Sports",India A Women vs UAE Women - 13 Feb 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771012741~acl=/*~id=66473947516929026222137360516341~hmac=e61eb2400d0af8dcdd7a6009c6b218320cdef96ef99e4ed50ff26808155173c3
+https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771016377~acl=/*~id=38653302216324118677034794892086~hmac=3b9f35cf43b9d1a7d93ec68255745971e5e375ff1df0435768e475360666af2f
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015092/1770898643786306_AsiaCup_RisingStar_Womens2026_ind_a_vs_uae_11feb_clean_Landscape_thumb.jpg" group-title="SonyLiv | Sports",India A Women vs UAE Women - 13 Feb 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2037140/DAI20-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771012741~acl=/*~id=66473947516929026222137360516341~hmac=e61eb2400d0af8dcdd7a6009c6b218320cdef96ef99e4ed50ff26808155173c3
+https://sonydaimenew.akamaized.net/hls/live/2037140/DAI20-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771016377~acl=/*~id=38653302216324118677034794892086~hmac=3b9f35cf43b9d1a7d93ec68255745971e5e375ff1df0435768e475360666af2f
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015092/1770898643786306_AsiaCup_RisingStar_Womens2026_ind_a_vs_uae_11feb_clean_Landscape_thumb.jpg" group-title="SonyLiv | Sports",India A Women vs UAE Women - 13 Feb 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771012741~acl=/*~id=66473947516929026222137360516341~hmac=e61eb2400d0af8dcdd7a6009c6b218320cdef96ef99e4ed50ff26808155173c3
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771016377~acl=/*~id=38653302216324118677034794892086~hmac=3b9f35cf43b9d1a7d93ec68255745971e5e375ff1df0435768e475360666af2f
 
 # ---------------=== FanCode | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Governor_web.jpg" group-title="FanCode | Sports",Australia Governor Generals XI vs India Women
 https://in-mc-fdlive.fancode.com/mumbai/140367_english_hls_f6facd47f467778_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139408_5802_SYW_WEL_1770721836090.png" group-title="FanCode | Sports",Western Sydney Wanderers vs Wellington Phoenix
+https://in-mc-fdlive.fancode.com/mumbai/139408_english_hls_8fbe75e96895648_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/AT&T-Pebble-Beach-Pro-Am-2026-old-card-.png" group-title="FanCode | Sports",World Feed - Day 1
 https://in-mc-fdlive.fancode.com/mumbai/140044_english_hls_adcc9f0bfe76431_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/WTT_web.jpg" group-title="FanCode | Sports",Day 2
