@@ -503,13 +503,19 @@ https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=ex
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014909/1770322663392886_ABBFIAFormulaE_WC26_Round4_JeddahEPrix_final_Race_6feb_landscape_thumb.jpg" group-title="SonyLiv | Sports",Round 4 - Jeddah E-Prix - Final Race - 13 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022322/DAI18ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771050291~acl=/*~id=47287658694302231248020379067533~hmac=65ef64f7428eb241a08ab6da6c78c9aead88c696b2907171965a8b3e6c9be111
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014851/1769599808040891_FA_26_RD4_Hull-City-vs-Chelsea_Landscape_thumb.jpg" group-title="SonyLiv | Sports",Hull City vs Chelsea - RD 4 - 14 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771053317~acl=/*~id=09710509688147263646368132418120~hmac=85b525bad0706ce38d26fcebe95cfa56778242db67ec085122cc27b7a06cc72d
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014570/1769744927244133_Bundesliga_2025_26_Borussia-Dortmund-vs-Mainz_landscape_thumb.jpg" group-title="SonyLiv | Sports",Borussia Dortmund vs Mainz - MD 22 - 14 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771053317~acl=/*~id=09710509688147263646368132418120~hmac=85b525bad0706ce38d26fcebe95cfa56778242db67ec085122cc27b7a06cc72d
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014851/1769600466200891_FA_26_RD4_Wrexham-vs-Ipswich-Town_Landscape_thumb.jpg" group-title="SonyLiv | Sports",Wrexham vs Ipswich Town - RD 4 - 14 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771053317~acl=/*~id=09710509688147263646368132418120~hmac=85b525bad0706ce38d26fcebe95cfa56778242db67ec085122cc27b7a06cc72d
 
 # ---------------=== FanCode | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Al-Ittihad-vs-Al-Fayha-FC_fc-web.jpg" group-title="FanCode | Sports",Al-Ittihad vs Al-Fayha FC
 https://in-mc-fdlive.fancode.com/mumbai/139840_english_hls_a4d60de1db72659_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.fancode.com/aig/match/v1770347072506/140420_CASACARDS_APP.png" group-title="FanCode | Sports",Almería vs FC Andorra
+https://in-mc-fdlive.fancode.com/mumbai/140420_english_hls_5e5b60976a84494_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3)_1770389196821.png" group-title="FanCode | Sports",Centre Court
 https://in-mc-fdlive.fancode.com/mumbai/140198_english_hls_ec741f5b8189351_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3)_1770389196821.png" group-title="FanCode | Sports",World Feed
@@ -524,7 +530,7 @@ https://in-mc-fdlive.fancode.com/mumbai/140625_english_hls_e87c1a62fb91775_1ta-d
 https://in-mc-fdlive.fancode.com/mumbai/140627_english_hls_5fc2a13dbb70811_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Dallas-Open-(ATP-500)-old-card-_1770112378426.png" group-title="FanCode | Sports",World Feed
 https://in-mc-fdlive.fancode.com/mumbai/140191_english_hls_bb4a0cd38111838_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo=" https://www.fancode.com/skillup-uploads/cms-media/Dallas-Open-(ATP-500)-old-card-_1770541232780.png" group-title="FanCode | Sports",Center Court
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Dallas-Open-(ATP-500)-old-card-_1770541232780.png" group-title="FanCode | Sports",Center Court
 https://in-mc-fdlive.fancode.com/mumbai/140538_english_hls_abde6fad6b18281_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/AT&T-Pebble-Beach-Pro-Am-2026-old-card-.png" group-title="FanCode | Sports",Featured Groups - Day 2
 https://in-mc-fdlive.fancode.com/mumbai/140626_english_hls_1c0b3a43136357_1ta-di_h264/index.m3u8
