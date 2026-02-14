@@ -588,6 +588,8 @@ https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Liv
 
 # ---------------=== FanCode | Sports ===-------------------
 
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140404_5956_MBSG_KBFC_fc-web_1771062546253.jpg" group-title="FanCode | Sports",Mohun Bagan Super Giant vs Kerala Blasters FC
+https://in-mc-fdlive.fancode.com/mumbai/140404_english_hls_d6f8acdd6f73747_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/WTT_web.jpg" group-title="FanCode | Sports",Day 3
 https://in-mc-fdlive.fancode.com/mumbai/140605_english_hls_0e3b993a4574255_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(4)_1770293026599.png" group-title="FanCode | Sports",Day 4
