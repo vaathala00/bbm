@@ -584,13 +584,10 @@ https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Liv
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015146/1770991979351685_ACC_bangladesh_Women_vs_sri_lanka_Women_landscape_thumb.jpg" group-title="SonyLiv | Sports",Bangladesh A Women vs Sri Lanka A Women - 14 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771108061~acl=/*~id=29060135984502744071303671962665~hmac=9df76a7f10a8630bc559a9e338d84873a80f490d5d91351290a397f55b1513ee
+
 
 # ---------------=== FanCode | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139411_5802_SYD_ADL_1770722182837.png" group-title="FanCode | Sports",Sydney FC vs Adelaide United
-https://in-mc-fdlive.fancode.com/mumbai/139411_english_hls_4eab237abc97022_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/WTT_web.jpg" group-title="FanCode | Sports",Day 3
 https://in-mc-fdlive.fancode.com/mumbai/140605_english_hls_0e3b993a4574255_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(4)_1770293026599.png" group-title="FanCode | Sports",Day 4
