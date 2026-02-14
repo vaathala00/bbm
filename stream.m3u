@@ -584,7 +584,8 @@ https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Liv
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
-
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014851/1769601948560891_FA_26_RD4_Burton-Albion-vs-West-Ham-United_Landscape_thumb.jpg" group-title="SonyLiv | Sports",Burton Albion vs West Ham United - Round 4 - 14 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771112901~acl=/*~id=07556023232897044833275924550433~hmac=bf2d00b34c995f90310b553b4a941f4baed4c1888f46740579c0aa957ea1e25a
 
 # ---------------=== FanCode | Sports ===-------------------
 
@@ -594,6 +595,10 @@ https://in-mc-fdlive.fancode.com/mumbai/140404_english_hls_d6f8acdd6f73747_1ta-d
 https://in-mc-fdlive.fancode.com/mumbai/140605_english_hls_0e3b993a4574255_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(4)_1770293026599.png" group-title="FanCode | Sports",Day 4
 https://in-mc-fdlive.fancode.com/mumbai/140112_english_hls_4758d9082288748_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3)_1770389196821.png" group-title="FanCode | Sports",Centre Court
+https://in-mc-fdlive.fancode.com/mumbai/140199_english_hls_b3b0381ce037542_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3)_1770389196821.png" group-title="FanCode | Sports",World Feed
+https://in-mc-fdlive.fancode.com/mumbai/140550_english_hls_08bcf354dd75469_1ta-di_h264/index.m3u8
 
 # ---------------=== Other Channels ===-------------------
 
