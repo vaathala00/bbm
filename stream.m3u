@@ -584,15 +584,29 @@ https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Liv
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014570/1769773346085133_Bundesliga_2025_26_Werder-Bremen-vs-Bayern-Munich_landscape_thumb.jpg" group-title="SonyLiv | Sports",Werder Bremen vs Bayern Munich - MD 22 - 14 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022317/DAI13ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771121386~acl=/*~id=25302175893826121704100914149979~hmac=f810c767ae82b6434aba14dc568a724afdebbb0299a1d87f746524d3122f1f19
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014851/1769601948560891_FA_26_RD4_Burton-Albion-vs-West-Ham-United_Landscape_thumb.jpg" group-title="SonyLiv | Sports",Burton Albion vs West Ham United - Round 4 - 14 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771119565~acl=/*~id=22403097321625273663904528473263~hmac=0b998cbf671712034cd7f07dea472af3a57d3b4e01888250dc794f9d2a370a74
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771121386~acl=/*~id=25302175893826121704100914149979~hmac=f810c767ae82b6434aba14dc568a724afdebbb0299a1d87f746524d3122f1f19
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000006892/1755929846694147_Bliga26_Goal_Arena_landscape_thumb.jpg" group-title="SonyLiv | Sports",Goal Arena - MD 22 - 14 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771121386~acl=/*~id=25302175893826121704100914149979~hmac=f810c767ae82b6434aba14dc568a724afdebbb0299a1d87f746524d3122f1f19
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014570/1769745167543133_Bundesliga_2025_26_Bayer-Leverkusen-vs-St-Pauli_landscape_thumb.jpg" group-title="SonyLiv | Sports",Bayer Leverkusen vs St. Pauli - MD 22 - 14 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771121386~acl=/*~id=25302175893826121704100914149979~hmac=f810c767ae82b6434aba14dc568a724afdebbb0299a1d87f746524d3122f1f19
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014570/1769745359520133_Bundesliga_2025_26_Eintracht-Frankfurt-vs-Borussia-Mgladbach_landscape_thumb.jpg" group-title="SonyLiv | Sports",Eintracht Frankfurt vs Borussia M'gladbach - MD 22 - 14 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771121386~acl=/*~id=25302175893826121704100914149979~hmac=f810c767ae82b6434aba14dc568a724afdebbb0299a1d87f746524d3122f1f19
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014928/1770392391869745_Bundesliga_2025_26_HamburgSV_vs_Union_Berlin_landscape_thumb.jpg" group-title="SonyLiv | Sports",Hamburger SV vs Union Berlin - MD 22 - 14 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771121386~acl=/*~id=25302175893826121704100914149979~hmac=f810c767ae82b6434aba14dc568a724afdebbb0299a1d87f746524d3122f1f19
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014570/1769773183547133_Bundesliga_2025_26_Hoffenheim-vs-SC-Freiburg_landscape_thumb.jpg" group-title="SonyLiv | Sports",Hoffenheim vs SC Freiburg - MD 22 - 14 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022315/DAI11ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771121386~acl=/*~id=25302175893826121704100914149979~hmac=f810c767ae82b6434aba14dc568a724afdebbb0299a1d87f746524d3122f1f19
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014909/1770323471257886_ABBFIAFormulaE_WC26_Round5_JeddahEPrix_Qualifying_Race_6feb_landscape_thumb.jpg" group-title="SonyLiv | Sports",Round 5 - Jeddah E-Prix - Qualifying Race - 14 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022322/DAI18ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771119565~acl=/*~id=22403097321625273663904528473263~hmac=0b998cbf671712034cd7f07dea472af3a57d3b4e01888250dc794f9d2a370a74
+https://sonydaimenew.akamaized.net/hls/live/2022322/DAI18ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771121386~acl=/*~id=25302175893826121704100914149979~hmac=f810c767ae82b6434aba14dc568a724afdebbb0299a1d87f746524d3122f1f19
 
 # ---------------=== FanCode | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131064_5427_ESL_CEV_FC-Web.png" group-title="FanCode | Sports",RCD Espanyol vs RC Celta
 https://in-mc-fdlive.fancode.com/mumbai/131064_english_hls_7f47cf482696177_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140432_5956_FCG_IK_fc-web_1771071278876.jpg" group-title="FanCode | Sports",FC Goa vs Inter Kashi FC
+https://in-mc-fdlive.fancode.com/mumbai/140432_english_hls_f6aedd19b99226_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810).png" group-title="FanCode | Sports",Stevenage vs Huddersfield Town A.F.C.
 https://in-mc-fdlive.fancode.com/mumbai/140016_english_hls_2d34a1b6ce92567_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/WTT_web.jpg" group-title="FanCode | Sports",Day 3
@@ -601,8 +615,6 @@ https://in-mc-fdlive.fancode.com/mumbai/140605_english_hls_0e3b993a4574255_1ta-d
 https://in-mc-fdlive.fancode.com/mumbai/140199_english_hls_b3b0381ce037542_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3)_1770389196821.png" group-title="FanCode | Sports",World Feed
 https://in-mc-fdlive.fancode.com/mumbai/140550_english_hls_08bcf354dd75469_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140404_5956_MBSG_KBFC_fc-web_1771062546253.jpg" group-title="FanCode | Sports",Mohun Bagan Super Giant vs Kerala Blasters FC
-https://in-mc-fdlive.fancode.com/mumbai/140404_english_hls_d6f8acdd6f73747_1ta-di_h264/index.m3u8
 
 # ---------------=== Other Channels ===-------------------
 
