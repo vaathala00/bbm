@@ -502,23 +502,20 @@ https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=ex
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f2ff801cd7953983992f88656477ee90:c41d52c9d48a732cad4244881a7d99af
 #EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1771000748/prd/nvtyd73kvqfgu2hyigov",ICC-MT20: Ireland v Oman
-https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d-nodvr/DASH_DASH/Live/channel(vcg-01-ch-hd-02)/manifest.mpd?vcfilter=00d05898-151a-474d-9bb1-d017cc5e7628
+https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d-nodvr/DASH_DASH/Live/channel(vcg-01-ch-hd-02)/hdntl=exp=1771076724~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~id=7b82d498-aa21-4b99-b76d-254717ca2b5a~data=hdntl~hmac=85cfc1be126ecf0277a7e15995ccbe3a515d05457e746ed3a6535e253165d37d/manifest.mpd?vcfilter=00d05898-151a-474d-9bb1-d017cc5e7628
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f2ff801cd7953983992f88656477ee90:c41d52c9d48a732cad4244881a7d99af
 #EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1771000754/prd/qqysnowobduyzdwutpmo",ICC-MT20: Ireland v Oman (HINDI)
-https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-04)/manifest.mpd?vcfilter=8e17b45b-f008-4218-bcc0-23a7087fb489
+https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-04)/hdntl=exp=1771076724~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~id=7b82d498-aa21-4b99-b76d-254717ca2b5a~data=hdntl~hmac=85cfc1be126ecf0277a7e15995ccbe3a515d05457e746ed3a6535e253165d37d/manifest.mpd?vcfilter=8e17b45b-f008-4218-bcc0-23a7087fb489
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015144/1770990739877516_ACC_Malaysia_Women_vs_Thailand_Women_Landscape_thumb.jpg" group-title="SonyLiv | Sports",Malaysia Women vs Thailand Women - 14 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771089894~acl=/*~id=97243757670272116429149418811596~hmac=c9d63620d53891e209ddb516d5d38dd706da618221e785280e04913e6751a471
+
 
 # ---------------=== FanCode | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Dallas-Open-(ATP-500)-old-card-_1770112378426.png" group-title="FanCode | Sports",World Feed
-https://in-mc-fdlive.fancode.com/mumbai/140191_english_hls_bb4a0cd38111838_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Dallas-Open-(ATP-500)-old-card-_1770541232780.png" group-title="FanCode | Sports",Center Court
-https://in-mc-fdlive.fancode.com/mumbai/140538_english_hls_abde6fad6b18281_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139410_5802_MLV_BRB_1770722069741.png" group-title="FanCode | Sports",Melbourne Victory vs Brisbane Roar
+https://in-mc-fdlive.fancode.com/mumbai/139410_english_hls_0167d6f73770914_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/WTT_web.jpg" group-title="FanCode | Sports",Day 3
 https://in-mc-fdlive.fancode.com/mumbai/140605_english_hls_0e3b993a4574255_1ta-di_h264/index.m3u8
 
