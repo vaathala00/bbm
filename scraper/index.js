@@ -36,6 +36,7 @@ function section(title) {
   return `\n# ---------------=== ${title} ===-------------------\n`;
 }
 
+
 // ================= HOTSTAR =================
 function convertHotstar(data) {
   // 1. Handle JSON format (Legacy/Backup)
@@ -60,8 +61,10 @@ function convertHotstar(data) {
           urlObj.searchParams.delete("User-agent"); urlObj.searchParams.delete("Origin"); urlObj.searchParams.delete("Referer");
           const logo = ch.logo || ch.logo_url || ch.image || "";
           const name = ch.name || ch.title || ch.channel_name || "Unknown";
+          
+          // Updated format to match desired output order
           out.push(
-            `#EXTINF:-1 group-title="VOOT | Jio Cinema" tvg-logo="${logo}",${name}`,
+            `#EXTINF:-1 group-title="VOOT | Jio Cinema" tvg-logo="${logo}" ,${name}`,
             `#EXTVLCOPT:http-user-agent=${userAgent}`,
             `#EXTHTTP:${JSON.stringify({ cookie: cookie, Origin: "https://www.hotstar.com", Referer: "https://www.hotstar.com/" })}`,
             urlObj.toString()
@@ -81,13 +84,12 @@ function convertHotstar(data) {
 
   // Helper to get RAW parameter value (No Decoding)
   const getRawParam = (url, name) => {
-    // Regex: Look for ? or & or %7C (pipe) followed by name=value, until next &
     const regex = new RegExp(`(?:[?&%7C])${name}=([^&]*)`);
     const match = url.match(regex);
     return match ? match[1] : "";
   };
 
-  // Default values to inject if missing
+  // Default values
   const DEFAULT_UA = "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)";
   const DEFAULT_ORIGIN = "https://www.hotstar.com";
   const DEFAULT_REFERER = "https://www.hotstar.com/";
@@ -97,35 +99,39 @@ function convertHotstar(data) {
     if (!line) continue;
 
     if (line.startsWith('#EXTINF')) {
-      // Fix group-title
-      line = line.replace(/group-title="[^"]*"/, 'group-title="VOOT | Jio Cinema"');
-      currentInf = line;
+      // --- CHANGE START ---
+      // Instead of regex replace, we extract data and rebuild the line to guarantee order.
+      
+      // 1. Extract Logo
+      const logoMatch = line.match(/tvg-logo="([^"]*)"/);
+      const logo = logoMatch ? logoMatch[1] : "";
+
+      // 2. Extract Name (Everything after the last comma)
+      const lastComma = line.lastIndexOf(',');
+      const name = (lastComma !== -1) ? line.substring(lastComma + 1).trim() : "Unknown";
+
+      // 3. Rebuild line in desired order: group-title -> tvg-logo -> space -> comma -> name
+      currentInf = `#EXTINF:-1 group-title="VOOT | Jio Cinema" tvg-logo="${logo}" ,${name}`;
+      // --- CHANGE END ---
     } 
     else if (line.startsWith('http')) {
-      // Extract RAW values
       const cookie = getRawParam(line, 'Cookie');
       let userAgent = getRawParam(line, 'User-agent');
       let origin = getRawParam(line, 'Origin');
       let referer = getRawParam(line, 'Referer');
 
-      // Inject defaults if missing to ensure consistent format
       if (!userAgent) userAgent = DEFAULT_UA;
       if (!origin) origin = DEFAULT_ORIGIN;
       if (!referer) referer = DEFAULT_REFERER;
 
-      // Get clean URL
       const cleanUrl = line.split('?')[0];
 
       if (currentInf) {
         out.push(currentInf);
         
-        // 1. User Agent Line
-        // Replace space with %20 if you want it strictly encoded, though space usually works.
-        // User's desired output showed %20, so let's ensure that for the default UA.
         const safeUA = userAgent.replace(/ /g, "%20");
         out.push(`#EXTVLCOPT:http-user-agent=${safeUA}`);
 
-        // 2. HTTP Headers Line
         const headers = {
           cookie: cookie,
           Origin: origin,
@@ -133,7 +139,6 @@ function convertHotstar(data) {
         };
         out.push(`#EXTHTTP:${JSON.stringify(headers)}`);
 
-        // 3. Clean URL
         out.push(cleanUrl);
         
         currentInf = "";
@@ -144,6 +149,7 @@ function convertHotstar(data) {
   console.log(`✅ Processed ${out.length / 4} Hotstar channels.`);
   return out.join("\n");
 }
+
 
 // ================= JIO =================
 function convertJioJson(json) {
