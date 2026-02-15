@@ -605,6 +605,34 @@ https://example.com/video.m3u8
 
   --------------== T20I ==------------------
 
+#EXTINF:-1 tvg-id="1106" group-title="T20 World Cup |Live Matches" tvg-logo="https://images.indianexpress.com/2025/02/JioHotstar.jpg",Hotstar-English
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@vaathala1","Creator":"@vaathala1"}
+https://c2ag.short.gy/n/english.m3u8
+
+#EXTINF:-1 tvg-id="1106" group-title="T20 World Cup |Live Matches" tvg-logo="https://images.indianexpress.com/2025/02/JioHotstar.jpg",Hotstar-Hindi
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@vaathala1","Creator":"@vaathala1"}
+https://c2ag.short.gy/n/hin.m3u8
+
+#EXTINF:-1 tvg-id="1106" group-title="T20 World Cup |Live Matches" tvg-logo="https://images.indianexpress.com/2025/02/JioHotstar.jpg",Hotstar-Tamil
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@vaathala1","Creator":"@vaathala1"}
+https://c2ag.short.gy/n/tamil.m3u8
+
+#EXTINF:-1 tvg-id="1106" group-title="T20 World Cup |Live Matches" tvg-logo="https://images.indianexpress.com/2025/02/JioHotstar.jpg",Hotstar-Malayalam
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@vaathala1","Creator":"@vaathala1"}
+https://c2ag.short.gy/n/mal.m3u8
+
+#EXTINF:-1 tvg-id="1106" group-title="T20 World Cup |Live Matches" tvg-logo="https://images.indianexpress.com/2025/02/JioHotstar.jpg",Hotstar-Telugu
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@vaathala1","Creator":"@vaathala1"}
+https://c2ag.short.gy/n/telugu.m3u8
+
+#EXTINF:-1 tvg-id="1106" group-title="T20 World Cup |Live Matches" tvg-logo="https://images.indianexpress.com/2025/02/JioHotstar.jpg",Hotstar-Kannada
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@vaathala1","Creator":"@vaathala1"}
+https://c2ag.short.gy/n/kan.m3u8
+
+#EXTINF:-1 tvg-id="1106" group-title="T20 World Cup |Live Matches" tvg-logo="https://images.indianexpress.com/2025/02/JioHotstar.jpg",Hotstar-Bhojpuri
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@vaathala1","Creator":"@vaathala1"}
+https://c2ag.short.gy/n/bih.m3u8
+
 #EXTINF:-1 tvg-id="1106" group-title="T20 World Cup |Live Matches" tvg-logo="https://img.u0k.workers.dev/joinvaathala1.webp",Star-English
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://keys.vodep39240327.workers.dev/key/1106
