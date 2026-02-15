@@ -577,10 +577,7 @@ https://aasthaott.akamaized.net/110923/smil:aasthausa.smil/playlist.m3u8?hdntl=e
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014867/1770193915349737_FA_26_RD4_Arsenal-vs-Wigan-Athletic_Landscape_thumb.jpg" group-title="SonyLiv | Sports",Arsenal vs Wigan Athletic - Round 4 - 15 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2037140/DAI20ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771220898~acl=/*~id=71200523426578792026917532636974~hmac=a94feebe7628d0a70e6c20b5edc688200fae12807f4ce06301ed92ffafcf757f
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014570/1769773812072133_Bundesliga_2025_26_RB-Leipzig-vs-VfL-Wolfsburg_landscape_thumb.jpg" group-title="SonyLiv | Sports",RB Leipzig vs VfL Wolfsburg - MD 22 - 15 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771220898~acl=/*~id=71200523426578792026917532636974~hmac=a94feebe7628d0a70e6c20b5edc688200fae12807f4ce06301ed92ffafcf757f
+
 
 # ---------------=== FanCode | Sports ===-------------------
 
@@ -598,6 +595,10 @@ https://in-mc-fdlive.fancode.com/mumbai/140634_english_hls_a09b6b65d138040_1ta-d
 https://in-mc-fdlive.fancode.com/mumbai/140207_english_hls_330b023b3959850_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/AT&T-Pebble-Beach-Pro-Am-2026-old-card-.png" group-title="FanCode | Sports",World Feed - Day 4
 https://in-mc-fdlive.fancode.com/mumbai/140047_english_hls_b8c1b71f8b46629_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Dallas-Open-(ATP-500)-old-card-_1770112378426.png" group-title="FanCode | Sports",World Feed
+https://in-mc-fdlive.fancode.com/mumbai/140193_english_hls_0b8cd9bb0c16093_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Dallas-Open-(ATP-500)-old-card-_1770541232780.png" group-title="FanCode | Sports",Center Court
+https://in-mc-fdlive.fancode.com/mumbai/140540_english_hls_893261ee9183734_1ta-di_h264/index.m3u8
 
 # ---------------=== Other Channels ===-------------------
 
