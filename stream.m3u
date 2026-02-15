@@ -593,13 +593,11 @@ https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Liv
 # ---------------=== SonyLiv | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014867/1770193460091737_FA_26_RD4_Stoke-City-vs-Fulham_Landscape_thumb.jpg" group-title="SonyLiv | Sports",Stoke City vs Fulham - Round 4 - 15 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022322/DAI18ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771212410~acl=/*~id=59971086685151725142698735517492~hmac=1405ed710a945ffa25eb1feb31cdf123fc4ecf8748184c8dc9fc750c5967962e
+https://sonydaimenew.akamaized.net/hls/live/2022322/DAI18ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771213623~acl=/*~id=38111591591796107424285997416105~hmac=89af14a7f1fecd45b1ddbb33be69a81f8ebf8cb47f6ed23554c137de11a268ac
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014867/1770190194406737_FA_26_RD4_Oxford-United-vs-Sunderland_Landscape_thumb.jpg" group-title="SonyLiv | Sports",Oxford United vs Sunderland - Round 4 - 15 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771212410~acl=/*~id=59971086685151725142698735517492~hmac=1405ed710a945ffa25eb1feb31cdf123fc4ecf8748184c8dc9fc750c5967962e
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014867/1770189864427737_FA_26_RD4_Grimsby-Town-vs-Wolverhampton-Wanderers_Landscape_thumb.jpg" group-title="SonyLiv | Sports",Grimsby Town vs Wolverhampton Wanderers - Round 4 - 15 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771212410~acl=/*~id=59971086685151725142698735517492~hmac=1405ed710a945ffa25eb1feb31cdf123fc4ecf8748184c8dc9fc750c5967962e
+https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771213623~acl=/*~id=38111591591796107424285997416105~hmac=89af14a7f1fecd45b1ddbb33be69a81f8ebf8cb47f6ed23554c137de11a268ac
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014570/1769773690388133_Bundesliga_2025_26_FC-Augsburg-vs-Heidenheim_landscape_thumb.jpg" group-title="SonyLiv | Sports",FC Augsburg vs Heidenheim - MD 22 - 15 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771212410~acl=/*~id=59971086685151725142698735517492~hmac=1405ed710a945ffa25eb1feb31cdf123fc4ecf8748184c8dc9fc750c5967962e
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771213623~acl=/*~id=38111591591796107424285997416105~hmac=89af14a7f1fecd45b1ddbb33be69a81f8ebf8cb47f6ed23554c137de11a268ac
 
 # ---------------=== FanCode | Sports ===-------------------
 
@@ -615,6 +613,8 @@ https://in-mc-fdlive.fancode.com/mumbai/140551_english_hls_33b77becca64795_1ta-d
 https://in-mc-fdlive.fancode.com/mumbai/140636_english_hls_20ce3a0acd64349_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/AT&T-Pebble-Beach-Pro-Am-2026-old-card-.png" group-title="FanCode | Sports",Featured Groups - Day 4
 https://in-mc-fdlive.fancode.com/mumbai/140635_english_hls_60d6d34c0a69172_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/AT&T-Pebble-Beach-Pro-Am-2026-old-card-.png" group-title="FanCode | Sports",Featured Holes - Day 4
+https://in-mc-fdlive.fancode.com/mumbai/140633_english_hls_73efc4916865633_1ta-di_h264/index.m3u8
 
 # ---------------=== Other Channels ===-------------------
 
