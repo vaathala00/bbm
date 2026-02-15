@@ -588,19 +588,21 @@ https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Liv
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015153/1770996742651432_AsiaCup_RisingStar_Womens2026_UAE_vs_nepal_13feb_clean_Landscape_thumb.jpg" group-title="SonyLiv | Sports",UAE Women vs Nepal Women - 15 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771177245~acl=/*~id=33180545317730515964394131061089~hmac=cd7cf18489c4fd122a3c7a2b1fbf31e68cb44c45273afa3c6d0a7f4d71f0ddac
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015153/1770996742651432_AsiaCup_RisingStar_Womens2026_UAE_vs_nepal_13feb_clean_Landscape_thumb.jpg" group-title="SonyLiv | Sports",UAE Women vs Nepal Women - 15 Feb 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771177245~acl=/*~id=33180545317730515964394131061089~hmac=cd7cf18489c4fd122a3c7a2b1fbf31e68cb44c45273afa3c6d0a7f4d71f0ddac
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015153/1770996742651432_AsiaCup_RisingStar_Womens2026_UAE_vs_nepal_13feb_clean_Landscape_thumb.jpg" group-title="SonyLiv | Sports",UAE Women vs Nepal Women - 15 Feb 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771177245~acl=/*~id=33180545317730515964394131061089~hmac=cd7cf18489c4fd122a3c7a2b1fbf31e68cb44c45273afa3c6d0a7f4d71f0ddac
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015153/1770996742651432_AsiaCup_RisingStar_Womens2026_UAE_vs_nepal_13feb_clean_Landscape_thumb.jpg" group-title="SonyLiv | Sports",UAE Women vs Nepal Women - 15 Feb 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771177245~acl=/*~id=33180545317730515964394131061089~hmac=cd7cf18489c4fd122a3c7a2b1fbf31e68cb44c45273afa3c6d0a7f4d71f0ddac
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015155/1771001454130565_AsiaCup_RisingStar_Womens2026_india_a_vs_PAK_A_13feb_clean_landscape_thumb.jpg" group-title="SonyLiv | Sports",India A Women vs Pakistan A Women - 15 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771180277~acl=/*~id=91348116241697820479544847217785~hmac=9197a257cba5ccbdb52e184077c46f0d9678041f0c229563e9306e056747dc71
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015155/1771001454130565_AsiaCup_RisingStar_Womens2026_india_a_vs_PAK_A_13feb_clean_landscape_thumb.jpg" group-title="SonyLiv | Sports",India A Women vs Pakistan A Women - 15 Feb 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771180277~acl=/*~id=91348116241697820479544847217785~hmac=9197a257cba5ccbdb52e184077c46f0d9678041f0c229563e9306e056747dc71
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015155/1771001454130565_AsiaCup_RisingStar_Womens2026_india_a_vs_PAK_A_13feb_clean_landscape_thumb.jpg" group-title="SonyLiv | Sports",India A Women vs Pakistan A Women - 15 Feb 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2037140/DAI20-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771180277~acl=/*~id=91348116241697820479544847217785~hmac=9197a257cba5ccbdb52e184077c46f0d9678041f0c229563e9306e056747dc71
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015155/1771001454130565_AsiaCup_RisingStar_Womens2026_india_a_vs_PAK_A_13feb_clean_landscape_thumb.jpg" group-title="SonyLiv | Sports",India A Women vs Pakistan A Women - 15 Feb 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771180277~acl=/*~id=91348116241697820479544847217785~hmac=9197a257cba5ccbdb52e184077c46f0d9678041f0c229563e9306e056747dc71
 
 # ---------------=== FanCode | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Premier-League-T20-2026-old-match-card.jpg" group-title="FanCode | Sports",Diasqua Little Sai Wan Cricket Club vs United Services Recreation Club
 https://in-mc-fdlive.fancode.com/mumbai/140614_english_hls_574303ab2249962_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/_Premier-League-T20-2026-2nd-old-card-.jpg" group-title="FanCode | Sports",Pakistan Association Cricket Club vs Kowloon Cricket Club
+https://in-mc-fdlive.fancode.com/mumbai/140615_english_hls_14d520d75750282_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Live-Event-old.jpg" group-title="FanCode | Sports",Legends League Cricket Auction 2026
 https://in-mc-fdlive.fancode.com/mumbai/140642_english_hls_c700c4eccd7171_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/WTT_web.jpg" group-title="FanCode | Sports",Day 4
