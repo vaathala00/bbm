@@ -579,10 +579,6 @@ https://aasthaott.akamaized.net/110923/smil:aasthausa.smil/playlist.m3u8?hdntl=e
 https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-02)/hdntl=exp=1771076724~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~id=7b82d498-aa21-4b99-b76d-254717ca2b5a~data=hdntl~hmac=85cfc1be126ecf0277a7e15995ccbe3a515d05457e746ed3a6535e253165d37d/manifest.mpd?vcfilter=aa7340be-43b4-4fb2-bf91-64578fad51d7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f2ff801cd7953983992f88656477ee90:c41d52c9d48a732cad4244881a7d99af
-#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1771093496/prd/tgpea8nzvzds1yx7idir",ICC-MT20: India v Pakistan (HINDI)
-https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-04)/hdntl=exp=1771076724~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~id=7b82d498-aa21-4b99-b76d-254717ca2b5a~data=hdntl~hmac=85cfc1be126ecf0277a7e15995ccbe3a515d05457e746ed3a6535e253165d37d/manifest.mpd?vcfilter=f94cfb02-d413-48c0-8d16-cf35ef2d6442
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=f2ff801cd7953983992f88656477ee90:c41d52c9d48a732cad4244881a7d99af
 #EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1771158920/prd/phbck3shzgmhkczwlhza",ICC-MT20: India v Pakistan (URDU)
 https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-01)/hdntl=exp=1771076724~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~id=7b82d498-aa21-4b99-b76d-254717ca2b5a~data=hdntl~hmac=85cfc1be126ecf0277a7e15995ccbe3a515d05457e746ed3a6535e253165d37d/manifest.mpd?vcfilter=edabc261-5f88-4c8f-8a73-b657a525e79c
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -593,20 +589,14 @@ https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Liv
 # ---------------=== SonyLiv | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014867/1770193915349737_FA_26_RD4_Arsenal-vs-Wigan-Athletic_Landscape_thumb.jpg" group-title="SonyLiv | Sports",Arsenal vs Wigan Athletic - Round 4 - 15 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2037140/DAI20ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771216052~acl=/*~id=49793466205773287800684057745273~hmac=4c50515e8843c10168e4ed7da86aaa922128d66be281bdd7d72a6bbcf4532f72
+https://sonydaimenew.akamaized.net/hls/live/2037140/DAI20ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771217870~acl=/*~id=73943468478872639255386065382112~hmac=da11e59a5538c2b315102b21867fe71e1a0a3b8f2d68cc9e5496f951d50c2bd8
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014570/1769773812072133_Bundesliga_2025_26_RB-Leipzig-vs-VfL-Wolfsburg_landscape_thumb.jpg" group-title="SonyLiv | Sports",RB Leipzig vs VfL Wolfsburg - MD 22 - 15 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771216052~acl=/*~id=49793466205773287800684057745273~hmac=4c50515e8843c10168e4ed7da86aaa922128d66be281bdd7d72a6bbcf4532f72
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014570/1769773690388133_Bundesliga_2025_26_FC-Augsburg-vs-Heidenheim_landscape_thumb.jpg" group-title="SonyLiv | Sports",FC Augsburg vs Heidenheim - MD 22 - 15 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771216052~acl=/*~id=49793466205773287800684057745273~hmac=4c50515e8843c10168e4ed7da86aaa922128d66be281bdd7d72a6bbcf4532f72
+https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771217870~acl=/*~id=73943468478872639255386065382112~hmac=da11e59a5538c2b315102b21867fe71e1a0a3b8f2d68cc9e5496f951d50c2bd8
 
 # ---------------=== FanCode | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131061_5427_RVL_ATL_FC-Web.png" group-title="FanCode | Sports",Rayo Vallecano vs Atletico de Madrid
 https://in-mc-fdlive.fancode.com/mumbai/131061_english_hls_3074816afa79444_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3)_1770389196821.png" group-title="FanCode | Sports",Centre Court
-https://in-mc-fdlive.fancode.com/mumbai/140200_english_hls_b59c49729023162_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo=" https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3)_1770389196821.png" group-title="FanCode | Sports",World Feed
-https://in-mc-fdlive.fancode.com/mumbai/140551_english_hls_33b77becca64795_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/AT&T-Pebble-Beach-Pro-Am-2026-old-card-.png" group-title="FanCode | Sports",Main Feed - Day 4
 https://in-mc-fdlive.fancode.com/mumbai/140636_english_hls_20ce3a0acd64349_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/AT&T-Pebble-Beach-Pro-Am-2026-old-card-.png" group-title="FanCode | Sports",Featured Groups - Day 4
@@ -617,6 +607,8 @@ https://in-mc-fdlive.fancode.com/mumbai/140633_english_hls_73efc4916865633_1ta-d
 https://in-mc-fdlive.fancode.com/mumbai/140634_english_hls_a09b6b65d138040_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ATP-250IEBArgentina-Open--old-card-(1).png" group-title="FanCode | Sports",Cancha Guillermo Vilas
 https://in-mc-fdlive.fancode.com/mumbai/140207_english_hls_330b023b3959850_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131067_5427_LE_VAL_FC-Web.png" group-title="FanCode | Sports",Levante vs Valencia CF
+https://in-mc-fdlive.fancode.com/mumbai/131067_english_hls_f593086cdd93529_1ta-di_h264/index.m3u8
 
 # ---------------=== Other Channels ===-------------------
 
