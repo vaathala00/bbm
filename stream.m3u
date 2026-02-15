@@ -575,17 +575,27 @@ https://aasthaott.akamaized.net/110923/smil:aasthausa.smil/playlist.m3u8?hdntl=e
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f2ff801cd7953983992f88656477ee90:c41d52c9d48a732cad4244881a7d99af
-#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1771093519/prd/obhnxthsnkcku8dbluda",ICC-MT20: USA v Namibia
-https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-03)/hdntl=exp=1771076724~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~id=7b82d498-aa21-4b99-b76d-254717ca2b5a~data=hdntl~hmac=85cfc1be126ecf0277a7e15995ccbe3a515d05457e746ed3a6535e253165d37d/manifest.mpd?vcfilter=e2635061-2c66-45e6-8118-0f6726c46889
+#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1771093524/prd/bayfczkkc2s3qrmifhxa",ICC-MT20: India v Pakistan
+https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-02)/hdntl=exp=1771076724~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~id=7b82d498-aa21-4b99-b76d-254717ca2b5a~data=hdntl~hmac=85cfc1be126ecf0277a7e15995ccbe3a515d05457e746ed3a6535e253165d37d/manifest.mpd?vcfilter=aa7340be-43b4-4fb2-bf91-64578fad51d7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f2ff801cd7953983992f88656477ee90:c41d52c9d48a732cad4244881a7d99af
-#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1771093508/prd/yowep9cm8z2c5w2yhsic",ICC-MT20: USA v Namibia (HINDI)
-https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-05)/hdntl=exp=1771076724~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~id=7b82d498-aa21-4b99-b76d-254717ca2b5a~data=hdntl~hmac=85cfc1be126ecf0277a7e15995ccbe3a515d05457e746ed3a6535e253165d37d/manifest.mpd?vcfilter=afabd48c-0d76-4386-8407-2ab1432a3ba1
+#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1771093496/prd/tgpea8nzvzds1yx7idir",ICC-MT20: India v Pakistan (HINDI)
+https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-04)/hdntl=exp=1771076724~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~id=7b82d498-aa21-4b99-b76d-254717ca2b5a~data=hdntl~hmac=85cfc1be126ecf0277a7e15995ccbe3a515d05457e746ed3a6535e253165d37d/manifest.mpd?vcfilter=f94cfb02-d413-48c0-8d16-cf35ef2d6442
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f2ff801cd7953983992f88656477ee90:c41d52c9d48a732cad4244881a7d99af
+#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1771158920/prd/phbck3shzgmhkczwlhza",ICC-MT20: India v Pakistan (URDU)
+https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-01)/hdntl=exp=1771076724~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~id=7b82d498-aa21-4b99-b76d-254717ca2b5a~data=hdntl~hmac=85cfc1be126ecf0277a7e15995ccbe3a515d05457e746ed3a6535e253165d37d/manifest.mpd?vcfilter=edabc261-5f88-4c8f-8a73-b657a525e79c
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f2ff801cd7953983992f88656477ee90:c41d52c9d48a732cad4244881a7d99af
+#EXTINF:-1 group-title="T20 World Cup |Live Matches" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1771093501/prd/i4tqpyjgkwoiqpht3kch",ICC-MT20: India v Pakistan (NEPALI)
+https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-07)/hdntl=exp=1771076724~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~id=7b82d498-aa21-4b99-b76d-254717ca2b5a~data=hdntl~hmac=85cfc1be126ecf0277a7e15995ccbe3a515d05457e746ed3a6535e253165d37d/manifest.mpd?vcfilter=423c6c6d-fb8a-49e8-9edb-66aecff0fbd7
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014867/1770189511276737_FA_26_RD4_Birmingham-City-vs-Leeds-United_Landscape_thumb.jpg" group-title="SonyLiv | Sports",Birmingham City vs Leeds United - Round 4 - 15 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771199656~acl=/*~id=22768343631656793618576592181246~hmac=864e49ae36eb7290957a0144651233115945f40d5aae14b794b3a9fce34a7439
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771203894~acl=/*~id=16926569183288590303128811442355~hmac=b9ffc8f8ed534f7209e59d169bcb894b90505115c8856e8af94b77671c1325ab
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014867/1770189864427737_FA_26_RD4_Grimsby-Town-vs-Wolverhampton-Wanderers_Landscape_thumb.jpg" group-title="SonyLiv | Sports",Grimsby Town vs Wolverhampton Wanderers - Round 4 - 15 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771203894~acl=/*~id=16926569183288590303128811442355~hmac=b9ffc8f8ed534f7209e59d169bcb894b90505115c8856e8af94b77671c1325ab
 
 # ---------------=== FanCode | Sports ===-------------------
 
@@ -599,6 +609,8 @@ https://in-mc-fdlive.fancode.com/mumbai/140106_english_hls_2fe1e46b3862525_1ta-d
 https://in-mc-fdlive.fancode.com/mumbai/140105_english_hls_dc89781f6a43029_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140104_5826_EVE-W_WHU-W_FC-Web.jpg" group-title="FanCode | Sports",Everton Women vs West Ham United Women
 https://in-mc-fdlive.fancode.com/mumbai/140104_english_hls_0fd040db9850607_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131060_5427_RO_ATH_FC-Web.png" group-title="FanCode | Sports",Real Oviedo vs Athletic Club
+https://in-mc-fdlive.fancode.com/mumbai/131060_english_hls_13fd06fd9422188_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/WTT_web.jpg" group-title="FanCode | Sports",Day 4
 https://in-mc-fdlive.fancode.com/mumbai/140606_english_hls_2934273f9e52001_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3)_1770389196821.png" group-title="FanCode | Sports",Centre Court
