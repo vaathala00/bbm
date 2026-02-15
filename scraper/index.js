@@ -61,7 +61,7 @@ function convertHotstar(data) {
           const logo = ch.logo || ch.logo_url || ch.image || "";
           const name = ch.name || ch.title || ch.channel_name || "Unknown";
           out.push(
-            `#EXTINF:-1 tvg-logo="${logo}" group-title="VOOT | Jio Cinema",${name}`,
+            `#EXTINF:-1 group-title="VOOT | Jio Cinema" tvg-logo="${logo}",${name}`,
             `#EXTVLCOPT:http-user-agent=${userAgent}`,
             `#EXTHTTP:${JSON.stringify({ cookie: cookie, Origin: "https://www.hotstar.com", Referer: "https://www.hotstar.com/" })}`,
             urlObj.toString()
