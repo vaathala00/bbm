@@ -574,7 +574,7 @@ https://aasthaott.akamaized.net/110923/smil:aasthausa.smil/playlist.m3u8?hdntl=e
 # ---------------=== SonyLiv | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015162/1771014661664668_AsiaCup_RisingStar_Womens2026_Sri_Lanka_A_vs_Malaysia_13feb_clean_Landscape_thumb.jpg" group-title="SonyLiv | Sports",Sri Lanka A Women vs Malaysia Women - 16 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771252982~acl=/*~id=58598481953319672158031848094210~hmac=aa604c23713c27df6642acd19d6f6271802560b511a0bef02ed9d6d944810d85
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771260847~acl=/*~id=42463926325029876834878253176519~hmac=cf3b6eafc5635e21a466c0e821582c76e635626a9fb551dc2d921ad86575d17b
 
 # ---------------=== FanCode | Sports ===-------------------
 
@@ -584,6 +584,10 @@ https://in-mc-fdlive.fancode.com/mumbai/133981_english_hls_932f8b0f979731_1ta-di
 https://in-mc-fdlive.fancode.com/mumbai/134035_english_hls_1afd89d14d64226_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/134036_5609_WAU_VCT_fc-Web.jpg" group-title="FanCode | Sports",Victoria vs Western Australia
 https://in-mc-fdlive.fancode.com/mumbai/134036_english_hls_ab6f47f92037105_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/134037_5609_TAS_NSW_fc-Web.jpg" group-title="FanCode | Sports",Tasmania vs New South Wales
+https://in-mc-fdlive.fancode.com/mumbai/134037_english_hls_26ae0af60c85184_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Apti_cup_web.jpg" group-title="FanCode | Sports",Day 1
+https://in-mc-fdlive.fancode.com/mumbai/140599_english_hls_f447fdf53954816_1ta-di_h264/index.m3u8
 
 # ---------------=== Other Channels ===-------------------
 
