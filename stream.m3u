@@ -574,22 +574,22 @@ https://aasthaott.akamaized.net/110923/smil:aasthausa.smil/playlist.m3u8?hdntl=e
 # ---------------=== SonyLiv | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015236/1771175119590741_AsiaCup_RisingStar_Womens2026_Pakistan_A_vs_UAE_15feb_eng_Landscape_thumb.jpg" group-title="SonyLiv | Sports",Pakistan A Women vs UAE Women - 17 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771356175~acl=/*~id=98756669980527003648641625586774~hmac=74c3e01ee238e80724d53752829280e58d892b904345c991703716d33657e553
+https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771358602~acl=/*~id=55311045145670746597887917163828~hmac=2d158e1183d467a0012a36360c1f0054aedda157501c1272345d9f0e71733872
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015236/1771175119590741_AsiaCup_RisingStar_Womens2026_Pakistan_A_vs_UAE_15feb_eng_Landscape_thumb.jpg" group-title="SonyLiv | Sports",Pakistan A Women vs UAE Women - 17 Feb 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771356175~acl=/*~id=98756669980527003648641625586774~hmac=74c3e01ee238e80724d53752829280e58d892b904345c991703716d33657e553
+https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771358602~acl=/*~id=55311045145670746597887917163828~hmac=2d158e1183d467a0012a36360c1f0054aedda157501c1272345d9f0e71733872
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015236/1771175119590741_AsiaCup_RisingStar_Womens2026_Pakistan_A_vs_UAE_15feb_eng_Landscape_thumb.jpg" group-title="SonyLiv | Sports",Pakistan A Women vs UAE Women - 17 Feb 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2037140/DAI20-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771356175~acl=/*~id=98756669980527003648641625586774~hmac=74c3e01ee238e80724d53752829280e58d892b904345c991703716d33657e553
+https://sonydaimenew.akamaized.net/hls/live/2037140/DAI20-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771358602~acl=/*~id=55311045145670746597887917163828~hmac=2d158e1183d467a0012a36360c1f0054aedda157501c1272345d9f0e71733872
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015236/1771175119590741_AsiaCup_RisingStar_Womens2026_Pakistan_A_vs_UAE_15feb_eng_Landscape_thumb.jpg" group-title="SonyLiv | Sports",Pakistan A Women vs UAE Women - 17 Feb 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771356175~acl=/*~id=98756669980527003648641625586774~hmac=74c3e01ee238e80724d53752829280e58d892b904345c991703716d33657e553
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771358602~acl=/*~id=55311045145670746597887917163828~hmac=2d158e1183d467a0012a36360c1f0054aedda157501c1272345d9f0e71733872
 
 # ---------------=== FanCode | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/134035_5609_QUN_SAU_fc-Web.jpg" group-title="FanCode | Sports",Queensland vs South Australia
-https://in-mc-fdlive.fancode.com/mumbai/134035_english_hls_1afd89d14d51593_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/134036_5609_WAU_VCT_fc-Web.jpg" group-title="FanCode | Sports",Victoria vs Western Australia
 https://in-mc-fdlive.fancode.com/mumbai/134036_english_hls_ab6f47f92034501_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/134037_5609_TAS_NSW_fc-Web.jpg" group-title="FanCode | Sports",Tasmania vs New South Wales
 https://in-mc-fdlive.fancode.com/mumbai/134037_english_hls_26ae0af60c38725_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138808_5802_SYD_AFC_1770724351931.png" group-title="FanCode | Sports",Sydney FC vs Auckland
+https://in-mc-fdlive.fancode.com/mumbai/138808_english_hls_c885c46e606308_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Apti_cup_web.jpg" group-title="FanCode | Sports",Day 2
 https://in-mc-fdlive.fancode.com/mumbai/140600_english_hls_6b62fe153b82281_1ta-di_h264/index.m3u8
 
