@@ -49,7 +49,7 @@ async function safeFetch(url, name, retries = 2) {
   for (let attempt = 1; attempt <= retries + 1; attempt++) {
     try {
       const res = await axios.get(url, {
-        timeout: 30000,
+        timeout: 60000,
         headers: {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
         }
@@ -66,7 +66,7 @@ async function safeFetch(url, name, retries = 2) {
         return null;
       }
 
-      await new Promise(r => setTimeout(r, 3000));
+      await new Promise(r => setTimeout(r, 5000));
     }
   }
 }
