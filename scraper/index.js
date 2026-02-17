@@ -26,7 +26,7 @@ const SOURCES = {
   ],
 
 // ✅ NEW LOCAL TELUGU CHANNEL PAGES
-  LOCA_JSON: [
+  TELUGU_JSON: [
     "https://b4u.vodep39240327.workers.dev/1.json?url=https://tulnit.com/channel/telugu-tv/",
     "https://b4u.vodep39240327.workers.dev/1.json?url=https://tulnit.com/channel/telugu-tv/page/2",
     "https://b4u.vodep39240327.workers.dev/1.json?url=https://tulnit.com/channel/telugu-tv/page/3",
@@ -59,7 +59,7 @@ function section(title) {
 
 
 // ================= LOCAL TELUGU JSON =================
-function convertLocalTamil(jsonArray) {
+function convertLocalTelugu(jsonArray) {
   if (!Array.isArray(jsonArray)) return "";
 
   const out = [];
@@ -355,11 +355,11 @@ async function run() {
   const out = [];
   out.push(PLAYLIST_HEADER.trim());
 
-// ✅ LOCAL TAMIL CHANNELS
-if (Array.isArray(SOURCES.LOCA_JSON)) {
+// ✅ LOCAL TELUGU CHANNELS
+if (Array.isArray(SOURCES.TELUGU_JSON)) {
   let allLocalChannels = [];
 
-  for (const url of SOURCES.LOCA_JSON) {
+  for (const url of SOURCES.TELUGU_JSON) {
     const data = await safeFetch(url, "Local Telugu");
     if (Array.isArray(data)) {
       allLocalChannels = allLocalChannels.concat(data);
@@ -369,7 +369,7 @@ if (Array.isArray(SOURCES.LOCA_JSON)) {
   if (allLocalChannels.length > 0) {
     out.push(
       section("VT 📺 | Local Channel Telugu"),
-      convertLocalTamil(allLocalChannels)
+      convertLocalTelugu(allLocalChannels)
     );
   }
 }
