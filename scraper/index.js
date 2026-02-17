@@ -25,6 +25,14 @@ const SOURCES = {
     "https://b4u.vodep39240327.workers.dev/1.json?url=https://tulnit.com/channel/local-tamil-tv/page/7",
   ],
 
+// ✅ NEW LOCAL TELUGU CHANNEL PAGES
+  LOCA_JSON: [
+    "https://b4u.vodep39240327.workers.dev/1.json?url=https://tulnit.com/channel/telugu-tv/",
+    "https://b4u.vodep39240327.workers.dev/1.json?url=https://tulnit.com/channel/telugu-tv/page/2",
+    "https://b4u.vodep39240327.workers.dev/1.json?url=https://tulnit.com/channel/telugu-tv/page/3",
+    "https://b4u.vodep39240327.workers.dev/1.json?url=https://tulnit.com/channel/telugu-tv/page/4",
+  ],
+
 };
 
 // ================= PLAYLIST HEADER =================
@@ -49,6 +57,27 @@ function section(title) {
   return `\n# ---------------=== ${title} ===-------------------\n`;
 }
 
+
+// ================= LOCAL TELUGU JSON =================
+function convertLocalTamil(jsonArray) {
+  if (!Array.isArray(jsonArray)) return "";
+
+  const out = [];
+
+  jsonArray.forEach((ch) => {
+    if (!ch.stream_url) return;
+
+    const name = ch.title || "Unknown";
+    const logo = ch.image || "";
+
+    out.push(
+      `#EXTINF:-1 tvg-name="${name}" tvg-logo="${logo}" group-title="VT 📺 | Local Channel Telugu",${name}`,
+      ch.stream_url
+    );
+  });
+
+  return out.join("\n");
+}
 
 // ================= LOCAL TAMIL JSON =================
 function convertLocalTamil(jsonArray) {
@@ -325,6 +354,26 @@ async function safeFetch(url, name, retries = 2) {
 async function run() {
   const out = [];
   out.push(PLAYLIST_HEADER.trim());
+
+// ✅ LOCAL TAMIL CHANNELS
+if (Array.isArray(SOURCES.LOCA_JSON)) {
+  let allLocalChannels = [];
+
+  for (const url of SOURCES.LOCA_JSON) {
+    const data = await safeFetch(url, "Local Telugu");
+    if (Array.isArray(data)) {
+      allLocalChannels = allLocalChannels.concat(data);
+    }
+  }
+
+  if (allLocalChannels.length > 0) {
+    out.push(
+      section("VT 📺 | Local Channel Telugu"),
+      convertLocalTamil(allLocalChannels)
+    );
+  }
+}
+
 
 // ✅ LOCAL TAMIL CHANNELS
 if (Array.isArray(SOURCES.LOCAL_JSON)) {
