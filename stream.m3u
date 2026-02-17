@@ -1565,18 +1565,23 @@ https://aasthaott.akamaized.net/110923/smil:aasthausa.smil/playlist.m3u8?hdntl=e
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
-
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015295/1771308617008111_UCL26_Playoffs_Leg1_Galatasaray_vs_Juventus_14feb_eng_landscape_thumb.jpg" group-title="SonyLiv | Sports",Galatasaray vs Juventus - Play-offs Leg 1 - 17 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771391909~acl=/*~id=99835176209180988187825324175425~hmac=469e19d62954dd9e3abfe13c8730a4e943f77657d1612b4ff7c594e1e3e78d34
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015295/1771308617008111_UCL26_Playoffs_Leg1_Galatasaray_vs_Juventus_14feb_eng_landscape_thumb.jpg" group-title="SonyLiv | Sports",Galatasaray vs Juventus - Play-offs Leg 1 - 17 Feb 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771391909~acl=/*~id=99835176209180988187825324175425~hmac=469e19d62954dd9e3abfe13c8730a4e943f77657d1612b4ff7c594e1e3e78d34
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015295/1771308617008111_UCL26_Playoffs_Leg1_Galatasaray_vs_Juventus_14feb_eng_landscape_thumb.jpg" group-title="SonyLiv | Sports",Galatasaray vs Juventus - Play-offs Leg 1 - 17 Feb 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771391909~acl=/*~id=99835176209180988187825324175425~hmac=469e19d62954dd9e3abfe13c8730a4e943f77657d1612b4ff7c594e1e3e78d34
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015295/1771308617008111_UCL26_Playoffs_Leg1_Galatasaray_vs_Juventus_14feb_eng_landscape_thumb.jpg" group-title="SonyLiv | Sports",Galatasaray vs Juventus - Play-offs Leg 1 - 17 Feb 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771391909~acl=/*~id=99835176209180988187825324175425~hmac=469e19d62954dd9e3abfe13c8730a4e943f77657d1612b4ff7c594e1e3e78d34
 
 # ---------------=== FanCode | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770636792120.png" group-title="FanCode | Sports",Al Gharafa vs Tractor
 https://in-mc-fdlive.fancode.com/mumbai/136090_english_hls_60f0c9b33549529_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/28_Al-Sadd-vs-Al-Ittihad_1770636720688.png" group-title="FanCode | Sports",Al Sadd vs Al-Ittihad
+#EXTINF:-1 tvg-logo="https://images.fancode.com/aig/match/v1771347383365/136089_CASACARDS_APP.png" group-title="FanCode | Sports",Al Sadd vs Al-Ittihad
 https://in-mc-fdlive.fancode.com/mumbai/136089_english_hls_03bb8331a220163_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140060_5648_AWL_ALZ_FC-Web.jpg" group-title="FanCode | Sports",Al Wasl vs AL Zawraa SC
 https://in-mc-fdlive.fancode.com/mumbai/140060_english_hls_0bb6bf1bb521155_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg" group-title="FanCode | Sports",Grandstand 3
-https://in-mc-fdlive.fancode.com/mumbai/140209_english_hls_253e7fa7ec95333_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg" group-title="FanCode | Sports",Grandstand 1
 https://in-mc-fdlive.fancode.com/mumbai/140649_english_hls_250f5c06b551175_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg" group-title="FanCode | Sports",Center Court
