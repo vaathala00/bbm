@@ -1565,25 +1565,41 @@ https://aasthaott.akamaized.net/110923/smil:aasthausa.smil/playlist.m3u8?hdntl=e
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015295/1771308617008111_UCL26_Playoffs_Leg1_Galatasaray_vs_Juventus_14feb_eng_landscape_thumb.jpg" group-title="SonyLiv | Sports",Galatasaray vs Juventus - Play-offs Leg 1 - 17 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771398580~acl=/*~id=50674927383184507597900912085976~hmac=43f3e85701d0b66d2a521094322e6800ad364b31c588e5f7578aa9e185babcda
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015295/1771308617008111_UCL26_Playoffs_Leg1_Galatasaray_vs_Juventus_14feb_eng_landscape_thumb.jpg" group-title="SonyLiv | Sports",Galatasaray vs Juventus - Play-offs Leg 1 - 17 Feb 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771398580~acl=/*~id=50674927383184507597900912085976~hmac=43f3e85701d0b66d2a521094322e6800ad364b31c588e5f7578aa9e185babcda
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015295/1771308617008111_UCL26_Playoffs_Leg1_Galatasaray_vs_Juventus_14feb_eng_landscape_thumb.jpg" group-title="SonyLiv | Sports",Galatasaray vs Juventus - Play-offs Leg 1 - 17 Feb 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771398580~acl=/*~id=50674927383184507597900912085976~hmac=43f3e85701d0b66d2a521094322e6800ad364b31c588e5f7578aa9e185babcda
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015295/1771308617008111_UCL26_Playoffs_Leg1_Galatasaray_vs_Juventus_14feb_eng_landscape_thumb.jpg" group-title="SonyLiv | Sports",Galatasaray vs Juventus - Play-offs Leg 1 - 17 Feb 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771398580~acl=/*~id=50674927383184507597900912085976~hmac=43f3e85701d0b66d2a521094322e6800ad364b31c588e5f7578aa9e185babcda
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015295/1771308623265111_UCL26_Playoffs_Leg1_Benfica_vs_Real_Madrid_14feb_eng_landscape_thumb.jpg" group-title="SonyLiv | Sports",Benfica vs Real Madrid - Play-offs Leg 1 - 18 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771401009~acl=/*~id=43680396663372421941283073814977~hmac=d99a18d9a04a9302966349a4de6f1305ea49bd7e62c79b0cb681cf43dc38508a
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015295/1771308623265111_UCL26_Playoffs_Leg1_Benfica_vs_Real_Madrid_14feb_eng_landscape_thumb.jpg" group-title="SonyLiv | Sports",Benfica vs Real Madrid - Play-offs Leg 1 - 18 Feb 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771401009~acl=/*~id=43680396663372421941283073814977~hmac=d99a18d9a04a9302966349a4de6f1305ea49bd7e62c79b0cb681cf43dc38508a
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015295/1771308623265111_UCL26_Playoffs_Leg1_Benfica_vs_Real_Madrid_14feb_eng_landscape_thumb.jpg" group-title="SonyLiv | Sports",Benfica vs Real Madrid - Play-offs Leg 1 - 18 Feb 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771401009~acl=/*~id=43680396663372421941283073814977~hmac=d99a18d9a04a9302966349a4de6f1305ea49bd7e62c79b0cb681cf43dc38508a
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015295/1771308623265111_UCL26_Playoffs_Leg1_Benfica_vs_Real_Madrid_14feb_eng_landscape_thumb.jpg" group-title="SonyLiv | Sports",Benfica vs Real Madrid - Play-offs Leg 1 - 18 Feb 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2022317/DAI13ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771401009~acl=/*~id=43680396663372421941283073814977~hmac=d99a18d9a04a9302966349a4de6f1305ea49bd7e62c79b0cb681cf43dc38508a
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015295/1771308816819111_UCL26_Playoffs_Leg1_AS_Monaco_vs_PSG_landscape_thumb.jpg" group-title="SonyLiv | Sports",Monaco vs PSG - Play-offs Leg 1 - 18 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771401009~acl=/*~id=43680396663372421941283073814977~hmac=d99a18d9a04a9302966349a4de6f1305ea49bd7e62c79b0cb681cf43dc38508a
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015295/1771308803726111_UCL26_Playoffs_Leg1_Dortmund_vs_Atalanta_landscape_thumb.jpg" group-title="SonyLiv | Sports",Dortmund vs Atalanta - Play-offs Leg 1 - 18 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022315/DAI11ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771401009~acl=/*~id=43680396663372421941283073814977~hmac=d99a18d9a04a9302966349a4de6f1305ea49bd7e62c79b0cb681cf43dc38508a
 
 # ---------------=== FanCode | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140061_5648_HUS_ESG_FC-Web.jpg" group-title="FanCode | Sports",Al Hussein vs Esteghlal FC
 https://in-mc-fdlive.fancode.com/mumbai/140061_english_hls_db731f332072640_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810).png" group-title="FanCode | Sports",Blackpool vs Mansfield Town
+https://in-mc-fdlive.fancode.com/mumbai/140017_english_hls_f6bb7dae9e59884_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg" group-title="FanCode | Sports",Center Court
 https://in-mc-fdlive.fancode.com/mumbai/140648_english_hls_4deb6b7f4433909_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg" group-title="FanCode | Sports",World Feed 
 https://in-mc-fdlive.fancode.com/mumbai/140647_english_hls_68594fe0ab5130_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ATP-250---Delray-Beach-Open-2026--old-card.png" group-title="FanCode | Sports",Court A Feed
 https://in-mc-fdlive.fancode.com/mumbai/140296_english_hls_9b76968d5074560_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(4)_1770654460574.png" group-title="FanCode | Sports",Qaudra 1
+https://in-mc-fdlive.fancode.com/mumbai/140286_english_hls_97cbc4efc975587_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1771227556428.png" group-title="FanCode | Sports",World Feed
+https://in-mc-fdlive.fancode.com/mumbai/140656_english_hls_d0b11efc7361302_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1771227556428.png" group-title="FanCode | Sports",Quadra 4
+https://in-mc-fdlive.fancode.com/mumbai/140655_english_hls_1fe984173d91515_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1771227556428.png" group-title="FanCode | Sports",Quadra 2
+https://in-mc-fdlive.fancode.com/mumbai/140654_english_hls_7fcd49e7fc88358_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1771227556428.png" group-title="FanCode | Sports",Quadra Guga Kuerten
+https://in-mc-fdlive.fancode.com/mumbai/140653_english_hls_858561e08624721_1ta-di_h264/index.m3u8
 
 # ---------------=== Other Channels ===-------------------
 
