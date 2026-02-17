@@ -49,13 +49,19 @@ function section(title) {
   return `\n# ---------------=== ${title} ===-------------------\n`;
 }
 
+// ✅ INCREASED TIMEOUT FROM 15s TO 60s
 async function safeFetch(url, name) {
   try {
-    const res = await axios.get(url, { timeout: 15000 });
+    const res = await axios.get(url, { timeout: 60000 });
     console.log(`✅ Loaded ${name}`);
     return res.data;
   } catch (err) {
-    console.warn(`⚠️ Skipped ${name} (${err.message})`);
+    // Only warn if it's not a timeout cancellation (to keep logs clean), or warn briefly
+    if (err.code !== 'ECONNABORTED') {
+        console.warn(`⚠️ Skipped ${name} (${err.message})`);
+    } else {
+        console.warn(`⚠️ Skipped ${name} (Request took too long > 60s)`);
+    }
     return null;
   }
 }
@@ -282,104 +288,3 @@ function convertSportsJson(json) {
       `#KODIPROP:inputstream.adaptive.license_key=${kid}:${key}`,
       `#EXTHTTP:${JSON.stringify({
         Cookie: hdnea ? `__hdnea__=${hdnea}` : "",
-        "User-Agent": ua,
-      })}`,
-      urlObj.toString()
-    );
-  });
-
-  return out.join("\n");
-}
-
-// ================= MAIN FUNCTION =================
-async function run() {
-  console.log("Starting playlist generation...");
-  const out = [];
-  out.push(PLAYLIST_HEADER.trim());
-
-  // 1. LOCAL TAMIL CHANNELS
-  if (Array.isArray(SOURCES.LOCAL_JSON)) {
-    console.log("Fetching Local Tamil channels...");
-    let allLocalChannels = [];
-
-    for (const url of SOURCES.LOCAL_JSON) {
-      const data = await safeFetch(url, "Local Tamil Page");
-      if (Array.isArray(data)) {
-        allLocalChannels = allLocalChannels.concat(data);
-      }
-    }
-
-    if (allLocalChannels.length > 0) {
-      out.push(section("VT 📺 | Local Channel Tamil"));
-      out.push(convertLocalTamil(allLocalChannels));
-    }
-  }
-
-  // 2. HOTSTAR
-  const hotstar = await safeFetch(SOURCES.HOTSTAR_M3U, "Hotstar");
-  if (hotstar) {
-    out.push(section("VOOT | Jio Cinema"));
-    out.push(convertHotstar(hotstar));
-  }
-
-  // 3. ZEE5
-  const zee5 = await safeFetch(SOURCES.ZEE5_M3U, "ZEE5");
-  if (zee5) {
-    out.push(section("ZEE5 | Live"));
-    out.push(zee5); // Assuming ZEE5 source is already a valid M3U string
-  }
-
-  // 4. JIO
-  const jio = await safeFetch(SOURCES.JIO_JSON, "JIO");
-  if (jio) {
-    out.push(section("JIO ⭕ | Live TV"));
-    out.push(convertJioJson(jio));
-  }
-
-  // 5. SPORTS
-  const sports = await safeFetch(SOURCES.SPORTS_JSON, "Sports");
-  if (sports) {
-    out.push(section("T20 World Cup | Live Matches"));
-    out.push(convertSportsJson(sports));
-  }
-
-  // 6. ICC TV
-  const icc = await safeFetch(SOURCES.ICC_TV_JSON, "ICC TV");
-  if (icc) {
-    out.push(section("ICC TV"));
-    out.push(convertIccTv(icc));
-  }
-
-  // 7. SONYLIV
-  const sony = await safeFetch(SOURCES.SONYLIV_JSON, "SonyLiv");
-  if (sony) {
-    out.push(section("SonyLiv | Sports"));
-    out.push(convertSonyliv(sony));
-  }
-
-  // 8. FANCODE
-  const fan = await safeFetch(SOURCES.FANCODE_JSON, "FanCode");
-  if (fan) {
-    out.push(section("FanCode | Sports"));
-    out.push(convertFancode(fan));
-  }
-
-  // 9. EXTRA
-  const extra = await safeFetch(SOURCES.EXTRA_M3U, "Extra");
-  if (extra) {
-    out.push(section("Other Channels"));
-    out.push(extra);
-  }
-
-  out.push(PLAYLIST_FOOTER.trim());
-
-  try {
-    fs.writeFileSync(OUTPUT_FILE, out.join("\n") + "\n");
-    console.log(`✅ ${OUTPUT_FILE} generated successfully`);
-  } catch (err) {
-    console.error("❌ Failed to write file:", err);
-  }
-}
-
-// Run the script
-run();
