@@ -1,6 +1,7 @@
 const axios = require("axios");
 const fs = require("fs");
 
+// ================= CONFIGURATION =================
 const OUTPUT_FILE = "stream.m3u";
 
 // ================= SOURCES =================
@@ -14,7 +15,7 @@ const SOURCES = {
   ICC_TV_JSON: "https://icc.vodep39240327.workers.dev/icctv.jso",
   SPORTS_JSON: "https://sports.vodep39240327.workers.dev/sports.jso",
 
-// ✅ NEW LOCAL TAMIL CHANNEL PAGES
+  // ✅ NEW LOCAL TAMIL CHANNEL PAGES
   LOCAL_JSON: [
     "https://b4u.vodep39240327.workers.dev/1.json?url=https://tulnit.com/channel/local-tamil-tv/",
     "https://b4u.vodep39240327.workers.dev/1.json?url=https://tulnit.com/channel/local-tamil-tv/page/2",
@@ -24,7 +25,6 @@ const SOURCES = {
     "https://b4u.vodep39240327.workers.dev/1.json?url=https://tulnit.com/channel/local-tamil-tv/page/6",
     "https://b4u.vodep39240327.workers.dev/1.json?url=https://tulnit.com/channel/local-tamil-tv/page/7",
   ],
-
 };
 
 // ================= PLAYLIST HEADER =================
@@ -43,14 +43,26 @@ const PLAYLIST_FOOTER = `
 # =========================================
 `;
 
-// ================= SECTION =================
+// ================= UTILITIES =================
 
 function section(title) {
   return `\n# ---------------=== ${title} ===-------------------\n`;
 }
 
+async function safeFetch(url, name) {
+  try {
+    const res = await axios.get(url, { timeout: 15000 });
+    console.log(`✅ Loaded ${name}`);
+    return res.data;
+  } catch (err) {
+    console.warn(`⚠️ Skipped ${name} (${err.message})`);
+    return null;
+  }
+}
 
-// ================= LOCAL TAMIL JSON =================
+// ================= CONVERTERS =================
+
+// --- LOCAL TAMIL JSON ---
 function convertLocalTamil(jsonArray) {
   if (!Array.isArray(jsonArray)) return "";
 
@@ -71,10 +83,9 @@ function convertLocalTamil(jsonArray) {
   return out.join("\n");
 }
 
-
-// ================= HOTSTAR =================
+// --- HOTSTAR ---
 function convertHotstar(data) {
-  // 1. Handle JSON format (Legacy/Backup)
+  // 1. Handle JSON format
   if (typeof data !== 'string' || !data.trim().startsWith('#EXTM3U')) {
     let json = data;
     if (!Array.isArray(json) && typeof json === 'object') {
@@ -93,18 +104,19 @@ function convertHotstar(data) {
           const cookieMatch = rawUrl.match(/hdntl=[^&]*/);
           const cookie = cookieMatch ? cookieMatch[0] : "";
           const userAgent = decodeURIComponent(urlObj.searchParams.get("User-agent") || "") || "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)";
-          urlObj.searchParams.delete("User-agent"); urlObj.searchParams.delete("Origin"); urlObj.searchParams.delete("Referer");
+          urlObj.searchParams.delete("User-agent"); 
+          urlObj.searchParams.delete("Origin"); 
+          urlObj.searchParams.delete("Referer");
           const logo = ch.logo || ch.logo_url || ch.image || "";
           const name = ch.name || ch.title || ch.channel_name || "Unknown";
           
-          // Updated format to match desired output order
           out.push(
             `#EXTINF:-1 group-title="VOOT | Jio Cinema" tvg-logo="${logo}" ,${name}`,
             `#EXTVLCOPT:http-user-agent=${userAgent}`,
             `#EXTHTTP:${JSON.stringify({ cookie: cookie, Origin: "https://www.hotstar.com", Referer: "https://www.hotstar.com/" })}`,
             urlObj.toString()
           );
-        } catch (e) {}
+        } catch (e) { console.error("Error parsing Hotstar JSON entry", e); }
       });
       return out.join("\n");
     }
@@ -117,14 +129,12 @@ function convertHotstar(data) {
   const out = [];
   let currentInf = "";
 
-  // Helper to get RAW parameter value (No Decoding)
   const getRawParam = (url, name) => {
     const regex = new RegExp(`(?:[?&%7C])${name}=([^&]*)`);
     const match = url.match(regex);
     return match ? match[1] : "";
   };
 
-  // Default values
   const DEFAULT_UA = "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)";
   const DEFAULT_ORIGIN = "https://www.hotstar.com";
   const DEFAULT_REFERER = "https://www.hotstar.com/";
@@ -134,20 +144,11 @@ function convertHotstar(data) {
     if (!line) continue;
 
     if (line.startsWith('#EXTINF')) {
-      // --- CHANGE START ---
-      // Instead of regex replace, we extract data and rebuild the line to guarantee order.
-      
-      // 1. Extract Logo
       const logoMatch = line.match(/tvg-logo="([^"]*)"/);
       const logo = logoMatch ? logoMatch[1] : "";
-
-      // 2. Extract Name (Everything after the last comma)
       const lastComma = line.lastIndexOf(',');
       const name = (lastComma !== -1) ? line.substring(lastComma + 1).trim() : "Unknown";
-
-      // 3. Rebuild line in desired order: group-title -> tvg-logo -> space -> comma -> name
       currentInf = `#EXTINF:-1 group-title="VOOT | Jio Cinema" tvg-logo="${logo}" ,${name}`;
-      // --- CHANGE END ---
     } 
     else if (line.startsWith('http')) {
       const cookie = getRawParam(line, 'Cookie');
@@ -163,7 +164,6 @@ function convertHotstar(data) {
 
       if (currentInf) {
         out.push(currentInf);
-        
         const safeUA = userAgent.replace(/ /g, "%20");
         out.push(`#EXTVLCOPT:http-user-agent=${safeUA}`);
 
@@ -173,7 +173,6 @@ function convertHotstar(data) {
           Referer: referer
         };
         out.push(`#EXTHTTP:${JSON.stringify(headers)}`);
-
         out.push(cleanUrl);
         
         currentInf = "";
@@ -185,8 +184,7 @@ function convertHotstar(data) {
   return out.join("\n");
 }
 
-
-// ================= JIO =================
+// --- JIO ---
 function convertJioJson(json) {
   if (!json) return "";
   const out = [];
@@ -209,7 +207,7 @@ function convertJioJson(json) {
   return out.join("\n");
 }
 
-// ================= SONYLIV =================
+// --- SONYLIV ---
 function convertSonyliv(json) {
   if (!Array.isArray(json.matches)) return "";
   return json.matches
@@ -223,7 +221,7 @@ function convertSonyliv(json) {
     .join("\n");
 }
 
-// ================= FANCODE =================
+// --- FANCODE ---
 function convertFancode(json) {
   if (!Array.isArray(json.matches)) return "";
   return json.matches
@@ -237,7 +235,7 @@ function convertFancode(json) {
     .join("\n");
 }
 
-// ================= ICC TV =================
+// --- ICC TV ---
 function convertIccTv(json) {
   if (!Array.isArray(json.tournaments)) return "";
   const out = [];
@@ -260,7 +258,7 @@ function convertIccTv(json) {
   return out.join("\n");
 }
 
-// ================= SPORTS JSON =================
+// --- SPORTS JSON ---
 function convertSportsJson(json) {
   if (!json || !Array.isArray(json.streams)) return "";
   const out = [];
@@ -293,73 +291,95 @@ function convertSportsJson(json) {
   return out.join("\n");
 }
 
-
-// ✅ LOCAL TAMIL CHANNELS
-if (Array.isArray(SOURCES.LOCAL_JSON)) {
-  let allLocalChannels = [];
-
-  for (const url of SOURCES.LOCAL_JSON) {
-    const data = await safeFetch(url, "Local Tamil");
-    if (Array.isArray(data)) {
-      allLocalChannels = allLocalChannels.concat(data);
-    }
-  }
-
-  if (allLocalChannels.length > 0) {
-    out.push(
-      section("VT 📺 | Local Channel Tamil"),
-      convertLocalTamil(allLocalChannels)
-    );
-  }
-}
-
-
-
-// ================= SAFE FETCH =================
-async function safeFetch(url, name) {
-  try {
-    const res = await axios.get(url, { timeout: 15000 });
-    console.log(`✅ Loaded ${name}`);
-    return res.data;
-  } catch {
-    console.warn(`⚠️ Skipped ${name}`);
-    return null;
-  }
-}
-
-// ================= MAIN =================
+// ================= MAIN FUNCTION =================
 async function run() {
+  console.log("Starting playlist generation...");
   const out = [];
   out.push(PLAYLIST_HEADER.trim());
 
+  // 1. LOCAL TAMIL CHANNELS
+  if (Array.isArray(SOURCES.LOCAL_JSON)) {
+    console.log("Fetching Local Tamil channels...");
+    let allLocalChannels = [];
+
+    for (const url of SOURCES.LOCAL_JSON) {
+      const data = await safeFetch(url, "Local Tamil Page");
+      if (Array.isArray(data)) {
+        allLocalChannels = allLocalChannels.concat(data);
+      }
+    }
+
+    if (allLocalChannels.length > 0) {
+      out.push(section("VT 📺 | Local Channel Tamil"));
+      out.push(convertLocalTamil(allLocalChannels));
+    }
+  }
+
+  // 2. HOTSTAR
   const hotstar = await safeFetch(SOURCES.HOTSTAR_M3U, "Hotstar");
-  if (hotstar) out.push(section("VOOT | Jio Cinema"), convertHotstar(hotstar));
+  if (hotstar) {
+    out.push(section("VOOT | Jio Cinema"));
+    out.push(convertHotstar(hotstar));
+  }
 
+  // 3. ZEE5
   const zee5 = await safeFetch(SOURCES.ZEE5_M3U, "ZEE5");
-  if (zee5) out.push(section("ZEE5 | Live"), zee5);
+  if (zee5) {
+    out.push(section("ZEE5 | Live"));
+    out.push(zee5); // Assuming ZEE5 source is already a valid M3U string
+  }
 
+  // 4. JIO
   const jio = await safeFetch(SOURCES.JIO_JSON, "JIO");
-  if (jio) out.push(section("JIO ⭕ | Live TV"), convertJioJson(jio));
+  if (jio) {
+    out.push(section("JIO ⭕ | Live TV"));
+    out.push(convertJioJson(jio));
+  }
 
+  // 5. SPORTS
   const sports = await safeFetch(SOURCES.SPORTS_JSON, "Sports");
-  if (sports) out.push(section("T20 World Cup | Live Matches"), convertSportsJson(sports));
+  if (sports) {
+    out.push(section("T20 World Cup | Live Matches"));
+    out.push(convertSportsJson(sports));
+  }
 
+  // 6. ICC TV
   const icc = await safeFetch(SOURCES.ICC_TV_JSON, "ICC TV");
-  if (icc) out.push(section("ICC TV"), convertIccTv(icc));
+  if (icc) {
+    out.push(section("ICC TV"));
+    out.push(convertIccTv(icc));
+  }
 
+  // 7. SONYLIV
   const sony = await safeFetch(SOURCES.SONYLIV_JSON, "SonyLiv");
-  if (sony) out.push(section("SonyLiv | Sports"), convertSonyliv(sony));
+  if (sony) {
+    out.push(section("SonyLiv | Sports"));
+    out.push(convertSonyliv(sony));
+  }
 
+  // 8. FANCODE
   const fan = await safeFetch(SOURCES.FANCODE_JSON, "FanCode");
-  if (fan) out.push(section("FanCode | Sports"), convertFancode(fan));
+  if (fan) {
+    out.push(section("FanCode | Sports"));
+    out.push(convertFancode(fan));
+  }
 
+  // 9. EXTRA
   const extra = await safeFetch(SOURCES.EXTRA_M3U, "Extra");
-  if (extra) out.push(section("Other Channels"), extra);
+  if (extra) {
+    out.push(section("Other Channels"));
+    out.push(extra);
+  }
 
   out.push(PLAYLIST_FOOTER.trim());
 
-  fs.writeFileSync(OUTPUT_FILE, out.join("\n") + "\n");
-  console.log(`✅ ${OUTPUT_FILE} generated successfully`);
+  try {
+    fs.writeFileSync(OUTPUT_FILE, out.join("\n") + "\n");
+    console.log(`✅ ${OUTPUT_FILE} generated successfully`);
+  } catch (err) {
+    console.error("❌ Failed to write file:", err);
+  }
 }
 
+// Run the script
 run();
