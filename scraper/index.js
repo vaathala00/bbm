@@ -5,7 +5,7 @@ const OUTPUT_FILE = "stream.m3u";
 
 // ================= SOURCES =================
 const SOURCES = {
-  HOTSTAR_M3U: "https://livetv.panguplay.workers.dev/hotstar?uid=vaathala",
+  HOTSTAR_M3U: "https://voot.vodep39240327.workers.dev",
   ZEE5_M3U: "https://join-vaathala1-for-more.vodep39240327.workers.dev/zee5.m3u",
   EXTRA_M3U: "https://od.lk/s/MzZfODQzNTQ1Nzlf/raw?=m3u",
   JIO_JSON: "https://raw.githubusercontent.com/vaathala00/jo/main/stream.jso",
