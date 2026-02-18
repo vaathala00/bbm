@@ -395,7 +395,7 @@ if (Array.isArray(SOURCES.LOCAL_JSON)) {
 }
 
   const hotstar = await safeFetch(SOURCES.HOTSTAR_M3U, "Hotstar");
-  if (hotstar) out.push(section("VOOT | Jio Cinema"), convertHotstar(hotstar));
+  if (hotstar) out.push(section("VOOT | Jio Cinema"), hotstar);
 
   const zee5 = await safeFetch(SOURCES.ZEE5_M3U, "ZEE5");
   if (zee5) out.push(section("ZEE5 | Live"), zee5);
