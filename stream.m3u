@@ -49,8 +49,8 @@ null
 https://vvdflashnews.co.in/vvdnewstv/index.m3u8
 #EXTINF:-1 tvg-name="Vizag Local News" tvg-logo="https://tulnit.com/wp-content/uploads/2026/02/ChatGPT-Image-Feb-4-2026-08_33_32-AM-1-185x278.png" group-title="VT 📺 | Local Channel Telugu",Vizag Local News
 https://edmediahub.in/vizaglocaltv/index.m3u8
-#EXTINF:-1 tvg-name="IB TV" tvg-logo="https://tulnit.com/wp-content/uploads/2026/02/ChatGPT-Image-Feb-4-2026-08_30_35-AM-1-185x278.png" group-title="VT 📺 | Local Channel Telugu",IB TV
-https://cloudwire.in/ibtv/index.m3u8
+#EXTINF:-1 tvg-name="IB TV Telugu" tvg-logo="https://tulnit.com/wp-content/uploads/2026/02/ChatGPT-Image-Feb-4-2026-08_30_35-AM-1-185x278.png" group-title="VT 📺 | Local Channel Telugu",IB TV Telugu
+https://mumbai-edge.smartplaytv.in/IBTV/index.m3u8
 #EXTINF:-1 tvg-name="Neti Sakshyam" tvg-logo="https://tulnit.com/wp-content/uploads/2026/02/ChatGPT-Image-Feb-4-2026-08_24_28-AM-1-185x278.png" group-title="VT 📺 | Local Channel Telugu",Neti Sakshyam
 https://cloud.sundaylive.co.in/netisakshyam/netisakshyam/index.m3u8
 #EXTINF:-1 tvg-name="Satya Infocus" tvg-logo="https://tulnit.com/wp-content/uploads/2026/02/ChatGPT-Image-Feb-4-2026-08_21_49-AM-1-185x278.png" group-title="VT 📺 | Local Channel Telugu",Satya Infocus
@@ -997,8 +997,7 @@ https://account2.livebox.co.in/AkashTvhls/live.m3u8
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015238/1771175506033856_AsiaCup_RisingStar_Womens2026_Bangladesh_A_vs_Malaysia_15feb_eng_Landscape_thumb.jpg" group-title="SonyLiv | Sports",Bangladesh A Women vs Malaysia Women - 18 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771434797~acl=/*~id=28807520798810406565697693010541~hmac=1f3f357ed8b7479d271a0af63cfca920b026c835262f32ef06114912331796d2
+
 
 # ---------------=== FanCode | Sports ===-------------------
 
