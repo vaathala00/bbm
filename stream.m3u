@@ -410,8 +410,6 @@ null
 https://stream.sscloud7.in/live/paasamalartv/index.m3u8
 #EXTINF:-1 tvg-name="NTV Trichy" tvg-logo="https://tulnit.com/wp-content/uploads/2026/01/ChatGPT-Image-Jan-28-2026-09_27_33-AM-1-185x278.png" group-title="VT 📺 | Local Channel Tamil",NTV Trichy
 https://notvstream.in/ntv/ntv.m3u8
-#EXTINF:-1 tvg-name="NRS Channel" tvg-logo="https://tulnit.com/wp-content/uploads/2026/01/ChatGPT-Image-Jan-28-2026-09_26_20-AM-1-185x278.png" group-title="VT 📺 | Local Channel Tamil",NRS Channel
-https://notvstream.in/nrstv/nrstv.m3u8
 #EXTINF:-1 tvg-name="V Tamil HD" tvg-logo="https://tulnit.com/wp-content/uploads/2026/01/ChatGPT-Image-Jan-27-2026-10_56_23-PM-1-185x278.png" group-title="VT 📺 | Local Channel Tamil",V Tamil HD
 https://app.ashokadigital.net/app/89c09acf/index.m3u8
 #EXTINF:-1 tvg-name="APS Gold TV" tvg-logo="https://tulnit.com/wp-content/uploads/2026/01/ChatGPT-Image-Jan-26-2026-10_57_35-PM-1-185x278.png" group-title="VT 📺 | Local Channel Tamil",APS Gold TV
@@ -1005,6 +1003,10 @@ https://account2.livebox.co.in/AkashTvhls/live.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Women's-National-Cricket-League_old_v3_1758034980120.jpg" group-title="FanCode | Sports",Western Australia Women vs Victoria Women
 https://in-mc-fdlive.fancode.com/mumbai/133984_english_hls_211a40c33242416_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/134035_5609_QUN_SAU_fc-Web.jpg" group-title="FanCode | Sports",Queensland vs South Australia
+https://in-mc-fdlive.fancode.com/mumbai/134035_english_hls_1afd89d14d53757_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140378_5954_ATO_NSH_FC-Web.jpg" group-title="FanCode | Sports",Athletics Ottawa vs Nashville SC
+https://in-mc-fdlive.fancode.com/mumbai/140378_english_hls_61b7e2085611160_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ATP-250---Delray-Beach-Open-2026--old-card.png" group-title="FanCode | Sports",Court A Feed
 https://in-mc-fdlive.fancode.com/mumbai/140296_english_hls_9b76968d5074560_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(4)_1770654460574.png" group-title="FanCode | Sports",Qaudra 1
