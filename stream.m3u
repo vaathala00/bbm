@@ -306,7 +306,7 @@ https://vvsolutions.in/sreshtamedia/sreshtamedia.m3u8
 #EXTINF:-1 tvg-name="Gee TV" tvg-logo="https://tulnit.com/wp-content/uploads/2025/08/ChatGPT-Image-Oct-25-2025-08_34_09-AM-1-185x278.png" group-title="VT 📺 | Local Channel Telugu",Gee TV
 https://mumbai-edge.smartplaytv.in/GeeTV/index.m3u8
 #EXTINF:-1 tvg-name="Indian Yoga &#038; Wellness TV Telugu" tvg-logo="https://tulnit.com/wp-content/uploads/2025/08/ChatGPT-Image-Aug-4-2025-08_34_47-PM-185x278.jpg" group-title="VT 📺 | Local Channel Telugu",Indian Yoga &#038; Wellness TV Telugu
-https://vglivessai.akamaized.net/ptnr-lg/title-Indian_Yoga_&_Wellness_TV_Telugu/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/f3d133e8-321f-4f63-acf3-860dcd461e78/indianyogatelugu_lg.m3u8
+https://brilliantwellness-lg.vgcdn.net/strm/link/indianyogatelugu_lg.m3u8
 #EXTINF:-1 tvg-name="RK Bhakthi TV" tvg-logo="https://tulnit.com/wp-content/uploads/2025/10/ChatGPT-Image-Oct-27-2025-07_23_04-PM-1-185x278.png" group-title="VT 📺 | Local Channel Telugu",RK Bhakthi TV
 https://mumbai-edge.smartplaytv.in/RKBhakthiTV/index.m3u8
 #EXTINF:-1 tvg-name="4Sides TV" tvg-logo="https://tulnit.com/wp-content/uploads/2025/07/ChatGPT-Image-Jul-24-2025-12_13_20-PM-185x278.png" group-title="VT 📺 | Local Channel Telugu",4Sides TV
@@ -1003,8 +1003,7 @@ https://account2.livebox.co.in/AkashTvhls/live.m3u8
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015238/1771175858085856_AsiaCup_RisingStar_Womens2026_Sri_Lanka_A_vs_Thailand_15feb_eng_Landscape_thumb.jpg" group-title="SonyLiv | Sports",Sri Lanka A Women vs Thailand Women - 18 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771451925~acl=/*~id=30239239936448028641530720508701~hmac=1babd8c1fc47d9c09f62c82b7de9f808613f687c3094a833e917bd5617f9272a
+
 
 # ---------------=== FanCode | Sports ===-------------------
 
@@ -1012,14 +1011,20 @@ https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04-criclive/std_lrh-80030
 https://in-mc-fdlive.fancode.com/mumbai/136042_english_hls_85c9cd791911695_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/30_Shanghai-Port-vs-Ulsan-HD_1770636853402.png" group-title="FanCode | Sports",Shanghai Port vs Ulsan HD
 https://in-mc-fdlive.fancode.com/mumbai/136041_english_hls_2a0f5f45d279567_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/134036_5609_WAU_VCT_fc-Web.jpg" group-title="FanCode | Sports",Victoria vs Western Australia
-https://in-mc-fdlive.fancode.com/mumbai/134036_english_hls_ab6f47f920741_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/134037_5609_TAS_NSW_fc-Web.jpg" group-title="FanCode | Sports",Tasmania vs New South Wales
 https://in-mc-fdlive.fancode.com/mumbai/134037_english_hls_26ae0af60c62361_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Apti_cup_web.jpg" group-title="FanCode | Sports",Day 3
 https://in-mc-fdlive.fancode.com/mumbai/140601_english_hls_fb36d3a80c49827_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/F1_web_1770205109895.jpg" group-title="FanCode | Sports",Day 1
 https://india-mpv2.fancode.com/out/v1/ap-south-1/139561_english_571505/ad-h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg" group-title="FanCode | Sports",World Feed
+https://in-mc-fdlive.fancode.com/mumbai/140210_english_hls_9121eccdb618683_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg" group-title="FanCode | Sports",Centre Court
+https://in-mc-fdlive.fancode.com/mumbai/140745_english_hls_ebf6c65e0675571_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg" group-title="FanCode | Sports",Grandstand 1
+https://in-mc-fdlive.fancode.com/mumbai/140744_english_hls_c20d98980124459_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg" group-title="FanCode | Sports",Grandstand 2
+https://in-mc-fdlive.fancode.com/mumbai/140746_english_hls_14a98fe61d99629_1ta-di_h264/index.m3u8
 
 # ---------------=== Other Channels ===-------------------
 
