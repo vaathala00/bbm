@@ -7,6 +7,8 @@
 
 # ---------------=== VT 📺 | Local Channel Telugu ===-------------------
 
+#EXTINF:-1 tvg-name="Saregama Telugu" tvg-logo="https://tulnit.com/wp-content/uploads/2026/02/ChatGPT-Image-Feb-18-2026-02_58_06-PM-1-185x278.png" group-title="VT 📺 | Local Channel Telugu",Saregama Telugu
+https://saregama.keralive.workers.dev/saregamatelugu/saregamatelugu_master.m3u8
 #EXTINF:-1 tvg-name="Time 2 Time News" tvg-logo="https://tulnit.com/wp-content/uploads/2026/02/ChatGPT-Image-Feb-18-2026-11_54_05-AM-1-185x278.png" group-title="VT 📺 | Local Channel Telugu",Time 2 Time News
 https://mumbai-edge.smartplaytv.in/Time2Time/index.m3u8
 #EXTINF:-1 tvg-name="A1TV Telugu" tvg-logo="https://tulnit.com/wp-content/uploads/2026/02/ChatGPT-Image-Feb-18-2026-11_48_36-AM-1-185x278.png" group-title="VT 📺 | Local Channel Telugu",A1TV Telugu
@@ -323,8 +325,8 @@ https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/f61ea6704a2d4040a2d8eb5c8855ebeb/in
 https://yuppftalive.akamaized.net/031025/studiooneplus/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
 #EXTINF:-1 tvg-name="Mango TV Telugu" tvg-logo="https://tulnit.com/wp-content/uploads/2024/08/ChatGPT-Image-Apr-11-2025-04_15_43-PM-185x278.png" group-title="VT 📺 | Local Channel Telugu",Mango TV Telugu
 https://amg01911-mangotv-amg01911c1-xiaomi-in-1270.playouts.now.amagi.tv/playlist/amg01911-mangomassmedia-mangotv-xiaomiin/playlist.m3u8
-#EXTINF:-1 tvg-name="Tolly TV" tvg-logo="https://tulnit.com/wp-content/uploads/2023/12/ChatGPT-Image-Apr-11-2025-04_16_57-PM-185x278.png" group-title="VT 📺 | Local Channel Telugu",Tolly TV
- https://streams2.sofast.tv/ptnr-yupptv/title-TOLLY-TV-TEL_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/13b5735d-52c3-4be0-853d-e0ec0127e708/manifest.m3u8
+#EXTINF:-1 tvg-name="Tolly TV" tvg-logo="https://tulnit.com/wp-content/uploads/2023/12/ChatGPT-Image-Feb-18-2026-03_05_32-PM-1-185x278.png" group-title="VT 📺 | Local Channel Telugu",Tolly TV
+https://sofast-lg.vgcdn.net/sofastplayout/2b9e9368-4803-4a2b-94c5-3c8c07e3a130_0_HLS/manifest.m3u8
 #EXTINF:-1 tvg-name="Aastha Telugu" tvg-logo="https://tulnit.com/wp-content/uploads/2023/12/ChatGPT-Image-Apr-11-2025-04_23_20-PM-185x278.png" group-title="VT 📺 | Local Channel Telugu",Aastha Telugu
 https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Raj Vissa" tvg-logo="https://tulnit.com/wp-content/uploads/2020/01/ChatGPT-Image-Apr-11-2025-04_28_50-PM-185x278.png" group-title="VT 📺 | Local Channel Telugu",Raj Vissa
@@ -1002,10 +1004,14 @@ https://account2.livebox.co.in/AkashTvhls/live.m3u8
 # ---------------=== SonyLiv | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015238/1771175858085856_AsiaCup_RisingStar_Womens2026_Sri_Lanka_A_vs_Thailand_15feb_eng_Landscape_thumb.jpg" group-title="SonyLiv | Sports",Sri Lanka A Women vs Thailand Women - 18 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771448289~acl=/*~id=76067220472577282507720436489000~hmac=83a5ec63268d193d05229ec3231ddb3731a54395bf6deb87e09423dc71189344
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771451925~acl=/*~id=30239239936448028641530720508701~hmac=1babd8c1fc47d9c09f62c82b7de9f808613f687c3094a833e917bd5617f9272a
 
 # ---------------=== FanCode | Sports ===-------------------
 
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/29_Melbourne-City-vs-Gangwon_1770636939459.png" group-title="FanCode | Sports",Melbourne City vs Gangwon
+https://in-mc-fdlive.fancode.com/mumbai/136042_english_hls_85c9cd791911695_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/30_Shanghai-Port-vs-Ulsan-HD_1770636853402.png" group-title="FanCode | Sports",Shanghai Port vs Ulsan HD
+https://in-mc-fdlive.fancode.com/mumbai/136041_english_hls_2a0f5f45d279567_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/134036_5609_WAU_VCT_fc-Web.jpg" group-title="FanCode | Sports",Victoria vs Western Australia
 https://in-mc-fdlive.fancode.com/mumbai/134036_english_hls_ab6f47f920741_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/134037_5609_TAS_NSW_fc-Web.jpg" group-title="FanCode | Sports",Tasmania vs New South Wales
