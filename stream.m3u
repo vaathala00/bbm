@@ -1695,8 +1695,7 @@ https://aasthaott.akamaized.net/110923/smil:aasthausa.smil/playlist.m3u8?hdntl=e
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015364/1771401586595586_DP_World_Tour_Magical_Kenya_Open_Day1_landscape_thumb.jpg" group-title="SonyLiv | Sports",Magical Kenya Open - Day 1 - 19 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000092/DAI03MSL5-V3/std_lrh-800300010.m3u8?hdnea=exp=1771555561~acl=/*~id=21187608649912337789904126833494~hmac=4a77c45b7447750f6e2029aca6791877191ee4a7857feba0bfe03ce57957f195
+
 
 # ---------------=== FanCode | Sports ===-------------------
 
@@ -1712,6 +1711,10 @@ https://in-mc-fdlive.fancode.com/mumbai/140211_english_hls_e1ffbe35933090_1ta-di
 https://in-mc-fdlive.fancode.com/mumbai/140756_english_hls_419fdbac8523112_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771348773886.jpg" group-title="FanCode | Sports",Center Court
 https://in-mc-fdlive.fancode.com/mumbai/140755_english_hls_66f4c33efc95962_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770825129935.png" group-title="FanCode | Sports",Main Feed - Day 1
+https://in-mc-fdlive.fancode.com/mumbai/140566_english_hls_810880327e13667_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ATP-250---Delray-Beach-Open-2026--old-card.png" group-title="FanCode | Sports",Match 4
+https://in-mc-fdlive.fancode.com/mumbai/140298_english_hls_2acd725e8676575_1ta-di_h264/index.m3u8
 
 # ---------------=== Other Channels ===-------------------
 
