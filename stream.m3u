@@ -1699,20 +1699,7 @@ https://aasthaott.akamaized.net/110923/smil:aasthausa.smil/playlist.m3u8?hdntl=e
 
 # ---------------=== FanCode | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140659_5968_MAT_PRC_FC-Web.jpg" group-title="FanCode | Sports",Maties Cricket Club vs Paarl CC
-https://in-mc-fdlive.fancode.com/mumbai/140659_english_hls_d2af7d6af463674_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ATP_Qatar_Khachanov_web.jpg" group-title="FanCode | Sports",World Feed
-https://in-mc-fdlive.fancode.com/mumbai/140211_english_hls_e1ffbe35933090_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771348773886.jpg" group-title="FanCode | Sports",Center Court
-https://in-mc-fdlive.fancode.com/mumbai/140755_english_hls_66f4c33efc95962_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770825129935.png" group-title="FanCode | Sports",Main Feed - Day 1
-https://in-mc-fdlive.fancode.com/mumbai/140566_english_hls_810880327e13667_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ATP-250---Delray-Beach-Open-2026--old-card.png" group-title="FanCode | Sports",Match 4
-https://in-mc-fdlive.fancode.com/mumbai/140298_english_hls_2acd725e8676575_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770825129935.png" group-title="FanCode | Sports",Featured Groups - Day 1
-https://in-mc-fdlive.fancode.com/mumbai/140568_english_hls_2b27813a5079952_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770825129935.png" group-title="FanCode | Sports",Marquee Feed - Day 1
-https://in-mc-fdlive.fancode.com/mumbai/140567_english_hls_28fc17fc2827502_1ta-di_h264/index.m3u8
+
 
 # ---------------=== Other Channels ===-------------------
 
