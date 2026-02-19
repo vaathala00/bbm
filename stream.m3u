@@ -1701,8 +1701,12 @@ https://aasthaott.akamaized.net/110923/smil:aasthausa.smil/playlist.m3u8?hdntl=e
 
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/134037_5609_TAS_NSW_fc-Web.jpg" group-title="FanCode | Sports",Tasmania vs New South Wales
 https://in-mc-fdlive.fancode.com/mumbai/134037_english_hls_26ae0af60c14372_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140066_5648_MAC_BU_FC-Web.jpg" group-title="FanCode | Sports",Macarthur vs Bangkok United
+https://in-mc-fdlive.fancode.com/mumbai/140066_english_hls_ea183cb97162221_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/F1_web_1770205109895.jpg" group-title="FanCode | Sports",Day 2
 https://india-mpv2.fancode.com/out/v1/ap-south-1/139562_english_624300/ad-h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Apti_cup_web.jpg" group-title="FanCode | Sports",Day 4
+https://in-mc-fdlive.fancode.com/mumbai/140602_english_hls_1be721d13f60446_1ta-di_h264/index.m3u8
 
 # ---------------=== Other Channels ===-------------------
 
