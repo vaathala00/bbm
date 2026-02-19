@@ -1696,7 +1696,7 @@ https://aasthaott.akamaized.net/110923/smil:aasthausa.smil/playlist.m3u8?hdntl=e
 # ---------------=== SonyLiv | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015364/1771401586595586_DP_World_Tour_Magical_Kenya_Open_Day1_landscape_thumb.jpg" group-title="SonyLiv | Sports",Magical Kenya Open - Day 1 - 19 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000092/DAI03MSL5-V3/std_lrh-800300010.m3u8?hdnea=exp=1771544652~acl=/*~id=79799021896670770226622899628503~hmac=dd037b31eee2f371b3304ccf3f010e65c0d7c16cadde25f7222f673d5934fa7b
+https://sonydaimenew.akamaized.net/hls/live/20000092/DAI03MSL5-V3/std_lrh-800300010.m3u8?hdnea=exp=1771547074~acl=/*~id=65897917235956503582021011372222~hmac=78077880a90218787371c0ba9db066e280f612f5f272b8636edad4b4bb43d42b
 
 # ---------------=== FanCode | Sports ===-------------------
 
@@ -1704,8 +1704,6 @@ https://sonydaimenew.akamaized.net/hls/live/20000092/DAI03MSL5-V3/std_lrh-800300
 https://in-mc-fdlive.fancode.com/mumbai/140067_english_hls_1c470dc6e696554_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/F1_web_1770205109895.jpg" group-title="FanCode | Sports",Day 2
 https://india-mpv2.fancode.com/out/v1/ap-south-1/139562_english_624300/ad-h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Apti_cup_web.jpg" group-title="FanCode | Sports",Day 4
-https://in-mc-fdlive.fancode.com/mumbai/140602_english_hls_1be721d13f60446_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg" group-title="FanCode | Sports",World Feed
 https://in-mc-fdlive.fancode.com/mumbai/140211_english_hls_e1ffbe35933090_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771348773886.jpg" group-title="FanCode | Sports",Grandstand 1
