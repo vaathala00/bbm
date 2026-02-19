@@ -1696,12 +1696,14 @@ https://aasthaott.akamaized.net/110923/smil:aasthausa.smil/playlist.m3u8?hdntl=e
 # ---------------=== SonyLiv | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015364/1771401586595586_DP_World_Tour_Magical_Kenya_Open_Day1_landscape_thumb.jpg" group-title="SonyLiv | Sports",Magical Kenya Open - Day 1 - 19 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000092/DAI03MSL5-V3/std_lrh-800300010.m3u8?hdnea=exp=1771547074~acl=/*~id=65897917235956503582021011372222~hmac=78077880a90218787371c0ba9db066e280f612f5f272b8636edad4b4bb43d42b
+https://sonydaimenew.akamaized.net/hls/live/20000092/DAI03MSL5-V3/std_lrh-800300010.m3u8?hdnea=exp=1771551921~acl=/*~id=85864049333155136806609906247553~hmac=b6a97f876c27a76b2cae410045d348ce6b131891ec7a78cdb103250700282dbb
 
 # ---------------=== FanCode | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140067_5648_OSK_PHG_FC-Web.jpg" group-title="FanCode | Sports",Gamba Osaka vs Pohang Steelers
-https://in-mc-fdlive.fancode.com/mumbai/140067_english_hls_1c470dc6e696554_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140437_5956_MCFC_CFC_fc-web_1771419569202.jpg" group-title="FanCode | Sports",Mumbai City FC vs Chennaiyin FC
+https://in-mc-fdlive.fancode.com/mumbai/140437_english_hls_5d588c23d311284_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140437_5956_MCFC_CFC_fc-web-(1).jpg" group-title="FanCode | Sports",Mumbai City FC vs Chennaiyin FC
+https://in-mc-fdlive.fancode.com/mumbai/140752_tamil_hls_c70a3b257411493_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/F1_web_1770205109895.jpg" group-title="FanCode | Sports",Day 2
 https://india-mpv2.fancode.com/out/v1/ap-south-1/139562_english_624300/ad-h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg" group-title="FanCode | Sports",World Feed
