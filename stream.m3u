@@ -1695,30 +1695,30 @@ https://aasthaott.akamaized.net/110923/smil:aasthausa.smil/playlist.m3u8?hdntl=e
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015357/1770892709635449_UEL_26_Fenerbahce-vs-Nottingham-Forest_landscape_thumb.jpg" group-title="SonyLiv | Sports",Fenerbahce vs Nottingham Forest - Play-offs - Leg 1 - 19 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771573159~acl=/*~id=83140285124200063662504295236741~hmac=1542a46268c4b58be34624114847eff450c1c82e2a568a005c1caefbfb7d5e50
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015350/1771381348259616_UECL26_Playoffs_Leg1_Zrinjski_Mostar_vs_Crystal_Palace_18feb_landscape_thumb.jpg" group-title="SonyLiv | Sports",Zrinjski vs Crystal Palace - Play-Offs - Leg 1 - 19 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771573159~acl=/*~id=83140285124200063662504295236741~hmac=1542a46268c4b58be34624114847eff450c1c82e2a568a005c1caefbfb7d5e50
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015357/1770900431008449_UEL_26_PAOK-Salonika-vs-Celta-Vigok_landscape_thumb.jpg" group-title="SonyLiv | Sports",PAOK vs Celta Vigo - Play-offs - Leg 1 - 19 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771573159~acl=/*~id=83140285124200063662504295236741~hmac=1542a46268c4b58be34624114847eff450c1c82e2a568a005c1caefbfb7d5e50
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015357/1770900724538449_UEL_26_SK-Brann-vs-Bologna_landscape_thumb.jpg" group-title="SonyLiv | Sports",Brann vs Bologna - Play-offs - Leg 1 - 19 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771573159~acl=/*~id=83140285124200063662504295236741~hmac=1542a46268c4b58be34624114847eff450c1c82e2a568a005c1caefbfb7d5e50
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015357/1770894388870449_UEL_26_Dinamo-Zagreb-vs-Racing-Genk_landscape_thumb.jpg" group-title="SonyLiv | Sports",Dinamo Zagreb vs Racing Genk - Play-offs - Leg 1 - 19 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771573159~acl=/*~id=83140285124200063662504295236741~hmac=1542a46268c4b58be34624114847eff450c1c82e2a568a005c1caefbfb7d5e50
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015350/1771380492973616_UECL26_Playoffs_Leg1_FC_Noah_vs_AZ_Alkmaar_18feb_landscape_thumb.jpg" group-title="SonyLiv | Sports",Noah vs AZ Alkmaar - Play-Offs - Leg 1 - 19 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022315/DAI11ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771573159~acl=/*~id=83140285124200063662504295236741~hmac=1542a46268c4b58be34624114847eff450c1c82e2a568a005c1caefbfb7d5e50
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015350/1771380929807616_UECL26_Playoffs_Leg1_KuPS_Kuopio_vs_Lech_Poznan_18feb_landscape_thumb.jpg" group-title="SonyLiv | Sports",KuPS vs Lech Poznan - Play-Offs - Leg 1 - 19 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771573159~acl=/*~id=83140285124200063662504295236741~hmac=1542a46268c4b58be34624114847eff450c1c82e2a568a005c1caefbfb7d5e50
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015411/1771499456628776_UECL26_Playoffs_Leg1_Sigma_Olomouc_vs_Lausanne_Sports_18feb_landscape_thumb.jpg" group-title="SonyLiv | Sports",Sigma Olomouc vs Lausanne-Sport - Play-Offs - Leg 1 - 19 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022322/DAI18ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771573159~acl=/*~id=83140285124200063662504295236741~hmac=1542a46268c4b58be34624114847eff450c1c82e2a568a005c1caefbfb7d5e50
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015357/1770909228818449_UEL_26_Celtic-vs-VfB-Stuttgart_landscape_thumb.jpg" group-title="SonyLiv | Sports",Celtic vs VfB Stuttgart - Play-offs - Leg 1 - 20 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771574373~acl=/*~id=40025021235834338587528592022899~hmac=42f26d9b6f850c78f08318271f75c5f38762975c53f07ea10dc18d92f610f66d
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015357/1770963655655449_UEL_26_Lille-vs-Red-Star-Belgrade_landscape_thumb.jpg" group-title="SonyLiv | Sports",Lille vs Crvena Zvezda - Play-offs - Leg 1 - 20 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771574373~acl=/*~id=40025021235834338587528592022899~hmac=42f26d9b6f850c78f08318271f75c5f38762975c53f07ea10dc18d92f610f66d
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015357/1770961705594449_UEL_26_Panathinaikos-vs-Viktoria-Plzen_landscape_thumb.jpg" group-title="SonyLiv | Sports",Panathinaikos vs Viktoria Plzen - Play-offs - Leg 1 - 20 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771574373~acl=/*~id=40025021235834338587528592022899~hmac=42f26d9b6f850c78f08318271f75c5f38762975c53f07ea10dc18d92f610f66d
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015357/1770963148478449_UEL_26_Ludogorets-Razgrad-vs-Ferencvaros_landscape_thumb.jpg" group-title="SonyLiv | Sports",Ludogorets Razgrad vs Ferencvaros - Play-offs - Leg 1 - 20 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771574373~acl=/*~id=40025021235834338587528592022899~hmac=42f26d9b6f850c78f08318271f75c5f38762975c53f07ea10dc18d92f610f66d
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015350/1771381573068616_UECL26_Playoffs_Leg1_Drita_Gjilan_vs_NK_Celje_18feb_landscape_thumb.jpg" group-title="SonyLiv | Sports",Drita Gjilan vs NK Celje - Play-Offs - Leg 1 - 20 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022315/DAI11ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771574373~acl=/*~id=40025021235834338587528592022899~hmac=42f26d9b6f850c78f08318271f75c5f38762975c53f07ea10dc18d92f610f66d
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015350/1771381893581616_UECL26_Playoffs_Leg1_Jagiellonia_Bialystok_vs_Fiorentina_Sports_18feb_landscape_thumb.jpg" group-title="SonyLiv | Sports",Jagiellonia Bialystok vs Fiorentina - Play-Offs - Leg 1 - 20 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771574373~acl=/*~id=40025021235834338587528592022899~hmac=42f26d9b6f850c78f08318271f75c5f38762975c53f07ea10dc18d92f610f66d
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015350/1771382107494616_UECL26_Playoffs_Leg1_KF_Shkendija_vs_Samsunspor_18feb_landscape_thumb.jpg" group-title="SonyLiv | Sports",Shkëndija vs Samsunspor - Play-Offs - Leg 1 - 20 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022322/DAI18ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771574373~acl=/*~id=40025021235834338587528592022899~hmac=42f26d9b6f850c78f08318271f75c5f38762975c53f07ea10dc18d92f610f66d
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015350/1771382308004616_UECL26_Playoffs_Leg1_Omonoia_vs_Rijeka_18feb_landscape_thumb.jpg" group-title="SonyLiv | Sports",Omonoia vs Rijeka - Play-Offs - Leg 1 - 20 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771574373~acl=/*~id=40025021235834338587528592022899~hmac=42f26d9b6f850c78f08318271f75c5f38762975c53f07ea10dc18d92f610f66d
 
 # ---------------=== FanCode | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140418_5720_JUV-W_WOL-W_fc-web.jpg" group-title="FanCode | Sports",Juventus Women vs VfL Wolfsburg Women
-https://in-mc-fdlive.fancode.com/mumbai/140418_english_hls_3952d843a123881_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140697_5655_AAS_ALN_fc-web.jpg" group-title="FanCode | Sports",Al-Ahli Saudi FC vs Al-Najmah SC
 https://in-mc-fdlive.fancode.com/mumbai/140697_english_hls_4acaabbc3c54335_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ATP_Qatar_Khachanov_web.jpg" group-title="FanCode | Sports",World Feed
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140419_5720_MUN-W_ATL-W_fc-web.jpg" group-title="FanCode | Sports",Manchester United Women vs Atletico de Madrid Femenino
+https://in-mc-fdlive.fancode.com/mumbai/140419_english_hls_bcf4961cb435378_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ATP_Qatar_web-(1).jpg" group-title="FanCode | Sports",World Feed
 https://in-mc-fdlive.fancode.com/mumbai/140211_english_hls_e1ffbe35933090_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771348773886.jpg" group-title="FanCode | Sports",Center Court
 https://in-mc-fdlive.fancode.com/mumbai/140755_english_hls_66f4c33efc95962_1ta-di_h264/index.m3u8
