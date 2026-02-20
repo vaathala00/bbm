@@ -7,6 +7,8 @@
 
 # ---------------=== VT 📺 | Local Channel Telugu ===-------------------
 
+#EXTINF:-1 tvg-name="PS News Telugu" tvg-logo="https://tulnit.com/wp-content/uploads/2026/02/ChatGPT-Image-Feb-20-2026-09_12_24-AM-1-185x278.png" group-title="VT 📺 | Local Channel Telugu",PS News Telugu
+https://mumbai-edge.smartplaytv.in/PSNEWS/index.m3u8
 #EXTINF:-1 tvg-name="PMC Telugu" tvg-logo="https://tulnit.com/wp-content/uploads/2026/02/ChatGPT-Image-Feb-19-2026-09_27_52-AM-1-185x278.png" group-title="VT 📺 | Local Channel Telugu",PMC Telugu
 https://mumbai-edge.smartplaytv.in/PMC/index.m3u8
 #EXTINF:-1 tvg-name="Saregama Telugu" tvg-logo="https://tulnit.com/wp-content/uploads/2026/02/ChatGPT-Image-Feb-18-2026-02_58_06-PM-1-185x278.png" group-title="VT 📺 | Local Channel Telugu",Saregama Telugu
@@ -1696,28 +1698,17 @@ https://aasthaott.akamaized.net/110923/smil:aasthausa.smil/playlist.m3u8?hdntl=e
 # ---------------=== SonyLiv | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015421/1771493214000608_ACRS_womens26_semi_final_INDvsSL_landcape_thumb.jpg" group-title="SonyLiv | Sports",India A Women vs Sri Lanka A Women - Semi-Final - 20 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771599829~acl=/*~id=98438033750714328562317696783580~hmac=3df775d6f79e400ad4f9edb0500be1d229a919df1d65763624080073a3308a43
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771606499~acl=/*~id=18510879521963618830782524449611~hmac=320aa424464cacda039bf9e0eaa069b6981cfcac2d56271a16c9c5205b530898
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015421/1771493214000608_ACRS_womens26_semi_final_INDvsSL_landcape_thumb.jpg" group-title="SonyLiv | Sports",India A Women vs Sri Lanka A Women - Semi-Final - 20 Feb 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771599829~acl=/*~id=98438033750714328562317696783580~hmac=3df775d6f79e400ad4f9edb0500be1d229a919df1d65763624080073a3308a43
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771606499~acl=/*~id=18510879521963618830782524449611~hmac=320aa424464cacda039bf9e0eaa069b6981cfcac2d56271a16c9c5205b530898
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015421/1771493214000608_ACRS_womens26_semi_final_INDvsSL_landcape_thumb.jpg" group-title="SonyLiv | Sports",India A Women vs Sri Lanka A Women - Semi-Final - 20 Feb 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771599829~acl=/*~id=98438033750714328562317696783580~hmac=3df775d6f79e400ad4f9edb0500be1d229a919df1d65763624080073a3308a43
+https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771606499~acl=/*~id=18510879521963618830782524449611~hmac=320aa424464cacda039bf9e0eaa069b6981cfcac2d56271a16c9c5205b530898
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015421/1771493214000608_ACRS_womens26_semi_final_INDvsSL_landcape_thumb.jpg" group-title="SonyLiv | Sports",India A Women vs Sri Lanka A Women - Semi-Final - 20 Feb 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771599829~acl=/*~id=98438033750714328562317696783580~hmac=3df775d6f79e400ad4f9edb0500be1d229a919df1d65763624080073a3308a43
+https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771606499~acl=/*~id=18510879521963618830782524449611~hmac=320aa424464cacda039bf9e0eaa069b6981cfcac2d56271a16c9c5205b530898
 
 # ---------------=== FanCode | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140383_5954_SSM_LAG_FC-Web.jpg" group-title="FanCode | Sports",Sporting SM vs LA Galaxy
-https://in-mc-fdlive.fancode.com/mumbai/140383_english_hls_70d3a755a86462_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ATP-250---Delray-Beach-Open-2026--old-card.png" group-title="FanCode | Sports",Match 4
-https://in-mc-fdlive.fancode.com/mumbai/140298_english_hls_2acd725e8676575_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(4)_1770654460574.png" group-title="FanCode | Sports",World Feed
-https://in-mc-fdlive.fancode.com/mumbai/140288_english_hls_8324c2194710697_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1771227556428.png" group-title="FanCode | Sports",Quadra 2
-https://in-mc-fdlive.fancode.com/mumbai/140791_english_hls_b9be5d1e6439238_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(6).png" group-title="FanCode | Sports",Quadra 1
-https://in-mc-fdlive.fancode.com/mumbai/140754_english_hls_f319aa71051989_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(6).png" group-title="FanCode | Sports",Quadra Guga Kuerten
-https://in-mc-fdlive.fancode.com/mumbai/140753_english_hls_769105fe9399563_1ta-di_h264/index.m3u8
+
 
 # ---------------=== Other Channels ===-------------------
 
