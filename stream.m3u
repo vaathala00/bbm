@@ -1698,16 +1698,18 @@ https://aasthaott.akamaized.net/110923/smil:aasthausa.smil/playlist.m3u8?hdntl=e
 # ---------------=== SonyLiv | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015423/1771495274000232_ACC_BANvsPAK_SF_19feb_live_landscape_thumb.jpg" group-title="SonyLiv | Sports",Bangladesh A Women vs Pakistan A Women - Semi-Final - 20 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771617444~acl=/*~id=70858009179377770356721523442025~hmac=ee037a9eee567628ef50cbc27058eabb5f6c10bde2bfd320edfb3d2d2bd7acb9
+https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771620474~acl=/*~id=06659289742714710384343029071372~hmac=331325d884d5f65e3e3f030338789cf65040938cb5181b185064d09ffcb9e694
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015423/1771495274000232_ACC_BANvsPAK_SF_19feb_live_landscape_thumb.jpg" group-title="SonyLiv | Sports",Bangladesh A Women vs Pakistan A Women - Semi-Final - 20 Feb 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771617444~acl=/*~id=70858009179377770356721523442025~hmac=ee037a9eee567628ef50cbc27058eabb5f6c10bde2bfd320edfb3d2d2bd7acb9
+https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771620474~acl=/*~id=06659289742714710384343029071372~hmac=331325d884d5f65e3e3f030338789cf65040938cb5181b185064d09ffcb9e694
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015423/1771495274000232_ACC_BANvsPAK_SF_19feb_live_landscape_thumb.jpg" group-title="SonyLiv | Sports",Bangladesh A Women vs Pakistan A Women - Semi-Final - 20 Feb 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2037140/DAI20-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771617444~acl=/*~id=70858009179377770356721523442025~hmac=ee037a9eee567628ef50cbc27058eabb5f6c10bde2bfd320edfb3d2d2bd7acb9
+https://sonydaimenew.akamaized.net/hls/live/2037140/DAI20-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771620474~acl=/*~id=06659289742714710384343029071372~hmac=331325d884d5f65e3e3f030338789cf65040938cb5181b185064d09ffcb9e694
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015423/1771495274000232_ACC_BANvsPAK_SF_19feb_live_landscape_thumb.jpg" group-title="SonyLiv | Sports",Bangladesh A Women vs Pakistan A Women - Semi-Final - 20 Feb 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771617444~acl=/*~id=70858009179377770356721523442025~hmac=ee037a9eee567628ef50cbc27058eabb5f6c10bde2bfd320edfb3d2d2bd7acb9
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771620474~acl=/*~id=06659289742714710384343029071372~hmac=331325d884d5f65e3e3f030338789cf65040938cb5181b185064d09ffcb9e694
 
 # ---------------=== FanCode | Sports ===-------------------
 
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139412_5802_ADL_PG_1770722465261.png" group-title="FanCode | Sports",Adelaide United vs Perth Glory
+https://in-mc-fdlive.fancode.com/mumbai/139412_english_hls_3271f4d7c684772_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/F1_web_1770205109895.jpg" group-title="FanCode | Sports",Day 3
 https://india-mpv2.fancode.com/out/v1/ap-south-1/139563_english_164866/ad-h264/index.m3u8
 
