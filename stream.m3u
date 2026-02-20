@@ -1697,11 +1697,19 @@ https://aasthaott.akamaized.net/110923/smil:aasthausa.smil/playlist.m3u8?hdntl=e
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
-
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015423/1771495274000232_ACC_BANvsPAK_SF_19feb_live_landscape_thumb.jpg" group-title="SonyLiv | Sports",Bangladesh A Women vs Pakistan A Women - Semi-Final - 20 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771614416~acl=/*~id=83445653567370030962874645604166~hmac=69b8fff1ec47b4f0f056f3f4d02778f03699fcded516a04d4b4b45bb12f42861
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015423/1771495274000232_ACC_BANvsPAK_SF_19feb_live_landscape_thumb.jpg" group-title="SonyLiv | Sports",Bangladesh A Women vs Pakistan A Women - Semi-Final - 20 Feb 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771614416~acl=/*~id=83445653567370030962874645604166~hmac=69b8fff1ec47b4f0f056f3f4d02778f03699fcded516a04d4b4b45bb12f42861
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015423/1771495274000232_ACC_BANvsPAK_SF_19feb_live_landscape_thumb.jpg" group-title="SonyLiv | Sports",Bangladesh A Women vs Pakistan A Women - Semi-Final - 20 Feb 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2037140/DAI20-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771614416~acl=/*~id=83445653567370030962874645604166~hmac=69b8fff1ec47b4f0f056f3f4d02778f03699fcded516a04d4b4b45bb12f42861
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015423/1771495274000232_ACC_BANvsPAK_SF_19feb_live_landscape_thumb.jpg" group-title="SonyLiv | Sports",Bangladesh A Women vs Pakistan A Women - Semi-Final - 20 Feb 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771614416~acl=/*~id=83445653567370030962874645604166~hmac=69b8fff1ec47b4f0f056f3f4d02778f03699fcded516a04d4b4b45bb12f42861
 
 # ---------------=== FanCode | Sports ===-------------------
 
-
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/F1_web_1770205109895.jpg" group-title="FanCode | Sports",Day 3
+https://india-mpv2.fancode.com/out/v1/ap-south-1/139563_english_164866/ad-h264/index.m3u8
 
 # ---------------=== Other Channels ===-------------------
 
