@@ -345,6 +345,8 @@ null
 null
 #EXTINF:-1 tvg-name="Big TV" tvg-logo="https://tulnit.com/wp-content/uploads/2023/08/ChatGPT-Image-Apr-11-2025-04_26_15-PM-185x278.png" group-title="VT 📺 | Local Channel Telugu",Big TV
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/big-tv/index.m3u8?ads.dpname=distrotv&ads.islive=1&ads.streamtype=live&ads.vf=38RD8K2NqNm
+#EXTINF:-1 tvg-name="10 TV" tvg-logo="https://tulnit.com/wp-content/uploads/2022/01/ChatGPT-Image-Apr-11-2025-04_30_27-PM-185x278.png" group-title="VT 📺 | Local Channel Telugu",10 TV
+null
 #EXTINF:-1 tvg-name="CVR News English" tvg-logo="https://tulnit.com/wp-content/uploads/2022/01/ChatGPT-Image-Apr-11-2025-05_23_43-PM-185x278.png" group-title="VT 📺 | Local Channel Telugu",CVR News English
 null
 #EXTINF:-1 tvg-name="6TV" tvg-logo="https://tulnit.com/wp-content/uploads/2023/04/ChatGPT-Image-Apr-11-2025-05_05_05-PM-185x278.png" group-title="VT 📺 | Local Channel Telugu",6TV
