@@ -998,7 +998,7 @@ https://account2.livebox.co.in/AkashTvhls/live.m3u8
 # ---------------=== SonyLiv | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014972/1770362315837999_BLIGA_26_MD23_RB-Leipzig-vs-Borussia-Dortmund_landscape_thumb.jpg" group-title="SonyLiv | Sports",RB Leipzig vs Borussia Dortmund - MD 23 - 21 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022317/DAI13ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771739713~acl=/*~id=84403858431503915398906727666493~hmac=b95942196eac16436ddf67589f8acbb38977eed48f2bcf95ccea64175914ac3b
+https://sonydaimenew.akamaized.net/hls/live/2022317/DAI13ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771743342~acl=/*~id=52800814527492004404123128220324~hmac=b9102530d0d2ee0557f195586c85cddaeca9c1ace9744c7a6e54d2760e702177
 
 # ---------------=== FanCode | Sports ===-------------------
 
@@ -1006,6 +1006,10 @@ https://sonydaimenew.akamaized.net/hls/live/2022317/DAI13ME-V3/std_lrh-800300010
 https://in-mc-fdlive.fancode.com/mumbai/140680_english_hls_5fcde3b05690545_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131071_5427_OSN_RM_FC-Web.png" group-title="FanCode | Sports",CA Osasuna vs Real Madrid
 https://in-mc-fdlive.fancode.com/mumbai/131071_english_hls_3e04b7ad7d46925_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140699_5655_ANF_HAZ_fc-web_1771482156495.jpg" group-title="FanCode | Sports",Al-Nassr FC vs Al-Hazem FC
+https://in-mc-fdlive.fancode.com/mumbai/140699_english_hls_f68efcb4a190297_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140698_5655_AHS_ITT_fc-web.jpg" group-title="FanCode | Sports",Al Hilal SFC vs Al-Ittihad
+https://in-mc-fdlive.fancode.com/mumbai/140698_english_hls_81f4657f403863_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770825129935.png" group-title="FanCode | Sports",Featured Groups - Day 3
 https://in-mc-fdlive.fancode.com/mumbai/140574_english_hls_e219ac7cc959228_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770825129935.png" group-title="FanCode | Sports",Main Feed - Day 3
@@ -1020,6 +1024,8 @@ https://in-mc-fdlive.fancode.com/mumbai/140070_english_hls_2117e08aee82740_1ta-d
 https://in-mc-fdlive.fancode.com/mumbai/140213_english_hls_2d30ef323549757_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ATP_Qatar_Alcaraz_Fils_web.jpg" group-title="FanCode | Sports",Center Court
 https://in-mc-fdlive.fancode.com/mumbai/140758_english_hls_db7b42d9e81423_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(6).png" group-title="FanCode | Sports",Quadra 1
+https://in-mc-fdlive.fancode.com/mumbai/140890_english_hls_32cb9f97e513411_1ta-di_h264/index.m3u8
 
 # ---------------=== Other Channels ===-------------------
 
