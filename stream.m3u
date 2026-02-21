@@ -1691,15 +1691,16 @@ https://aasthaott.akamaized.net/110923/smil:aasthausa.smil/playlist.m3u8?hdntl=e
 
 # ---------------=== SonyLiv | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015364/1771401562482586_DP_World_Tour_Magical_Kenya_Open_Day3_landscape_thumb.jpg" group-title="SonyLiv | Sports",Magical Kenya Open - Day 3 - 21 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771714867~acl=/*~id=08058123646333740138713828775946~hmac=e8433e3cfb5020c41dc3839c9bc2c4336b5a28161f46e8bf738c1c6587500794
+
 
 # ---------------=== FanCode | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Western-Australia-vs-Victoria_fc-web.jpg" group-title="FanCode | Sports",Victoria vs Western Australia
 https://dai.google.com/linear/hls/event/QG2diY3nQK2zZnJZrYcQNw/master.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139415_5802_MLC_MLV_1770723177598.png" group-title="FanCode | Sports",Melbourne City vs Melbourne Victory
-https://in-mc-fdlive.fancode.com/mumbai/139415_english_hls_164c09fef816235_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140439_5956_EBFC_SCD_fc-web_1771412947600.jpg" group-title="FanCode | Sports",East Bengal FC vs Sporting Club Delhi
+https://in-mc-fdlive.fancode.com/mumbai/140439_english_hls_949484ff3954082_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140439_5956_EBFC_SCD_fc-web_1771663314740.jpg" group-title="FanCode | Sports",East Bengal FC vs Sporting Club Delhi
+https://in-mc-fdlive.fancode.com/mumbai/140886_bengali_hls_70b2d9a09038078_1ta-di_h264/index.m3u8
 
 # ---------------=== Other Channels ===-------------------
 
