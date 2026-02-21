@@ -998,26 +998,30 @@ https://account2.livebox.co.in/AkashTvhls/live.m3u8
 # ---------------=== SonyLiv | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014972/1770362315837999_BLIGA_26_MD23_RB-Leipzig-vs-Borussia-Dortmund_landscape_thumb.jpg" group-title="SonyLiv | Sports",RB Leipzig vs Borussia Dortmund - MD 23 - 21 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022317/DAI13ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771737292~acl=/*~id=44329508154487951859862365583518~hmac=7be11c55788d5fcf4b2cc9ac2eeded88a65c7e6c7b266fcee78adf7a616d4757
+https://sonydaimenew.akamaized.net/hls/live/2022317/DAI13ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771739107~acl=/*~id=43293503498349977596211105622521~hmac=8d304a012d7ff803be4c6f7c12f0c61870d28dc15d22444ad9f9f03613b41e42
 
 # ---------------=== FanCode | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140680_5968_PECC_VDCC_FC-Web.jpg" group-title="FanCode | Sports",Paarl East Cricket Club vs Van der Stel Cricket Club
 https://in-mc-fdlive.fancode.com/mumbai/140680_english_hls_5fcde3b05690545_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131078_5427_RB_RVL_FC-Web.png" group-title="FanCode | Sports",Real Betis vs Rayo Vallecano
-https://in-mc-fdlive.fancode.com/mumbai/131078_english_hls_3486ed0d3063401_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131071_5427_OSN_RM_FC-Web.png" group-title="FanCode | Sports",CA Osasuna vs Real Madrid
 https://in-mc-fdlive.fancode.com/mumbai/131071_english_hls_3e04b7ad7d46925_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://images.fancode.com/aig/match/v1770347072522/140425_CASACARDS_APP.png" group-title="FanCode | Sports",Deportivo La Coruna vs Eibar
-https://in-mc-fdlive.fancode.com/mumbai/140425_english_hls_aee8c684b835426_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770825129935.png" group-title="FanCode | Sports",Featured Groups - Day 3
 https://in-mc-fdlive.fancode.com/mumbai/140574_english_hls_e219ac7cc959228_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770825129935.png" group-title="FanCode | Sports",Main Feed - Day 3
 https://in-mc-fdlive.fancode.com/mumbai/140572_english_hls_6001cdec6e66986_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770825129935.png" group-title="FanCode | Sports",Marquee Group - Day 3
 https://in-mc-fdlive.fancode.com/mumbai/140573_english_hls_0cf4a170424094_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140124_5489_SOU_CHL_fc-web_1771681366940.jpg" group-title="FanCode | Sports",Southampton F.C. vs Charlton Athletic F.C
-https://in-mc-fdlive.fancode.com/mumbai/140124_english_hls_e5cf35b13920993_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(6).png" group-title="FanCode | Sports",Quadra Guga Kuerten
+https://in-mc-fdlive.fancode.com/mumbai/140761_english_hls_999778d0cb24394_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770825129935.png" group-title="FanCode | Sports",World Feed - Day 3
+https://in-mc-fdlive.fancode.com/mumbai/140070_english_hls_2117e08aee82740_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ATP_Qatar_Alcaraz_Fils_web.jpg" group-title="FanCode | Sports",World Feed
+https://in-mc-fdlive.fancode.com/mumbai/140213_english_hls_2d30ef323549757_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ATP_Qatar_Alcaraz_Fils_web.jpg" group-title="FanCode | Sports",Center Court
+https://in-mc-fdlive.fancode.com/mumbai/140758_english_hls_db7b42d9e81423_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131078_5427_RB_RVL_FC-Web.png" group-title="FanCode | Sports",Real Betis vs Rayo Vallecano
+https://in-mc-fdlive.fancode.com/mumbai/131078_english_hls_3486ed0d3063401_1ta-di_h264/index.m3u8
 
 # ---------------=== Other Channels ===-------------------
 
