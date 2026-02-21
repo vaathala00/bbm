@@ -1697,6 +1697,8 @@ https://aasthaott.akamaized.net/110923/smil:aasthausa.smil/playlist.m3u8?hdntl=e
 
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Western-Australia-vs-Victoria_fc-web.jpg" group-title="FanCode | Sports",Victoria vs Western Australia
 https://dai.google.com/linear/hls/event/QG2diY3nQK2zZnJZrYcQNw/master.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140679_5968_VDCC_VDS_FC-Web.jpg" group-title="FanCode | Sports",Van der Stel Cricket Club vs Vredenburg/Saldanha CC
+https://in-mc-fdlive.fancode.com/mumbai/140679_english_hls_64def5c24966429_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140439_5956_EBFC_SCD_fc-web_1771412947600.jpg" group-title="FanCode | Sports",East Bengal FC vs Sporting Club Delhi
 https://in-mc-fdlive.fancode.com/mumbai/140439_english_hls_949484ff3954082_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140439_5956_EBFC_SCD_fc-web_1771663314740.jpg" group-title="FanCode | Sports",East Bengal FC vs Sporting Club Delhi
