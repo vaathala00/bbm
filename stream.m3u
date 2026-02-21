@@ -1701,12 +1701,14 @@ https://aasthaott.akamaized.net/110923/smil:aasthausa.smil/playlist.m3u8?hdntl=e
 
 # ---------------=== FanCode | Sports ===-------------------
 
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Women's-National-Cricket-League_old_v2_1758034980092.jpg" group-title="FanCode | Sports",New South Wales Breakers vs Tasmania Women
-https://in-mc-fdlive.fancode.com/mumbai/133980_english_hls_8414bffddc72790_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Tasmania-vs-New-South-Wales_fc-web.jpg" group-title="FanCode | Sports",Tasmania vs New South Wales
 https://dai.google.com/linear/hls/event/Fm-XWbj3RLqYl_OomC_LaA/master.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Western-Australia-vs-Victoria_fc-web.jpg" group-title="FanCode | Sports",Victoria vs Western Australia
+https://dai.google.com/linear/hls/event/QG2diY3nQK2zZnJZrYcQNw/master.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139413_5802_WEL_AFC_1770722675928.png" group-title="FanCode | Sports",Wellington Phoenix vs Auckland
 https://in-mc-fdlive.fancode.com/mumbai/139413_english_hls_c160005ede19078_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139414_5802_SYD_BRB_1770723002209.png" group-title="FanCode | Sports",Sydney FC vs Brisbane Roar
+https://in-mc-fdlive.fancode.com/mumbai/139414_english_hls_f1fc11c95a98372_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(4)_1770654460574.png" group-title="FanCode | Sports",World Feed
 https://in-mc-fdlive.fancode.com/mumbai/140289_english_hls_dfd9e8fb3e20043_1ta-di_h264/index.m3u8
 
