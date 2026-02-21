@@ -902,6 +902,8 @@ http://alk.sscloud7.in/live/ohmtv/playlist.m3u8
 https://ipcloud.live/mtv/menhd/index.m3u8
 #EXTINF:-1 tvg-name="Aadvik TV" tvg-logo="https://tulnit.com/wp-content/uploads/2025/08/ChatGPT-Image-Aug-21-2025-10_09_01-AM-1-185x278.png" group-title="VT 📺 | Local Channel Tamil",Aadvik TV
 https://ipcloud.live/sachintv/aadviktv/index.m3u8
+#EXTINF:-1 tvg-name="Thirumagal TV" tvg-logo="https://tulnit.com/wp-content/uploads/2025/10/ChatGPT-Image-Oct-12-2025-02_11_17-PM-1-185x278.png" group-title="VT 📺 | Local Channel Tamil",Thirumagal TV
+https://anywhere.pwisetthon.com/http://ttv.7starcloud.com:1935/thirumagal/tv/playlist.m3u8
 #EXTINF:-1 tvg-name="Maruthi TV" tvg-logo="https://tulnit.com/wp-content/uploads/2025/09/ChatGPT-Image-Sep-11-2025-09_26_35-PM-1-185x278.png" group-title="VT 📺 | Local Channel Tamil",Maruthi TV
 https://stream.onecloudlive.in/maruthitv/maruthitvhd/index.m3u8
 #EXTINF:-1 tvg-name="Aadhavan TV" tvg-logo="https://tulnit.com/wp-content/uploads/2025/08/ChatGPT-Image-Aug-27-2025-10_28_06-PM-1-185x278.png" group-title="VT 📺 | Local Channel Tamil",Aadhavan TV
@@ -1690,14 +1692,12 @@ https://aasthaott.akamaized.net/110923/smil:aasthausa.smil/playlist.m3u8?hdntl=e
 # ---------------=== SonyLiv | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015364/1771401562482586_DP_World_Tour_Magical_Kenya_Open_Day3_landscape_thumb.jpg" group-title="SonyLiv | Sports",Magical Kenya Open - Day 3 - 21 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771710630~acl=/*~id=00316927559827592136059228722732~hmac=a27ff7641b29ee2c62a78e60778e7383b5e2c23be740540373b86b0295c879b4
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771711235~acl=/*~id=27478162497379605675612409356942~hmac=dc55697d92f4c9f3ec8e6e9b1caf20614923f2e7b86ac7ef314dd6d8da9baf53
 
 # ---------------=== FanCode | Sports ===-------------------
 
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Western-Australia-vs-Victoria_fc-web.jpg" group-title="FanCode | Sports",Victoria vs Western Australia
 https://dai.google.com/linear/hls/event/QG2diY3nQK2zZnJZrYcQNw/master.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140678_5968_PECC_PRC_FC-Web.jpg" group-title="FanCode | Sports",Paarl East Cricket Club vs Paarl CC
-https://in-mc-fdlive.fancode.com/mumbai/140678_english_hls_6141da286025496_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139415_5802_MLC_MLV_1770723177598.png" group-title="FanCode | Sports",Melbourne City vs Melbourne Victory
 https://in-mc-fdlive.fancode.com/mumbai/139415_english_hls_164c09fef816235_1ta-di_h264/index.m3u8
 
